@@ -12,23 +12,24 @@ export default function Home() {
       {/* glow orbs */}
       <div className="absolute top-[-120px] left-[-120px] w-[420px] h-[420px] bg-purple-600 rounded-full blur-[140px] opacity-40 animate-pulse"></div>
       <div className="absolute bottom-[-140px] right-[-100px] w-[420px] h-[420px] bg-pink-500 rounded-full blur-[140px] opacity-40 animate-pulse"></div>
-      <div className="absolute top-[40%] left-[60%] w-[300px] h-[300px] bg-indigo-500 rounded-full blur-[120px] opacity-30 animate-pulse"></div>
 
       {/* content */}
-      <section className="relative z-10 min-h-screen flex items-center justify-center px-6 text-center">
+      <section className="relative z-20 min-h-screen flex items-center justify-center px-6 text-center">
         <div className="max-w-3xl">
 
+          {/* JUDUL 1 PARAGRAF */}
           <motion.h1
-            initial={{ opacity: 0, y: 50 }}
+            initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9 }}
-            className="text-4xl md:text-6xl font-bold mb-6"
+            className="text-4xl md:text-5xl font-bold mb-6 leading-tight"
           >
             Welcome to My Portfolio Website.
           </motion.h1>
 
+          {/* PARAGRAF */}
           <motion.p
-            initial={{ opacity: 0, y: 25 }}
+            initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.8 }}
             className="text-lg md:text-xl text-slate-300 mb-10"
@@ -48,55 +49,48 @@ export default function Home() {
         </div>
       </section>
 
-      {/* animated layered waves */}
-      {/* animated pastel waves */}
-      <div className="absolute bottom-0 left-0 w-full h-[420px] overflow-hidden leading-none z-0">
-      
+      {/* WAVES */}
+      <div className="absolute bottom-0 left-0 w-full h-[300px] overflow-hidden z-10">
+
+        {/* back wave */}
         <motion.svg
           viewBox="0 0 1440 320"
-          className="block w-full"
-          animate={{ y: [0, -12, 0] }}
+          className="absolute bottom-0 w-full"
+          animate={{ y: [0, -10, 0] }}
           transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
         >
-          <path fill="#e7d9e6" d="M0,224L80,208C160,192,320,160,480,165C640,171,800,213,960,224C1120,235,1280,213,1360,202L1440,192L1440,320L0,320Z"/>
+          <path
+            fill="#e7d9e6"
+            d="M0,224L80,208C160,192,320,160,480,165C640,171,800,213,960,224C1120,235,1280,213,1360,202L1440,192L1440,320L0,320Z"
+          />
         </motion.svg>
-      
+
+        {/* middle wave */}
         <motion.svg
           viewBox="0 0 1440 320"
-          className="block w-full -mt-20"
-          animate={{ y: [0, -18, 0] }}
+          className="absolute bottom-[-20px] w-full opacity-90"
+          animate={{ y: [0, -16, 0] }}
           transition={{ duration: 16, repeat: Infinity, ease: "easeInOut" }}
         >
-          <path fill="#d2bfd3" d="M0,192L80,181C160,171,320,149,480,160C640,171,800,213,960,224C1120,235,1280,213,1360,202L1440,192L1440,320L0,320Z"/>
+          <path
+            fill="#d2bfd3"
+            d="M0,192L80,181C160,171,320,149,480,160C640,171,800,213,960,224C1120,235,1280,213,1360,202L1440,192L1440,320L0,320Z"
+          />
         </motion.svg>
-      
+
+        {/* front wave */}
         <motion.svg
           viewBox="0 0 1440 320"
-          className="block w-full -mt-24"
+          className="absolute bottom-[-40px] w-full opacity-80"
           animate={{ y: [0, -22, 0] }}
           transition={{ duration: 18, repeat: Infinity, ease: "easeInOut" }}
         >
-          <path fill="#b79bbd" d="M0,160L80,165C160,171,320,181,480,181C640,181,800,171,960,181C1120,192,1280,224,1360,240L1440,256L1440,320L0,320Z"/>
+          <path
+            fill="#b79bbd"
+            d="M0,160L80,165C160,171,320,181,480,181C640,181,800,171,960,181C1120,192,1280,224,1360,240L1440,256L1440,320L0,320Z"
+          />
         </motion.svg>
-      
-        <motion.svg
-          viewBox="0 0 1440 320"
-          className="block w-full -mt-28"
-          animate={{ y: [0, -28, 0] }}
-          transition={{ duration: 20, repeat: Infinity, ease: "easeInOut" }}
-        >
-          <path fill="#9b7aa5" d="M0,224L80,213C160,203,320,181,480,165C640,149,800,139,960,144C1120,149,1280,171,1360,181L1440,192L1440,320L0,320Z"/>
-        </motion.svg>
-      
-        <motion.svg
-          viewBox="0 0 1440 320"
-          className="block w-full -mt-32"
-          animate={{ y: [0, -35, 0] }}
-          transition={{ duration: 22, repeat: Infinity, ease: "easeInOut" }}
-        >
-          <path fill="#7a5b82" d="M0,256L80,240C160,224,320,192,480,181C640,171,800,181,960,197C1120,213,1280,235,1360,245L1440,256L1440,320L0,320Z"/>
-        </motion.svg>
-      
+
       </div>
 
     </main>
