@@ -1,324 +1,41 @@
-// Simple Portfolio Website for Vercel (Next.js + Tailwind)
-// ================================================
-// How to use:
-// 1) Create a new GitHub repo and copy these files
-// 2) Push to GitHub
-// 3) Import the repo in https://vercel.com/new
-// 4) Deploy (no config needed)
-// ================================================
-
-// package.json
-{
-  "name": "portfolio-vercel",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "14.2.5",
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
-  },
-  "devDependencies": {
-    "tailwindcss": "3.4.10",
-    "postcss": "8.4.47",
-    "autoprefixer": "10.4.20"
-  }
-}
-
-// next.config.js
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
-module.exports = nextConfig
-
-// postcss.config.js
-module.exports = {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-  },
-}
-
-// tailwind.config.js
-module.exports = {
-  content: [
-    "./app/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
-
-// app/layout.js
-import "./globals.css";
-
-export const metadata = {
-  title: "Portfolio - Lintang Cahyaningtyas",
-  description: "Personal Portfolio Website",
-};
-
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body className="bg-slate-50 text-slate-800">
-        {children}
-      </body>
-    </html>
-  );
-}
-
-// app/page.js
-import { motion } from "framer-motion";
-
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 text-white">
-      <Navbar />
-      <Hero />
-      <Projects />
-      <Contact />
-      <Footer />
+    <main className="min-h-screen bg-gradient-to-br from-indigo-200 via-purple-200 to-pink-200">
+      
+      {/* HERO */}
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        
+        {/* blob background */}
+        <div className="absolute -top-32 -left-32 w-96 h-96 bg-purple-300 rounded-full blur-3xl opacity-40 animate-pulse"></div>
+        <div className="absolute -bottom-32 -right-32 w-96 h-96 bg-pink-300 rounded-full blur-3xl opacity-40 animate-pulse"></div>
+
+        {/* content */}
+        <div className="relative text-center px-6 max-w-3xl">
+          <h1 className="text-4xl md:text-6xl font-bold text-purple-900 mb-6">
+            Welcome to My Portfolio
+          </h1>
+
+          <p className="text-lg md:text-xl text-purple-700 mb-10">
+            Explore my projects, experience, and journey in data analytics and machine learning.
+          </p>
+
+          <a
+            href="#projects"
+            className="inline-block bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-full font-semibold shadow-lg transition"
+          >
+            View Portfolio
+          </a>
+        </div>
+
+        {/* wave */}
+        <svg className="absolute bottom-0 w-full" viewBox="0 0 1440 320">
+          <path
+            fill="#ffffff"
+            d="M0,224L80,208C160,192,320,160,480,165.3C640,171,800,213,960,224C1120,235,1280,213,1360,202.7L1440,192L1440,320L0,320Z"
+          />
+        </svg>
+      </section>
+
     </main>
   );
-}
-
-function Navbar() {
-  return (
-    <nav className="fixed top-0 w-full bg-black/30 backdrop-blur-md z-50">
-      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        <span className="font-bold text-lg">Lintang</span>
-        <div className="space-x-6 text-sm">
-          <a href="#home" className="hover:text-blue-300">Home</a>
-          <a href="#projects" className="hover:text-blue-300">Projects</a>
-          <a href="#contact" className="hover:text-blue-300">Contact</a>
-        </div>
-      </div>
-    </nav>
-  );
-}
-
-function Hero() {
-  return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* gradient background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-indigo-200 via-purple-200 to-pink-200" />
-
-      {/* soft blobs */}
-      <div className="absolute -top-32 -left-32 w-96 h-96 bg-purple-300 rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-pulse" />
-      <div className="absolute -bottom-32 -right-32 w-96 h-96 bg-pink-300 rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-pulse" />
-
-      {/* content */}
-      <div className="relative text-center px-6 max-w-3xl">
-        <motion.h1
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="text-4xl md:text-6xl font-bold text-purple-900 mb-6"
-        >
-          Welcome to My Portfolio
-        </motion.h1>
-
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.3, duration: 0.8 }}
-          className="text-lg md:text-xl text-purple-700 mb-10"
-        >
-          Explore my projects, experience, and journey in data analytics and machine learning.
-        </motion.p>
-
-        <motion.a
-          href="#projects"
-          whileHover={{ scale: 1.08 }}
-          whileTap={{ scale: 0.95 }}
-          className="inline-block bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-full font-semibold shadow-lg"
-        >
-          View Portfolio
-        </motion.a>
-      </div>
-
-      {/* wave bottom */}
-      <svg className="absolute bottom-0 w-full" viewBox="0 0 1440 320">
-        <path
-          fill="#ffffff"
-          fillOpacity="1"
-          d="M0,224L80,208C160,192,320,160,480,165.3C640,171,800,213,960,224C1120,235,1280,213,1360,202.7L1440,192L1440,320L0,320Z"
-        />
-      </svg>
-    </section>
-  );
-}}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="text-4xl md:text-6xl font-bold mb-4"
-        >
-          Lintang Cahyaningtyas
-        </motion.h1>
-
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 0.8 }}
-          className="text-xl md:text-2xl text-blue-300 mb-6"
-        >
-          <TypingText />
-        </motion.div>
-
-        <motion.a
-          href="#projects"
-          whileHover={{ scale: 1.1 }}
-          className="inline-block bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-xl font-semibold shadow"
-        >
-          View My Work
-        </motion.a>
-      </div>
-    </section>
-  );
-}
-
-function TypingText() {
-  const roles = ["Data Analyst", "NLP Enthusiast", "Machine Learning Learner"];
-  const text = roles.join(" • ");
-
-  return (
-    <span className="border-r-2 border-blue-400 pr-2 animate-pulse">
-      {text}
-    </span>
-  );
-}
-
-function Projects() {
-  const items = [
-    { title: "IndoBERT & LDA", desc: "Sentiment & topic modeling" },
-    { title: "K-Means Clustering", desc: "Criminality analysis" },
-    { title: "ARIMA Forecasting", desc: "Gold price prediction" },
-  ];
-
-  return (
-    <section id="projects" className="py-20 px-6 bg-white text-slate-900">
-      <div className="max-w-5xl mx-auto">
-        <h2 className="text-3xl font-bold mb-10 text-center">Projects</h2>
-        <div className="grid md:grid-cols-3 gap-6">
-          {items.map((p, i) => (
-            <motion.div
-              key={i}
-              whileHover={{ y: -8 }}
-              className="bg-slate-50 border rounded-2xl p-6 shadow-md"
-            >
-              <h3 className="font-semibold text-lg mb-2">{p.title}</h3>
-              <p className="text-sm text-slate-600">{p.desc}</p>
-            </motion.div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function Contact() {
-  return (
-    <section id="contact" className="py-20 text-center">
-      <h2 className="text-3xl font-bold mb-4">Contact</h2>
-      <p className="mb-2">lintangntys@gmail.com</p>
-      <p>linkedin.com/in/lintangntyas</p>
-    </section>
-  );
-}
-
-function Footer() {
-  return (
-    <footer className="text-center py-6 bg-black/40">
-      © {new Date().getFullYear()} Lintang Cahyaningtyas
-    </footer>
-  );
-}
-
-function Hero() {
-  return (
-    <section className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-20 text-center">
-      <h1 className="text-4xl md:text-5xl font-bold mb-4">Lintang Cahyaningtyas</h1>
-      <p className="text-lg md:text-xl mb-6">Fresh Graduate – Data Analyst</p>
-      <a href="#projects" className="bg-white text-blue-600 px-6 py-3 rounded-xl font-semibold shadow">
-        View Projects
-      </a>
-    </section>
-  );
-}
-
-function About() {
-  return (
-    <section className="max-w-4xl mx-auto py-16 px-6">
-      <h2 className="text-2xl font-bold mb-4">About Me</h2>
-      <p>
-        Lulusan Statistika UII dengan fokus data science, analisis data, visualisasi, dan machine learning dasar. Berpengalaman menggunakan Excel, Python, R, Google Data Studio, dan Tableau dalam berbagai proyek analitik dan penelitian.
-      </p>
-    </section>
-  );
-}
-
-function Projects() {
-  const items = [
-    {
-      title: "IndoBERT & LDA for Sunscreen Reviews",
-      desc: "Sentiment analysis and topic modeling on Female Daily sunscreen reviews",
-    },
-    {
-      title: "K-Means Clustering Criminality Indonesia",
-      desc: "Clustering provinces based on criminality indicators (2018)",
-    },
-    {
-      title: "Gold Price Forecasting ARIMA",
-      desc: "Time series prediction using ARIMA, SARIMA, and hybrid ARIMA",
-    },
-  ];
-
-  return (
-    <section id="projects" className="bg-white py-16 px-6">
-      <div className="max-w-5xl mx-auto">
-        <h2 className="text-2xl font-bold mb-8">Projects</h2>
-        <div className="grid md:grid-cols-2 gap-6">
-          {items.map((p, i) => (
-            <div key={i} className="border rounded-2xl p-6 shadow-sm">
-              <h3 className="font-semibold text-lg mb-2">{p.title}</h3>
-              <p className="text-sm text-slate-600">{p.desc}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function Contact() {
-  return (
-    <section className="py-16 px-6 text-center">
-      <h2 className="text-2xl font-bold mb-4">Contact</h2>
-      <p>Email: lintangntys@gmail.com</p>
-      <p>LinkedIn: linkedin.com/in/lintangntyas</p>
-      <p>GitHub: github.com/</p>
-    </section>
-  );
-}
-
-function Footer() {
-  return (
-    <footer className="bg-slate-900 text-white text-center py-6 mt-10">
-      © {new Date().getFullYear()} Lintang Cahyaningtyas
-    </footer>
-  );
-}
-
-// app/globals.css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-body {
-  font-family: system-ui, -apple-system, sans-serif;
 }
