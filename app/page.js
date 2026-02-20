@@ -17,7 +17,7 @@ export default function Home() {
       <section className="relative z-20 min-h-screen flex items-center justify-center px-6 text-center">
         <div className="max-w-3xl">
 
-          {/* JUDUL 1 PARAGRAF */}
+          {/* JUDUL */}
           <motion.h1
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
@@ -49,7 +49,7 @@ export default function Home() {
         </div>
       </section>
 
-      /* WAVES */}
+      {/* WAVES */}
       <div className="absolute bottom-0 left-0 w-full h-[420px] overflow-hidden z-10">
       
         {/* back wave */}
@@ -92,6 +92,7 @@ export default function Home() {
         </motion.svg>
       
       </div>
+
     </main>
   );
 }
