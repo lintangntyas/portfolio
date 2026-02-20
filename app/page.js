@@ -6,18 +6,18 @@ export default function Home() {
   return (
     <main className="relative min-h-screen overflow-hidden bg-[#0f0f1a] text-white">
 
-      {/* background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-purple-900 via-indigo-900 to-slate-900 opacity-90"></div>
+      {/* BACKGROUND GRADIENT */}
+      <div className="absolute inset-0 bg-gradient-to-br from-purple-900 via-indigo-900 to-slate-900 opacity-90" />
 
-      {/* glow orbs */}
-      <div className="absolute top-[-120px] left-[-120px] w-[420px] h-[420px] bg-purple-600 rounded-full blur-[140px] opacity-40 animate-pulse"></div>
-      <div className="absolute bottom-[-140px] right-[-100px] w-[420px] h-[420px] bg-pink-500 rounded-full blur-[140px] opacity-40 animate-pulse"></div>
+      {/* GLOW ORBS */}
+      <div className="absolute top-[-120px] left-[-120px] w-[420px] h-[420px] bg-purple-600 rounded-full blur-[140px] opacity-40 animate-pulse" />
+      <div className="absolute bottom-[-140px] right-[-100px] w-[420px] h-[420px] bg-pink-500 rounded-full blur-[140px] opacity-40 animate-pulse" />
 
-      {/* content */}
+      {/* CONTENT */}
       <section className="relative z-20 min-h-screen flex items-center justify-center px-6 text-center">
         <div className="max-w-3xl">
 
-          {/* JUDUL */}
+          {/* TITLE */}
           <motion.h1
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
@@ -27,7 +27,7 @@ export default function Home() {
             Welcome to My Portfolio Website.
           </motion.h1>
 
-          {/* PARAGRAF */}
+          {/* PARAGRAPH */}
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -37,6 +37,7 @@ export default function Home() {
             Data enthusiast with a Statistics background, passionate about turning data into clear and actionable insights.
           </motion.p>
 
+          {/* BUTTON */}
           <motion.a
             whileHover={{ scale: 1.08 }}
             whileTap={{ scale: 0.95 }}
@@ -51,8 +52,8 @@ export default function Home() {
 
       {/* WAVES */}
       <div className="absolute bottom-0 left-0 w-full h-[420px] overflow-hidden z-10">
-      
-        {/* back wave */}
+
+        {/* BACK WAVE */}
         <motion.svg
           viewBox="0 0 1440 320"
           className="absolute bottom-0 w-full opacity-40"
@@ -64,8 +65,8 @@ export default function Home() {
             d="M0,160L80,165C160,171,320,181,480,181C640,181,800,171,960,181C1120,192,1280,224,1360,240L1440,256L1440,320L0,320Z"
           />
         </motion.svg>
-      
-        {/* middle wave */}
+
+        {/* MIDDLE WAVE */}
         <motion.svg
           viewBox="0 0 1440 320"
           className="absolute bottom-0 w-full opacity-60"
@@ -77,11 +78,11 @@ export default function Home() {
             d="M0,192L80,181C160,171,320,149,480,160C640,171,800,213,960,224C1120,235,1280,213,1360,202L1440,192L1440,320L0,320Z"
           />
         </motion.svg>
-      
-        {/* front wave */}
+
+        {/* FRONT WAVE */}
         <motion.svg
           viewBox="0 0 1440 320"
-          className="absolute bottom-0 w-full opacity-90"
+          className="absolute bottom-0 w-full opacity-95"
           animate={{ y: [0, -10, 0] }}
           transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
         >
@@ -90,7 +91,10 @@ export default function Home() {
             d="M0,224L80,208C160,192,320,160,480,165C640,171,800,213,960,224C1120,235,1280,213,1360,202L1440,192L1440,320L0,320Z"
           />
         </motion.svg>
-      
+
+        {/* BOTTOM FILL (ANTI BOCOR) */}
+        <div className="absolute bottom-0 left-0 w-full h-[140px] bg-[#e7d9e6]" />
+
       </div>
 
     </main>
