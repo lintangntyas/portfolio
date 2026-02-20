@@ -4,6 +4,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-indigo-200 via-purple-200 to-pink-200">
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        
         <div className="absolute -top-32 -left-32 w-96 h-96 bg-purple-300 rounded-full blur-3xl opacity-40 animate-pulse"></div>
         <div className="absolute -bottom-32 -right-32 w-96 h-96 bg-pink-300 rounded-full blur-3xl opacity-40 animate-pulse"></div>
 
@@ -27,7 +28,7 @@ export default function Home() {
           </motion.p>
 
           <motion.a
-            href="#projects"
+            href="#"
             whileHover={{ scale: 1.08 }}
             whileTap={{ scale: 0.95 }}
             className="inline-block bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-full font-semibold shadow-lg"
