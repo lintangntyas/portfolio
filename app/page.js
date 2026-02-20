@@ -49,14 +49,14 @@ export default function Home() {
         </div>
       </section>
 
-      {/* WAVES */}
-      <div className="absolute bottom-0 left-0 w-full h-[300px] overflow-hidden z-10">
-
+      /* WAVES */}
+      <div className="absolute bottom-0 left-0 w-full h-[420px] overflow-hidden z-10">
+      
         {/* back wave */}
         <motion.svg
           viewBox="0 0 1440 320"
-          className="absolute bottom-[-40px] w-full opacity-80"
-          animate={{ y: [0, -22, 0] }}
+          className="absolute bottom-0 w-full opacity-40"
+          animate={{ y: [0, -25, 0] }}
           transition={{ duration: 18, repeat: Infinity, ease: "easeInOut" }}
         >
           <path
@@ -64,35 +64,34 @@ export default function Home() {
             d="M0,160L80,165C160,171,320,181,480,181C640,181,800,171,960,181C1120,192,1280,224,1360,240L1440,256L1440,320L0,320Z"
           />
         </motion.svg>
-
+      
         {/* middle wave */}
         <motion.svg
           viewBox="0 0 1440 320"
-          className="absolute bottom-[-20px] w-full opacity-90"
-          animate={{ y: [0, -16, 0] }}
-          transition={{ duration: 16, repeat: Infinity, ease: "easeInOut" }}
+          className="absolute bottom-0 w-full opacity-60"
+          animate={{ y: [0, -18, 0] }}
+          transition={{ duration: 14, repeat: Infinity, ease: "easeInOut" }}
         >
           <path
             fill="#d2bfd3"
             d="M0,192L80,181C160,171,320,149,480,160C640,171,800,213,960,224C1120,235,1280,213,1360,202L1440,192L1440,320L0,320Z"
           />
         </motion.svg>
-
+      
         {/* front wave */}
         <motion.svg
           viewBox="0 0 1440 320"
-          className="absolute bottom-0 w-full"
+          className="absolute bottom-0 w-full opacity-90"
           animate={{ y: [0, -10, 0] }}
-          transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
+          transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
         >
           <path
             fill="#e7d9e6"
             d="M0,224L80,208C160,192,320,160,480,165C640,171,800,213,960,224C1120,235,1280,213,1360,202L1440,192L1440,320L0,320Z"
           />
         </motion.svg>
-
+      
       </div>
-
     </main>
   );
 }
