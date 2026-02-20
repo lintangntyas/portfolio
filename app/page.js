@@ -24,7 +24,7 @@ export default function Home() {
             transition={{ duration: 0.9 }}
             className="text-4xl md:text-6xl font-bold mb-6"
           >
-            Welcome to My Portfolio
+            Welcome to My Portfolio Website.
           </motion.h1>
 
           <motion.p
@@ -33,7 +33,7 @@ export default function Home() {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="text-lg md:text-xl text-slate-300 mb-10"
           >
-            Explore my projects, experience, and journey in data analytics and machine learning.
+            Data enthusiast with a Statistics background, passionate about turning data into clear and actionable insights.
           </motion.p>
 
           <motion.a
@@ -49,7 +49,25 @@ export default function Home() {
       </section>
 
       {/* wave */}
-      <svg className="absolute bottom-0 w-full" viewBox="0 0 1440 320">
+      <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none">
+      
+        <svg viewBox="0 0 1440 320" className="block w-full">
+          <path fill="#d8c3dc" d="M0,224L80,208C160,192,320,160,480,165C640,171,800,213,960,224C1120,235,1280,213,1360,202L1440,192L1440,320L0,320Z"></path>
+        </svg>
+      
+        <svg viewBox="0 0 1440 320" className="block w-full -mt-40 opacity-90">
+          <path fill="#b79bbd" d="M0,192L80,181C160,171,320,149,480,160C640,171,800,213,960,224C1120,235,1280,213,1360,202L1440,192L1440,320L0,320Z"></path>
+        </svg>
+      
+        <svg viewBox="0 0 1440 320" className="block w-full -mt-40 opacity-80">
+          <path fill="#8f6a95" d="M0,160L80,165C160,171,320,181,480,181C640,181,800,171,960,181C1120,192,1280,224,1360,240L1440,256L1440,320L0,320Z"></path>
+        </svg>
+      
+        <svg viewBox="0 0 1440 320" className="block w-full -mt-40 opacity-70">
+          <path fill="#5e3564" d="M0,224L80,213C160,203,320,181,480,165C640,149,800,139,960,144C1120,149,1280,171,1360,181L1440,192L1440,320L0,320Z"></path>
+        </svg>
+      
+      </div>
         <path
           fill="#ffffff"
           d="M0,224L80,208C160,192,320,160,480,165.3C640,171,800,213,960,224C1120,235,1280,213,1360,202.7L1440,192L1440,320L0,320Z"
