@@ -15,7 +15,7 @@ export default function Home() {
       <div className="absolute top-[40%] left-[60%] w-[300px] h-[300px] bg-indigo-500 rounded-full blur-[120px] opacity-30 animate-pulse"></div>
 
       {/* content */}
-      <section className="relative min-h-screen flex items-center justify-center px-6 text-center">
+      <section className="relative z-10 min-h-screen flex items-center justify-center px-6 text-center">
         <div className="max-w-3xl">
 
           <motion.h1
@@ -48,25 +48,25 @@ export default function Home() {
         </div>
       </section>
 
-      {/* wave */}
-      <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none">
-      
-        <svg viewBox="0 0 1440 320" className="block w-full">
-          <path fill="#d8c3dc" d="M0,224L80,208C160,192,320,160,480,165C640,171,800,213,960,224C1120,235,1280,213,1360,202L1440,192L1440,320L0,320Z"></path>
+      {/* animated waves bottom */}
+      <div className="absolute bottom-0 left-0 w-full h-[40vh] overflow-hidden leading-none z-0">
+
+        <svg viewBox="0 0 1440 320" className="block w-[120%] wave-animate">
+          <path fill="#d8c3dc" d="M0,224L80,208C160,192,320,160,480,165C640,171,800,213,960,224C1120,235,1280,213,1360,202L1440,192L1440,320L0,320Z" />
         </svg>
-      
-        <svg viewBox="0 0 1440 320" className="block w-full -mt-40 opacity-90">
-          <path fill="#b79bbd" d="M0,192L80,181C160,171,320,149,480,160C640,171,800,213,960,224C1120,235,1280,213,1360,202L1440,192L1440,320L0,320Z"></path>
+
+        <svg viewBox="0 0 1440 320" className="block w-[120%] -mt-40 opacity-90 wave-animate">
+          <path fill="#b79bbd" d="M0,192L80,181C160,171,320,149,480,160C640,171,800,213,960,224C1120,235,1280,213,1360,202L1440,192L1440,320L0,320Z" />
         </svg>
-      
-        <svg viewBox="0 0 1440 320" className="block w-full -mt-40 opacity-80">
-          <path fill="#8f6a95" d="M0,160L80,165C160,171,320,181,480,181C640,181,800,171,960,181C1120,192,1280,224,1360,240L1440,256L1440,320L0,320Z"></path>
+
+        <svg viewBox="0 0 1440 320" className="block w-[120%] -mt-40 opacity-80 wave-animate">
+          <path fill="#8f6a95" d="M0,160L80,165C160,171,320,181,480,181C640,181,800,171,960,181C1120,192,1280,224,1360,240L1440,256L1440,320L0,320Z" />
         </svg>
-      
-        <svg viewBox="0 0 1440 320" className="block w-full -mt-40 opacity-70">
-          <path fill="#5e3564" d="M0,224L80,213C160,203,320,181,480,165C640,149,800,139,960,144C1120,149,1280,171,1360,181L1440,192L1440,320L0,320Z"></path>
+
+        <svg viewBox="0 0 1440 320" className="block w-[120%] -mt-40 opacity-70 wave-animate">
+          <path fill="#5e3564" d="M0,224L80,213C160,203,320,181,480,165C640,149,800,139,960,144C1120,149,1280,171,1360,181L1440,192L1440,320L0,320Z" />
         </svg>
-      
+
       </div>
 
     </main>
