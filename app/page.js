@@ -36,11 +36,11 @@ export default function Home() {
           >
             Data enthusiast with a Statistics background, passionate about turning data into clear and actionable insights.
           </motion.p>
-
+              
           <motion.a
             whileHover={{ scale: 1.08 }}
             whileTap={{ scale: 0.95 }}
-            href="#"
+            href="#about"
             className="inline-block bg-gradient-to-r from-purple-500 to-pink-500 px-8 py-4 rounded-full font-semibold shadow-xl"
           >
             Let’s Get Acquainted
