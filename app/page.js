@@ -51,7 +51,7 @@ export default function Home() {
 
       {/* WAVES */}
       <div className="absolute bottom-0 left-0 w-full h-[420px] overflow-hidden z-10">
-      
+        
         {/* back wave */}
         <motion.svg
           viewBox="0 0 1440 320"
@@ -81,7 +81,7 @@ export default function Home() {
         {/* front wave */}
         <motion.svg
           viewBox="0 0 1440 320"
-          className="absolute bottom-0 w-full opacity-90"
+          className="absolute bottom-0 w-full opacity-95"
           animate={{ y: [0, -10, 0] }}
           transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
         >
@@ -90,6 +90,9 @@ export default function Home() {
             d="M0,224L80,208C160,192,320,160,480,165C640,171,800,213,960,224C1120,235,1280,213,1360,202L1440,192L1440,320L0,320Z"
           />
         </motion.svg>
+      
+        {/* bottom fill supaya tidak bocor */}
+        <div className="absolute bottom-0 left-0 w-full h-[140px] bg-[#e7d9e6]" />
       
       </div>
 
