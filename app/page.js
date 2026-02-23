@@ -51,60 +51,51 @@ export default function Home() {
 
       {/* WAVES */}
       <div className="absolute bottom-0 left-0 w-full h-[420px] overflow-hidden z-10">
-      
-        {/* wave paling belakang (paling tua) */}
+        
+        {/* back wave */}
         <motion.svg
           viewBox="0 0 1440 320"
-          className="absolute bottom-0 w-full"
-          animate={{ y: [0, -28, 0] }}
-          transition={{ duration: 28, repeat: Infinity, ease: "easeInOut" }}
-        >
-          <path
-            fill="#5e3564"
-            d="M0,256L80,240C160,224,320,192,480,181C640,171,800,181,960,197C1120,213,1280,235,1360,245L1440,256L1440,320L0,320Z"
-          />
-        </motion.svg>
-      
-        {/* wave 3 */}
-        <motion.svg
-          viewBox="0 0 1440 320"
-          className="absolute bottom-0 w-full"
-          animate={{ y: [0, -22, 0] }}
-          transition={{ duration: 24, repeat: Infinity, ease: "easeInOut" }}
-        >
-          <path
-            fill="#8f6a95"
-            d="M0,224L80,213C160,203,320,181,480,165C640,149,800,139,960,144C1120,149,1280,171,1360,181L1440,192L1440,320L0,320Z"
-          />
-        </motion.svg>
-      
-        {/* wave 2 */}
-        <motion.svg
-          viewBox="0 0 1440 320"
-          className="absolute bottom-0 w-full"
-          animate={{ y: [0, -16, 0] }}
-          transition={{ duration: 20, repeat: Infinity, ease: "easeInOut" }}
+          className="absolute bottom-0 w-full opacity-40"
+          animate={{ y: [0, -25, 0] }}
+          transition={{ duration: 18, repeat: Infinity, ease: "easeInOut" }}
         >
           <path
             fill="#b79bbd"
-            d="M0,192L80,181C160,171,320,149,480,160C640,171,800,213,960,224C1120,235,1280,213,1360,202L1440,192L1440,320L0,320Z"
-          />
-        </motion.svg>
-      
-        {/* wave depan (paling terang) */}
-        <motion.svg
-          viewBox="0 0 1440 320"
-          className="absolute bottom-0 w-full"
-          animate={{ y: [0, -10, 0] }}
-          transition={{ duration: 16, repeat: Infinity, ease: "easeInOut" }}
-        >
-          <path
-            fill="#e7d9e6"
             d="M0,160L80,165C160,171,320,181,480,181C640,181,800,171,960,181C1120,192,1280,224,1360,240L1440,256L1440,320L0,320Z"
           />
         </motion.svg>
       
+        {/* middle wave */}
+        <motion.svg
+          viewBox="0 0 1440 320"
+          className="absolute bottom-0 w-full opacity-60"
+          animate={{ y: [0, -18, 0] }}
+          transition={{ duration: 14, repeat: Infinity, ease: "easeInOut" }}
+        >
+          <path
+            fill="#d2bfd3"
+            d="M0,192L80,181C160,171,320,149,480,160C640,171,800,213,960,224C1120,235,1280,213,1360,202L1440,192L1440,320L0,320Z"
+          />
+        </motion.svg>
+      
+        {/* front wave */}
+        <motion.svg
+          viewBox="0 0 1440 320"
+          className="absolute bottom-0 w-full opacity-95"
+          animate={{ y: [0, -10, 0] }}
+          transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
+        >
+          <path
+            fill="#e7d9e6"
+            d="M0,224L80,208C160,192,320,160,480,165C640,171,800,213,960,224C1120,235,1280,213,1360,202L1440,192L1440,320L0,320Z"
+          />
+        </motion.svg>
+      
+        {/* bottom fill supaya tidak bocor */}
+        <div className="absolute bottom-0 left-0 w-full h-[140px] bg-[#e7d9e6]" />
+      
       </div>
+
     </main>
   );
 }
