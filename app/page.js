@@ -26,7 +26,7 @@ export default function Home() {
         {/* SIDEBAR */}
         <div className="w-[300px] min-h-screen border-r bg-white">
 
-          {/* FILES */}
+          {/* FILES HEADER */}
           <div className="p-4 border-b">
             <h1 className="text-2xl font-bold">Files</h1>
           </div>
@@ -47,7 +47,7 @@ export default function Home() {
               <input
                 type="text"
                 placeholder="Go to file"
-                className="ml-2 outline-none w-full"
+                className="ml-2 outline-none w-full bg-transparent"
               />
             </div>
           </div>
@@ -77,22 +77,7 @@ export default function Home() {
 
             <div className="flex items-center gap-3 px-4 py-3 hover:bg-gray-100 cursor-pointer">
               <FileText size={18} />
-              <p>next.config.js</p>
-            </div>
-
-            <div className="flex items-center gap-3 px-4 py-3 hover:bg-gray-100 cursor-pointer">
-              <FileText size={18} />
               <p>package.json</p>
-            </div>
-
-            <div className="flex items-center gap-3 px-4 py-3 hover:bg-gray-100 cursor-pointer">
-              <FileText size={18} />
-              <p>postcss.config.js</p>
-            </div>
-
-            <div className="flex items-center gap-3 px-4 py-3 hover:bg-gray-100 cursor-pointer">
-              <FileText size={18} />
-              <p>tailwind.config.js</p>
             </div>
 
           </div>
@@ -128,10 +113,10 @@ export default function Home() {
             </div>
           </div>
 
-          {/* TABLE */}
+          {/* FILE TABLE */}
           <div className="bg-white border rounded-lg mt-6 overflow-hidden">
 
-            {/* HEADER */}
+            {/* TABLE HEADER */}
             <div className="grid grid-cols-2 bg-gray-50 px-6 py-4 border-b font-semibold">
               <p>Name</p>
               <p>Last commit message</p>
@@ -148,6 +133,7 @@ export default function Home() {
               <p></p>
             </div>
 
+            {/* ROW */}
             <div className="grid grid-cols-2 px-6 py-4 border-b hover:bg-gray-50">
 
               <div className="flex items-center gap-3">
@@ -160,6 +146,7 @@ export default function Home() {
               </p>
             </div>
 
+            {/* ROW */}
             <div className="grid grid-cols-2 px-6 py-4 border-b hover:bg-gray-50">
 
               <div className="flex items-center gap-3">
@@ -172,7 +159,8 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="grid grid-cols-2 px-6 py-4 border-b hover:bg-gray-50">
+            {/* ROW */}
+            <div className="grid grid-cols-2 px-6 py-4 hover:bg-gray-50">
 
               <div className="flex items-center gap-3">
                 <FileText />
