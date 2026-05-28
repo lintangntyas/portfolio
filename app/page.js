@@ -18,50 +18,79 @@ export default function Home() {
         <nav className="max-w-6xl mx-auto bg-black/80 backdrop-blur-xl border border-white/10 rounded-3xl md:rounded-full px-5 md:px-10 py-4 flex flex-col md:flex-row items-center gap-4 md:gap-0 justify-between shadow-2xl">
 
           {/* LOGO */}
-          <a
-            href=""
+          <button
+            onClick={() => {
+              window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+              });
+            }}
             className="text-white text-lg md:text-2xl font-bold text-center hover:text-pink-400 transition duration-300"
           >
             Lintang Cahyaningtyas
-          </a>
+          </button>
 
           {/* MENU */}
           <ul className="flex flex-wrap justify-center gap-4 md:gap-12 text-white font-medium text-sm md:text-lg">
 
             <li>
-              <a
-                href="#about"
+              <button
+                onClick={() => {
+                  document
+                    .getElementById("about")
+                    .scrollIntoView({
+                      behavior: "smooth"
+                    });
+                }}
                 className="hover:text-pink-400 transition"
               >
                 About
-              </a>
+              </button>
             </li>
 
             <li>
-              <a
-                href="#experience"
+              <button
+                onClick={() => {
+                  document
+                    .getElementById("experience")
+                    .scrollIntoView({
+                      behavior: "smooth"
+                    });
+                }}
                 className="hover:text-blue-400 transition"
               >
                 Experience
-              </a>
+              </button>
             </li>
 
             <li>
-              <a
-                href="#projects"
+              <button
+                onClick={() => {
+                  document
+                    .getElementById("projects")
+                    .scrollIntoView({
+                      behavior: "smooth"
+                    });
+                }}
                 className="hover:text-purple-400 transition"
               >
                 Projects
-              </a>
+              </button>
             </li>
 
             <li>
-              <a
-                href="#contact"
+              <button
+                onClick={() => {
+                  document
+                    .getElementById("contact")
+                    .scrollIntoView({
+                      behavior: "smooth"
+                    });
+                }}
                 className="hover:text-pink-400 transition"
               >
                 Contact
-              </a>
+              </button>
             </li>
 
           </ul>
@@ -88,7 +117,6 @@ export default function Home() {
 
       {/* HERO */}
       <section
-        id="top"
         className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-14 md:gap-24 pt-40 md:pt-48 relative z-10"
       >
 
