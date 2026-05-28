@@ -200,14 +200,15 @@ export default function Home() {
                 <span className="font-bold">
                   Universitas Islam Indonesia
                 </span>{" "}
-                majoring in Statistics with cumlaude distinction and have a
-                strong interest in data analysis, visualization, and basic
-                machine learning. I possess skills in various data analysis
-                techniques and tools such as{" "}
+                with a degree in Statistics and graduated with cum laude distinction. 
+                I have a strong interest in data analysis, visualization, and basic machine learning. 
+                I possess skills in various data analysis techniques and tools such as {" "}
                 <span className="font-bold">
                   Excel, basic Python, R, Google Data Studio, XAMPP,
-                  phpMyAdmin, and Tableau.
+                  phpMyAdmin, and Tableau. 
                 </span>
+
+                   
               </p>
 
               <p>
@@ -216,11 +217,9 @@ export default function Home() {
                   Badan Pusat Statistik, Bankaltimtara, PLN Indonesia Power,
                   and INVISIO
                 </span>
-                , along with involvement in research, internships, and
-                organizations, have strengthened both my technical and
-                collaborative skills. I am a detail-oriented, responsible,
-                and adaptive individual who is able to work independently as
-                well as within a team.
+                , along with my involvement in research, internships, and organizations, 
+                have strengthened both my technical and collaborative skills. I am a detail-oriented, 
+                responsible, and adaptive individual who is able to work independently as well as in a team.
               </p>
 
             </div>
