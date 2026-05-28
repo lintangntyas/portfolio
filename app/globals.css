@@ -2,11 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  background: linear-gradient(
+    to bottom right,
+    #fdf2f8,
+    #f8fafc,
+    #eff6ff
+  );
 }
+
+/* ANIMATION */
 
 @keyframes typing {
   0% {
@@ -31,7 +44,7 @@ body {
 /* SCROLLBAR */
 
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -59,7 +72,8 @@ body {
 }
 
 /* FIREFOX */
+
 html {
+  scrollbar-width: thin;
   scrollbar-color: #a855f7 #f8fafc;
-  scroll-behavior: smooth;
 }
