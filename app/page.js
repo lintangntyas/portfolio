@@ -14,7 +14,8 @@ export default function Home() {
 
   return (
     <main
-      className="min-h-screen relative pt-2 bg-gradient-to-br from-[#fdf2f8] via-[#f8fafc] to-[#dbeafe] px-5 md:px-10 py-6 md:py-8 overflow-hidden"
+      className="min-h-screen max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-14 md:gap-24 pt-40 md:pt-48 pb-24 relative z-10"
+        
     >
 
       {/* BACKGROUND */}
