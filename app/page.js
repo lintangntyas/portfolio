@@ -40,7 +40,7 @@ export default function Home() {
 
         {/* LINKEDIN BUTTON */}
         <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/lintangntyas/"
           target="_blank"
           className="bg-gradient-to-r from-blue-500 to-pink-500 text-white px-4 md:px-5 py-2 rounded-full font-semibold hover:scale-105 transition duration-300 shadow-lg flex items-center gap-2 text-sm"
         >
