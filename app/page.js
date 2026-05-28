@@ -101,13 +101,24 @@ export default function Home() {
           {/* BUTTONS */}
           <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-8">
 
-            <button className="border-2 border-black px-6 py-2 rounded-full text-sm md:text-lg font-medium hover:bg-black hover:text-white transition duration-300">
-              Download CV
-            </button>
+            {/* DOWNLOAD CV */}
+            <a
+              href="https://drive.google.com/drive/folders/1bCwdE4CofdNTGSjqwf9CHTFsU3HPwVBF"
+              target="_blank"
+            >
+              <button className="border-2 border-black px-6 py-2 rounded-full text-sm md:text-lg font-medium hover:bg-black hover:text-white transition duration-300">
+                Download CV
+              </button>
+            </a>
           
-            <button className="border-2 border-black px-6 py-2 rounded-full text-sm md:text-lg font-medium hover:bg-black hover:text-white transition duration-300">
-              Contact
-            </button>
+            {/* CONTACT */}
+            <a href="mailto:lintangntys@gmail.com">
+          
+              <button className="border-2 border-black px-6 py-2 rounded-full text-sm md:text-lg font-medium hover:bg-black hover:text-white transition duration-300">
+                Contact
+              </button>
+          
+            </a>
           
           </div>
 
