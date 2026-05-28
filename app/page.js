@@ -270,11 +270,12 @@ export default function Home() {
           Experience
         </h1>
       
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
       
-          {/* CARD 1 */}
+          {/* BPS */}
           <div className="bg-white/70 backdrop-blur-lg border border-black/10 rounded-[40px] p-8 shadow-xl hover:-translate-y-2 transition duration-300">
-            <div className="flex items-start justify-between mb-6">
+            
+            <div className="flex items-start justify-between mb-5">
               <div>
                 <h2 className="text-2xl font-bold text-pink-500">
                   Badan Pusat Statistik
@@ -286,7 +287,7 @@ export default function Home() {
               </div>
       
               <span className="text-sm text-gray-500">
-                2025 - 2026
+                Nov 2025 - May 2026
               </span>
             </div>
       
@@ -309,9 +310,10 @@ export default function Home() {
             </ul>
           </div>
       
-          {/* CARD 2 */}
+          {/* PLN */}
           <div className="bg-white/70 backdrop-blur-lg border border-black/10 rounded-[40px] p-8 shadow-xl hover:-translate-y-2 transition duration-300">
-            <div className="flex items-start justify-between mb-6">
+            
+            <div className="flex items-start justify-between mb-5">
               <div>
                 <h2 className="text-2xl font-bold text-blue-500">
                   PLN Indonesia Power
@@ -323,7 +325,7 @@ export default function Home() {
               </div>
       
               <span className="text-sm text-gray-500">
-                2024
+                Feb 2024
               </span>
             </div>
       
@@ -342,9 +344,10 @@ export default function Home() {
             </ul>
           </div>
       
-          {/* CARD 3 */}
+          {/* INVISIO */}
           <div className="bg-white/70 backdrop-blur-lg border border-black/10 rounded-[40px] p-8 shadow-xl hover:-translate-y-2 transition duration-300">
-            <div className="flex items-start justify-between mb-6">
+            
+            <div className="flex items-start justify-between mb-5">
               <div>
                 <h2 className="text-2xl font-bold text-purple-500">
                   INVISIO
@@ -356,7 +359,7 @@ export default function Home() {
               </div>
       
               <span className="text-sm text-gray-500">
-                2023 - 2025
+                Mar 2023 - Apr 2025
               </span>
             </div>
       
@@ -375,9 +378,10 @@ export default function Home() {
             </ul>
           </div>
       
-          {/* CARD 4 */}
+          {/* BANKALTIMTARA */}
           <div className="bg-white/70 backdrop-blur-lg border border-black/10 rounded-[40px] p-8 shadow-xl hover:-translate-y-2 transition duration-300">
-            <div className="flex items-start justify-between mb-6">
+            
+            <div className="flex items-start justify-between mb-5">
               <div>
                 <h2 className="text-2xl font-bold text-pink-500">
                   Bankaltimtara
@@ -389,7 +393,7 @@ export default function Home() {
               </div>
       
               <span className="text-sm text-gray-500">
-                2019
+                Jul 2019 - Dec 2019
               </span>
             </div>
       
@@ -407,6 +411,7 @@ export default function Home() {
               </li>
             </ul>
           </div>
+      
         </div>
       </section>
 
