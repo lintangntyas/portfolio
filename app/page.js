@@ -14,7 +14,7 @@ export default function Home() {
 
         {/* LOGO */}
         <h1 className="text-white text-3xl font-bold">
-          Lintang
+          Lintang Cahyaningtyas
         </h1>
 
         {/* MENU */}
