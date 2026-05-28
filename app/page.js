@@ -225,7 +225,7 @@ export default function Home() {
               />
 
               <img
-                src="/ip.png"
+                src="/ip.webp"
                 alt="PLN Indonesia Power"
                 className="h-12 md:h-14 object-contain hover:scale-110 transition duration-300"
               />
