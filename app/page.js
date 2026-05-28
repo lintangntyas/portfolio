@@ -30,7 +30,7 @@ export default function Home() {
 
             <li>
               <a
-                href="#about"
+                href="about"
                 className="hover:text-pink-400 transition"
               >
                 About
