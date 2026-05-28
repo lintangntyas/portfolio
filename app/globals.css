@@ -1,9 +1,19 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@keyframes typing {
+  0% {
+    width: 0;
+  }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  50% {
+    width: 100%;
+  }
+
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
