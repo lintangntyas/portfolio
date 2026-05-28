@@ -469,7 +469,7 @@ export default function Home() {
             />
       
             <h2 className="text-2xl font-bold text-blue-500 mb-2">
-              Statistical News Automation Website
+              BRS Automation Website
             </h2>
       
             <p className="text-sm text-gray-500 mb-5">
@@ -485,7 +485,7 @@ export default function Home() {
       
             <div className="mt-8">
               <a
-                href="https://your-demo-link.com"
+                href="https://drive.google.com/file/d/12WAzewd9DFh46geaJQrVdsc5UX5ZnUqp/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block border-2 border-black px-6 py-3 rounded-full font-medium hover:bg-black hover:text-white transition duration-300"
