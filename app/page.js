@@ -1,7 +1,13 @@
 export default function Home() {
+
+  const scrollToSection = (id) => {
+    document.getElementById(id).scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
   return (
     <main
-      id="top"
       className="min-h-screen relative pt-2 bg-gradient-to-br from-[#fdf2f8] via-[#f8fafc] to-[#dbeafe] px-5 md:px-10 py-6 md:py-8"
     >
 
@@ -19,12 +25,12 @@ export default function Home() {
 
           {/* LOGO */}
           <button
-            onClick={() => {
+            onClick={() =>
               window.scrollTo({
                 top: 0,
-                behavior: "smooth"
-              });
-            }}
+                behavior: "smooth",
+              })
+            }
             className="text-white text-lg md:text-2xl font-bold text-center hover:text-pink-400 transition duration-300"
           >
             Lintang Cahyaningtyas
@@ -35,13 +41,7 @@ export default function Home() {
 
             <li>
               <button
-                onClick={() => {
-                  document
-                    .getElementById("about")
-                    .scrollIntoView({
-                      behavior: "smooth"
-                    });
-                }}
+                onClick={() => scrollToSection("about")}
                 className="hover:text-pink-400 transition"
               >
                 About
@@ -50,13 +50,7 @@ export default function Home() {
 
             <li>
               <button
-                onClick={() => {
-                  document
-                    .getElementById("experience")
-                    .scrollIntoView({
-                      behavior: "smooth"
-                    });
-                }}
+                onClick={() => scrollToSection("experience")}
                 className="hover:text-blue-400 transition"
               >
                 Experience
@@ -65,13 +59,7 @@ export default function Home() {
 
             <li>
               <button
-                onClick={() => {
-                  document
-                    .getElementById("projects")
-                    .scrollIntoView({
-                      behavior: "smooth"
-                    });
-                }}
+                onClick={() => scrollToSection("projects")}
                 className="hover:text-purple-400 transition"
               >
                 Projects
@@ -80,13 +68,7 @@ export default function Home() {
 
             <li>
               <button
-                onClick={() => {
-                  document
-                    .getElementById("contact")
-                    .scrollIntoView({
-                      behavior: "smooth"
-                    });
-                }}
+                onClick={() => scrollToSection("contact")}
                 className="hover:text-pink-400 transition"
               >
                 Contact
