@@ -44,7 +44,7 @@ export default function Home() {
           <div className="w-[500px] h-[500px] rounded-full overflow-hidden shadow-2xl">
 
             <img
-              src="/foto.jpg"
+              src="/foto.png"
               alt="profile"
               className="w-full h-full object-cover"
             />
