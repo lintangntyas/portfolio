@@ -1,9 +1,15 @@
+"use client";
+
 export default function Home() {
 
   const scrollToSection = (id) => {
-    document.getElementById(id).scrollIntoView({
-      behavior: "smooth",
-    });
+    const section = document.getElementById(id);
+
+    if (section) {
+      section.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
   };
 
   return (
@@ -144,7 +150,6 @@ export default function Home() {
           {/* BUTTONS */}
           <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-8">
 
-            {/* DOWNLOAD CV */}
             <a
               href="https://drive.google.com/file/d/1rRmxiiQKzfyqcnI0HY5mNvaIchimlaxb/view?usp=drive_link"
               target="_blank"
@@ -156,7 +161,6 @@ export default function Home() {
 
             </a>
 
-            {/* CONTACT */}
             <a href="mailto:lintangntys@gmail.com">
 
               <button className="border-2 border-black px-6 py-2 rounded-full text-sm md:text-lg font-medium hover:bg-black hover:text-white transition duration-300">
@@ -200,6 +204,9 @@ export default function Home() {
               </span>{" "}
               majoring in Statistics with cumlaude distinction and have a strong interest in
               data analysis, visualization, and basic machine learning.
+            </p>
+
+            <p>
               I possess skills in various data analysis techniques and tools such as{" "}
               <span className="font-bold">
                 Excel, basic Python, R, Google Data Studio,
@@ -251,10 +258,8 @@ export default function Home() {
 
           <div className="relative">
 
-            {/* BLUR */}
             <div className="absolute inset-0 bg-gradient-to-br from-pink-200 via-purple-200 to-blue-200 rounded-[40px] blur-3xl opacity-40 scale-110"></div>
 
-            {/* IMAGE BOX */}
             <div className="relative bg-[#e9e3d9] rounded-[40px] overflow-hidden shadow-2xl border border-white/40">
 
               <img
