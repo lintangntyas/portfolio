@@ -239,7 +239,7 @@ export default function Home() {
                 />
       
                 <img
-                  src="/ip.png"
+                  src="/ip.webp"
                   alt="Indonesia Power"
                   className="h-16 object-contain hover:scale-105 transition duration-300"
                 />
@@ -249,7 +249,7 @@ export default function Home() {
             {/* RIGHT IMAGE */}
             <div className="flex justify-center">
               <img
-                src="/about2.jpg"
+                src="/about.jpg"
                 alt="About"
                 className="w-full max-w-[460px] rounded-[40px] shadow-2xl"
               />
