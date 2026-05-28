@@ -177,18 +177,18 @@ export default function Home() {
       {/* ABOUT */}
       <section
         id="about"
-        className="max-w-7xl mx-auto min-h-screen flex flex-col lg:flex-row items-center justify-between gap-20 pt-16 md:pt-24 pb-24 px-4 md:px-6"
+        className="max-w-7xl mx-auto min-h-screen flex flex-col lg:flex-row items-center justify-between gap-16 pt-20 md:pt-28 pb-24 px-6 md:px-10"
       >
-
+      
         {/* TEXT */}
-        <div className="flex-1 lg:pr-10">
-
-          <h1 className="text-4xl md:text-6xl font-bold text-black mb-12">
+        <div className="flex-1 max-w-2xl">
+      
+          <h1 className="text-5xl md:text-7xl font-extrabold text-black mb-10">
             About Me
           </h1>
-
-          <div className="space-y-8 text-gray-800 leading-relaxed text-lg md:text-[22px]">
-
+      
+          <div className="space-y-8 text-gray-800 text-justify leading-[1.9] text-lg md:text-[20px]">
+      
             <p>
               Hello, my name is{" "}
               <span className="font-bold">
@@ -205,7 +205,7 @@ export default function Home() {
               majoring in Statistics with cumlaude distinction and have a strong interest in
               data analysis, visualization, and basic machine learning.
             </p>
-
+      
             <p>
               I possess skills in various data analysis techniques and tools such as{" "}
               <span className="font-bold">
@@ -213,7 +213,7 @@ export default function Home() {
                 XAMPP, phpMyAdmin, and Tableau.
               </span>
             </p>
-
+      
             <p>
               My experiences at{" "}
               <span className="font-bold">
@@ -225,55 +225,55 @@ export default function Home() {
               I am a detail-oriented, responsible, and adaptive individual
               who is able to work independently as well as within a team.
             </p>
-
+      
             {/* COMPANY LOGO */}
-            <div className="flex items-center gap-8 pt-2 flex-wrap">
-
+            <div className="flex items-center gap-10 pt-4 flex-wrap">
+      
               <img
                 src="/bps.svg"
                 alt="BPS"
-                className="h-12 w-auto object-contain hover:scale-110 transition duration-300"
+                className="h-14 w-auto object-contain hover:scale-110 transition duration-300"
               />
-
+      
               <img
                 src="/bankaltimtara.png"
                 alt="Bankaltimtara"
-                className="h-12 w-auto object-contain hover:scale-110 transition duration-300"
+                className="h-14 w-auto object-contain hover:scale-110 transition duration-300"
               />
-
+      
               <img
                 src="/ip.png"
                 alt="PLN Indonesia Power"
-                className="h-12 w-auto object-contain hover:scale-110 transition duration-300"
+                className="h-14 w-auto object-contain hover:scale-110 transition duration-300"
               />
-
+      
             </div>
-
+      
           </div>
-
+      
         </div>
-
+      
         {/* IMAGE */}
         <div className="flex-1 flex justify-center">
-
+      
           <div className="relative">
-
+      
             <div className="absolute inset-0 bg-gradient-to-br from-pink-200 via-purple-200 to-blue-200 rounded-[40px] blur-3xl opacity-40 scale-110"></div>
-
-            <div className="relative bg-[#e9e3d9] rounded-[40px] overflow-hidden shadow-2xl border border-white/40">
-
+      
+            <div className="relative rounded-[40px] overflow-hidden shadow-2xl border border-white/40">
+      
               <img
                 src="/about.png"
                 alt="About Lintang"
-                className="w-[320px] md:w-[500px] object-cover"
+                className="w-[340px] md:w-[520px] h-auto object-cover"
               />
-
+      
             </div>
-
+      
           </div>
-
+      
         </div>
-
+      
       </section>
 
     </main>
