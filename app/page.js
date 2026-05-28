@@ -642,6 +642,189 @@ export default function Home() {
         </div>
       </section>
 
+      {/* MEDIUM */}
+      <section
+        id="contact"
+        className="min-h-screen px-6 md:px-16 py-24 overflow-hidden"
+      >
+        <h1 className="text-5xl md:text-7xl font-bold text-center mb-20">
+          Medium Articles
+        </h1>
+
+        {/* MEDIUM ARTICLES */}
+        <div className="max-w-6xl mx-auto bg-white/60 backdrop-blur-xl border border-black/10 rounded-[40px] p-10 shadow-xl">
+
+          <div className="space-y-6 text-lg">
+
+            <a
+              href="https://medium.com/@lintangntyas/basis-data-pada-rdbms"
+              target="_blank"
+              className="block hover:text-pink-500 transition"
+            >
+              1. Basis Data Pada RDBMS
+            </a>
+
+            <a
+              href="https://medium.com/@lintangntyas/clustering-provinsi-terhadap-jenis-bencana"
+              target="_blank"
+              className="block hover:text-pink-500 transition"
+            >
+              2. Clustering Provinsi Terhadap Jenis Bencana Alam
+            </a>
+
+            <a
+              href="https://medium.com/@lintangntyas/perilaku-konsumen-menggunakan-mba"
+              target="_blank"
+              className="block hover:text-pink-500 transition"
+            >
+              3. Perilaku Konsumen Menggunakan MBA Association Rule Mining
+            </a>
+
+            <a
+              href="https://medium.com/@lintangntyas/analisis-data-terhadap-bike-share"
+              target="_blank"
+              className="block hover:text-pink-500 transition"
+            >
+              4. Analisis Data User BikeShare Toronto
+            </a>
+
+            <a
+              href="https://medium.com/@lintangntyas/tren-e-commerce-asia"
+              target="_blank"
+              className="block hover:text-pink-500 transition"
+            >
+              5. Tren E-Commerce Asia Tenggara
+            </a>
+
+          </div>
+        </div>
+
+        {/* CERTIFICATE */}
+        <div
+          id="certificate"
+          className="mt-32"
+        >
+
+          <h1 className="text-5xl md:text-7xl font-bold text-center mb-20">
+            Certifications
+          </h1>
+
+          <div className="relative w-full overflow-hidden">
+
+            <div className="flex gap-8 animate-scroll whitespace-nowrap">
+
+              {/* CERTIFICATE 1 */}
+              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
+                <img
+                  src="/sertif1.jpg"
+                  alt="Certificate 1"
+                  className="w-full h-[240px] object-cover rounded-2xl"
+                />
+              </div>
+
+              {/* CERTIFICATE 2 */}
+              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
+                <img
+                  src="/sertif2.jpg"
+                  alt="Certificate 2"
+                  className="w-full h-[240px] object-cover rounded-2xl"
+                />
+              </div>
+
+              {/* CERTIFICATE 3 */}
+              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
+                <img
+                  src="/sertif3.jpg"
+                  alt="Certificate 3"
+                  className="w-full h-[240px] object-cover rounded-2xl"
+                />
+              </div>
+
+              {/* CERTIFICATE 4 */}
+              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
+                <img
+                  src="/sertif4.jpg"
+                  alt="Certificate 4"
+                  className="w-full h-[240px] object-cover rounded-2xl"
+                />
+              </div>
+
+              {/* DUPLIKAT */}
+              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
+                <img
+                  src="/sertif1.jpg"
+                  alt="Certificate 1"
+                  className="w-full h-[240px] object-cover rounded-2xl"
+                />
+              </div>
+
+              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
+                <img
+                  src="/sertif2.jpg"
+                  alt="Certificate 2"
+                  className="w-full h-[240px] object-cover rounded-2xl"
+                />
+              </div>
+
+              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
+                <img
+                  src="/sertif3.jpg"
+                  alt="Certificate 3"
+                  className="w-full h-[240px] object-cover rounded-2xl"
+                />
+              </div>
+
+              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
+                <img
+                  src="/sertif4.jpg"
+                  alt="Certificate 4"
+                  className="w-full h-[240px] object-cover rounded-2xl"
+                />
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        {/* FOOTER */}
+        <div className="flex gap-10 mt-28 text-xl font-semibold flex-wrap justify-center">
+
+          <button
+            onClick={() => scrollToSection("about")}
+            className="hover:text-pink-500 transition duration-300"
+          >
+            About
+          </button>
+
+          <button
+            onClick={() => scrollToSection("experience")}
+            className="hover:text-blue-500 transition duration-300"
+          >
+            Experience
+          </button>
+
+          <button
+            onClick={() => scrollToSection("projects")}
+            className="hover:text-purple-500 transition duration-300"
+          >
+            Projects
+          </button>
+
+          <button
+            onClick={() => scrollToSection("certificate")}
+            className="hover:text-pink-500 transition duration-300"
+          >
+            Certificate
+          </button>
+
+        </div>
+
+        <p className="mt-10 text-lg text-gray-700 text-center">
+          © All Rights Reserved | Lintang Cahyaningtyas
+        </p>
+
+      </section>
+
       {/* CONTACT */}
       <section
         id="contact"
