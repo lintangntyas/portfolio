@@ -88,7 +88,7 @@ export default function Home() {
 
       {/* HERO */}
       <section
-        id="about"
+        id="top"
         className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-14 md:gap-24 pt-40 md:pt-48 relative z-10"
       >
 
@@ -158,6 +158,84 @@ export default function Home() {
           </div>
 
         </div>
+      </section>
+
+      {/* ABOUT */}
+      <section
+        id="about"
+        className="max-w-7xl mx-auto min-h-screen flex flex-col lg:flex-row items-center justify-between gap-16 py-24 px-4 md:px-6"
+      >
+
+        {/* TEXT */}
+        <div className="flex-1">
+
+          <h1 className="text-4xl md:text-6xl font-bold text-black mb-12">
+            About Me
+          </h1>
+
+          <div className="space-y-8 text-gray-800 leading-relaxed text-lg md:text-2xl">
+
+            <p>
+              Hello, my name is{" "}
+              <span className="font-bold">
+                Lintang Cahyaningtyas
+              </span>{" "}
+              and people usually call me{" "}
+              <span className="font-bold">
+                Lintang
+              </span>.
+              I graduated from{" "}
+              <span className="font-bold">
+                Universitas Islam Indonesia
+              </span>{" "}
+              majoring in Statistics with cumlaude distinction and have a strong interest in
+              data analysis, visualization, and basic machine learning.
+              I possess skills in various data analysis techniques and tools such as{" "}
+              <span className="font-bold">
+                Excel, basic Python, R, Google Data Studio,
+                XAMPP, phpMyAdmin, and Tableau.
+              </span>
+            </p>
+
+            <p>
+              My experiences at{" "}
+              <span className="font-bold">
+                Badan Pusat Statistik, Bankaltimtara,
+                PLN Indonesia Power, and INVISIO
+              </span>,
+              along with involvement in research, internships, and organizations,
+              have strengthened both my technical and collaborative skills.
+              I am a detail-oriented, responsible, and adaptive individual
+              who is able to work independently as well as within a team.
+            </p>
+
+          </div>
+
+        </div>
+
+        {/* IMAGE */}
+        <div className="flex-1 flex justify-center">
+
+          <div className="relative">
+
+            {/* BLUR */}
+            <div className="absolute inset-0 bg-gradient-to-br from-pink-200 via-purple-200 to-blue-200 rounded-[40px] blur-3xl opacity-40 scale-110"></div>
+
+            {/* IMAGE BOX */}
+            <div className="relative bg-[#e9e3d9] rounded-[40px] overflow-hidden shadow-2xl border border-white/40">
+
+              <img
+                src="/about.png"
+                alt="About Lintang"
+                className="w-[320px] md:w-[470px] object-cover"
+              />
+
+            </div>
+
+          </div>
+
+        </div>
+
       </section>
 
       {/* EXPERIENCE */}
