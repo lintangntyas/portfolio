@@ -258,6 +258,156 @@ export default function Home() {
           </div>
 
         </div>
+                
+      </section>
+
+      {/* EXPERIENCE */}
+      <section
+        id="experience"
+        className="min-h-screen px-6 md:px-16 py-24"
+      >
+        <h1 className="text-5xl md:text-7xl font-bold text-center mb-20">
+          Experience
+        </h1>
+      
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+      
+          {/* CARD 1 */}
+          <div className="bg-white/70 backdrop-blur-lg border border-black/10 rounded-[40px] p-8 shadow-xl hover:-translate-y-2 transition duration-300">
+            <div className="flex items-start justify-between mb-6">
+              <div>
+                <h2 className="text-2xl font-bold text-pink-500">
+                  Badan Pusat Statistik
+                </h2>
+      
+                <p className="text-lg font-semibold text-gray-800 mt-1">
+                  Statistician Intern
+                </p>
+              </div>
+      
+              <span className="text-sm text-gray-500">
+                2025 - 2026
+              </span>
+            </div>
+      
+            <ul className="space-y-3 text-gray-700 leading-relaxed">
+              <li>
+                • Collected, cleaned, and analyzed statistical distribution indicator data.
+              </li>
+      
+              <li>
+                • Developed web-based automation systems to improve work efficiency.
+              </li>
+      
+              <li>
+                • Created statistical infographics to support publication activities.
+              </li>
+      
+              <li>
+                • Managed administrative documents and company directory data.
+              </li>
+            </ul>
+          </div>
+      
+          {/* CARD 2 */}
+          <div className="bg-white/70 backdrop-blur-lg border border-black/10 rounded-[40px] p-8 shadow-xl hover:-translate-y-2 transition duration-300">
+            <div className="flex items-start justify-between mb-6">
+              <div>
+                <h2 className="text-2xl font-bold text-blue-500">
+                  PLN Indonesia Power
+                </h2>
+      
+                <p className="text-lg font-semibold text-gray-800 mt-1">
+                  Reliability & System Owner Intern
+                </p>
+              </div>
+      
+              <span className="text-sm text-gray-500">
+                2024
+              </span>
+            </div>
+      
+            <ul className="space-y-3 text-gray-700 leading-relaxed">
+              <li>
+                • Analyzed Unit 7 disturbance and pulverizer maintenance data using Excel and R.
+              </li>
+      
+              <li>
+                • Prepared evaluation reports for system reliability improvement.
+              </li>
+      
+              <li>
+                • Participated in occupational health and safety socialization programs.
+              </li>
+            </ul>
+          </div>
+      
+          {/* CARD 3 */}
+          <div className="bg-white/70 backdrop-blur-lg border border-black/10 rounded-[40px] p-8 shadow-xl hover:-translate-y-2 transition duration-300">
+            <div className="flex items-start justify-between mb-6">
+              <div>
+                <h2 className="text-2xl font-bold text-purple-500">
+                  INVISIO
+                </h2>
+      
+                <p className="text-lg font-semibold text-gray-800 mt-1">
+                  Marketing & Content Writer
+                </p>
+              </div>
+      
+              <span className="text-sm text-gray-500">
+                2023 - 2025
+              </span>
+            </div>
+      
+            <ul className="space-y-3 text-gray-700 leading-relaxed">
+              <li>
+                • Developed content strategies and educational statistical materials.
+              </li>
+      
+              <li>
+                • Collaborated with design teams to create engaging publications.
+              </li>
+      
+              <li>
+                • Analyzed social media engagement performance monthly.
+              </li>
+            </ul>
+          </div>
+      
+          {/* CARD 4 */}
+          <div className="bg-white/70 backdrop-blur-lg border border-black/10 rounded-[40px] p-8 shadow-xl hover:-translate-y-2 transition duration-300">
+            <div className="flex items-start justify-between mb-6">
+              <div>
+                <h2 className="text-2xl font-bold text-pink-500">
+                  Bankaltimtara
+                </h2>
+      
+                <p className="text-lg font-semibold text-gray-800 mt-1">
+                  IT & E-Banking Intern
+                </p>
+              </div>
+      
+              <span className="text-sm text-gray-500">
+                2019
+              </span>
+            </div>
+      
+            <ul className="space-y-3 text-gray-700 leading-relaxed">
+              <li>
+                • Assisted customer service activities related to ATM services.
+              </li>
+      
+              <li>
+                • Helped improve customer satisfaction through responsive problem handling.
+              </li>
+      
+              <li>
+                • Supported ATM card destruction and banking administration processes.
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
 
     </main>
