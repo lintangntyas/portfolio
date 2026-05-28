@@ -14,7 +14,7 @@ export default function Home() {
 
         {/* LOGO */}
         <h1 className="text-white text-3xl font-bold">
-          Lintang Cahyaningtyas
+          Lintang
         </h1>
 
         {/* MENU */}
@@ -71,7 +71,7 @@ export default function Home() {
           </h1>
 
           {/* ANIMATION TEXT */}
-          <h2 className="text-5xl font-bold mt-6 inline-block overflow-hidden whitespace-nowrap border-r-4 border-blue-500 animate-[typing_2s_steps(16)_infinite,blink_.7s_step-end_infinite]">
+          <h2 className="text-5xl font-bold mt-6 inline-block overflow-hidden whitespace-nowrap border-r-4 border-blue-500 animate-[typing_1.2s_steps(16)_infinite,blink_.5s_step-end_infinite]">
 
             <span className="bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
               Data Enthusiast
@@ -95,7 +95,6 @@ export default function Home() {
           {/* SOCIAL */}
           <div className="flex gap-8 mt-12">
 
-            {/* LINKEDIN */}
             <a
               href="https://linkedin.com"
               target="_blank"
@@ -104,32 +103,7 @@ export default function Home() {
               <img
                 src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
                 alt="linkedin"
-                className="w-12 h-12"
-              />
-            </a>
-
-            {/* GITHUB */}
-            <a
-              href="https://github.com"
-              target="_blank"
-              className="hover:scale-125 transition duration-300"
-            >
-              <img
-                src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-                alt="github"
-                className="w-12 h-12"
-              />
-            </a>
-
-            {/* DATA */}
-            <a
-              href="#"
-              className="hover:scale-125 transition duration-300"
-            >
-              <img
-                src="https://cdn-icons-png.flaticon.com/512/2784/2784487.png"
-                alt="data"
-                className="w-12 h-12"
+                className="w-14 h-14"
               />
             </a>
 
