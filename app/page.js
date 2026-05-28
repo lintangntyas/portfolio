@@ -103,7 +103,7 @@ export default function Home() {
 
             {/* DOWNLOAD CV */}
             <a
-              href="https://drive.google.com/drive/folders/1bCwdE4CofdNTGSjqwf9CHTFsU3HPwVBF"
+              href="https://drive.google.com/file/d/1rRmxiiQKzfyqcnI0HY5mNvaIchimlaxb/view?usp=drive_link"
               target="_blank"
             >
               <button className="border-2 border-black px-6 py-2 rounded-full text-sm md:text-lg font-medium hover:bg-black hover:text-white transition duration-300">
