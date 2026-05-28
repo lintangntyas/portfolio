@@ -684,34 +684,35 @@ export default function Home() {
       
         {/* FOOTER MENU */}
         <div className="flex gap-10 mt-28 text-xl font-semibold">
-      
-          <a
-            href="/about"
+        
+          <button
+            onClick={() => scrollToSection("about")}
             className="hover:text-pink-500 transition duration-300"
           >
             About
-          </a>
-      
-          <a
-            href="/experience"
+          </button>
+        
+          <button
+            onClick={() => scrollToSection("experience")}
             className="hover:text-blue-500 transition duration-300"
           >
             Experience
-          </a>
-      
-          <a
-            href="/projects"
+          </button>
+        
+          <button
+            onClick={() => scrollToSection("projects")}
             className="hover:text-purple-500 transition duration-300"
           >
             Projects
-          </a>
-      
-          <a
-            href="/contact"
+          </button>
+        
+          <button
+            onClick={() => scrollToSection("contact")}
             className="hover:text-pink-500 transition duration-300"
           >
             Contact
-          </a>
+          </button>
+        
         </div>
       
         {/* COPYRIGHT */}
