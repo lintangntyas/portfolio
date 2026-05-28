@@ -182,7 +182,7 @@ export default function Home() {
         <div className="max-w-7xl w-full">
           
           {/* TITLE */}
-          <h1 className="text-5xl md:text-7xl font-bold text-black mb-12 mt-16">
+          <h1 className="text-5xl md:text-7xl font-bold text-black mb-12 mt-14">
             About Me
           </h1>
       
