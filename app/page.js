@@ -804,43 +804,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* FOOTER */}
-        <div className="flex gap-10 mt-28 text-xl font-semibold flex-wrap justify-center">
-
-          <button
-            onClick={() => scrollToSection("about")}
-            className="hover:text-pink-500 transition duration-300"
-          >
-            About
-          </button>
-
-          <button
-            onClick={() => scrollToSection("experience")}
-            className="hover:text-blue-500 transition duration-300"
-          >
-            Experience
-          </button>
-
-          <button
-            onClick={() => scrollToSection("projects")}
-            className="hover:text-purple-500 transition duration-300"
-          >
-            Projects
-          </button>
-
-          <button
-            onClick={() => scrollToSection("certificate")}
-            className="hover:text-pink-500 transition duration-300"
-          >
-            Certificate
-          </button>
-
-        </div>
-
-        <p className="mt-10 text-lg text-gray-700 text-center">
-          © All Rights Reserved | Lintang Cahyaningtyas
-        </p>
-
       </section>
 
       {/* CONTACT */}
