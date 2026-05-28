@@ -505,7 +505,7 @@ export default function Home() {
             />
       
             <h2 className="text-2xl font-bold text-purple-500 mb-2">
-              IndoBERT & LDA Sentiment Analysis
+              Final Research Project
             </h2>
       
             <p className="text-sm text-gray-500 mb-5">
@@ -521,7 +521,7 @@ export default function Home() {
       
             <div className="mt-8">
               <a
-                href="https://your-demo-link.com"
+                href="https://dspace.uii.ac.id/handle/123456789/56406"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block border-2 border-black px-6 py-3 rounded-full font-medium hover:bg-black hover:text-white transition duration-300"
@@ -541,7 +541,7 @@ export default function Home() {
             />
       
             <h2 className="text-2xl font-bold text-pink-500 mb-2">
-              Gold Price Forecasting Using ARIMA
+              Gold Price Forecasting ARIMA
             </h2>
       
             <p className="text-sm text-gray-500 mb-5">
@@ -557,7 +557,7 @@ export default function Home() {
       
             <div className="mt-8">
               <a
-                href="https://your-demo-link.com"
+                href="https://www.linkedin.com/in/lintangntyas/details/projects/1706287119686/single-media-viewer?profileId=ACoAADMB2KIBFQ2GbVx6ODNoCdop_YAAwMaNjeM"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block border-2 border-black px-6 py-3 rounded-full font-medium hover:bg-black hover:text-white transition duration-300"
@@ -577,7 +577,7 @@ export default function Home() {
             />
       
             <h2 className="text-2xl font-bold text-blue-500 mb-2">
-              Crime Clustering Using K-Means
+              Crime Clustering K-Means
             </h2>
       
             <p className="text-sm text-gray-500 mb-5">
@@ -593,7 +593,7 @@ export default function Home() {
       
             <div className="mt-8">
               <a
-                href="https://your-demo-link.com"
+                href="https://www.linkedin.com/in/lintangntyas/details/projects/1706288082189/single-media-viewer?profileId=ACoAADMB2KIBFQ2GbVx6ODNoCdop_YAAwMaNjeM"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block border-2 border-black px-6 py-3 rounded-full font-medium hover:bg-black hover:text-white transition duration-300"
@@ -629,7 +629,7 @@ export default function Home() {
       
             <div className="mt-8">
               <a
-                href="https://your-demo-link.com"
+                href="https://drive.google.com/file/d/1HGpwJUetVISlyq37NRKfKkzR5dGZjpmF/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block border-2 border-black px-6 py-3 rounded-full font-medium hover:bg-black hover:text-white transition duration-300"
