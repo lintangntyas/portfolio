@@ -177,103 +177,85 @@ export default function Home() {
       {/* ABOUT */}
       <section
         id="about"
-        className="max-w-7xl mx-auto min-h-screen flex flex-col lg:flex-row items-center justify-between gap-16 pt-20 md:pt-28 pb-24 px-6 md:px-10"
+        className="min-h-screen flex items-center justify-center px-6 md:px-16 py-20"
       >
-      
-        {/* TEXT */}
-        <div className="flex-1 max-w-2xl">
-      
-          <h1 className="text-5xl md:text-7xl font-extrabold text-black mb-10">
+        <div className="max-w-7xl w-full">
+          
+          {/* TITLE */}
+          <h1 className="text-5xl md:text-7xl font-bold text-black mb-12">
             About Me
           </h1>
       
-          <div className="space-y-8 text-gray-800 text-justify leading-[1.9] text-lg md:text-[20px]">
+          {/* CONTENT */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+            
+            {/* LEFT TEXT */}
+            <div className="space-y-8 text-gray-800">
+              
+              <p className="text-[18px] md:text-[20px] leading-[2.1rem] text-justify">
+                Hello, my name is{" "}
+                <span className="font-bold">
+                  Lintang Cahyaningtyas
+                </span>{" "}
+                and people usually call me{" "}
+                <span className="font-bold">Lintang</span>. 
+                I graduated from{" "}
+                <span className="font-bold">
+                  Universitas Islam Indonesia
+                </span>{" "}
+                majoring in Statistics with cumlaude distinction and have a strong
+                interest in data analysis, visualization, and basic machine learning.
+                I possess skills in various data analysis techniques and tools such as{" "}
+                <span className="font-bold">
+                  Excel, basic Python, R, Google Data Studio, XAMPP, phpMyAdmin,
+                  and Tableau.
+                </span>
+              </p>
       
-            <p>
-              Hello, my name is{" "}
-              <span className="font-bold">
-                Lintang Cahyaningtyas
-              </span>{" "}
-              and people usually call me{" "}
-              <span className="font-bold">
-                Lintang
-              </span>.
-              I graduated from{" "}
-              <span className="font-bold">
-                Universitas Islam Indonesia
-              </span>{" "}
-              majoring in Statistics with cumlaude distinction and have a strong interest in
-              data analysis, visualization, and basic machine learning.
-            </p>
+              <p className="text-[18px] md:text-[20px] leading-[2.1rem] text-justify">
+                My experiences at{" "}
+                <span className="font-bold">
+                  Badan Pusat Statistik, Bankaltimtara,
+                  PLN Indonesia Power, and INVISIO
+                </span>
+                , along with involvement in research, internships, and organizations,
+                have strengthened both my technical and collaborative skills.
+                I am a detail-oriented, responsible, and adaptive individual
+                who is able to work independently as well as within a team.
+              </p>
       
-            <p>
-              I possess skills in various data analysis techniques and tools such as{" "}
-              <span className="font-bold">
-                Excel, basic Python, R, Google Data Studio,
-                XAMPP, phpMyAdmin, and Tableau.
-              </span>
-            </p>
+              {/* LOGOS */}
+              <div className="flex flex-wrap items-center gap-8 pt-2">
+                <img
+                  src="/bps.svg"
+                  alt="BPS"
+                  className="h-16 object-contain hover:scale-105 transition duration-300"
+                />
       
-            <p>
-              My experiences at{" "}
-              <span className="font-bold">
-                Badan Pusat Statistik, Bankaltimtara,
-                PLN Indonesia Power, and INVISIO
-              </span>,
-              along with involvement in research, internships, and organizations,
-              have strengthened both my technical and collaborative skills.
-              I am a detail-oriented, responsible, and adaptive individual
-              who is able to work independently as well as within a team.
-            </p>
+                <img
+                  src="/bankaltimtara.png"
+                  alt="Bankaltimtara"
+                  className="h-14 object-contain hover:scale-105 transition duration-300"
+                />
       
-            {/* COMPANY LOGO */}
-            <div className="flex items-center gap-10 pt-4 flex-wrap">
-      
-              <img
-                src="/bps.svg"
-                alt="BPS"
-                className="h-14 w-auto object-contain hover:scale-110 transition duration-300"
-              />
-      
-              <img
-                src="/bankaltimtara.png"
-                alt="Bankaltimtara"
-                className="h-14 w-auto object-contain hover:scale-110 transition duration-300"
-              />
-      
-              <img
-                src="/ip.png"
-                alt="PLN Indonesia Power"
-                className="h-14 w-auto object-contain hover:scale-110 transition duration-300"
-              />
-      
+                <img
+                  src="/ip.png"
+                  alt="Indonesia Power"
+                  className="h-16 object-contain hover:scale-105 transition duration-300"
+                />
+              </div>
             </div>
       
-          </div>
-      
-        </div>
-      
-        {/* IMAGE */}
-        <div className="flex-1 flex justify-center">
-      
-          <div className="relative">
-      
-            <div className="absolute inset-0 bg-gradient-to-br from-pink-200 via-purple-200 to-blue-200 rounded-[40px] blur-3xl opacity-40 scale-110"></div>
-      
-            <div className="relative rounded-[40px] overflow-hidden shadow-2xl border border-white/40">
-      
+            {/* RIGHT IMAGE */}
+            <div className="flex justify-center">
               <img
-                src="/about.png"
-                alt="About Lintang"
-                className="w-[340px] md:w-[520px] h-auto object-cover"
+                src="/about2.jpg"
+                alt="About"
+                className="w-full max-w-[460px] rounded-[40px] shadow-2xl"
               />
-      
             </div>
-      
           </div>
-      
         </div>
-      
       </section>
 
     </main>
