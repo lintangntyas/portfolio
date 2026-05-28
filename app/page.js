@@ -182,7 +182,7 @@ export default function Home() {
         <div className="max-w-7xl w-full">
           
           {/* TITLE */}
-          <h1 className="text-5xl md:text-7xl font-bold text-black mb-12">
+          <h1 className="text-5xl md:text-7xl font-bold text-black mb-12 mt-16">
             About Me
           </h1>
       
@@ -249,7 +249,7 @@ export default function Home() {
             {/* RIGHT IMAGE */}
             <div className="flex justify-center">
               <img
-                src="/about.jpg"
+                src="/about.png"
                 alt="About"
                 className="w-full max-w-[460px] rounded-[40px] shadow-2xl"
               />
