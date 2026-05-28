@@ -102,7 +102,7 @@ export default function Home() {
       {/* HERO */}
       <section
         id="top"
-        className="min-h-screen max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-14 md:gap-24 pt-28 md:pt-36 pb-24 relative z-10"
+        className="min-h-screen max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-14 md:gap-24 pt-28 md:pt-56 pb-24 relative z-10"
       >
 
         {/* IMAGE */}
