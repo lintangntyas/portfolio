@@ -19,7 +19,7 @@ export default function Home() {
 
           {/* LOGO */}
           <a
-            href="#top"
+            href=""
             className="text-white text-lg md:text-2xl font-bold text-center hover:text-pink-400 transition duration-300"
           >
             Lintang Cahyaningtyas
