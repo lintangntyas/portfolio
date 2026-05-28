@@ -209,6 +209,29 @@ export default function Home() {
               who is able to work independently as well as within a team.
             </p>
 
+            {/* COMPANY LOGO */}
+            <div className="flex flex-wrap items-center gap-8 pt-2">
+
+              <img
+                src="/bps.svg"
+                alt="BPS"
+                className="h-12 md:h-14 object-contain hover:scale-110 transition duration-300"
+              />
+
+              <img
+                src="/bankaltimtara.png"
+                alt="Bankaltimtara"
+                className="h-12 md:h-14 object-contain hover:scale-110 transition duration-300"
+              />
+
+              <img
+                src="/ip.png"
+                alt="PLN Indonesia Power"
+                className="h-12 md:h-14 object-contain hover:scale-110 transition duration-300"
+              />
+
+            </div>
+
           </div>
 
         </div>
@@ -233,116 +256,6 @@ export default function Home() {
             </div>
 
           </div>
-
-        </div>
-
-      </section>
-
-      {/* EXPERIENCE */}
-      <section
-        id="experience"
-        className="max-w-6xl mx-auto mt-32"
-      >
-
-        <h1 className="text-4xl md:text-6xl font-bold text-center mb-16">
-          Experience
-        </h1>
-
-        <div className="grid md:grid-cols-2 gap-8">
-
-          <div className="bg-white border border-gray-200 rounded-3xl p-8 shadow-lg hover:shadow-2xl transition">
-            <h2 className="text-2xl font-bold mb-3 text-pink-500">
-              Data Analytics
-            </h2>
-
-            <p className="text-gray-600">
-              Experience processing and analyzing datasets using Python, Excel, and visualization tools.
-            </p>
-          </div>
-
-          <div className="bg-white border border-gray-200 rounded-3xl p-8 shadow-lg hover:shadow-2xl transition">
-            <h2 className="text-2xl font-bold mb-3 text-blue-500">
-              Machine Learning
-            </h2>
-
-            <p className="text-gray-600">
-              Built machine learning and sentiment analysis models using NLP and transformer methods.
-            </p>
-          </div>
-
-        </div>
-      </section>
-
-      {/* PROJECTS */}
-      <section
-        id="projects"
-        className="max-w-6xl mx-auto mt-32"
-      >
-
-        <h1 className="text-4xl md:text-6xl font-bold text-center mb-16">
-          Projects
-        </h1>
-
-        <div className="grid md:grid-cols-3 gap-8">
-
-          <div className="bg-white rounded-3xl p-6 shadow-lg">
-            <img
-              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71"
-              className="rounded-2xl mb-4 h-[220px] w-full object-cover"
-            />
-
-            <h2 className="text-2xl font-bold">
-              Sentiment Analysis
-            </h2>
-          </div>
-
-          <div className="bg-white rounded-3xl p-6 shadow-lg">
-            <img
-              src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4"
-              className="rounded-2xl mb-4 h-[220px] w-full object-cover"
-            />
-
-            <h2 className="text-2xl font-bold">
-              Portfolio Website
-            </h2>
-          </div>
-
-          <div className="bg-white rounded-3xl p-6 shadow-lg">
-            <img
-              src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935"
-              className="rounded-2xl mb-4 h-[220px] w-full object-cover"
-            />
-
-            <h2 className="text-2xl font-bold">
-              Data Visualization
-            </h2>
-          </div>
-
-        </div>
-      </section>
-
-      {/* CONTACT */}
-      <section
-        id="contact"
-        className="max-w-4xl mx-auto mt-32 pb-20 text-center"
-      >
-
-        <h1 className="text-4xl md:text-6xl font-bold mb-12">
-          Contact Me
-        </h1>
-
-        <div className="bg-white rounded-3xl shadow-xl p-10">
-
-          <p className="text-xl text-gray-600 mb-6">
-            lintangntys@gmail.com
-          </p>
-
-          <a
-            href="mailto:lintangntys@gmail.com"
-            className="inline-block bg-black text-white px-8 py-3 rounded-full hover:scale-105 transition"
-          >
-            Send Email
-          </a>
 
         </div>
 
