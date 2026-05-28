@@ -613,7 +613,7 @@ export default function Home() {
             />
       
             <h2 className="text-2xl font-bold text-purple-500 mb-2">
-              Simple Mobile Application
+              SPP Mobile Application
             </h2>
       
             <p className="text-sm text-gray-500 mb-5">
@@ -621,10 +621,10 @@ export default function Home() {
             </p>
       
             <p className="text-gray-700 leading-relaxed text-justify">
-              Designed and developed a simple Android application using Android Studio.
-              Created user-friendly UI/UX interfaces, implemented student data input,
-              payment recording, notification systems, and performed functionality testing
-              to ensure stable application performance.
+              Designed and developed a simple Android application using Android Studio as 
+                a final vocational high school project. Created user-friendly UI/UX interfaces, 
+                implemented student data input, payment recording, notification systems, and 
+                performed functionality testing to ensure stable application performance.
             </p>
       
             <div className="mt-8">
