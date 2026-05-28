@@ -177,29 +177,22 @@ export default function Home() {
       {/* ABOUT */}
       <section
         id="about"
-        className="min-h-screen flex items-center justify-center px-6 md:px-16 py-20"
+        className="min-h-screen flex items-center justify-center px-6 md:px-16 pt-32 md:pt-24"
       >
-        <div className="max-w-7xl w-full">
+        <div className="max-w-6xl w-full grid md:grid-cols-2 gap-10 items-center">
           
-          {/* TITLE */}
-          <h1 className="text-5xl md:text-7xl font-bold text-black mb-12 mt-14">
-            About Me
-          </h1>
+          {/* TEXT */}
+          <div>
+            <h1 className="text-5xl md:text-7xl font-bold mb-10">
+              About Me
+            </h1>
       
-          {/* CONTENT */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
-            
-            {/* LEFT TEXT */}
-            <div className="space-y-8 text-gray-800">
-              
-              <p className="text-[18px] md:text-[20px] leading-[2.1rem] text-justify">
+            <div className="space-y-8 text-justify text-gray-800 text-lg leading-[2.2rem]">
+              <p>
                 Hello, my name is{" "}
-                <span className="font-bold">
-                  Lintang Cahyaningtyas
-                </span>{" "}
-                and people usually call me{" "}
-                <span className="font-bold">Lintang</span>. 
-                I graduated from{" "}
+                <span className="font-bold">Lintang Cahyaningtyas</span> and people
+                usually call me <span className="font-bold">Lintang</span>. I
+                graduated from{" "}
                 <span className="font-bold">
                   Universitas Islam Indonesia
                 </span>{" "}
@@ -207,53 +200,53 @@ export default function Home() {
                 interest in data analysis, visualization, and basic machine learning.
                 I possess skills in various data analysis techniques and tools such as{" "}
                 <span className="font-bold">
-                  Excel, basic Python, R, Google Data Studio, XAMPP, phpMyAdmin,
-                  and Tableau.
+                  Excel, basic Python, R, Google Data Studio, XAMPP, phpMyAdmin, and
+                  Tableau.
                 </span>
               </p>
       
-              <p className="text-[18px] md:text-[20px] leading-[2.1rem] text-justify">
+              <p>
                 My experiences at{" "}
                 <span className="font-bold">
-                  Badan Pusat Statistik, Bankaltimtara,
-                  PLN Indonesia Power, and INVISIO
+                  Badan Pusat Statistik, Bankaltimtara, PLN Indonesia Power, and
+                  INVISIO
                 </span>
                 , along with involvement in research, internships, and organizations,
-                have strengthened both my technical and collaborative skills.
-                I am a detail-oriented, responsible, and adaptive individual
-                who is able to work independently as well as within a team.
+                have strengthened both my technical and collaborative skills. I am a
+                detail-oriented, responsible, and adaptive individual who is able to
+                work independently as well as within a team.
               </p>
-      
-              {/* LOGOS */}
-              <div className="flex flex-wrap items-center gap-8 pt-2">
-                <img
-                  src="/bps.svg"
-                  alt="BPS"
-                  className="h-16 object-contain hover:scale-105 transition duration-300"
-                />
-      
-                <img
-                  src="/bankaltimtara.png"
-                  alt="Bankaltimtara"
-                  className="h-14 object-contain hover:scale-105 transition duration-300"
-                />
-      
-                <img
-                  src="/ip.webp"
-                  alt="Indonesia Power"
-                  className="h-16 object-contain hover:scale-105 transition duration-300"
-                />
-              </div>
             </div>
       
-            {/* RIGHT IMAGE */}
-            <div className="flex justify-center">
+            {/* LOGO */}
+            <div className="flex items-center gap-8 mt-10 flex-wrap">
               <img
-                src="/about.png"
-                alt="About"
-                className="w-full max-w-[460px] rounded-[40px] shadow-2xl"
+                src="/bps.svg"
+                alt="BPS"
+                className="h-14 object-contain"
+              />
+      
+              <img
+                src="/bankaltimtara.png"
+                alt="Bankaltimtara"
+                className="h-10 object-contain"
+              />
+      
+              <img
+                src="/ip.webp"
+                alt="PLN"
+                className="h-14 object-contain"
               />
             </div>
+          </div>
+      
+          {/* IMAGE */}
+          <div className="flex justify-center md:justify-end">
+            <img
+              src="/about.png"
+              alt="About"
+              className="w-[420px] md:w-[500px] rounded-[2.5rem] shadow-2xl"
+            />
           </div>
         </div>
       </section>
