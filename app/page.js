@@ -70,19 +70,17 @@ export default function Home() {
             Lintang Cahyaningtyas
           </h1>
 
-          <h2 className="text-5xl font-bold mt-4">
-            <span className="bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent animate-pulse">
-              Data Enthusiast |
+          {/* ANIMATION TEXT */}
+          <h2 className="text-5xl font-bold mt-6 overflow-hidden whitespace-nowrap border-r-4 border-blue-500 pr-2 w-fit animate-[typing_3s_steps(20,end)_infinite,blink_.8s_infinite]">
+
+            <span className="bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
+              Data Enthusiast
             </span>
+
           </h2>
 
-          <p className="text-gray-600 text-xl mt-8 leading-relaxed max-w-xl">
-            Passionate about transforming raw data into meaningful insights.
-            Focused on data analytics, machine learning, and creating impactful digital experiences.
-          </p>
-
           {/* BUTTONS */}
-          <div className="flex gap-6 mt-10">
+          <div className="flex gap-6 mt-12">
 
             <button className="border-2 border-black px-8 py-3 rounded-full text-xl hover:bg-black hover:text-white transition duration-300">
               Download CV
