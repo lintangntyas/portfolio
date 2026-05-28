@@ -132,7 +132,7 @@ export default function Home() {
 
             {/* DOWNLOAD CV */}
             <a
-              href="https://drive.google.com/drive/folders/1bCwdE4CofdNTGSjqwf9CHTFsU3HPwVBF"
+              href="https://drive.google.com/file/d/1rRmxiiQKzfyqcnI0HY5mNvaIchimlaxb/view?usp=drive_link"
               target="_blank"
             >
 
