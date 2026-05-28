@@ -177,7 +177,7 @@ export default function Home() {
       {/* ABOUT */}
       <section
         id="about"
-        className="max-w-7xl mx-auto min-h-screen flex flex-col lg:flex-row items-center justify-between gap-20 pt-40 pb-24 px-4 md:px-6"
+        className="max-w-7xl mx-auto min-h-screen flex flex-col lg:flex-row items-center justify-between gap-20 pt-16 md:pt-24 pb-24 px-4 md:px-6"
       >
 
         {/* TEXT */}
