@@ -1,180 +1,106 @@
-import {
-  Folder,
-  FileText,
-  Search,
-  GitBranch,
-} from "lucide-react";
-
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#f6f8fa]">
+    <main className="min-h-screen bg-[#f3f3f3] px-10 py-8">
 
-      {/* TOP NAVBAR */}
-      <div className="border-b bg-white px-6 py-4 flex items-center gap-8 text-gray-700 font-semibold">
-        <p className="text-black cursor-pointer">Code</p>
-        <p className="cursor-pointer">Issues</p>
-        <p className="cursor-pointer">Pull requests</p>
-        <p className="cursor-pointer">Actions</p>
-        <p className="cursor-pointer">Projects</p>
-        <p className="cursor-pointer">Security</p>
-        <p className="cursor-pointer">Insights</p>
-      </div>
+      {/* NAVBAR */}
+      <nav className="max-w-5xl mx-auto bg-[#2d2d2d] rounded-full px-8 py-4 flex items-center justify-between shadow-lg">
 
-      {/* MAIN */}
-      <div className="flex">
+        {/* LOGO */}
+        <h1 className="text-white text-3xl font-bold">
+          John Smith
+        </h1>
 
-        {/* SIDEBAR */}
-        <div className="w-[300px] min-h-screen border-r bg-white">
+        {/* MENU */}
+        <ul className="hidden md:flex items-center gap-10 text-white font-medium">
+          <li className="cursor-pointer hover:text-blue-400 transition">
+            About
+          </li>
 
-          {/* FILES HEADER */}
-          <div className="p-4 border-b">
-            <h1 className="text-2xl font-bold">Files</h1>
-          </div>
+          <li className="cursor-pointer hover:text-blue-400 transition">
+            Experience
+          </li>
 
-          {/* BRANCH */}
-          <div className="p-4">
-            <button className="w-full border rounded-md px-4 py-2 flex items-center gap-2 hover:bg-gray-100">
-              <GitBranch size={16} />
-              main
-            </button>
-          </div>
+          <li className="cursor-pointer hover:text-blue-400 transition">
+            Projects
+          </li>
 
-          {/* SEARCH */}
-          <div className="px-4">
-            <div className="border rounded-md flex items-center px-3 py-2">
-              <Search size={18} className="text-gray-500" />
+          <li className="cursor-pointer hover:text-blue-400 transition">
+            Contact
+          </li>
+        </ul>
 
-              <input
-                type="text"
-                placeholder="Go to file"
-                className="ml-2 outline-none w-full bg-transparent"
-              />
-            </div>
-          </div>
+        {/* BUTTON */}
+        <button className="bg-gradient-to-r from-blue-500 to-pink-500 text-white px-6 py-3 rounded-full font-semibold hover:scale-105 transition">
+          Visit Github
+        </button>
+      </nav>
 
-          {/* FILE LIST */}
-          <div className="mt-4">
+      {/* HERO SECTION */}
+      <section className="max-w-6xl mx-auto grid md:grid-cols-2 items-center gap-20 mt-24">
 
-            <div className="flex items-center gap-3 px-4 py-3 bg-gray-100">
-              <Folder size={20} className="text-blue-500" />
-              <p className="font-medium">app</p>
-            </div>
+        {/* IMAGE */}
+        <div className="flex justify-center">
 
-            <div className="flex items-center gap-3 px-4 py-3 hover:bg-gray-100 cursor-pointer">
-              <FileText size={18} />
-              <p>globals.css</p>
-            </div>
-
-            <div className="flex items-center gap-3 px-4 py-3 hover:bg-gray-100 cursor-pointer">
-              <FileText size={18} />
-              <p>layout.js</p>
-            </div>
-
-            <div className="flex items-center gap-3 px-4 py-3 hover:bg-gray-100 cursor-pointer">
-              <FileText size={18} />
-              <p>page.js</p>
-            </div>
-
-            <div className="flex items-center gap-3 px-4 py-3 hover:bg-gray-100 cursor-pointer">
-              <FileText size={18} />
-              <p>package.json</p>
-            </div>
-
-          </div>
-        </div>
-
-        {/* RIGHT CONTENT */}
-        <div className="flex-1 p-6">
-
-          {/* PATH */}
-          <div className="flex items-center gap-2 text-3xl font-semibold">
-            <p className="text-blue-600">portfolio</p>
-            <span>/</span>
-            <p>app</p>
-            <span>/</span>
-          </div>
-
-          {/* COMMIT BOX */}
-          <div className="bg-white border rounded-lg p-4 mt-6 flex items-center gap-3">
+          <div className="w-[500px] h-[500px] rounded-full overflow-hidden shadow-2xl">
 
             <img
-              src="https://i.pravatar.cc/40"
+              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop"
               alt="profile"
-              className="w-10 h-10 rounded-full"
+              className="w-full h-full object-cover"
             />
-
-            <div>
-              <p className="font-semibold">
-                lintangntyas
-                <span className="text-gray-500 font-normal ml-2">
-                  Update page.js
-                </span>
-              </p>
-            </div>
-          </div>
-
-          {/* FILE TABLE */}
-          <div className="bg-white border rounded-lg mt-6 overflow-hidden">
-
-            {/* TABLE HEADER */}
-            <div className="grid grid-cols-2 bg-gray-50 px-6 py-4 border-b font-semibold">
-              <p>Name</p>
-              <p>Last commit message</p>
-            </div>
-
-            {/* ROW */}
-            <div className="grid grid-cols-2 px-6 py-4 border-b hover:bg-gray-50">
-
-              <div className="flex items-center gap-3">
-                <Folder className="text-blue-500" />
-                <p>..</p>
-              </div>
-
-              <p></p>
-            </div>
-
-            {/* ROW */}
-            <div className="grid grid-cols-2 px-6 py-4 border-b hover:bg-gray-50">
-
-              <div className="flex items-center gap-3">
-                <FileText />
-                <p>globals.css</p>
-              </div>
-
-              <p className="text-gray-600">
-                Update globals.css
-              </p>
-            </div>
-
-            {/* ROW */}
-            <div className="grid grid-cols-2 px-6 py-4 border-b hover:bg-gray-50">
-
-              <div className="flex items-center gap-3">
-                <FileText />
-                <p>layout.js</p>
-              </div>
-
-              <p className="text-gray-600">
-                Update layout.js
-              </p>
-            </div>
-
-            {/* ROW */}
-            <div className="grid grid-cols-2 px-6 py-4 hover:bg-gray-50">
-
-              <div className="flex items-center gap-3">
-                <FileText />
-                <p>page.js</p>
-              </div>
-
-              <p className="text-gray-600">
-                Update page.js
-              </p>
-            </div>
 
           </div>
         </div>
-      </div>
-    </div>
+
+        {/* TEXT */}
+        <div>
+
+          <p className="text-5xl text-gray-700 mb-4">
+            Hello, Myself
+          </p>
+
+          <h1 className="text-8xl font-bold text-black leading-tight">
+            John Smith
+          </h1>
+
+          <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent mt-4">
+            Full Stack Dev
+          </h2>
+
+          {/* BUTTONS */}
+          <div className="flex gap-6 mt-10">
+
+            <button className="border-2 border-black px-8 py-3 rounded-full text-xl hover:bg-black hover:text-white transition">
+              Download CV
+            </button>
+
+            <button className="border-2 border-black px-8 py-3 rounded-full text-xl hover:bg-black hover:text-white transition">
+              Contact
+            </button>
+
+          </div>
+
+          {/* SOCIAL */}
+          <div className="flex gap-8 mt-12">
+
+            <a
+              href="#"
+              className="text-6xl hover:scale-110 transition"
+            >
+              💼
+            </a>
+
+            <a
+              href="#"
+              className="text-6xl hover:scale-110 transition"
+            >
+              🐱
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+    </main>
   );
 }
