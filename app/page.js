@@ -152,7 +152,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-8">
 
             <a
-              href="https://drive.google.com/file/d/1rRmxiiQKzfyqcnI0HY5mNvaIchimlaxb/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1yDxtNUwH4OJrMQxE0cy7naBDWw-gRXiz/view?usp=sharing"
               target="_blank"
             >
 
