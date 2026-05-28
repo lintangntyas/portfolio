@@ -32,12 +32,7 @@ export default function Home() {
 
           {/* LOGO */}
           <button
-            onClick={() =>
-              window.scrollTo({
-                top: 0,
-                behavior: "smooth",
-              })
-            }
+            onClick={() => scrollToSection("top")}
             className="text-white text-lg md:text-2xl font-bold text-center hover:text-pink-400 transition duration-300"
           >
             Lintang Cahyaningtyas
