@@ -227,26 +227,26 @@ export default function Home() {
             </p>
 
             {/* COMPANY LOGO */}
-            <div className="flex items-center gap-10 pt-1 mt-2">
-
+            <div className="flex items-center gap-8 mt-6 flex-wrap">
+            
               <img
                 src="/bps.svg"
                 alt="BPS"
-                className="h-10 object-contain hover:scale-110 transition duration-300"
+                className="h-10 w-auto object-contain hover:scale-110 transition duration-300"
               />
-              
+            
               <img
                 src="/bankaltimtara.png"
                 alt="Bankaltimtara"
-                className="h-10 object-contain hover:scale-110 transition duration-300"
+                className="h-10 w-auto object-contain hover:scale-110 transition duration-300"
               />
-              
+            
               <img
-                src="/ip.webp"
+                src="/ip.png"
                 alt="PLN Indonesia Power"
-                className="h-10 object-contain hover:scale-110 transition duration-300"
+                className="h-10 w-auto object-contain hover:scale-110 transition duration-300"
               />
-
+            
             </div>
 
           </div>
