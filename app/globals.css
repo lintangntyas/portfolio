@@ -27,3 +27,39 @@ body {
     border-color: transparent;
   }
 }
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f8fafc;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    to bottom,
+    #ec4899,
+    #a855f7,
+    #3b82f6
+  );
+  border-radius: 999px;
+  border: 2px solid #f8fafc;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    to bottom,
+    #db2777,
+    #9333ea,
+    #2563eb
+  );
+}
+
+/* FIREFOX */
+html {
+  scrollbar-color: #a855f7 #f8fafc;
+  scroll-behavior: smooth;
+}
