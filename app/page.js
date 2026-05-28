@@ -18,7 +18,7 @@ export default function Home() {
         {/* LOGO */}
         <a
           href="#top"
-          className="text-white text-lg md:text-2xl font-bold text-center"
+          className="text-white text-lg md:text-2xl font-bold text-center hover:text-pink-400 transition duration-300"
         >
           Lintang Cahyaningtyas
         </a>
@@ -74,7 +74,7 @@ export default function Home() {
           <img
             src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png"
             alt="linkedin"
-            className="w-4 h-4 brightness-0 invert"
+            className="w-4 h-4"
           />
 
           LinkedIn
