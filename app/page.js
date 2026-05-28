@@ -30,7 +30,7 @@ export default function Home() {
 
             <li>
               <a
-                href="about"
+                href="#about"
                 className="hover:text-pink-400 transition"
               >
                 About
@@ -225,7 +225,7 @@ export default function Home() {
               />
 
               <img
-                src="/ip.webp"
+                src="/ip.png"
                 alt="PLN Indonesia Power"
                 className="h-12 md:h-14 object-contain hover:scale-110 transition duration-300"
               />
