@@ -20,22 +20,42 @@ export default function Home() {
         {/* MENU */}
         <ul className="flex flex-wrap justify-center gap-4 md:gap-12 text-white font-medium text-sm md:text-lg">
 
-          <li className="cursor-pointer hover:text-pink-400 transition">
-            About
+          <li>
+            <a
+              href="#about"
+              className="cursor-pointer hover:text-pink-400 transition"
+            >
+              About
+            </a>
           </li>
-
-          <li className="cursor-pointer hover:text-blue-400 transition">
-            Experience
+        
+          <li>
+            <a
+              href="#experience"
+              className="cursor-pointer hover:text-blue-400 transition"
+            >
+              Experience
+            </a>
           </li>
-
-          <li className="cursor-pointer hover:text-purple-400 transition">
-            Projects
+        
+          <li>
+            <a
+              href="#projects"
+              className="cursor-pointer hover:text-purple-400 transition"
+            >
+              Projects
+            </a>
           </li>
-
-          <li className="cursor-pointer hover:text-pink-400 transition">
-            Contact
+        
+          <li>
+            <a
+              href="#contact"
+              className="cursor-pointer hover:text-pink-400 transition"
+            >
+              Contact
+            </a>
           </li>
-
+        
         </ul>
 
         {/* LINKEDIN BUTTON */}
