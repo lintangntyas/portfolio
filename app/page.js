@@ -416,6 +416,171 @@ export default function Home() {
         </div>
       </section>
 
+      {/* PROJECTS */}
+      <section
+        id="projects"
+        className="min-h-screen px-6 md:px-16 py-24"
+      >
+        <h1 className="text-5xl md:text-7xl font-bold text-center mb-20">
+          Projects
+        </h1>
+      
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      
+          {/* PROJECT 1 */}
+          <div className="bg-white/70 backdrop-blur-lg border border-black/10 rounded-[40px] p-8 shadow-xl hover:-translate-y-2 transition duration-300">
+            
+            <img
+              src="/project1.png"
+              alt="Project 1"
+              className="w-full h-[240px] object-cover rounded-3xl mb-8"
+            />
+      
+            <h2 className="text-2xl font-bold text-pink-500 mb-2">
+              Commodity Tabulation Automation
+            </h2>
+      
+            <p className="text-sm text-gray-500 mb-5">
+              Dec 2025 - Jan 2026
+            </p>
+      
+            <p className="text-gray-700 leading-relaxed text-justify">
+              Developed a Python (Flask)-based automation website to display
+              commodity and inflation data for East Kalimantan Province in a
+              structured and real-time format. Integrated Excel data processing,
+              automatic uploads/downloads using OpenPyXL, report formatting,
+              and dynamic data visualization features.
+            </p>
+          </div>
+      
+          {/* PROJECT 2 */}
+          <div className="bg-white/70 backdrop-blur-lg border border-black/10 rounded-[40px] p-8 shadow-xl hover:-translate-y-2 transition duration-300">
+            
+            <img
+              src="/project2.png"
+              alt="Project 2"
+              className="w-full h-[240px] object-cover rounded-3xl mb-8"
+            />
+      
+            <h2 className="text-2xl font-bold text-blue-500 mb-2">
+              Statistical News Automation Website
+            </h2>
+      
+            <p className="text-sm text-gray-500 mb-5">
+              Jan 2026 - May 2026
+            </p>
+      
+            <p className="text-gray-700 leading-relaxed text-justify">
+              Built a Flask-based automation system for Official Statistics News
+              (BRS) publication covering Inflation, Tourism, NTP, and Transportation.
+              Developed interactive DataTables, automated statistical calculations,
+              reporting layouts, debugging systems, and publication-ready dashboards.
+            </p>
+          </div>
+      
+          {/* PROJECT 3 */}
+          <div className="bg-white/70 backdrop-blur-lg border border-black/10 rounded-[40px] p-8 shadow-xl hover:-translate-y-2 transition duration-300">
+            
+            <img
+              src="/project3.png"
+              alt="Project 3"
+              className="w-full h-[240px] object-cover rounded-3xl mb-8"
+            />
+      
+            <h2 className="text-2xl font-bold text-purple-500 mb-2">
+              IndoBERT & LDA Sentiment Analysis
+            </h2>
+      
+            <p className="text-sm text-gray-500 mb-5">
+              Dec 2024 - May 2025
+            </p>
+      
+            <p className="text-gray-700 leading-relaxed text-justify">
+              Conducted sentiment analysis on Sunscreen product reviews using
+              IndoBERT and Latent Dirichlet Allocation (LDA). Performed
+              preprocessing, labeling, topic modeling, and performance evaluation
+              to identify customer perceptions and review themes.
+            </p>
+          </div>
+      
+          {/* PROJECT 4 */}
+          <div className="bg-white/70 backdrop-blur-lg border border-black/10 rounded-[40px] p-8 shadow-xl hover:-translate-y-2 transition duration-300">
+            
+            <img
+              src="/project4.png"
+              alt="Project 4"
+              className="w-full h-[240px] object-cover rounded-3xl mb-8"
+            />
+      
+            <h2 className="text-2xl font-bold text-pink-500 mb-2">
+              Gold Price Forecasting Using ARIMA
+            </h2>
+      
+            <p className="text-sm text-gray-500 mb-5">
+              Dec 2023 - Jan 2024
+            </p>
+      
+            <p className="text-gray-700 leading-relaxed text-justify">
+              Developed forecasting models using ARIMA, SARIMA, and Hybrid
+              Decomposition ARIMA methods to predict 20-karat gold prices.
+              Compared model performance using RMSE and MAPE metrics to determine
+              the most accurate forecasting model.
+            </p>
+          </div>
+      
+          {/* PROJECT 5 */}
+          <div className="bg-white/70 backdrop-blur-lg border border-black/10 rounded-[40px] p-8 shadow-xl hover:-translate-y-2 transition duration-300">
+            
+            <img
+              src="/project5.png"
+              alt="Project 5"
+              className="w-full h-[240px] object-cover rounded-3xl mb-8"
+            />
+      
+            <h2 className="text-2xl font-bold text-blue-500 mb-2">
+              Crime Clustering Using K-Means
+            </h2>
+      
+            <p className="text-sm text-gray-500 mb-5">
+              Dec 2023 - Jan 2024
+            </p>
+      
+            <p className="text-gray-700 leading-relaxed text-justify">
+              Analyzed village-level crime data in Indonesia using the K-Means
+              Clustering method. Determined the optimal number of clusters,
+              interpreted clustering results, and developed visualizations
+              to support data-driven decision making.
+            </p>
+          </div>
+      
+          {/* PROJECT 6 */}
+          <div className="bg-white/70 backdrop-blur-lg border border-black/10 rounded-[40px] p-8 shadow-xl hover:-translate-y-2 transition duration-300">
+            
+            <img
+              src="/project6.png"
+              alt="Project 6"
+              className="w-full h-[240px] object-cover rounded-3xl mb-8"
+            />
+      
+            <h2 className="text-2xl font-bold text-purple-500 mb-2">
+              Simple Mobile Application
+            </h2>
+      
+            <p className="text-sm text-gray-500 mb-5">
+              Jan 2021 - Apr 2021
+            </p>
+      
+            <p className="text-gray-700 leading-relaxed text-justify">
+              Designed and developed a simple Android application using Android Studio.
+              Created user-friendly UI/UX interfaces, implemented student data input,
+              payment recording, notification systems, and performed functionality testing
+              to ensure stable application performance.
+            </p>
+          </div>
+      
+        </div>
+      </section>
+
     </main>
   );
 }
