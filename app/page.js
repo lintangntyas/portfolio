@@ -99,16 +99,16 @@ export default function Home() {
           </div>
 
           {/* BUTTONS */}
-          <div className="flex flex-col md:flex-row items-center md:items-start gap-5 mt-10">
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-8">
 
-            <button className="border-4 border-black px-8 md:px-10 py-3 md:py-4 rounded-full text-lg md:text-2xl font-medium hover:bg-black hover:text-white transition duration-300">
+            <button className="border-2 border-black px-6 py-2 rounded-full text-sm md:text-lg font-medium hover:bg-black hover:text-white transition duration-300">
               Download CV
             </button>
-
-            <button className="bg-black text-white px-8 md:px-10 py-3 md:py-4 rounded-full text-lg md:text-2xl font-medium hover:scale-105 transition duration-300">
+          
+            <button className="bg-black text-white px-6 py-2 rounded-full text-sm md:text-lg font-medium hover:scale-105 transition duration-300">
               Contact
             </button>
-
+          
           </div>
 
         </div>
