@@ -647,6 +647,79 @@ export default function Home() {
         </div>
       </section>
 
+      {/* CONTACT */}
+      <section
+        id="contact"
+        className="min-h-screen flex flex-col items-center justify-center px-6 md:px-16 py-24"
+      >
+        <h1 className="text-5xl md:text-7xl font-bold mb-20 text-center">
+          Contact Me
+        </h1>
+      
+        {/* CONTACT BOX */}
+        <div className="w-full max-w-5xl">
+      
+          <div className="bg-white/70 backdrop-blur-lg border-2 border-black rounded-[40px] px-8 md:px-12 py-8 shadow-xl flex items-center gap-6">
+      
+            {/* ICON */}
+            <div className="text-5xl">
+              📧
+            </div>
+      
+            {/* EMAIL */}
+            <input
+              type="email"
+              placeholder="lintangntys@gmail.com"
+              className="w-full bg-transparent outline-none text-2xl md:text-5xl text-gray-500 placeholder:text-gray-400"
+            />
+          </div>
+      
+          {/* BUTTON */}
+          <div className="flex justify-center mt-10">
+            <button className="border-2 border-black px-10 py-3 rounded-full text-xl font-medium hover:bg-black hover:text-white transition duration-300">
+              Submit
+            </button>
+          </div>
+        </div>
+      
+        {/* FOOTER MENU */}
+        <div className="flex gap-10 mt-28 text-xl font-semibold">
+      
+          <a
+            href="/about"
+            className="hover:text-pink-500 transition duration-300"
+          >
+            About
+          </a>
+      
+          <a
+            href="/experience"
+            className="hover:text-blue-500 transition duration-300"
+          >
+            Experience
+          </a>
+      
+          <a
+            href="/projects"
+            className="hover:text-purple-500 transition duration-300"
+          >
+            Projects
+          </a>
+      
+          <a
+            href="/contact"
+            className="hover:text-pink-500 transition duration-300"
+          >
+            Contact
+          </a>
+        </div>
+      
+        {/* COPYRIGHT */}
+        <p className="mt-10 text-lg text-gray-700">
+          © All Rights Reserved | Lintang Cahyaningtyas
+        </p>
+      </section>
+
     </main>
   );
 }
