@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main
       id="top"
-      className="min-h-screen relative overflow-hidden bg-gradient-to-br from-[#fdf2f8] via-[#f8fafc] to-[#dbeafe] px-5 md:px-10 py-6 md:py-8"
+      className="min-h-screen relative overflow-hidden pt-2 bg-gradient-to-br from-[#fdf2f8] via-[#f8fafc] to-[#dbeafe] px-5 md:px-10 py-6 md:py-8"
     >
 
       {/* BACKGROUND */}
@@ -13,7 +13,7 @@ export default function Home() {
       <div className="absolute top-[40%] left-[45%] w-[250px] h-[250px] bg-purple-200 rounded-full blur-[100px] opacity-30"></div>
 
       {/* NAVBAR */}
-      <nav className="sticky top-4 max-w-6xl mx-auto bg-black/80 backdrop-blur-xl border border-white/10 rounded-3xl md:rounded-full px-5 md:px-10 py-4 flex flex-col md:flex-row items-center gap-4 md:gap-0 justify-between shadow-2xl z-50">
+      <nav className="sticky top-4 z-[9999] max-w-6xl mx-auto bg-black/80 backdrop-blur-xl border border-white/10 rounded-3xl md:rounded-full px-5 md:px-10 py-4 flex flex-col md:flex-row items-center gap-4 md:gap-0 justify-between shadow-2xl">
 
         {/* LOGO */}
         <a
