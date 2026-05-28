@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <main
-      className="min-h-screen relative pt-2 bg-gradient-to-br from-[#fdf2f8] via-[#f8fafc] to-[#dbeafe] px-5 md:px-10 py-6 md:py-8"
+      className="min-h-screen relative pt-2 bg-gradient-to-br from-[#fdf2f8] via-[#f8fafc] to-[#dbeafe] px-5 md:px-10 py-6 md:py-8 overflow-hidden"
     >
 
       {/* BACKGROUND */}
@@ -177,17 +177,17 @@ export default function Home() {
       {/* ABOUT */}
       <section
         id="about"
-        className="max-w-7xl mx-auto min-h-screen flex flex-col lg:flex-row items-center justify-between gap-16 pt-40 pb-24 px-4 md:px-6"
+        className="max-w-7xl mx-auto min-h-screen flex flex-col lg:flex-row items-center justify-between gap-20 pt-40 pb-24 px-4 md:px-6"
       >
 
         {/* TEXT */}
-        <div className="flex-1">
+        <div className="flex-1 lg:pr-10">
 
           <h1 className="text-4xl md:text-6xl font-bold text-black mb-12">
             About Me
           </h1>
 
-          <div className="space-y-8 text-gray-800 leading-relaxed text-lg md:text-2xl">
+          <div className="space-y-8 text-gray-800 leading-relaxed text-lg md:text-[22px]">
 
             <p>
               Hello, my name is{" "}
@@ -227,26 +227,26 @@ export default function Home() {
             </p>
 
             {/* COMPANY LOGO */}
-            <div className="flex items-center gap-8 mt-6 flex-wrap">
-            
+            <div className="flex items-center gap-8 pt-2 flex-wrap">
+
               <img
                 src="/bps.svg"
                 alt="BPS"
-                className="h-10 w-auto object-contain hover:scale-110 transition duration-300"
+                className="h-12 w-auto object-contain hover:scale-110 transition duration-300"
               />
-            
+
               <img
                 src="/bankaltimtara.png"
                 alt="Bankaltimtara"
-                className="h-10 w-auto object-contain hover:scale-110 transition duration-300"
+                className="h-12 w-auto object-contain hover:scale-110 transition duration-300"
               />
-            
+
               <img
                 src="/ip.png"
                 alt="PLN Indonesia Power"
-                className="h-10 w-auto object-contain hover:scale-110 transition duration-300"
+                className="h-12 w-auto object-contain hover:scale-110 transition duration-300"
               />
-            
+
             </div>
 
           </div>
@@ -265,7 +265,7 @@ export default function Home() {
               <img
                 src="/about.png"
                 alt="About Lintang"
-                className="w-[320px] md:w-[470px] object-cover"
+                className="w-[320px] md:w-[500px] object-cover"
               />
 
             </div>
