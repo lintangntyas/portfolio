@@ -451,6 +451,17 @@ export default function Home() {
               automatic uploads/downloads using OpenPyXL, report formatting,
               and dynamic data visualization features.
             </p>
+      
+            <div className="mt-8">
+              <a
+                href="https://your-demo-link.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block border-2 border-black px-6 py-3 rounded-full font-medium hover:bg-black hover:text-white transition duration-300"
+              >
+                Live Demo
+              </a>
+            </div>
           </div>
       
           {/* PROJECT 2 */}
@@ -476,6 +487,17 @@ export default function Home() {
               Developed interactive DataTables, automated statistical calculations,
               reporting layouts, debugging systems, and publication-ready dashboards.
             </p>
+      
+            <div className="mt-8">
+              <a
+                href="https://your-demo-link.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block border-2 border-black px-6 py-3 rounded-full font-medium hover:bg-black hover:text-white transition duration-300"
+              >
+                Live Demo
+              </a>
+            </div>
           </div>
       
           {/* PROJECT 3 */}
@@ -501,6 +523,17 @@ export default function Home() {
               preprocessing, labeling, topic modeling, and performance evaluation
               to identify customer perceptions and review themes.
             </p>
+      
+            <div className="mt-8">
+              <a
+                href="https://your-demo-link.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block border-2 border-black px-6 py-3 rounded-full font-medium hover:bg-black hover:text-white transition duration-300"
+              >
+                Live Demo
+              </a>
+            </div>
           </div>
       
           {/* PROJECT 4 */}
@@ -526,6 +559,17 @@ export default function Home() {
               Compared model performance using RMSE and MAPE metrics to determine
               the most accurate forecasting model.
             </p>
+      
+            <div className="mt-8">
+              <a
+                href="https://your-demo-link.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block border-2 border-black px-6 py-3 rounded-full font-medium hover:bg-black hover:text-white transition duration-300"
+              >
+                Live Demo
+              </a>
+            </div>
           </div>
       
           {/* PROJECT 5 */}
@@ -551,6 +595,17 @@ export default function Home() {
               interpreted clustering results, and developed visualizations
               to support data-driven decision making.
             </p>
+      
+            <div className="mt-8">
+              <a
+                href="https://your-demo-link.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block border-2 border-black px-6 py-3 rounded-full font-medium hover:bg-black hover:text-white transition duration-300"
+              >
+                Live Demo
+              </a>
+            </div>
           </div>
       
           {/* PROJECT 6 */}
@@ -576,6 +631,17 @@ export default function Home() {
               payment recording, notification systems, and performed functionality testing
               to ensure stable application performance.
             </p>
+      
+            <div className="mt-8">
+              <a
+                href="https://your-demo-link.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block border-2 border-black px-6 py-3 rounded-full font-medium hover:bg-black hover:text-white transition duration-300"
+              >
+                Live Demo
+              </a>
+            </div>
           </div>
       
         </div>
