@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main
       id="top"
-      className="min-h-screen relative overflow-hidden pt-2 bg-gradient-to-br from-[#fdf2f8] via-[#f8fafc] to-[#dbeafe] px-5 md:px-10 py-6 md:py-8"
+      className="min-h-screen relative pt-2 bg-gradient-to-br from-[#fdf2f8] via-[#f8fafc] to-[#dbeafe] px-5 md:px-10 py-6 md:py-8"
     >
 
       {/* BACKGROUND */}
@@ -13,79 +13,83 @@ export default function Home() {
       <div className="absolute top-[40%] left-[45%] w-[250px] h-[250px] bg-purple-200 rounded-full blur-[100px] opacity-30"></div>
 
       {/* NAVBAR */}
-      <nav className="sticky top-4 z-[9999] max-w-6xl mx-auto bg-black/80 backdrop-blur-xl border border-white/10 rounded-3xl md:rounded-full px-5 md:px-10 py-4 flex flex-col md:flex-row items-center gap-4 md:gap-0 justify-between shadow-2xl">
+      <div className="fixed top-4 left-0 right-0 z-[9999] px-5 md:px-10">
 
-        {/* LOGO */}
-        <a
-          href="#top"
-          className="text-white text-lg md:text-2xl font-bold text-center hover:text-pink-400 transition duration-300"
-        >
-          Lintang Cahyaningtyas
-        </a>
+        <nav className="max-w-6xl mx-auto bg-black/80 backdrop-blur-xl border border-white/10 rounded-3xl md:rounded-full px-5 md:px-10 py-4 flex flex-col md:flex-row items-center gap-4 md:gap-0 justify-between shadow-2xl">
 
-        {/* MENU */}
-        <ul className="flex flex-wrap justify-center gap-4 md:gap-12 text-white font-medium text-sm md:text-lg">
+          {/* LOGO */}
+          <a
+            href="#top"
+            className="text-white text-lg md:text-2xl font-bold text-center hover:text-pink-400 transition duration-300"
+          >
+            Lintang Cahyaningtyas
+          </a>
 
-          <li>
-            <a
-              href="#about"
-              className="hover:text-pink-400 transition"
-            >
-              About
-            </a>
-          </li>
+          {/* MENU */}
+          <ul className="flex flex-wrap justify-center gap-4 md:gap-12 text-white font-medium text-sm md:text-lg">
 
-          <li>
-            <a
-              href="#experience"
-              className="hover:text-blue-400 transition"
-            >
-              Experience
-            </a>
-          </li>
+            <li>
+              <a
+                href="#about"
+                className="hover:text-pink-400 transition"
+              >
+                About
+              </a>
+            </li>
 
-          <li>
-            <a
-              href="#projects"
-              className="hover:text-purple-400 transition"
-            >
-              Projects
-            </a>
-          </li>
+            <li>
+              <a
+                href="#experience"
+                className="hover:text-blue-400 transition"
+              >
+                Experience
+              </a>
+            </li>
 
-          <li>
-            <a
-              href="#contact"
-              className="hover:text-pink-400 transition"
-            >
-              Contact
-            </a>
-          </li>
+            <li>
+              <a
+                href="#projects"
+                className="hover:text-purple-400 transition"
+              >
+                Projects
+              </a>
+            </li>
 
-        </ul>
+            <li>
+              <a
+                href="#contact"
+                className="hover:text-pink-400 transition"
+              >
+                Contact
+              </a>
+            </li>
 
-        {/* LINKEDIN */}
-        <a
-          href="https://www.linkedin.com/in/lintangntyas/"
-          target="_blank"
-          className="bg-gradient-to-r from-blue-500 to-pink-500 text-white px-4 md:px-5 py-2 rounded-full font-semibold hover:scale-105 transition duration-300 shadow-lg flex items-center gap-2 text-sm"
-        >
+          </ul>
 
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png"
-            alt="linkedin"
-            className="w-4 h-4"
-          />
+          {/* LINKEDIN */}
+          <a
+            href="https://www.linkedin.com/in/lintangntyas/"
+            target="_blank"
+            className="bg-gradient-to-r from-blue-500 to-pink-500 text-white px-4 md:px-5 py-2 rounded-full font-semibold hover:scale-105 transition duration-300 shadow-lg flex items-center gap-2 text-sm"
+          >
 
-          LinkedIn
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png"
+              alt="linkedin"
+              className="w-4 h-4"
+            />
 
-        </a>
-      </nav>
+            LinkedIn
+
+          </a>
+
+        </nav>
+      </div>
 
       {/* HERO */}
       <section
         id="about"
-        className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-14 md:gap-24 mt-16 md:mt-24 relative z-10"
+        className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-14 md:gap-24 pt-40 md:pt-48 relative z-10"
       >
 
         {/* IMAGE */}
@@ -265,6 +269,7 @@ export default function Home() {
         </div>
 
       </section>
+
     </main>
   );
 }
