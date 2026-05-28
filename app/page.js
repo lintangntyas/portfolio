@@ -196,11 +196,8 @@ export default function Home() {
                   Lintang Cahyaningtyas
                 </span>{" "}
                 and people usually call me{" "}
-                <span className="font-bold">Lintang</span>. I graduated from{" "}
-                <span className="font-bold">
-                  Universitas Islam Indonesia
-                </span>{" "}
-                with a degree in Statistics and graduated with cum laude distinction. 
+                <span className="font-bold">Lintang</span>. 
+                I graduated from Universitas Islam Indonesia with a degree in Statistics and graduated with cum laude distinction. 
                 I have a strong interest in data analysis, visualization, and basic machine learning. 
                 I possess skills in various data analysis techniques and tools such as {" "}
                 <span className="font-bold">
