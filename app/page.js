@@ -70,6 +70,24 @@ export default function Home() {
 
             <li>
               <button
+                onClick={() => scrollToSection("medium")}
+                className="hover:text-pink-400 transition"
+              >
+                Medium
+              </button>
+            </li>
+            
+            <li>
+              <button
+                onClick={() => scrollToSection("certificate")}
+                className="hover:text-yellow-400 transition"
+              >
+                Certificate
+              </button>
+            </li>
+
+            <li>
+              <button
                 onClick={() => scrollToSection("contact")}
                 className="hover:text-pink-400 transition"
               >
@@ -644,7 +662,7 @@ export default function Home() {
 
       {/* MEDIUM */}
       <section
-        id="contact"
+        id="medium"
         className="min-h-screen px-6 md:px-16 py-24 overflow-hidden"
       >
         <h1 className="text-5xl md:text-7xl font-bold text-center mb-20">
