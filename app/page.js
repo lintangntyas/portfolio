@@ -346,7 +346,7 @@ export default function Home() {
           >
       
             {/* TOP */}
-            <div className="flex items-start justify-between gap-4">
+            <div className="relative">
       
               <div className="flex-1">
       
@@ -446,7 +446,7 @@ export default function Home() {
             "
           >
       
-            <div className="flex items-start justify-between gap-4">
+            <div className="relative">
       
               <div className="flex-1">
       
@@ -467,7 +467,6 @@ export default function Home() {
                     text-[16px]
                     font-semibold
                     leading-[1.5]
-                    mt-4 
                     whitespace-nowrap
                   "
                 >
@@ -541,7 +540,7 @@ export default function Home() {
             "
           >
       
-            <div className="flex items-start justify-between gap-4">
+            <div className="relative">
       
               <div className="flex-1">
       
@@ -562,7 +561,6 @@ export default function Home() {
                     text-[16px]
                     font-semibold
                     leading-[1.5]
-                    mt-4 
                     whitespace-nowrap
                   "
                 >
@@ -636,7 +634,7 @@ export default function Home() {
             "
           >
       
-            <div className="flex items-start justify-between gap-4">
+            <div className="relative">
       
               <div className="flex-1">
       
