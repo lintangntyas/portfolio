@@ -278,155 +278,379 @@ export default function Home() {
       {/* EXPERIENCE */}
       <section
         id="experience"
-        className="min-h-screen px-6 md:px-16 py-24"
+        className="min-h-screen px-6 md:px-16 py-24 relative overflow-hidden"
       >
-        <h1 className="text-5xl md:text-7xl font-bold text-center mb-20">
-          Experience
-        </h1>
       
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
+        {/* BACKGROUND */}
+        <div className="absolute left-0 top-0 w-[300px] h-[300px] bg-pink-200 blur-[120px] opacity-30 rounded-full"></div>
       
-          {/* BPS */}
-          <div className="bg-white/70 backdrop-blur-lg border border-black/10 rounded-[40px] p-8 shadow-xl hover:-translate-y-2 transition duration-300">
-            
-            <div className="flex items-start justify-between mb-5">
-              <div>
-                <h2 className="text-2xl font-bold text-pink-500">
-                  Badan Pusat Statistik
-                </h2>
+        <div className="absolute right-0 bottom-0 w-[300px] h-[300px] bg-blue-200 blur-[120px] opacity-30 rounded-full"></div>
       
-                <p className="text-lg font-semibold text-gray-800 mt-1">
-                  Statistician Intern
-                </p>
+        {/* TITLE */}
+        <div className="text-center mb-20 relative z-10">
+      
+          <h1 className="text-5xl md:text-7xl font-bold text-slate-900">
+            Experience
+          </h1>
+      
+          <div className="w-20 h-1 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mx-auto mt-5"></div>
+      
+        </div>
+      
+        {/* GRID */}
+        <div
+          className="
+            grid
+            grid-cols-1
+            md:grid-cols-2
+            xl:grid-cols-4
+            gap-8
+            max-w-7xl
+            mx-auto
+            relative
+            z-10
+            items-stretch
+          "
+        >
+      
+          {/* CARD 1 */}
+          <div
+            className="
+              bg-white/70
+              backdrop-blur-xl
+              border
+              border-white/30
+              rounded-[35px]
+              p-8
+              shadow-xl
+              hover:-translate-y-2
+              transition
+              duration-300
+      
+              min-h-[470px]
+      
+              flex
+              flex-col
+              justify-between
+            "
+          >
+      
+            <div>
+      
+              <div className="flex items-start justify-between gap-4">
+      
+                <div>
+      
+                  <h2 className="
+                    text-[22px]
+                    font-bold
+                    text-pink-500
+                    leading-snug
+                    min-h-[70px]
+                  ">
+                    Badan Pusat Statistik
+                  </h2>
+      
+                  <p className="
+                    text-[18px]
+                    font-semibold
+                    text-gray-800
+                    mt-3
+                    min-h-[60px]
+                  ">
+                    Statistician Intern
+                  </p>
+      
+                </div>
+      
+                <span className="text-sm text-gray-500 text-right">
+                  Nov 2025 - May 2026
+                </span>
+      
               </div>
       
-              <span className="text-sm text-gray-500">
-                Nov 2025 - May 2026
-              </span>
+              <div className="w-14 h-[3px] bg-pink-500 rounded-full my-6"></div>
+      
+              <ul className="
+                space-y-4
+                text-gray-700
+                leading-relaxed
+                text-[16px]
+              ">
+      
+                <li>
+                  • Collected, cleaned, and analyzed statistical distribution indicator data.
+                </li>
+      
+                <li>
+                  • Developed web-based automation systems to improve work efficiency.
+                </li>
+      
+                <li>
+                  • Created statistical infographics to support publication activities.
+                </li>
+      
+                <li>
+                  • Managed administrative documents and company directory data.
+                </li>
+      
+              </ul>
+      
             </div>
       
-            <ul className="space-y-3 text-gray-700 leading-relaxed">
-              <li>
-                • Collected, cleaned, and analyzed statistical distribution indicator data.
-              </li>
-      
-              <li>
-                • Developed web-based automation systems to improve work efficiency.
-              </li>
-      
-              <li>
-                • Created statistical infographics to support publication activities.
-              </li>
-      
-              <li>
-                • Managed administrative documents and company directory data.
-              </li>
-            </ul>
           </div>
       
-          {/* PLN */}
-          <div className="bg-white/70 backdrop-blur-lg border border-black/10 rounded-[40px] p-8 shadow-xl hover:-translate-y-2 transition duration-300">
-            
-            <div className="flex items-start justify-between mb-5">
-              <div>
-                <h2 className="text-2xl font-bold text-blue-500">
-                  PLN Indonesia Power
-                </h2>
+          {/* CARD 2 */}
+          <div
+            className="
+              bg-white/70
+              backdrop-blur-xl
+              border
+              border-white/30
+              rounded-[35px]
+              p-8
+              shadow-xl
+              hover:-translate-y-2
+              transition
+              duration-300
       
-                <p className="text-lg font-semibold text-gray-800 mt-1">
-                  Reliability & System Owner Intern
-                </p>
+              min-h-[470px]
+      
+              flex
+              flex-col
+              justify-between
+            "
+          >
+      
+            <div>
+      
+              <div className="flex items-start justify-between gap-4">
+      
+                <div>
+      
+                  <h2 className="
+                    text-[22px]
+                    font-bold
+                    text-blue-500
+                    leading-snug
+                    min-h-[70px]
+                  ">
+                    PLN Indonesia Power
+                  </h2>
+      
+                  <p className="
+                    text-[18px]
+                    font-semibold
+                    text-gray-800
+                    mt-3
+                    min-h-[60px]
+                  ">
+                    Reliability & System Owner Intern
+                  </p>
+      
+                </div>
+      
+                <span className="text-sm text-gray-500 text-right">
+                  Feb 2024
+                </span>
+      
               </div>
       
-              <span className="text-sm text-gray-500">
-                Feb 2024
-              </span>
+              <div className="w-14 h-[3px] bg-blue-500 rounded-full my-6"></div>
+      
+              <ul className="
+                space-y-4
+                text-gray-700
+                leading-relaxed
+                text-[16px]
+              ">
+      
+                <li>
+                  • Analyzed Unit 7 disturbance and pulverizer maintenance data using Excel and R.
+                </li>
+      
+                <li>
+                  • Prepared evaluation reports for system reliability improvement.
+                </li>
+      
+                <li>
+                  • Participated in occupational health and safety socialization programs.
+                </li>
+      
+              </ul>
+      
             </div>
       
-            <ul className="space-y-3 text-gray-700 leading-relaxed">
-              <li>
-                • Analyzed Unit 7 disturbance and pulverizer maintenance data using Excel and R.
-              </li>
-      
-              <li>
-                • Prepared evaluation reports for system reliability improvement.
-              </li>
-      
-              <li>
-                • Participated in occupational health and safety socialization programs.
-              </li>
-            </ul>
           </div>
       
-          {/* INVISIO */}
-          <div className="bg-white/70 backdrop-blur-lg border border-black/10 rounded-[40px] p-8 shadow-xl hover:-translate-y-2 transition duration-300">
-            
-            <div className="flex items-start justify-between mb-5">
-              <div>
-                <h2 className="text-2xl font-bold text-purple-500">
-                  INVISIO
-                </h2>
+          {/* CARD 3 */}
+          <div
+            className="
+              bg-white/70
+              backdrop-blur-xl
+              border
+              border-white/30
+              rounded-[35px]
+              p-8
+              shadow-xl
+              hover:-translate-y-2
+              transition
+              duration-300
       
-                <p className="text-lg font-semibold text-gray-800 mt-1">
-                  Marketing & Content Writer
-                </p>
+              min-h-[470px]
+      
+              flex
+              flex-col
+              justify-between
+            "
+          >
+      
+            <div>
+      
+              <div className="flex items-start justify-between gap-4">
+      
+                <div>
+      
+                  <h2 className="
+                    text-[22px]
+                    font-bold
+                    text-purple-500
+                    leading-snug
+                    min-h-[70px]
+                  ">
+                    INVISIO
+                  </h2>
+      
+                  <p className="
+                    text-[18px]
+                    font-semibold
+                    text-gray-800
+                    mt-3
+                    min-h-[60px]
+                  ">
+                    Marketing & Content Writer
+                  </p>
+      
+                </div>
+      
+                <span className="text-sm text-gray-500 text-right">
+                  Mar 2023 - Apr 2025
+                </span>
+      
               </div>
       
-              <span className="text-sm text-gray-500">
-                Mar 2023 - Apr 2025
-              </span>
+              <div className="w-14 h-[3px] bg-purple-500 rounded-full my-6"></div>
+      
+              <ul className="
+                space-y-4
+                text-gray-700
+                leading-relaxed
+                text-[16px]
+              ">
+      
+                <li>
+                  • Developed content strategies and educational statistical materials.
+                </li>
+      
+                <li>
+                  • Collaborated with design teams to create engaging publications.
+                </li>
+      
+                <li>
+                  • Analyzed social media engagement performance monthly.
+                </li>
+      
+              </ul>
+      
             </div>
       
-            <ul className="space-y-3 text-gray-700 leading-relaxed">
-              <li>
-                • Developed content strategies and educational statistical materials.
-              </li>
-      
-              <li>
-                • Collaborated with design teams to create engaging publications.
-              </li>
-      
-              <li>
-                • Analyzed social media engagement performance monthly.
-              </li>
-            </ul>
           </div>
       
-          {/* BANKALTIMTARA */}
-          <div className="bg-white/70 backdrop-blur-lg border border-black/10 rounded-[40px] p-8 shadow-xl hover:-translate-y-2 transition duration-300">
-            
-            <div className="flex items-start justify-between mb-5">
-              <div>
-                <h2 className="text-2xl font-bold text-pink-500">
-                  Bankaltimtara
-                </h2>
+          {/* CARD 4 */}
+          <div
+            className="
+              bg-white/70
+              backdrop-blur-xl
+              border
+              border-white/30
+              rounded-[35px]
+              p-8
+              shadow-xl
+              hover:-translate-y-2
+              transition
+              duration-300
       
-                <p className="text-lg font-semibold text-gray-800 mt-1">
-                  IT & E-Banking Intern
-                </p>
+              min-h-[470px]
+      
+              flex
+              flex-col
+              justify-between
+            "
+          >
+      
+            <div>
+      
+              <div className="flex items-start justify-between gap-4">
+      
+                <div>
+      
+                  <h2 className="
+                    text-[22px]
+                    font-bold
+                    text-pink-500
+                    leading-snug
+                    min-h-[70px]
+                  ">
+                    Bankaltimtara
+                  </h2>
+      
+                  <p className="
+                    text-[18px]
+                    font-semibold
+                    text-gray-800
+                    mt-3
+                    min-h-[60px]
+                  ">
+                    IT & E-Banking Intern
+                  </p>
+      
+                </div>
+      
+                <span className="text-sm text-gray-500 text-right">
+                  Jul 2019 - Dec 2019
+                </span>
+      
               </div>
       
-              <span className="text-sm text-gray-500">
-                Jul 2019 - Dec 2019
-              </span>
+              <div className="w-14 h-[3px] bg-pink-500 rounded-full my-6"></div>
+      
+              <ul className="
+                space-y-4
+                text-gray-700
+                leading-relaxed
+                text-[16px]
+              ">
+      
+                <li>
+                  • Assisted customer service activities related to ATM services.
+                </li>
+      
+                <li>
+                  • Helped improve customer satisfaction through responsive problem handling.
+                </li>
+      
+                <li>
+                  • Supported ATM card destruction and banking administration processes.
+                </li>
+      
+              </ul>
+      
             </div>
       
-            <ul className="space-y-3 text-gray-700 leading-relaxed">
-              <li>
-                • Assisted customer service activities related to ATM services.
-              </li>
-      
-              <li>
-                • Helped improve customer satisfaction through responsive problem handling.
-              </li>
-      
-              <li>
-                • Supported ATM card destruction and banking administration processes.
-              </li>
-            </ul>
           </div>
       
         </div>
+      
       </section>
 
       {/* PROJECTS */}
@@ -692,8 +916,9 @@ export default function Home() {
             grid
             grid-cols-1
             md:grid-cols-2
+            xl:grid-cols-4
             gap-8
-            max-w-6xl
+            max-w-7xl
             mx-auto
             relative
             z-10
@@ -711,7 +936,7 @@ export default function Home() {
               border
               border-white/30
               rounded-[35px]
-              p-10
+              p-8
               shadow-xl
               hover:-translate-y-2
               transition
@@ -725,61 +950,74 @@ export default function Home() {
             "
           >
       
+            {/* TOP */}
             <div>
       
-              <div className="flex items-start gap-6">
+              <div className="flex items-start gap-5">
       
-                <div className="
-                  w-16
-                  h-16
-                  rounded-full
-                  bg-gradient-to-br
-                  from-pink-500
-                  to-pink-400
-                  text-white
-                  flex
-                  items-center
-                  justify-center
-                  text-4xl
-                  font-bold
-                  flex-shrink-0
-                ">
+                {/* ICON */}
+                <div
+                  className="
+                    w-14
+                    h-14
+                    rounded-full
+                    bg-gradient-to-br
+                    from-pink-500
+                    to-pink-400
+                    text-white
+                    flex
+                    items-center
+                    justify-center
+                    text-3xl
+                    font-bold
+                    flex-shrink-0
+                  "
+                >
                   M
                 </div>
       
+                {/* CONTENT */}
                 <div className="flex-1">
       
-                  <span className="
-                    inline-block
-                    px-4
-                    py-1
-                    rounded-full
-                    bg-pink-100
-                    text-pink-500
-                    text-sm
-                    font-semibold
-                    mb-4
-                  ">
+                  <span
+                    className="
+                      inline-block
+                      px-4
+                      py-1
+                      rounded-full
+                      bg-pink-100
+                      text-pink-500
+                      text-sm
+                      font-semibold
+                      mb-4
+                    "
+                  >
                     Data Science
                   </span>
       
-                  <h2 className="
-                    text-3xl
-                    font-bold
-                    text-black
-                    leading-snug
-                    min-h-[110px]
-                  ">
+                  <h2
+                    className="
+                      text-[22px]
+                      font-bold
+                      text-black
+                      leading-snug
+      
+                      min-h-[120px]
+                    "
+                  >
                     Database in RDBMS
                   </h2>
       
-                  <p className="
-                    text-gray-600
-                    mt-4
-                    leading-relaxed
-                    text-lg
-                    min-h-[95px]
-                  ">
+                  <p
+                    className="
+                      text-gray-600
+                      mt-4
+                      leading-relaxed
+                      text-[17px]
+      
+                      min-h-[130px]
+                    "
+                  >
                     Understand the basic concepts of relational databases,
                     tables, normalization, and SQL implementation.
                   </p>
@@ -790,19 +1028,23 @@ export default function Home() {
       
             </div>
       
+            {/* FOOTER */}
             <div className="flex items-center justify-between mt-10">
       
-              <span className="text-gray-500">
+              <span className="text-gray-500 text-sm">
                 26 Dec 2021
               </span>
       
-              <span className="
-                text-pink-500
-                font-semibold
-                flex
-                items-center
-                gap-2
-              ">
+              <span
+                className="
+                  text-pink-500
+                  font-semibold
+                  flex
+                  items-center
+                  gap-2
+                  text-sm
+                "
+              >
                 Read Article →
               </span>
       
@@ -820,7 +1062,7 @@ export default function Home() {
               border
               border-white/30
               rounded-[35px]
-              p-10
+              p-8
               shadow-xl
               hover:-translate-y-2
               transition
@@ -836,61 +1078,70 @@ export default function Home() {
       
             <div>
       
-              <div className="flex items-start gap-6">
+              <div className="flex items-start gap-5">
       
-                <div className="
-                  w-16
-                  h-16
-                  rounded-full
-                  bg-gradient-to-br
-                  from-purple-500
-                  to-fuchsia-400
-                  text-white
-                  flex
-                  items-center
-                  justify-center
-                  text-4xl
-                  font-bold
-                  flex-shrink-0
-                ">
+                <div
+                  className="
+                    w-14
+                    h-14
+                    rounded-full
+                    bg-gradient-to-br
+                    from-purple-500
+                    to-fuchsia-400
+                    text-white
+                    flex
+                    items-center
+                    justify-center
+                    text-3xl
+                    font-bold
+                    flex-shrink-0
+                  "
+                >
                   M
                 </div>
       
                 <div className="flex-1">
       
-                  <span className="
-                    inline-block
-                    px-4
-                    py-1
-                    rounded-full
-                    bg-purple-100
-                    text-purple-500
-                    text-sm
-                    font-semibold
-                    mb-4
-                  ">
+                  <span
+                    className="
+                      inline-block
+                      px-4
+                      py-1
+                      rounded-full
+                      bg-purple-100
+                      text-purple-500
+                      text-sm
+                      font-semibold
+                      mb-4
+                    "
+                  >
                     Machine Learning
                   </span>
       
-                  <h2 className="
-                    text-3xl
-                    font-bold
-                    text-black
-                    leading-snug
-                    min-h-[110px]
-                  ">
+                  <h2
+                    className="
+                      text-[22px]
+                      font-bold
+                      text-black
+                      leading-snug
+      
+                      min-h-[120px]
+                    "
+                  >
                     Provincial Clustering Based on Types of Natural Disasters
                   </h2>
       
-                  <p className="
-                    text-gray-600
-                    mt-4
-                    leading-relaxed
-                    text-lg
-                    min-h-[95px]
-                  ">
-                    Clustering analysis using K-Means
-                    to group provinces based on the dominant type of disaster.
+                  <p
+                    className="
+                      text-gray-600
+                      mt-4
+                      leading-relaxed
+                      text-[17px]
+      
+                      min-h-[130px]
+                    "
+                  >
+                    Clustering analysis using K-Means to group provinces based on the dominant type of disaster.
                   </p>
       
                 </div>
@@ -901,17 +1152,20 @@ export default function Home() {
       
             <div className="flex items-center justify-between mt-10">
       
-              <span className="text-gray-500">
+              <span className="text-gray-500 text-sm">
                 04 May 2023
               </span>
       
-              <span className="
-                text-pink-500
-                font-semibold
-                flex
-                items-center
-                gap-2
-              ">
+              <span
+                className="
+                  text-pink-500
+                  font-semibold
+                  flex
+                  items-center
+                  gap-2
+                  text-sm
+                "
+              >
                 Read Article →
               </span>
       
@@ -929,7 +1183,7 @@ export default function Home() {
               border
               border-white/30
               rounded-[35px]
-              p-10
+              p-8
               shadow-xl
               hover:-translate-y-2
               transition
@@ -945,61 +1199,70 @@ export default function Home() {
       
             <div>
       
-              <div className="flex items-start gap-6">
+              <div className="flex items-start gap-5">
       
-                <div className="
-                  w-16
-                  h-16
-                  rounded-full
-                  bg-gradient-to-br
-                  from-pink-500
-                  to-rose-400
-                  text-white
-                  flex
-                  items-center
-                  justify-center
-                  text-4xl
-                  font-bold
-                  flex-shrink-0
-                ">
+                <div
+                  className="
+                    w-14
+                    h-14
+                    rounded-full
+                    bg-gradient-to-br
+                    from-pink-500
+                    to-rose-400
+                    text-white
+                    flex
+                    items-center
+                    justify-center
+                    text-3xl
+                    font-bold
+                    flex-shrink-0
+                  "
+                >
                   M
                 </div>
       
                 <div className="flex-1">
       
-                  <span className="
-                    inline-block
-                    px-4
-                    py-1
-                    rounded-full
-                    bg-pink-100
-                    text-pink-500
-                    text-sm
-                    font-semibold
-                    mb-4
-                  ">
+                  <span
+                    className="
+                      inline-block
+                      px-4
+                      py-1
+                      rounded-full
+                      bg-pink-100
+                      text-pink-500
+                      text-sm
+                      font-semibold
+                      mb-4
+                    "
+                  >
                     Data Mining
                   </span>
       
-                  <h2 className="
-                    text-3xl
-                    font-bold
-                    text-black
-                    leading-snug
-                    min-h-[110px]
-                  ">
+                  <h2
+                    className="
+                      text-[22px]
+                      font-bold
+                      text-black
+                      leading-snug
+      
+                      min-h-[120px]
+                    "
+                  >
                     Consumer Behavior Using MBA Association Rule Mining
                   </h2>
       
-                  <p className="
-                    text-gray-600
-                    mt-4
-                    leading-relaxed
-                    text-lg
-                    min-h-[95px]
-                  ">
-                    Implement Market Basket Analysis to identify purchasing patterns 
-                    of products that are frequently purchased together.
+                  <p
+                    className="
+                      text-gray-600
+                      mt-4
+                      leading-relaxed
+                      text-[17px]
+      
+                      min-h-[130px]
+                    "
+                  >
+                    Implement Market Basket Analysis to identify purchasing patterns of products frequently purchased together.
                   </p>
       
                 </div>
@@ -1010,17 +1273,20 @@ export default function Home() {
       
             <div className="flex items-center justify-between mt-10">
       
-              <span className="text-gray-500">
+              <span className="text-gray-500 text-sm">
                 30 Jul 2023
               </span>
       
-              <span className="
-                text-pink-500
-                font-semibold
-                flex
-                items-center
-                gap-2
-              ">
+              <span
+                className="
+                  text-pink-500
+                  font-semibold
+                  flex
+                  items-center
+                  gap-2
+                  text-sm
+                "
+              >
                 Read Article →
               </span>
       
@@ -1038,7 +1304,7 @@ export default function Home() {
               border
               border-white/30
               rounded-[35px]
-              p-10
+              p-8
               shadow-xl
               hover:-translate-y-2
               transition
@@ -1054,61 +1320,70 @@ export default function Home() {
       
             <div>
       
-              <div className="flex items-start gap-6">
+              <div className="flex items-start gap-5">
       
-                <div className="
-                  w-16
-                  h-16
-                  rounded-full
-                  bg-gradient-to-br
-                  from-blue-400
-                  to-indigo-400
-                  text-white
-                  flex
-                  items-center
-                  justify-center
-                  text-4xl
-                  font-bold
-                  flex-shrink-0
-                ">
+                <div
+                  className="
+                    w-14
+                    h-14
+                    rounded-full
+                    bg-gradient-to-br
+                    from-blue-400
+                    to-indigo-400
+                    text-white
+                    flex
+                    items-center
+                    justify-center
+                    text-3xl
+                    font-bold
+                    flex-shrink-0
+                  "
+                >
                   M
                 </div>
       
                 <div className="flex-1">
       
-                  <span className="
-                    inline-block
-                    px-4
-                    py-1
-                    rounded-full
-                    bg-blue-100
-                    text-blue-500
-                    text-sm
-                    font-semibold
-                    mb-4
-                  ">
+                  <span
+                    className="
+                      inline-block
+                      px-4
+                      py-1
+                      rounded-full
+                      bg-blue-100
+                      text-blue-500
+                      text-sm
+                      font-semibold
+                      mb-4
+                    "
+                  >
                     Data Visualization
                   </span>
       
-                  <h2 className="
-                    text-3xl
-                    font-bold
-                    text-black
-                    leading-snug
-                    min-h-[110px]
-                  ">
+                  <h2
+                    className="
+                      text-[22px]
+                      font-bold
+                      text-black
+                      leading-snug
+      
+                      min-h-[120px]
+                    "
+                  >
                     Toronto BikeShare User Data Analysis
                   </h2>
       
-                  <p className="
-                    text-gray-600
-                    mt-4
-                    leading-relaxed
-                    text-lg
-                    min-h-[95px]
-                  ">
-                    Exploratory data analysis and visualization of BikeShare Toronto users to 
-                    understand bicycle usage patterns.
+                  <p
+                    className="
+                      text-gray-600
+                      mt-4
+                      leading-relaxed
+                      text-[17px]
+      
+                      min-h-[130px]
+                    "
+                  >
+                    Exploratory data analysis and visualization of BikeShare Toronto users to understand bicycle usage patterns.
                   </p>
       
                 </div>
@@ -1119,17 +1394,20 @@ export default function Home() {
       
             <div className="flex items-center justify-between mt-10">
       
-              <span className="text-gray-500">
+              <span className="text-gray-500 text-sm">
                 01 Nov 2023
               </span>
       
-              <span className="
-                text-pink-500
-                font-semibold
-                flex
-                items-center
-                gap-2
-              ">
+              <span
+                className="
+                  text-pink-500
+                  font-semibold
+                  flex
+                  items-center
+                  gap-2
+                  text-sm
+                "
+              >
                 Read Article →
               </span>
       
@@ -1145,7 +1423,19 @@ export default function Home() {
           <a
             href="https://medium.com/@lintangntyas"
             target="_blank"
-            className="border-2 border-pink-300 px-10 py-4 rounded-full text-lg font-semibold hover:bg-pink-500 hover:text-white transition duration-300"
+            className="
+              border-2
+              border-pink-300
+              px-10
+              py-4
+              rounded-full
+              text-lg
+              font-semibold
+              hover:bg-pink-500
+              hover:text-white
+              transition
+              duration-300
+            "
           >
             View All Articles ↗
           </a>
