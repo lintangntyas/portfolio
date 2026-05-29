@@ -206,7 +206,7 @@ export default function Home() {
                 About Me
               </h1>
       
-              <div className="w-[110px] h-[4px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mt-2"></div>
+              <div className="w-[110px] h-[4px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mt-4"></div>
       
             </div>
       
