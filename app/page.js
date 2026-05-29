@@ -828,7 +828,7 @@ export default function Home() {
             {/* CERTIFICATE 10 */}
             <div className="min-w-[340px] bg-white/70 backdrop-blur-xl rounded-[30px] p-4 shadow-xl border border-black/10">
               <img
-                src="/sertif10.jpg"
+                src="/sertif10.png"
                 alt="Certificate 10"
                 className="w-full h-[230px] object-cover rounded-2xl"
               />
@@ -837,7 +837,7 @@ export default function Home() {
             {/* CERTIFICATE 11 */}
             <div className="min-w-[340px] bg-white/70 backdrop-blur-xl rounded-[30px] p-4 shadow-xl border border-black/10">
               <img
-                src="/sertif11.jpg"
+                src="/sertif11.png"
                 alt="Certificate 11"
                 className="w-full h-[230px] object-cover rounded-2xl"
               />
@@ -846,7 +846,7 @@ export default function Home() {
             {/* CERTIFICATE 12 */}
             <div className="min-w-[340px] bg-white/70 backdrop-blur-xl rounded-[30px] p-4 shadow-xl border border-black/10">
               <img
-                src="/sertif12.jpg"
+                src="/sertif12.png"
                 alt="Certificate 12"
                 className="w-full h-[230px] object-cover rounded-2xl"
               />
@@ -855,7 +855,7 @@ export default function Home() {
             {/* CERTIFICATE 13 */}
             <div className="min-w-[340px] bg-white/70 backdrop-blur-xl rounded-[30px] p-4 shadow-xl border border-black/10">
               <img
-                src="/sertif13.jpg"
+                src="/sertif13.png"
                 alt="Certificate 13"
                 className="w-full h-[230px] object-cover rounded-2xl"
               />
@@ -864,7 +864,7 @@ export default function Home() {
             {/* CERTIFICATE 14 */}
             <div className="min-w-[340px] bg-white/70 backdrop-blur-xl rounded-[30px] p-4 shadow-xl border border-black/10">
               <img
-                src="/sertif14.jpg"
+                src="/sertif14.png"
                 alt="Certificate 14"
                 className="w-full h-[230px] object-cover rounded-2xl"
               />
