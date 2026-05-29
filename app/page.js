@@ -1650,7 +1650,7 @@ export default function Home() {
       {/* CONTACT */}
       <section
         id="contact"
-        className="relative w-full px-6 md:px-8 pt-20 pb-10 overflow-hidden"
+        className="relative w-full px-6 md:px-8 pt-24 pb-4 overflow-hidden"
       >
         {/* BACKGROUND */}
         <div className="absolute top-0 left-0 w-[320px] h-[320px] bg-pink-200/30 blur-[140px] rounded-full" />
@@ -1869,16 +1869,17 @@ export default function Home() {
       </section>
       
       {/* FOOTER */}
-      <footer className="w-full pb-6">
+      <footer className="w-full py-4">
         <div className="max-w-5xl mx-auto px-6">
       
-          {/* LINE */}
-          <div className="border-t border-gray-200 mb-6" />
+          <div className="border-t border-gray-200 pt-4">
       
-          {/* COPYRIGHT */}
-          <p className="text-center text-gray-500 text-sm">
-            © 2026 Lintang Cahyaningtyas. All Rights Reserved.
-          </p>
+            <p className="text-center text-gray-500 text-sm">
+              © 2026 Lintang Cahyaningtyas. All Rights Reserved.
+            </p>
+      
+          </div>
+      
         </div>
       </footer>
 
