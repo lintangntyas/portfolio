@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <main
-      className="min-h-screen relative pt-2 bg-gradient-to-br from-[#fdf2f8] via-[#f8fafc] to-[#dbeafe] px-5 md:px-10 py-6 md:py-8 overflow-hidden"   
+      className="min-h-screen relative pt-2 bg-gradient-to-br from-[#fdf2f8] via-[#f8fafc] to-[#dbeafe] px-5 md:px-10 py-6 md:py-8 overflow-x-hidden"   
         
     >
 
@@ -195,15 +195,13 @@ export default function Home() {
         className="
           relative
           w-full
-          px-6
-          md:px-8
-          pt-[40px]
-          pb-8
-          scroll-mt-[90px]
+          pt-[120px]
+          pb-10
+          scroll-mt-[120px]
           overflow-hidden
         "
       >
-        <div className="max-w-6xl w-full grid md:grid-cols-2 gap-16 items-center">
+        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
       
           {/* TEXT */}
           <div>
@@ -304,14 +302,13 @@ export default function Home() {
         className="
           relative
           w-full
-          px-6
-          md:px-8
-          pt-[40px]
-          pb-8
-          scroll-mt-[90px]
+          pt-[120px]
+          pb-10
+          scroll-mt-[120px]
           overflow-hidden
         "
       >
+        <div className="max-w-7xl mx-auto px-6 md:px-8">
       
         {/* BLUR */}
         <div className="absolute left-0 top-0 w-[320px] h-[320px] bg-pink-200 blur-[130px] opacity-30 rounded-full"></div>
@@ -345,7 +342,7 @@ export default function Home() {
       
             gap-7
       
-            max-w-[1700px]
+            max-w-7xl
             mx-auto
       
             relative
@@ -733,11 +730,8 @@ export default function Home() {
               </li>
       
             </ul>
-      
-          </div>
-      
+         </div>
         </div>
-      
       </section>
 
       {/* PROJECTS */}
@@ -746,14 +740,14 @@ export default function Home() {
         className="
           relative
           w-full
-          px-6
-          md:px-8
-          pt-[40px]
-          pb-8
-          scroll-mt-[90px]
+          pt-[120px]
+          pb-10
+          scroll-mt-[120px]
           overflow-hidden
         "
       >
+        <div className="max-w-7xl mx-auto px-6 md:px-8">
+
       <div className="text-center mb-20">
 
         <h1 className="text-[72px] font-black text-[#0f172a] leading-none">
@@ -986,7 +980,7 @@ export default function Home() {
               </a>
             </div>
           </div>
-      
+         </div>
         </div>
       </section>
 
@@ -996,16 +990,14 @@ export default function Home() {
         className="
           relative
           w-full
-          px-6
-          md:px-8
-          pt-[40px]
-          pb-8
-          scroll-mt-[90px]
+          pt-[120px]
+          pb-10
+          scroll-mt-[120px]
           overflow-hidden
         "
       >
-      
-      
+        <div className="max-w-7xl mx-auto px-6 md:px-8">
+
         {/* BLUR */}
         <div className="absolute left-0 top-0 w-[320px] h-[320px] bg-pink-200 blur-[130px] opacity-30 rounded-full"></div>
       
@@ -1038,7 +1030,7 @@ export default function Home() {
         
             gap-6
         
-            max-w-[1700px]
+            max-w-7xl
             mx-auto
         
             relative
@@ -1568,7 +1560,7 @@ export default function Home() {
           </a>
       
         </div>
-      
+      </div>
       </section>
 
       {/* CERTIFICATIONS */}
@@ -1577,14 +1569,13 @@ export default function Home() {
         className="
           relative
           w-full
-          px-6
-          md:px-8
-          pt-[40px]
-          pb-8
-          scroll-mt-[90px]
+          pt-[120px]
+          pb-10
+          scroll-mt-[120px]
           overflow-hidden
         "
       >
+        <div className="max-w-7xl mx-auto px-6 md:px-8">
       
         {/* BLUR */}
         <div className="absolute left-0 top-0 w-[320px] h-[320px] bg-pink-200 blur-[130px] opacity-30 rounded-full"></div>
@@ -1690,6 +1681,7 @@ export default function Home() {
             ))}
           
           </div>
+         </div>
         </div>
       </section>
 
@@ -1699,20 +1691,22 @@ export default function Home() {
         className="
           relative
           w-full
-          px-6
-          md:px-8
-          pt-[40px]
-          pb-8
-          scroll-mt-[90px]
+          pt-[120px]
+          pb-10
+          scroll-mt-[120px]
           overflow-hidden
         "
       >
+        <div className="max-w-7xl mx-auto px-6 md:px-8">
+
         {/* BACKGROUND */}
         <div className="absolute top-0 left-0 w-[250px] h-[250px] bg-pink-200/30 blur-[120px] rounded-full" />
       
         <div className="absolute bottom-0 right-0 w-[250px] h-[250px] bg-blue-200/30 blur-[120px] rounded-full" />
       
-        <div className="relative z-10 max-w-xl mx-auto text-center">
+        <div className="relative z-10 max-w-7xl mx-auto">
+
+          <div className="max-w-xl mx-auto text-center">
       
           {/* TITLE */}
           <h2
@@ -1923,8 +1917,9 @@ export default function Home() {
               </button>
       
             </form>
-      
+            </div>
           </div>
+         </div>
         </div>
       </section>
       
