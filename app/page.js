@@ -305,17 +305,17 @@ export default function Home() {
         <div
           className="
             grid
-            -mt-8
-        
+            -mt-6
+      
             grid-cols-1
             md:grid-cols-2
             xl:grid-cols-4
-        
-            gap-6
-        
+      
+            gap-7
+      
             max-w-[1700px]
             mx-auto
-        
+      
             relative
             z-10
           "
@@ -325,15 +325,13 @@ export default function Home() {
           <div
             className="
               bg-[#f8f8f8]
-      
-              border
-              border-[#ececec]
+              border border-[#ececec]
       
               rounded-[30px]
       
-              px-7
-              pt-7
-              pb-6
+              px-8
+              pt-8
+              pb-7
       
               shadow-[0_10px_35px_rgba(0,0,0,0.05)]
       
@@ -344,72 +342,83 @@ export default function Home() {
       
               flex
               flex-col
-              justify-between
             "
           >
       
-            <div>
+            {/* TOP */}
+            <div className="flex items-start justify-between gap-4">
       
-              {/* TOP */}
-              <div className="flex items-start gap-4">
+              <div className="flex-1">
       
-                <div>
+                <h2
+                  className="
+                    text-[28px]
+                    font-black
+                    text-pink-500
+                    leading-[1.25]
+                  "
+                >
+                  Badan Pusat Statistik
+                </h2>
       
-                  <h2
-                    className="
-                      text-[28px]
-                      font-black
-                      text-pink-500
-                      leading-[1.3]
-                    "
-                  >
-                    Badan Pusat Statistik
-                  </h2>
-      
-                  <p
-                    className="
-                      text-[#374151]
-                      text-[18px]
-                      font-semibold
-                      mt-3
-                    "
-                  >
-                    Statistician Intern
-                  </p>
-      
-                </div>
-      
-                <span className="text-[#6b7280] text-[14px] text-right">
-                  Nov 2025 - May 2026
-                </span>
+                <p
+                  className="
+                    text-[#374151]
+                    text-[16px]
+                    font-semibold
+                    leading-[1.5]
+                    mt-4
+                  "
+                >
+                  Statistician Intern
+                </p>
       
               </div>
       
-              {/* LINE */}
-              <div className="w-[70px] h-[4px] bg-pink-500 rounded-full mt-6 mb-8"></div>
-      
-              {/* LIST */}
-              <ul className="space-y-2 text-[#4b5563] text-[16px] leading-[1.8]">
-      
-                <li>
-                  • Collected, cleaned, and analyzed statistical distribution indicator data.
-                </li>
-      
-                <li>
-                  • Developed web-based automation systems to improve work efficiency.
-                </li>
-      
-                <li>
-                  • Created statistical infographics to support publication activities.
-                </li>
-      
-                <li>
-                  • Managed administrative documents and company directory data.
-                </li>
-      
-              </ul>
+              <span
+                className="
+                  text-[#6b7280]
+                  text-[14px]
+                  text-right
+                  whitespace-nowrap
+                  leading-[1.5]
+                "
+              >
+                Nov 2025 - May 2026
+              </span>
       
             </div>
+      
+            {/* LINE */}
+            <div className="w-[75px] h-[4px] bg-pink-500 rounded-full mt-7 mb-8"></div>
+      
+            {/* LIST */}
+            <ul
+              className="
+                space-y-5
+                text-[#4b5563]
+                text-[16px]
+                leading-[2]
+              "
+            >
+      
+              <li>
+                • Collected, cleaned, and analyzed statistical distribution indicator data.
+              </li>
+      
+              <li>
+                • Developed web-based automation systems to improve work efficiency.
+              </li>
+      
+              <li>
+                • Created statistical infographics to support publication activities.
+              </li>
+      
+              <li>
+                • Managed administrative documents and company directory data.
+              </li>
+      
+            </ul>
       
           </div>
       
@@ -418,56 +427,92 @@ export default function Home() {
             className="
               bg-[#f8f8f8]
               border border-[#ececec]
+      
               rounded-[30px]
-              px-7 pt-7 pb-6
+      
+              px-8
+              pt-8
+              pb-7
+      
               shadow-[0_10px_35px_rgba(0,0,0,0.05)]
-              transition-all duration-300
+      
+              transition-all
+              duration-300
+      
               hover:-translate-y-1
-              flex flex-col justify-between
+      
+              flex
+              flex-col
             "
           >
       
-            <div>
+            <div className="flex items-start justify-between gap-4">
       
-              <div className="flex items-start gap-4">
+              <div className="flex-1">
       
-                <div>
+                <h2
+                  className="
+                    text-[28px]
+                    font-black
+                    text-blue-500
+                    leading-[1.25]
+                  "
+                >
+                  PLN Indonesia Power
+                </h2>
       
-                  <h2 className="text-[28px] font-black text-blue-500 leading-[1.3]">
-                    PLN Indonesia Power
-                  </h2>
-      
-                  <p className="text-[#374151] text-[18px] font-semibold ">
-                    Reliability & System Owner Intern
-                  </p>
-      
-                </div>
-      
-                <span className="text-[#6b7280] text-[14px] text-right">
-                  Feb 2024
-                </span>
+                <p
+                  className="
+                    text-[#374151]
+                    text-[16px]
+                    font-semibold
+                    leading-[1.5]
+                    mt-4
+                  "
+                >
+                  Reliability & System Owner Intern
+                </p>
       
               </div>
       
-              <div className="w-[70px] h-[4px] bg-blue-500 rounded-full mt-6 mb-8"></div>
-      
-              <ul className="space-y-2 text-[#4b5563] text-[16px] leading-[1.8]">
-      
-                <li>
-                  • Analyzed Unit 7 disturbance and pulverizer maintenance data using Excel and R.
-                </li>
-      
-                <li>
-                  • Prepared evaluation reports for system reliability improvement.
-                </li>
-      
-                <li>
-                  • Participated in occupational health and safety socialization programs.
-                </li>
-      
-              </ul>
+              <span
+                className="
+                  text-[#6b7280]
+                  text-[14px]
+                  text-right
+                  whitespace-nowrap
+                  leading-[1.5]
+                "
+              >
+                Feb 2024
+              </span>
       
             </div>
+      
+            <div className="w-[75px] h-[4px] bg-blue-500 rounded-full mt-7 mb-8"></div>
+      
+            <ul
+              className="
+                space-y-5
+                text-[#4b5563]
+                text-[16px]
+                leading-[2]
+              "
+            >
+      
+              <li>
+                • Analyzed Unit 7 disturbance and pulverizer maintenance data using Excel and R.
+              </li>
+      
+              <li>
+                • Prepared evaluation reports for system reliability improvement.
+              </li>
+      
+              <li>
+                • Participated in occupational health and safety socialization programs.
+              </li>
+      
+            </ul>
       
           </div>
       
@@ -476,56 +521,92 @@ export default function Home() {
             className="
               bg-[#f8f8f8]
               border border-[#ececec]
+      
               rounded-[30px]
-              px-7 pt-7 pb-6
+      
+              px-8
+              pt-8
+              pb-7
+      
               shadow-[0_10px_35px_rgba(0,0,0,0.05)]
-              transition-all duration-300
+      
+              transition-all
+              duration-300
+      
               hover:-translate-y-1
-              flex flex-col justify-between
+      
+              flex
+              flex-col
             "
           >
       
-            <div>
+            <div className="flex items-start justify-between gap-4">
       
-              <div className="flex items-start gap-4">
+              <div className="flex-1">
       
-                <div>
+                <h2
+                  className="
+                    text-[28px]
+                    font-black
+                    text-purple-500
+                    leading-[1.25]
+                  "
+                >
+                  INVISIO
+                </h2>
       
-                  <h2 className="text-[28px] font-black text-purple-500 leading-[1.3]">
-                    INVISIO
-                  </h2>
-      
-                  <p className="text-[#374151] text-[18px] font-semibold mt-3">
-                    Marketing & Content Writer
-                  </p>
-      
-                </div>
-      
-                <span className="text-[#6b7280] text-[14px] text-right">
-                  Mar 2023 - Apr 2025
-                </span>
+                <p
+                  className="
+                    text-[#374151]
+                    text-[16px]
+                    font-semibold
+                    leading-[1.5]
+                    mt-4
+                  "
+                >
+                  Marketing & Content Writer
+                </p>
       
               </div>
       
-              <div className="w-[70px] h-[4px] bg-purple-500 rounded-full mt-6 mb-8"></div>
-      
-              <ul className="space-y-2 text-[#4b5563] text-[16px] leading-[1.8]">
-      
-                <li>
-                  • Developed content strategies and educational statistical materials.
-                </li>
-      
-                <li>
-                  • Collaborated with design teams to create engaging publications.
-                </li>
-      
-                <li>
-                  • Analyzed social media engagement performance monthly.
-                </li>
-      
-              </ul>
+              <span
+                className="
+                  text-[#6b7280]
+                  text-[14px]
+                  text-right
+                  whitespace-nowrap
+                  leading-[1.5]
+                "
+              >
+                Mar 2023 - Apr 2025
+              </span>
       
             </div>
+      
+            <div className="w-[75px] h-[4px] bg-purple-500 rounded-full mt-7 mb-8"></div>
+      
+            <ul
+              className="
+                space-y-5
+                text-[#4b5563]
+                text-[16px]
+                leading-[2]
+              "
+            >
+      
+              <li>
+                • Developed content strategies and educational statistical materials.
+              </li>
+      
+              <li>
+                • Collaborated with design teams to create engaging publications.
+              </li>
+      
+              <li>
+                • Analyzed social media engagement performance monthly.
+              </li>
+      
+            </ul>
       
           </div>
       
@@ -534,56 +615,92 @@ export default function Home() {
             className="
               bg-[#f8f8f8]
               border border-[#ececec]
+      
               rounded-[30px]
-              px-7 pt-7 pb-6
+      
+              px-8
+              pt-8
+              pb-7
+      
               shadow-[0_10px_35px_rgba(0,0,0,0.05)]
-              transition-all duration-300
+      
+              transition-all
+              duration-300
+      
               hover:-translate-y-1
-              flex flex-col justify-between
+      
+              flex
+              flex-col
             "
           >
       
-            <div>
+            <div className="flex items-start justify-between gap-4">
       
-              <div className="flex items-start gap-4">
+              <div className="flex-1">
       
-                <div>
+                <h2
+                  className="
+                    text-[28px]
+                    font-black
+                    text-pink-500
+                    leading-[1.25]
+                  "
+                >
+                  Bankaltimtara
+                </h2>
       
-                  <h2 className="text-[28px] font-black text-pink-500 leading-[1.3]">
-                    Bankaltimtara
-                  </h2>
-      
-                  <p className="text-[#374151] text-[18px] font-semibold mt-3">
-                    IT & E-Banking Intern
-                  </p>
-      
-                </div>
-      
-                <span className="text-[#6b7280] text-[14px] text-right">
-                  Jul 2019 - Dec 2019
-                </span>
+                <p
+                  className="
+                    text-[#374151]
+                    text-[16px]
+                    font-semibold
+                    leading-[1.5]
+                    mt-4
+                  "
+                >
+                  IT & E-Banking Intern
+                </p>
       
               </div>
       
-              <div className="w-[70px] h-[4px] bg-pink-500 rounded-full mt-6 mb-8"></div>
-      
-              <ul className="space-y-2 text-[#4b5563] text-[16px] leading-[1.8]">
-      
-                <li>
-                  • Assisted customer service activities related to ATM services.
-                </li>
-      
-                <li>
-                  • Helped improve customer satisfaction through responsive problem handling.
-                </li>
-      
-                <li>
-                  • Supported ATM card destruction and banking administration processes.
-                </li>
-      
-              </ul>
+              <span
+                className="
+                  text-[#6b7280]
+                  text-[14px]
+                  text-right
+                  whitespace-nowrap
+                  leading-[1.5]
+                "
+              >
+                Jul 2019 - Dec 2019
+              </span>
       
             </div>
+      
+            <div className="w-[75px] h-[4px] bg-pink-500 rounded-full mt-7 mb-8"></div>
+      
+            <ul
+              className="
+                space-y-5
+                text-[#4b5563]
+                text-[16px]
+                leading-[2]
+              "
+            >
+      
+              <li>
+                • Assisted customer service activities related to ATM services.
+              </li>
+      
+              <li>
+                • Helped improve customer satisfaction through responsive problem handling.
+              </li>
+      
+              <li>
+                • Supported ATM card destruction and banking administration processes.
+              </li>
+      
+            </ul>
       
           </div>
       
