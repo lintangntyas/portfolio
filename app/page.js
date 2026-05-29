@@ -1650,48 +1650,49 @@ export default function Home() {
       {/* CONTACT */}
       <section
         id="contact"
-        className="relative w-full px-6 md:px-8 pt-20 pb-10 overflow-hidden"
+        className="relative w-full px-6 md:px-8 pt-10 pb-8 overflow-hidden"
       >
         {/* BACKGROUND */}
-        <div className="absolute top-0 left-0 w-[320px] h-[320px] bg-pink-200/30 blur-[140px] rounded-full" />
-        <div className="absolute bottom-0 right-0 w-[320px] h-[320px] bg-blue-200/30 blur-[140px] rounded-full" />
+        <div className="absolute top-0 left-0 w-[250px] h-[250px] bg-pink-200/30 blur-[120px] rounded-full" />
       
-        <div className="relative z-10 max-w-2xl mx-auto text-center">
+        <div className="absolute bottom-0 right-0 w-[250px] h-[250px] bg-blue-200/30 blur-[120px] rounded-full" />
+      
+        <div className="relative z-10 max-w-xl mx-auto text-center">
       
           {/* TITLE */}
           <h2
             className="
-              text-[58px]
-              md:text-[82px]
+              text-[52px]
+              md:text-[72px]
               font-black
               text-[#0b132b]
-              leading-[0.95]
-              tracking-[-3px]
+              leading-none
             "
           >
             Contact Me
           </h2>
       
           {/* SUBTITLE */}
-          <p className="mt-5 text-[18px] text-gray-500">
+          <p className="mt-4 text-[16px] text-gray-500">
             Interested in working together? Fill out the form below.
           </p>
       
           {/* LINE */}
-          <div className="w-24 h-1 rounded-full bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 mx-auto mt-6" />
+          <div className="w-20 h-1 rounded-full bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 mx-auto mt-5" />
       
           {/* CARD */}
           <div
             className="
-              mt-12
-              bg-white/55
-              backdrop-blur-2xl
+              mt-8
+              bg-white/60
+              backdrop-blur-xl
               border border-white/40
-              rounded-[32px]
-              p-7
-              shadow-[0_10px_40px_rgba(0,0,0,0.06)]
+              rounded-[28px]
+              p-5
+              shadow-[0_10px_35px_rgba(0,0,0,0.06)]
             "
           >
+      
             <form
               onSubmit={(e) => {
                 e.preventDefault();
@@ -1717,12 +1718,13 @@ export default function Home() {
       
                 window.open(url, "_blank");
               }}
-              className="space-y-5"
+              className="space-y-4"
             >
       
               {/* NAME */}
               <div className="relative">
-                <span className="absolute left-5 top-1/2 -translate-y-1/2 text-gray-400">
+      
+                <span className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">
                   👤
                 </span>
       
@@ -1733,16 +1735,15 @@ export default function Home() {
                   placeholder="Your Name"
                   className="
                     w-full
-                    h-[58px]
+                    h-[52px]
                     rounded-2xl
                     border border-gray-200
                     bg-white/85
-                    pl-14
-                    pr-5
+                    pl-12
+                    pr-4
                     text-gray-700
                     placeholder:text-gray-400
                     outline-none
-                    transition-all
                     focus:border-pink-400
                     focus:ring-4
                     focus:ring-pink-100
@@ -1752,7 +1753,8 @@ export default function Home() {
       
               {/* EMAIL */}
               <div className="relative">
-                <span className="absolute left-5 top-1/2 -translate-y-1/2 text-gray-400">
+      
+                <span className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">
                   ✉️
                 </span>
       
@@ -1763,16 +1765,15 @@ export default function Home() {
                   placeholder="Your Email"
                   className="
                     w-full
-                    h-[58px]
+                    h-[52px]
                     rounded-2xl
                     border border-gray-200
                     bg-white/85
-                    pl-14
-                    pr-5
+                    pl-12
+                    pr-4
                     text-gray-700
                     placeholder:text-gray-400
                     outline-none
-                    transition-all
                     focus:border-pink-400
                     focus:ring-4
                     focus:ring-pink-100
@@ -1782,7 +1783,8 @@ export default function Home() {
       
               {/* SUBJECT */}
               <div className="relative">
-                <span className="absolute left-5 top-1/2 -translate-y-1/2 text-gray-400">
+      
+                <span className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">
                   🏷️
                 </span>
       
@@ -1793,16 +1795,15 @@ export default function Home() {
                   placeholder="Subject"
                   className="
                     w-full
-                    h-[58px]
+                    h-[52px]
                     rounded-2xl
                     border border-gray-200
                     bg-white/85
-                    pl-14
-                    pr-5
+                    pl-12
+                    pr-4
                     text-gray-700
                     placeholder:text-gray-400
                     outline-none
-                    transition-all
                     focus:border-pink-400
                     focus:ring-4
                     focus:ring-pink-100
@@ -1812,7 +1813,8 @@ export default function Home() {
       
               {/* MESSAGE */}
               <div className="relative">
-                <span className="absolute left-5 top-5 text-gray-400">
+      
+                <span className="absolute left-4 top-4 text-gray-400">
                   💬
                 </span>
       
@@ -1826,14 +1828,13 @@ export default function Home() {
                     rounded-2xl
                     border border-gray-200
                     bg-white/85
-                    pl-14
-                    pr-5
+                    pl-12
+                    pr-4
                     py-4
                     text-gray-700
                     placeholder:text-gray-400
                     outline-none
                     resize-none
-                    transition-all
                     focus:border-pink-400
                     focus:ring-4
                     focus:ring-pink-100
@@ -1846,7 +1847,7 @@ export default function Home() {
                 type="submit"
                 className="
                   w-full
-                  h-[60px]
+                  h-[54px]
                   rounded-2xl
                   bg-gradient-to-r
                   from-pink-500
@@ -1854,34 +1855,36 @@ export default function Home() {
                   to-blue-500
                   text-white
                   font-semibold
-                  text-lg
+                  text-base
                   shadow-lg
                   transition-all
+                  duration-300
                   hover:scale-[1.01]
-                  hover:shadow-xl
                 "
               >
                 Send Message 
               </button>
+      
             </form>
+      
           </div>
         </div>
       </section>
       
       {/* FOOTER */}
-      <footer className="w-full pb-6">
+      <footer className="w-full pt-2 pb-4">
+      
         <div className="max-w-5xl mx-auto px-6">
       
-          {/* LINE */}
-          <div className="border-t border-gray-200 mb-6" />
+          <div className="border-t border-gray-200 mb-4"></div>
       
-          {/* COPYRIGHT */}
           <p className="text-center text-gray-500 text-sm">
             © 2026 Lintang Cahyaningtyas. All Rights Reserved.
           </p>
+      
         </div>
+      
       </footer>
-
     </main>
   );
 }
