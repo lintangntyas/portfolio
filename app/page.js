@@ -310,427 +310,219 @@ export default function Home() {
       >
         <div className="max-w-7xl mx-auto px-6 md:px-8">
       
-        {/* BLUR */}
-        <div className="absolute left-0 top-0 w-[320px] h-[320px] bg-pink-200 blur-[130px] opacity-30 rounded-full"></div>
+          {/* BLUR */}
+          <div className="absolute left-0 top-0 w-[320px] h-[320px] bg-pink-200 blur-[130px] opacity-30 rounded-full"></div>
       
-        <div className="absolute right-0 bottom-0 w-[320px] h-[320px] bg-blue-200 blur-[130px] opacity-30 rounded-full"></div>
+          <div className="absolute right-0 bottom-0 w-[320px] h-[320px] bg-blue-200 blur-[130px] opacity-30 rounded-full"></div>
       
-        {/* TITLE */}
-        <div className="text-center mb-20 relative z-10">
+          {/* TITLE */}
+          <div className="text-center mb-20 relative z-10">
       
-          <h1 className="text-[72px] font-black text-[#0f172a] leading-none">
-            Experience
-          </h1>
+            <h1 className="text-[72px] font-black text-[#0f172a] leading-none">
+              Experience
+            </h1>
       
-          <p className="text-[#6b7280] mt-6 text-[20px] font-medium">
-            Professional journey and internship experiences
-          </p>
+            <p className="text-[#6b7280] mt-6 text-[20px] font-medium">
+              Professional journey and internship experiences
+            </p>
       
-          <div className="w-[110px] h-[4px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mx-auto mt-7"></div>
-      
-        </div>
-      
-        {/* GRID */}
-        <div
-          className="
-            grid
-            -mt-6
-      
-            grid-cols-1
-            md:grid-cols-2
-            xl:grid-cols-4
-      
-            gap-7
-      
-            max-w-7xl
-            mx-auto
-      
-            relative
-            z-10
-          "
-        >
-      
-          {/* CARD 1 */}
-          <div
-            className="
-              bg-[#f8f8f8]
-              border border-[#ececec]
-      
-              rounded-[30px]
-      
-              px-8
-              pt-8
-              pb-7
-      
-              shadow-[0_10px_35px_rgba(0,0,0,0.05)]
-      
-              transition-all
-              duration-300
-      
-              hover:-translate-y-1
-      
-              flex
-              flex-col
-            "
-          >
-      
-            {/* TOP */}
-            <div className="relative">
-      
-              <div className="flex-1">
-      
-                <h2
-                  className="
-                    text-[28px]
-                    font-black
-                    text-pink-500
-                    leading-[1.25]
-                  "
-                >
-                  Badan Pusat Statistik
-                </h2>
-      
-                <p
-                  className="
-                    text-[#374151]
-                    text-[16px]
-                    font-semibold
-                    leading-[1.5]
-                    
-                  "
-                >
-                  Statistician Intern
-                </p>
-      
-              </div>
-      
-              <span
-                className="
-                  text-[#6b7280]
-                  text-[12px]
-                  text-right
-                  whitespace-nowrap
-                  leading-[1.5]
-                "
-              >
-                Nov 2025 - May 2026
-              </span>
-      
-            </div>
-      
-            {/* LINE */}
-            <div className="w-[75px] h-[4px] bg-pink-500 rounded-full mt-4 mb-4"></div>
-      
-            {/* LIST */}
-            <ul
-              className="
-                
-                text-[#4b5563]
-                text-[16px]
-                leading-[2]
-              "
-            >
-      
-              <li>
-                • Collected, cleaned, and analyzed statistical distribution indicator data.
-              </li>
-      
-              <li>
-                • Developed web-based automation systems to improve work efficiency.
-              </li>
-      
-              <li>
-                • Created statistical infographics to support publication activities.
-              </li>
-      
-              <li>
-                • Managed administrative documents and company directory data.
-              </li>
-      
-            </ul>
+            <div className="w-[110px] h-[4px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mx-auto mt-7"></div>
       
           </div>
       
-          {/* CARD 2 */}
+          {/* GRID */}
           <div
             className="
-              bg-[#f8f8f8]
-              border border-[#ececec]
-      
-              rounded-[30px]
-      
-              px-8
-              pt-8
-              pb-7
-      
-              shadow-[0_10px_35px_rgba(0,0,0,0.05)]
-      
-              transition-all
-              duration-300
-      
-              hover:-translate-y-1
-      
-              flex
-              flex-col
+              grid
+              -mt-6
+              grid-cols-1
+              md:grid-cols-2
+              xl:grid-cols-4
+              gap-7
+              max-w-7xl
+              mx-auto
+              relative
+              z-10
             "
           >
       
-            <div className="relative">
+            {/* CARD 1 */}
+            <div className="bg-[#f8f8f8] border border-[#ececec] rounded-[30px] px-8 pt-8 pb-7 shadow-[0_10px_35px_rgba(0,0,0,0.05)] transition-all duration-300 hover:-translate-y-1 flex flex-col">
       
-              <div className="flex-1">
+              <div className="relative">
       
-                <h2
-                  className="
-                    text-[28px]
-                    font-black
-                    text-blue-500
-                    leading-[1.25]
-                  "
-                >
-                  PLN Indonesia Power
-                </h2>
+                <div className="flex-1">
       
-                <p
-                  className="
-                    text-[#374151]
-                    text-[16px]
-                    font-semibold
-                    leading-[1.5]
-                    whitespace-nowrap
-                  "
-                >
-                  Reliability & System Owner Intern
-                </p>
+                  <h2 className="text-[28px] font-black text-pink-500 leading-[1.25]">
+                    Badan Pusat Statistik
+                  </h2>
+      
+                  <p className="text-[#374151] text-[16px] font-semibold leading-[1.5]">
+                    Statistician Intern
+                  </p>
+      
+                </div>
+      
+                <span className="text-[#6b7280] text-[12px] text-right whitespace-nowrap leading-[1.5]">
+                  Nov 2025 - May 2026
+                </span>
       
               </div>
       
-              <span
-                className="
-                  text-[#6b7280]
-                  text-[12px]
-                  text-right
-                  whitespace-nowrap
-                  leading-[1.5]
-                "
-              >
-                Feb 2024
-              </span>
+              <div className="w-[75px] h-[4px] bg-pink-500 rounded-full mt-4 mb-4"></div>
+      
+              <ul className="text-[#4b5563] text-[16px] leading-[2]">
+      
+                <li>
+                  • Collected, cleaned, and analyzed statistical distribution indicator data.
+                </li>
+      
+                <li>
+                  • Developed web-based automation systems to improve work efficiency.
+                </li>
+      
+                <li>
+                  • Created statistical infographics to support publication activities.
+                </li>
+      
+                <li>
+                  • Managed administrative documents and company directory data.
+                </li>
+      
+              </ul>
       
             </div>
       
-            <div className="w-[75px] h-[4px] bg-blue-500 rounded-full mt-4 mb-4"></div>
+            {/* CARD 2 */}
+            <div className="bg-[#f8f8f8] border border-[#ececec] rounded-[30px] px-8 pt-8 pb-7 shadow-[0_10px_35px_rgba(0,0,0,0.05)] transition-all duration-300 hover:-translate-y-1 flex flex-col">
       
-            <ul
-              className="
-                
-                text-[#4b5563]
-                text-[16px]
-                leading-[2]
-              "
-            >
+              <div className="relative">
       
-              <li>
-                • Analyzed Unit 7 disturbance and pulverizer maintenance data using Excel and R.
-              </li>
+                <div className="flex-1">
       
-              <li>
-                • Prepared evaluation reports for system reliability improvement.
-              </li>
+                  <h2 className="text-[28px] font-black text-blue-500 leading-[1.25]">
+                    PLN Indonesia Power
+                  </h2>
       
-              <li>
-                • Participated in occupational health and safety socialization programs.
-              </li>
+                  <p className="text-[#374151] text-[16px] font-semibold leading-[1.5] whitespace-nowrap">
+                    Reliability & System Owner Intern
+                  </p>
       
-            </ul>
+                </div>
+      
+                <span className="text-[#6b7280] text-[12px] text-right whitespace-nowrap leading-[1.5]">
+                  Feb 2024
+                </span>
+      
+              </div>
+      
+              <div className="w-[75px] h-[4px] bg-blue-500 rounded-full mt-4 mb-4"></div>
+      
+              <ul className="text-[#4b5563] text-[16px] leading-[2]">
+      
+                <li>
+                  • Analyzed Unit 7 disturbance and pulverizer maintenance data using Excel and R.
+                </li>
+      
+                <li>
+                  • Prepared evaluation reports for system reliability improvement.
+                </li>
+      
+                <li>
+                  • Participated in occupational health and safety socialization programs.
+                </li>
+      
+              </ul>
+      
+            </div>
+      
+            {/* CARD 3 */}
+            <div className="bg-[#f8f8f8] border border-[#ececec] rounded-[30px] px-8 pt-8 pb-7 shadow-[0_10px_35px_rgba(0,0,0,0.05)] transition-all duration-300 hover:-translate-y-1 flex flex-col">
+      
+              <div className="relative">
+      
+                <div className="flex-1">
+      
+                  <h2 className="text-[28px] font-black text-purple-500 leading-[1.25]">
+                    INVISIO
+                  </h2>
+      
+                  <p className="text-[#374151] text-[16px] font-semibold leading-[1.5] whitespace-nowrap">
+                    Marketing & Content Writer
+                  </p>
+      
+                </div>
+      
+                <span className="text-[#6b7280] text-[12px] text-right whitespace-nowrap leading-[1.5]">
+                  Mar 2023 - Apr 2025
+                </span>
+      
+              </div>
+      
+              <div className="w-[75px] h-[4px] bg-purple-500 rounded-full mt-4 mb-4"></div>
+      
+              <ul className="text-[#4b5563] text-[16px] leading-[2]">
+      
+                <li>
+                  • Developed content strategies and educational statistical materials.
+                </li>
+      
+                <li>
+                  • Collaborated with design teams to create engaging publications.
+                </li>
+      
+                <li>
+                  • Analyzed social media engagement performance monthly.
+                </li>
+      
+              </ul>
+      
+            </div>
+      
+            {/* CARD 4 */}
+            <div className="bg-[#f8f8f8] border border-[#ececec] rounded-[30px] px-8 pt-8 pb-7 shadow-[0_10px_35px_rgba(0,0,0,0.05)] transition-all duration-300 hover:-translate-y-1 flex flex-col">
+      
+              <div className="relative">
+      
+                <div className="flex-1">
+      
+                  <h2 className="text-[28px] font-black text-pink-500 leading-[1.25]">
+                    Bankaltimtara
+                  </h2>
+      
+                  <p className="text-[#374151] text-[16px] font-semibold leading-[1.5]">
+                    IT & E-Banking Intern
+                  </p>
+      
+                </div>
+      
+                <span className="text-[#6b7280] text-[12px] text-right whitespace-nowrap leading-[1.5]">
+                  Jul - Dec 2019
+                </span>
+      
+              </div>
+      
+              <div className="w-[75px] h-[4px] bg-pink-500 rounded-full mt-4 mb-4"></div>
+      
+              <ul className="text-[#4b5563] text-[16px] leading-[2]">
+      
+                <li>
+                  • Assisted customer service activities related to ATM services.
+                </li>
+      
+                <li>
+                  • Helped improve customer satisfaction through responsive problem handling.
+                </li>
+      
+                <li>
+                  • Supported ATM card destruction and banking administration processes.
+                </li>
+      
+              </ul>
+      
+            </div>
       
           </div>
-      
-          {/* CARD 3 */}
-          <div
-            className="
-              bg-[#f8f8f8]
-              border border-[#ececec]
-      
-              rounded-[30px]
-      
-              px-8
-              pt-8
-              pb-7
-      
-              shadow-[0_10px_35px_rgba(0,0,0,0.05)]
-      
-              transition-all
-              duration-300
-      
-              hover:-translate-y-1
-      
-              flex
-              flex-col
-            "
-          >
-      
-            <div className="relative">
-      
-              <div className="flex-1">
-      
-                <h2
-                  className="
-                    text-[28px]
-                    font-black
-                    text-purple-500
-                    leading-[1.25]
-                  "
-                >
-                  INVISIO
-                </h2>
-      
-                <p
-                  className="
-                    text-[#374151]
-                    text-[16px]
-                    font-semibold
-                    leading-[1.5]
-                    whitespace-nowrap
-                  "
-                >
-                  Marketing & Content Writer
-                </p>
-      
-              </div>
-      
-              <span
-                className="
-                  text-[#6b7280]
-                  text-[12px]
-                  text-right
-                  whitespace-nowrap
-                  leading-[1.5]
-                "
-              >
-                Mar 2023 - Apr 2025
-              </span>
-      
-            </div>
-      
-            <div className="w-[75px] h-[4px] bg-purple-500 rounded-full mt-4 mb-4"></div>
-      
-            <ul
-              className="
-                
-                text-[#4b5563]
-                text-[16px]
-                leading-[2]
-              "
-            >
-      
-              <li>
-                • Developed content strategies and educational statistical materials.
-              </li>
-      
-              <li>
-                • Collaborated with design teams to create engaging publications.
-              </li>
-      
-              <li>
-                • Analyzed social media engagement performance monthly.
-              </li>
-      
-            </ul>
-      
-          </div>
-      
-          {/* CARD 4 */}
-          <div
-            className="
-              bg-[#f8f8f8]
-              border border-[#ececec]
-      
-              rounded-[30px]
-      
-              px-8
-              pt-8
-              pb-7
-      
-              shadow-[0_10px_35px_rgba(0,0,0,0.05)]
-      
-              transition-all
-              duration-300
-      
-              hover:-translate-y-1
-      
-              flex
-              flex-col
-            "
-          >
-      
-            <div className="relative">
-      
-              <div className="flex-1">
-      
-                <h2
-                  className="
-                    text-[28px]
-                    font-black
-                    text-pink-500
-                    leading-[1.25]
-                  "
-                >
-                  Bankaltimtara
-                </h2>
-      
-                <p
-                  className="
-                    text-[#374151]
-                    text-[16px]
-                    font-semibold
-                    leading-[1.5]
-                    
-                  "
-                >
-                  IT & E-Banking Intern
-                </p>
-      
-              </div>
-      
-              <span
-                className="
-                  text-[#6b7280]
-                  text-[12px]
-                  text-right
-                  whitespace-nowrap
-                  leading-[1.5]
-                "
-              >
-                Jul - Dec 2019
-              </span>
-      
-            </div>
-      
-            <div className="w-[75px] h-[4px] bg-pink-500 rounded-full mt-4 mb-4"></div>
-      
-            <ul
-              className="
-                
-                text-[#4b5563]
-                text-[16px]
-                leading-[2]
-              "
-            >
-      
-              <li>
-                • Assisted customer service activities related to ATM services.
-              </li>
-      
-              <li>
-                • Helped improve customer satisfaction through responsive problem handling.
-              </li>
-      
-              <li>
-                • Supported ATM card destruction and banking administration processes.
-              </li>
-      
-            </ul>
-         </div>
         </div>
       </section>
 
