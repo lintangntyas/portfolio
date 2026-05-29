@@ -737,7 +737,7 @@ export default function Home() {
           Selected projects and portfolio works
         </p>
       
-        <div className="w-[110px] h-[4px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mx-auto mt-7"></div>
+        <div className="w-[110px] h-[4px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mx-auto mt-4"></div>
       
       </div>
       
@@ -1682,44 +1682,81 @@ export default function Home() {
           </div>
         </div>
       
-        {/* FOOTER MENU */}
-        <div className="flex gap-10 mt-28 text-xl font-semibold">
-        
-          <button
-            onClick={() => scrollToSection("about")}
-            className="hover:text-pink-500 transition duration-300"
-          >
-            About
-          </button>
-        
-          <button
-            onClick={() => scrollToSection("experience")}
-            className="hover:text-blue-500 transition duration-300"
-          >
-            Experience
-          </button>
-        
-          <button
-            onClick={() => scrollToSection("projects")}
-            className="hover:text-purple-500 transition duration-300"
-          >
-            Projects
-          </button>
-        
-          <button
-            onClick={() => scrollToSection("contact")}
-            className="hover:text-pink-500 transition duration-300"
-          >
-            Contact
-          </button>
-        
+      </section>
+
+      {/* FOOTER */}
+      <footer className="w-full border-t border-white/20 mt-28">
+      
+        <div className="max-w-7xl mx-auto px-6 md:px-16 py-10">
+      
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+      
+            {/* LEFT */}
+            <h2 className="text-[22px] font-bold text-[#111827]">
+              Lintang Cahyaningtyas
+            </h2>
+      
+            {/* MENU */}
+            <div className="flex items-center gap-8 text-[16px] font-semibold text-[#374151]">
+      
+              <a
+                href="#about"
+                className="hover:text-pink-500 transition"
+              >
+                About
+              </a>
+      
+              <a
+                href="#experience"
+                className="hover:text-pink-500 transition"
+              >
+                Experience
+              </a>
+      
+              <a
+                href="#projects"
+                className="hover:text-pink-500 transition"
+              >
+                Projects
+              </a>
+      
+              <a
+                href="#medium"
+                className="hover:text-pink-500 transition"
+              >
+                Medium
+              </a>
+      
+              <a
+                href="#certificate"
+                className="hover:text-pink-500 transition"
+              >
+                Certificate
+              </a>
+      
+              <a
+                href="#contact"
+                className="hover:text-pink-500 transition"
+              >
+                Contact
+              </a>
+      
+            </div>
+      
+          </div>
+      
+          {/* COPYRIGHT */}
+          <div className="mt-8 pt-8 border-t border-gray-300 text-center">
+      
+            <p className="text-[#6b7280] text-[15px]">
+              © 2026 Lintang Cahyaningtyas. All Rights Reserved.
+            </p>
+      
+          </div>
+      
         </div>
       
-        {/* COPYRIGHT */}
-        <p className="mt-10 text-lg text-gray-700">
-          © All Rights Reserved | Lintang Cahyaningtyas
-        </p>
-      </section>
+      </footer>
 
     </main>
   );
