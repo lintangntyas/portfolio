@@ -351,7 +351,7 @@ export default function Home() {
             <div>
       
               {/* TOP */}
-              <div className="flex items-start justify-between gap-4">
+              <div className="flex items-start gap-4">
       
                 <div>
       
@@ -429,7 +429,7 @@ export default function Home() {
       
             <div>
       
-              <div className="flex items-start justify-between gap-4">
+              <div className="flex items-start gap-4">
       
                 <div>
       
@@ -487,7 +487,7 @@ export default function Home() {
       
             <div>
       
-              <div className="flex items-start justify-between gap-4">
+              <div className="flex items-start gap-4">
       
                 <div>
       
@@ -545,7 +545,7 @@ export default function Home() {
       
             <div>
       
-              <div className="flex items-start justify-between gap-4">
+              <div className="flex items-start gap-4">
       
                 <div>
       
