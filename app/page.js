@@ -663,59 +663,231 @@ export default function Home() {
       {/* MEDIUM */}
       <section
         id="medium"
-        className="min-h-screen px-6 md:px-16 py-24 overflow-hidden"
+        className="min-h-screen px-6 md:px-16 py-24 relative overflow-hidden"
       >
-        <h1 className="text-5xl md:text-7xl font-bold text-center mb-20">
-          Medium Articles
-        </h1>
-
-        {/* MEDIUM ARTICLES */}
-        <div className="max-w-6xl mx-auto bg-white/60 backdrop-blur-xl border border-black/10 rounded-[40px] p-10 shadow-xl">
-
-          <div className="space-y-6 text-lg">
-
-            <a
-              href="https://medium.com/@lintangntyas/basis-data-pada-rdbms"
-              target="_blank"
-              className="block hover:text-pink-500 transition"
-            >
-              1. Basis Data Pada RDBMS
-            </a>
-
-            <a
-              href="https://medium.com/@lintangntyas/clustering-provinsi-terhadap-jenis-bencana"
-              target="_blank"
-              className="block hover:text-pink-500 transition"
-            >
-              2. Clustering Provinsi Terhadap Jenis Bencana Alam
-            </a>
-
-            <a
-              href="https://medium.com/@lintangntyas/perilaku-konsumen-menggunakan-mba"
-              target="_blank"
-              className="block hover:text-pink-500 transition"
-            >
-              3. Perilaku Konsumen Menggunakan MBA Association Rule Mining
-            </a>
-
-            <a
-              href="https://medium.com/@lintangntyas/analisis-data-terhadap-bike-share"
-              target="_blank"
-              className="block hover:text-pink-500 transition"
-            >
-              4. Analisis Data User BikeShare Toronto
-            </a>
-
-            <a
-              href="https://medium.com/@lintangntyas/tren-e-commerce-asia"
-              target="_blank"
-              className="block hover:text-pink-500 transition"
-            >
-              5. Tren E-Commerce Asia Tenggara
-            </a>
-
-          </div>
+      
+        {/* BACKGROUND BLUR */}
+        <div className="absolute left-0 bottom-0 w-[300px] h-[300px] bg-blue-200 blur-[120px] opacity-40 rounded-full"></div>
+      
+        <div className="absolute right-0 top-0 w-[300px] h-[300px] bg-pink-200 blur-[120px] opacity-40 rounded-full"></div>
+      
+        {/* TITLE */}
+        <div className="text-center mb-20 relative z-10">
+      
+          <h1 className="text-5xl md:text-7xl font-bold text-slate-900">
+            Medium Articles
+          </h1>
+      
+          <p className="text-gray-500 mt-4 text-lg">
+            Thoughts, insights, and data stories
+          </p>
+      
+          <div className="w-20 h-1 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mx-auto mt-5"></div>
+      
         </div>
+      
+        {/* CARDS */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto relative z-10">
+      
+          {/* CARD 1 */}
+          <a
+            href="https://medium.com/statistics-uii/basis-data-pada-rdbms-12be0f95c277"
+            target="_blank"
+            className="bg-white/70 backdrop-blur-xl border border-white/30 rounded-[35px] p-10 shadow-xl hover:-translate-y-2 transition duration-300"
+          >
+      
+            <div className="flex items-start gap-6">
+      
+              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-pink-500 to-pink-400 text-white flex items-center justify-center text-4xl font-bold flex-shrink-0">
+                M
+              </div>
+      
+              <div className="flex-1">
+      
+                <span className="inline-block px-4 py-1 rounded-full bg-pink-100 text-pink-500 text-sm font-semibold mb-4">
+                  Data Science
+                </span>
+      
+                <h2 className="text-3xl font-bold text-black leading-snug">
+                  Database in RDBMS
+                </h2>
+      
+                <p className="text-gray-600 mt-4 leading-relaxed text-lg">
+                  Understand the basic concepts of relational databases,
+                  tables, normalization, and SQL implementation.
+                </p>
+      
+              </div>
+      
+            </div>
+      
+            <div className="flex items-center justify-between mt-10">
+      
+              <span className="text-gray-500">
+                26 Dec 2021
+              </span>
+      
+              <span className="text-pink-500 font-semibold flex items-center gap-2">
+                Read Article →
+              </span>
+      
+            </div>
+      
+          </a>
+      
+          {/* CARD 2 */}
+          <a
+            href="https://medium.com/@lintangntyas/clustering-provinsi-terhadap-jenis-bencana-alam-di-indonesia-tahun-2021-b85eeaf1b451"
+            target="_blank"
+            className="bg-white/70 backdrop-blur-xl border border-white/30 rounded-[35px] p-10 shadow-xl hover:-translate-y-2 transition duration-300"
+          >
+      
+            <div className="flex items-start gap-6">
+      
+              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-purple-500 to-fuchsia-400 text-white flex items-center justify-center text-4xl font-bold flex-shrink-0">
+                M
+              </div>
+      
+              <div className="flex-1">
+      
+                <span className="inline-block px-4 py-1 rounded-full bg-purple-100 text-purple-500 text-sm font-semibold mb-4">
+                  Machine Learning
+                </span>
+      
+                <h2 className="text-3xl font-bold text-black leading-snug">
+                  Provincial Clustering Based on Types of Natural Disasters
+                </h2>
+      
+                <p className="text-gray-600 mt-4 leading-relaxed text-lg">
+                  Clustering analysis using K-Means
+                  to group provinces based on the dominant type of disaster.
+                </p>
+      
+              </div>
+      
+            </div>
+      
+            <div className="flex items-center justify-between mt-10">
+      
+              <span className="text-gray-500">
+                04 May 2023
+              </span>
+      
+              <span className="text-pink-500 font-semibold flex items-center gap-2">
+                Read Article →
+              </span>
+      
+            </div>
+      
+          </a>
+      
+          {/* CARD 3 */}
+          <a
+            href="https://medium.com/@lintangntyas/perilaku-konsumen-menggunakan-mba-association-rule-mining-cc0f604b319a"
+            target="_blank"
+            className="bg-white/70 backdrop-blur-xl border border-white/30 rounded-[35px] p-10 shadow-xl hover:-translate-y-2 transition duration-300"
+          >
+      
+            <div className="flex items-start gap-6">
+      
+              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-pink-500 to-rose-400 text-white flex items-center justify-center text-4xl font-bold flex-shrink-0">
+                M
+              </div>
+      
+              <div className="flex-1">
+      
+                <span className="inline-block px-4 py-1 rounded-full bg-pink-100 text-pink-500 text-sm font-semibold mb-4">
+                  Data Mining
+                </span>
+      
+                <h2 className="text-3xl font-bold text-black leading-snug">
+                  Consumer Behavior Using MBA Association Rule Mining
+                </h2>
+      
+                <p className="text-gray-600 mt-4 leading-relaxed text-lg">
+                  Implement Market Basket Analysis to identify purchasing patterns 
+                  of products that are frequently purchased together.
+                </p>
+      
+              </div>
+      
+            </div>
+      
+            <div className="flex items-center justify-between mt-10">
+      
+              <span className="text-gray-500">
+                30 Jul 2023
+              </span>
+      
+              <span className="text-pink-500 font-semibold flex items-center gap-2">
+                Read Article →
+              </span>
+      
+            </div>
+      
+          </a>
+      
+          {/* CARD 4 */}
+          <a
+            href="https://medium.com/@lintangntyas/analisis-data-terhadap-tipe-penyewaan-bikeshare-toronto-pada-tahun-2018-f932072c2682"
+            target="_blank"
+            className="bg-white/70 backdrop-blur-xl border border-white/30 rounded-[35px] p-10 shadow-xl hover:-translate-y-2 transition duration-300"
+          >
+      
+            <div className="flex items-start gap-6">
+      
+              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-400 to-indigo-400 text-white flex items-center justify-center text-4xl font-bold flex-shrink-0">
+                M
+              </div>
+      
+              <div className="flex-1">
+      
+                <span className="inline-block px-4 py-1 rounded-full bg-blue-100 text-blue-500 text-sm font-semibold mb-4">
+                  Data Visualization
+                </span>
+      
+                <h2 className="text-3xl font-bold text-black leading-snug">
+                  Toronto BikeShare User Data Analysis
+                </h2>
+      
+                <p className="text-gray-600 mt-4 leading-relaxed text-lg">
+                  Exploratory data analysis and visualization of BikeShare Toronto users to 
+                  understand bicycle usage patterns.
+                </p>
+      
+              </div>
+      
+            </div>
+      
+            <div className="flex items-center justify-between mt-10">
+      
+              <span className="text-gray-500">
+                01 Nov 2023
+              </span>
+      
+              <span className="text-pink-500 font-semibold flex items-center gap-2">
+                Read Article →
+              </span>
+      
+            </div>
+      
+          </a>
+      
+        </div>
+      
+        {/* BUTTON */}
+        <div className="flex justify-center mt-16 relative z-10">
+      
+          <a
+            href="https://medium.com/@lintangntyas"
+            target="_blank"
+            className="border-2 border-pink-300 px-10 py-4 rounded-full text-lg font-semibold hover:bg-pink-500 hover:text-white transition duration-300"
+          >
+            View All Articles ↗
+          </a>
+      
+        </div>
+      
       </section>
 
       {/* CERTIFICATIONS */}
