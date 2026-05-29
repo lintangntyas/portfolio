@@ -1650,36 +1650,189 @@ export default function Home() {
       {/* CONTACT */}
       <section
         id="contact"
-        className="min-h-screen flex flex-col items-center justify-center px-6 md:px-16 py-24"
+        className="w-full px-6 md:px-8 py-28 relative overflow-hidden"
       >
-        <h1 className="text-5xl md:text-7xl font-bold mb-20 text-center">
-          Contact Me
-        </h1>
       
-        {/* CONTACT BOX */}
-        <div className="w-full max-w-5xl">
+        {/* BLUR */}
+        <div className="absolute left-0 top-0 w-[320px] h-[320px] bg-pink-200 blur-[130px] opacity-30 rounded-full"></div>
       
-          <div className="bg-white/70 backdrop-blur-lg border-2 border-black rounded-[40px] px-8 md:px-12 py-8 shadow-xl flex items-center gap-6">
+        <div className="absolute right-0 bottom-0 w-[320px] h-[320px] bg-blue-200 blur-[130px] opacity-30 rounded-full"></div>
       
-            {/* ICON */}
-            <div className="text-5xl">
-              📧
-            </div>
+        <div className="max-w-3xl mx-auto relative z-10">
       
-            {/* EMAIL */}
-            <input
-              type="email"
-              placeholder="lintangntys@gmail.com"
-              className="w-full bg-transparent outline-none text-2xl md:text-5xl text-gray-500 placeholder:text-gray-400"
-            />
+          {/* TITLE */}
+          <div className="text-center mb-16">
+      
+            <h1 className="text-[72px] font-black text-[#0f172a] leading-none">
+              Contact Me
+            </h1>
+      
+            <p className="text-[#6b7280] mt-6 text-[20px] font-medium">
+              Interested in working together? Fill out the form below.
+            </p>
+      
+            <div className="w-[110px] h-[4px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mx-auto mt-7"></div>
+      
           </div>
       
-          {/* BUTTON */}
-          <div className="flex justify-center mt-10">
-            <button className="border-2 border-black px-10 py-3 rounded-full text-xl font-medium hover:bg-black hover:text-white transition duration-300">
-              Submit
-            </button>
+          {/* CARD */}
+          <div
+            className="
+              bg-white/70
+              backdrop-blur-xl
+              border
+              border-white/40
+              rounded-[32px]
+              p-8 md:p-12
+              shadow-[0_20px_80px_rgba(0,0,0,0.08)]
+            "
+          >
+      
+            <form className="space-y-6">
+      
+              {/* NAME */}
+              <input
+                type="text"
+                placeholder="Your Name"
+                className="
+                  w-full
+                  h-[64px]
+                  rounded-2xl
+                  px-6
+                  text-[17px]
+                  outline-none
+      
+                  border
+                  border-gray-200
+      
+                  bg-white
+                  text-[#111827]
+      
+                  placeholder:text-gray-400
+      
+                  focus:border-pink-400
+                  focus:ring-4
+                  focus:ring-pink-100
+                  transition
+                "
+              />
+      
+              {/* EMAIL */}
+              <input
+                type="email"
+                placeholder="Your Email"
+                className="
+                  w-full
+                  h-[64px]
+                  rounded-2xl
+                  px-6
+                  text-[17px]
+                  outline-none
+      
+                  border
+                  border-gray-200
+      
+                  bg-white
+                  text-[#111827]
+      
+                  placeholder:text-gray-400
+      
+                  focus:border-purple-400
+                  focus:ring-4
+                  focus:ring-purple-100
+                  transition
+                "
+              />
+      
+              {/* SUBJECT */}
+              <input
+                type="text"
+                placeholder="Subject"
+                className="
+                  w-full
+                  h-[64px]
+                  rounded-2xl
+                  px-6
+                  text-[17px]
+                  outline-none
+      
+                  border
+                  border-gray-200
+      
+                  bg-white
+                  text-[#111827]
+      
+                  placeholder:text-gray-400
+      
+                  focus:border-blue-400
+                  focus:ring-4
+                  focus:ring-blue-100
+                  transition
+                "
+              />
+      
+              {/* MESSAGE */}
+              <textarea
+                rows={6}
+                placeholder="Type your message here..."
+                className="
+                  w-full
+                  rounded-2xl
+                  px-6
+                  py-5
+                  text-[17px]
+                  outline-none
+      
+                  border
+                  border-gray-200
+      
+                  bg-white
+                  text-[#111827]
+      
+                  placeholder:text-gray-400
+      
+                  resize-none
+      
+                  focus:border-pink-400
+                  focus:ring-4
+                  focus:ring-pink-100
+                  transition
+                "
+              ></textarea>
+      
+              {/* BUTTON */}
+              <button
+                type="submit"
+                className="
+                  w-full
+                  h-[64px]
+                  rounded-2xl
+      
+                  bg-gradient-to-r
+                  from-pink-500
+                  via-purple-500
+                  to-blue-500
+      
+                  text-white
+                  font-bold
+                  text-[18px]
+      
+                  shadow-lg
+      
+                  transition-all
+                  duration-300
+      
+                  hover:scale-[1.02]
+                  hover:shadow-xl
+                "
+              >
+                Send Message
+              </button>
+      
+            </form>
+      
           </div>
+      
         </div>
       
       </section>
