@@ -1688,12 +1688,39 @@ export default function Home() {
             "
           >
       
-            <form className="space-y-4">
+            <form
+              className="space-y-4"
+              onSubmit={(e) => {
+                e.preventDefault();
+      
+                const name = e.target.name.value;
+                const email = e.target.email.value;
+                const subject = e.target.subject.value;
+                const message = e.target.message.value;
+      
+                const text =
+      `Halo Lintang, saya ingin menghubungi Anda.
+      
+      Nama: ${name}
+      Email: ${email}
+      Subject: ${subject}
+      
+      Pesan:
+      ${message}`;
+      
+                const whatsappURL =
+      `https://wa.me/6282155358441?text=${encodeURIComponent(text)}`;
+      
+                window.open(whatsappURL, "_blank");
+              }}
+            >
       
               {/* NAME */}
               <input
+                name="name"
                 type="text"
                 placeholder="Your Name"
+                required
                 className="
                   w-full
                   h-[58px]
@@ -1719,8 +1746,10 @@ export default function Home() {
       
               {/* EMAIL */}
               <input
+                name="email"
                 type="email"
                 placeholder="Your Email"
+                required
                 className="
                   w-full
                   h-[58px]
@@ -1746,8 +1775,10 @@ export default function Home() {
       
               {/* SUBJECT */}
               <input
+                name="subject"
                 type="text"
                 placeholder="Subject"
+                required
                 className="
                   w-full
                   h-[58px]
@@ -1773,8 +1804,10 @@ export default function Home() {
       
               {/* MESSAGE */}
               <textarea
+                name="message"
                 rows={4}
                 placeholder="Type your message here..."
+                required
                 className="
                   w-full
                   rounded-2xl
@@ -1836,74 +1869,13 @@ export default function Home() {
         </div>
       
       </section>
-      
-      
-      
-      
-      
+
       {/* FOOTER */}
-      <footer className="w-full mt-16">
+      <footer className="w-full py-8 mt-10">
       
-        <div className="max-w-7xl mx-auto px-6 md:px-16 py-6">
+        <div className="max-w-7xl mx-auto px-6 text-center">
       
-          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-      
-            {/* LEFT */}
-            <h2 className="text-[22px] font-bold text-[#111827]">
-              Lintang Cahyaningtyas
-            </h2>
-      
-            {/* MENU */}
-            <div className="flex items-center gap-8 text-[16px] font-semibold text-[#374151] flex-wrap justify-center">
-      
-              <a
-                href="#about"
-                className="hover:text-pink-500 transition"
-              >
-                About
-              </a>
-      
-              <a
-                href="#experience"
-                className="hover:text-pink-500 transition"
-              >
-                Experience
-              </a>
-      
-              <a
-                href="#projects"
-                className="hover:text-pink-500 transition"
-              >
-                Projects
-              </a>
-      
-              <a
-                href="#medium"
-                className="hover:text-pink-500 transition"
-              >
-                Medium
-              </a>
-      
-              <a
-                href="#certificate"
-                className="hover:text-pink-500 transition"
-              >
-                Certificate
-              </a>
-      
-              <a
-                href="#contact"
-                className="hover:text-pink-500 transition"
-              >
-                Contact
-              </a>
-      
-            </div>
-      
-          </div>
-      
-          {/* COPYRIGHT */}
-          <div className="mt-6 pt-6 border-t border-gray-200 text-center">
+          <div className="border-t border-gray-200 pt-6">
       
             <p className="text-[#6b7280] text-[15px]">
               © 2026 Lintang Cahyaningtyas. All Rights Reserved.
