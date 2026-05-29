@@ -1655,10 +1655,10 @@ export default function Home() {
           w-full
           px-6
           md:px-8
-          pt-16
-          pb-8
+          pt-[170px]
+          pb-10
           overflow-hidden
-          scroll-mt-40
+          scroll-mt-[140px]
         "
       >
         {/* BACKGROUND */}
@@ -1671,8 +1671,8 @@ export default function Home() {
           {/* TITLE */}
           <h2
             className="
-              text-[58px]
-              md:text-[82px]
+              text-[52px]
+              md:text-[72px]
               font-black
               text-[#0b132b]
               leading-none
@@ -1682,7 +1682,7 @@ export default function Home() {
           </h2>
       
           {/* SUBTITLE */}
-          <p className="mt-4 text-[16px] text-gray-500">
+          <p className="mt-4 text-[15px] text-gray-500">
             Interested in working together? Fill out the form below.
           </p>
       
@@ -1693,7 +1693,7 @@ export default function Home() {
           <div
             className="
               mt-8
-              max-w-[560px]
+              max-w-[500px]
               mx-auto
               bg-white/60
               backdrop-blur-xl
@@ -1746,7 +1746,7 @@ export default function Home() {
                   placeholder="Your Name"
                   className="
                     w-full
-                    h-[52px]
+                    h-[50px]
                     rounded-2xl
                     border border-gray-200
                     bg-white/85
@@ -1776,7 +1776,7 @@ export default function Home() {
                   placeholder="Your Email"
                   className="
                     w-full
-                    h-[52px]
+                    h-[50px]
                     rounded-2xl
                     border border-gray-200
                     bg-white/85
@@ -1806,7 +1806,7 @@ export default function Home() {
                   placeholder="Subject"
                   className="
                     w-full
-                    h-[52px]
+                    h-[50px]
                     rounded-2xl
                     border border-gray-200
                     bg-white/85
@@ -1858,7 +1858,7 @@ export default function Home() {
                 type="submit"
                 className="
                   w-full
-                  h-[54px]
+                  h-[52px]
                   rounded-2xl
                   bg-gradient-to-r
                   from-pink-500
@@ -1883,9 +1883,9 @@ export default function Home() {
       </section>
       
       {/* FOOTER */}
-      <footer className="w-full pb-3 pt-2">
+      <footer className="w-full pt-2 pb-4">
       
-        <div className="max-w-5xl mx-auto px-6">
+        <div className="max-w-4xl mx-auto px-6">
       
           <div className="border-t border-gray-200 mb-4"></div>
       
