@@ -309,7 +309,7 @@ export default function Home() {
             md:grid-cols-2
             xl:grid-cols-4
       
-            gap-6
+            gap-1
       
             max-w-[1700px]
             mx-auto
