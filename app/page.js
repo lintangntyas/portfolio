@@ -305,15 +305,17 @@ export default function Home() {
         <div
           className="
             grid
+            -mt-8
+        
             grid-cols-1
             md:grid-cols-2
             xl:grid-cols-4
-      
-            gap-1
-      
+        
+            gap-6
+        
             max-w-[1700px]
             mx-auto
-      
+        
             relative
             z-10
           "
