@@ -717,176 +717,161 @@ export default function Home() {
           </div>
         </div>
 
-        {/* CERTIFICATE */}
-        <div
+        {/* CERTIFICATIONS */}
+        <section
           id="certificate"
-          className="mt-32"
+          className="py-28 px-6 md:px-12 overflow-hidden"
         >
-
-          <h1 className="text-5xl md:text-7xl font-bold text-center mb-20">
+          <h1 className="text-5xl md:text-7xl font-black text-center mb-20">
             Certifications
           </h1>
-
-          <div className="relative w-full overflow-hidden">
-
-            <div className="flex gap-14 animate-scroll whitespace-nowrap">
-
+        
+          <div className="group relative w-full overflow-hidden">
+        
+            {/* LEFT SHADOW */}
+            <div className="absolute left-0 top-0 z-10 h-full w-24 bg-gradient-to-r from-[#fdf2f8] to-transparent"></div>
+        
+            {/* RIGHT SHADOW */}
+            <div className="absolute right-0 top-0 z-10 h-full w-24 bg-gradient-to-l from-[#ebf4ff] to-transparent"></div>
+        
+            {/* SLIDER */}
+            <div
+              className="
+                flex gap-10 w-max
+                animate-scroll
+                group-hover:[animation-play-state:paused]
+              "
+            >
+        
               {/* CERTIFICATE 1 */}
-              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
-                <img
-                  src="/sertif1.pdf"
-                  alt="Certificate 1"
-                  className="w-full h-[240px] object-cover rounded-2xl"
-                />
-              </div>
-
-              {/* CERTIFICATE 2 */}
-              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
-                <img
-                  src="/sertif2.jpg"
-                  alt="Certificate 2"
-                  className="w-full h-[240px] object-cover rounded-2xl"
-                />
-              </div>
-
-              {/* CERTIFICATE 3 */}
-              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
-                <img
-                  src="/sertif3.jpg"
-                  alt="Certificate 3"
-                  className="w-full h-[240px] object-cover rounded-2xl"
-                />
-              </div>
-
-              {/* CERTIFICATE 4 */}
-              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
-                <img
-                  src="/sertif4.jpg"
-                  alt="Certificate 4"
-                  className="w-full h-[240px] object-cover rounded-2xl"
-                />
-              </div>
-
-              {/* DUPLIKAT */}
-              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
+              <div className="min-w-[340px] bg-white/70 backdrop-blur-xl rounded-[30px] p-4 shadow-xl border border-black/10">
                 <img
                   src="/sertif1.jpg"
                   alt="Certificate 1"
-                  className="w-full h-[240px] object-cover rounded-2xl"
+                  className="w-full h-[230px] object-cover rounded-2xl"
                 />
               </div>
-
-              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
+        
+              {/* CERTIFICATE 2 */}
+              <div className="min-w-[340px] bg-white/70 backdrop-blur-xl rounded-[30px] p-4 shadow-xl border border-black/10">
                 <img
                   src="/sertif2.jpg"
                   alt="Certificate 2"
-                  className="w-full h-[240px] object-cover rounded-2xl"
+                  className="w-full h-[230px] object-cover rounded-2xl"
                 />
               </div>
-
-              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
+        
+              {/* CERTIFICATE 3 */}
+              <div className="min-w-[340px] bg-white/70 backdrop-blur-xl rounded-[30px] p-4 shadow-xl border border-black/10">
                 <img
                   src="/sertif3.jpg"
                   alt="Certificate 3"
-                  className="w-full h-[240px] object-cover rounded-2xl"
+                  className="w-full h-[230px] object-cover rounded-2xl"
                 />
               </div>
-
-              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
+        
+              {/* CERTIFICATE 4 */}
+              <div className="min-w-[340px] bg-white/70 backdrop-blur-xl rounded-[30px] p-4 shadow-xl border border-black/10">
                 <img
                   src="/sertif4.jpg"
                   alt="Certificate 4"
-                  className="w-full h-[240px] object-cover rounded-2xl"
+                  className="w-full h-[230px] object-cover rounded-2xl"
                 />
               </div>
-
-              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
+        
+              {/* CERTIFICATE 5 */}
+              <div className="min-w-[340px] bg-white/70 backdrop-blur-xl rounded-[30px] p-4 shadow-xl border border-black/10">
                 <img
                   src="/sertif5.jpg"
                   alt="Certificate 5"
-                  className="w-full h-[240px] object-cover rounded-2xl"
+                  className="w-full h-[230px] object-cover rounded-2xl"
                 />
               </div>
-
-              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
+        
+              {/* CERTIFICATE 6 */}
+              <div className="min-w-[340px] bg-white/70 backdrop-blur-xl rounded-[30px] p-4 shadow-xl border border-black/10">
                 <img
                   src="/sertif6.jpg"
                   alt="Certificate 6"
-                  className="w-full h-[240px] object-cover rounded-2xl"
+                  className="w-full h-[230px] object-cover rounded-2xl"
                 />
               </div>
-
-              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
+        
+              {/* CERTIFICATE 7 */}
+              <div className="min-w-[340px] bg-white/70 backdrop-blur-xl rounded-[30px] p-4 shadow-xl border border-black/10">
                 <img
                   src="/sertif7.jpg"
                   alt="Certificate 7"
-                  className="w-full h-[240px] object-cover rounded-2xl"
+                  className="w-full h-[230px] object-cover rounded-2xl"
                 />
               </div>
-
-              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
+        
+              {/* CERTIFICATE 8 */}
+              <div className="min-w-[340px] bg-white/70 backdrop-blur-xl rounded-[30px] p-4 shadow-xl border border-black/10">
                 <img
                   src="/sertif8.jpg"
                   alt="Certificate 8"
-                  className="w-full h-[240px] object-cover rounded-2xl"
+                  className="w-full h-[230px] object-cover rounded-2xl"
                 />
               </div>
-
-              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
+        
+              {/* CERTIFICATE 9 */}
+              <div className="min-w-[340px] bg-white/70 backdrop-blur-xl rounded-[30px] p-4 shadow-xl border border-black/10">
                 <img
                   src="/sertif9.jpg"
                   alt="Certificate 9"
-                  className="w-full h-[240px] object-cover rounded-2xl"
+                  className="w-full h-[230px] object-cover rounded-2xl"
                 />
               </div>
-
-              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
+        
+              {/* CERTIFICATE 10 */}
+              <div className="min-w-[340px] bg-white/70 backdrop-blur-xl rounded-[30px] p-4 shadow-xl border border-black/10">
                 <img
-                  src="/sertif9.jpg"
-                  alt="Certificate 9"
-                  className="w-full h-[240px] object-cover rounded-2xl"
-                />
-              </div>
-
-              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
-                <img
-                  src="/sertif10.jpg"
+                  src="/sertif10.png"
                   alt="Certificate 10"
-                  className="w-full h-[240px] object-cover rounded-2xl"
+                  className="w-full h-[230px] object-cover rounded-2xl"
                 />
               </div>
-
-              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
+        
+              {/* CERTIFICATE 11 */}
+              <div className="min-w-[340px] bg-white/70 backdrop-blur-xl rounded-[30px] p-4 shadow-xl border border-black/10">
                 <img
-                  src="/sertif11.jpg"
+                  src="/sertif11.png"
                   alt="Certificate 11"
-                  className="w-full h-[240px] object-cover rounded-2xl"
+                  className="w-full h-[230px] object-cover rounded-2xl"
                 />
               </div>
-
-              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
+        
+              {/* CERTIFICATE 12 */}
+              <div className="min-w-[340px] bg-white/70 backdrop-blur-xl rounded-[30px] p-4 shadow-xl border border-black/10">
                 <img
-                  src="/sertif12.jpg"
+                  src="/sertif12.png"
                   alt="Certificate 12"
-                  className="w-full h-[240px] object-cover rounded-2xl"
+                  className="w-full h-[230px] object-cover rounded-2xl"
                 />
               </div>
-
-              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
+        
+              {/* CERTIFICATE 13 */}
+              <div className="min-w-[340px] bg-white/70 backdrop-blur-xl rounded-[30px] p-4 shadow-xl border border-black/10">
                 <img
-                  src="/sertif13.jpg"
+                  src="/sertif13.png"
                   alt="Certificate 13"
-                  className="w-full h-[240px] object-cover rounded-2xl"
+                  className="w-full h-[230px] object-cover rounded-2xl"
                 />
               </div>
-
-              <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
+        
+              {/* CERTIFICATE 14 */}
+              <div className="min-w-[340px] bg-white/70 backdrop-blur-xl rounded-[30px] p-4 shadow-xl border border-black/10">
                 <img
-                  src="/sertif14.jpg"
+                  src="/sertif14.png"
                   alt="Certificate 14"
-                  className="w-full h-[240px] object-cover rounded-2xl"
+                  className="w-full h-[230px] object-cover rounded-2xl"
                 />
               </div>
+        
+            </div>
+          </div>
+        </section>
 
             </div>
           </div>
