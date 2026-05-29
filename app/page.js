@@ -251,7 +251,7 @@ export default function Home() {
             </div>
       
             {/* LOGO */}
-            <div className="flex items-center gap-8 mt-10 flex-wrap">
+            <div className="flex items-center gap-8 mt-6 flex-wrap">
       
               <img
                 src="/bps.svg"
