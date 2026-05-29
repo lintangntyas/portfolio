@@ -753,35 +753,45 @@ export default function Home() {
             {[...Array(14)].map((_, index) => (
               <div
                 key={`original-${index}`}
-                className="flex-shrink-0"
+                className="
+                  flex-shrink-0
+                  w-[500px]
+                  h-[320px]
+                  overflow-hidden
+                  rounded-[20px]
+                "
               >
                 <img
-                  src={`/sertif${index + 1}.${index >= 10 ? "png" : "jpg"}`}
+                  src={`/sertif${index + 1}.${index >= 9 ? "png" : "jpg"}`}
                   alt={`Certificate ${index + 1}`}
                   className="
-                    w-[500px]
-                    h-[340px]
-                    object-contain
-                    rounded-[18px]
+                    w-full
+                    h-full
+                    object-cover
                   "
                 />
               </div>
             ))}
-          
+            
             {/* DUPLICATE */}
             {[...Array(14)].map((_, index) => (
               <div
                 key={`duplicate-${index}`}
-                className="flex-shrink-0"
+                className="
+                  flex-shrink-0
+                  w-[500px]
+                  h-[320px]
+                  overflow-hidden
+                  rounded-[20px]
+                "
               >
                 <img
-                  src={`/sertif${index + 1}.${index >= 10 ? "png" : "jpg"}`}
+                  src={`/sertif${index + 1}.${index >= 9 ? "png" : "jpg"}`}
                   alt={`Certificate ${index + 1}`}
                   className="
-                    w-[500px]
-                    h-[340px]
-                    object-contain
-                    rounded-[18px]
+                    w-full
+                    h-full
+                    object-cover
                   "
                 />
               </div>
