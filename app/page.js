@@ -340,8 +340,6 @@ export default function Home() {
       
               hover:-translate-y-1
       
-              min-h-[470px]
-      
               flex
               flex-col
               justify-between
@@ -433,7 +431,6 @@ export default function Home() {
               shadow-[0_10px_35px_rgba(0,0,0,0.05)]
               transition-all duration-300
               hover:-translate-y-1
-              min-h-[470px]
               flex flex-col justify-between
             "
           >
@@ -492,7 +489,6 @@ export default function Home() {
               shadow-[0_10px_35px_rgba(0,0,0,0.05)]
               transition-all duration-300
               hover:-translate-y-1
-              min-h-[470px]
               flex flex-col justify-between
             "
           >
@@ -551,7 +547,6 @@ export default function Home() {
               shadow-[0_10px_35px_rgba(0,0,0,0.05)]
               transition-all duration-300
               hover:-translate-y-1
-              min-h-[470px]
               flex flex-col justify-between
             "
           >
