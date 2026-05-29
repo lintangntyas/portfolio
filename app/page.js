@@ -922,7 +922,7 @@ export default function Home() {
         
             gap-6
         
-            max-w-[1400px]
+            max-w-[1700px]
             mx-auto
         
             relative
