@@ -759,6 +759,10 @@ export default function Home() {
                   h-[320px]
                   overflow-hidden
                   rounded-[20px]
+                  border
+                  border-black/10
+                  bg-white
+                  p-2
                 "
               >
                 <img
@@ -768,6 +772,7 @@ export default function Home() {
                     w-full
                     h-full
                     object-cover
+                    rounded-[14px]
                   "
                 />
               </div>
@@ -783,6 +788,10 @@ export default function Home() {
                   h-[320px]
                   overflow-hidden
                   rounded-[20px]
+                  border
+                  border-black/10
+                  bg-white
+                  p-2
                 "
               >
                 <img
@@ -792,6 +801,7 @@ export default function Home() {
                     w-full
                     h-full
                     object-cover
+                    rounded-[14px]
                   "
                 />
               </div>
