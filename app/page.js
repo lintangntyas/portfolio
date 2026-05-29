@@ -734,7 +734,7 @@ export default function Home() {
               {/* CERTIFICATE 1 */}
               <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
                 <img
-                  src="/sertif1.jpg"
+                  src="/sertif1.pdf"
                   alt="Certificate 1"
                   className="w-full h-[240px] object-cover rounded-2xl"
                 />
