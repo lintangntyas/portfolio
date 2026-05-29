@@ -11,7 +11,7 @@ export default function Home() {
       });
     }
   };
-
+  
   return (
     <main
       className="min-h-screen relative pt-2 bg-gradient-to-br from-[#fdf2f8] via-[#f8fafc] to-[#dbeafe] px-5 md:px-10 py-6 md:py-8 overflow-hidden"   
