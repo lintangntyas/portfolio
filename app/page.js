@@ -192,89 +192,101 @@ export default function Home() {
       {/* ABOUT */}
       <section
         id="about"
-        className="min-h-screen flex items-center justify-center px-6 md:px-16 pt-20"
+        className="min-h-screen flex items-center justify-center px-6 md:px-16 py-24"
       >
         <div className="max-w-6xl w-full grid md:grid-cols-2 gap-16 items-center">
-
+      
           {/* TEXT */}
           <div>
-            <h1 className="text-5xl md:text-7xl font-bold">
-              About Me
-            </h1>
-            
-            <div className="w-[110px] h-[4px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mt-7"></div>
-
+      
+            {/* TITLE */}
+            <div className="mb-14">
+      
+              <h1 className="text-5xl md:text-7xl font-bold text-black">
+                About Me
+              </h1>
+      
+              <div className="w-[110px] h-[4px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mt-7"></div>
+      
+            </div>
+      
+            {/* PARAGRAPH */}
             <div className="space-y-8 text-justify text-gray-800 text-lg leading-[2.2rem]">
-
+      
               <p>
                 Hello, my name is{" "}
                 <span className="font-bold">
                   Lintang Cahyaningtyas
                 </span>{" "}
                 and people usually call me{" "}
-                <span className="font-bold">Lintang</span>. 
-                I graduated from Universitas Islam Indonesia with a degree in Statistics and graduated with cum laude distinction. 
-                I have a strong interest in data analysis, visualization, and basic machine learning. 
-                I possess skills in various data analysis techniques and tools such as {" "}
+                <span className="font-bold">Lintang</span>.
+                I graduated from Universitas Islam Indonesia with a degree in Statistics
+                and graduated with cum laude distinction.
+      
+                I have a strong interest in data analysis,
+                visualization, and basic machine learning.
+      
+                I possess skills in various data analysis techniques and tools such as{" "}
                 <span className="font-bold">
-                  Excel, basic Python, R, Google Data Studio, XAMPP,
-                  phpMyAdmin, and Tableau. 
+                  Excel, basic Python, R, Google Data Studio,
+                  XAMPP, phpMyAdmin, and Tableau.
                 </span>
-
-                   
               </p>
-
+      
               <p>
                 My experiences at{" "}
                 <span className="font-bold">
-                  Badan Pusat Statistik, Bankaltimtara, PLN Indonesia Power,
-                  and INVISIO
-                </span>
-                , along with my involvement in research, internships, and organizations, 
-                have strengthened both my technical and collaborative skills. I am a detail-oriented, 
-                responsible, and adaptive individual who is able to work independently as well as in a team.
+                  Badan Pusat Statistik, Bankaltimtara,
+                  PLN Indonesia Power, and INVISIO
+                </span>,
+                along with my involvement in research,
+                internships, and organizations, have strengthened both my technical
+                and collaborative skills.
+      
+                I am a detail-oriented,
+                responsible, and adaptive individual who is able to work independently
+                as well as in a team.
               </p>
-
+      
             </div>
-
+      
             {/* LOGO */}
             <div className="flex items-center gap-8 mt-10 flex-wrap">
-
+      
               <img
                 src="/bps.svg"
                 alt="BPS"
                 className="h-14 object-contain"
               />
-
+      
               <img
                 src="/bankaltimtara.png"
                 alt="Bankaltimtara"
                 className="h-10 object-contain"
               />
-
+      
               <img
                 src="/ip.webp"
                 alt="PLN"
                 className="h-14 object-contain"
               />
-
+      
             </div>
-
+      
           </div>
-
+      
           {/* IMAGE */}
           <div className="flex justify-center md:justify-end">
-
+      
             <img
               src="/about.png"
               alt="About"
               className="w-[420px] md:w-[500px] rounded-[2.5rem] shadow-2xl"
             />
-
+      
           </div>
-
+      
         </div>
-                
       </section>
 
       {/* EXPERIENCE */}
@@ -1532,9 +1544,6 @@ export default function Home() {
           <div className="w-[110px] h-[4px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mx-auto mt-7"></div>
         
         </div>
-      
-        {/* LINE */}
-        <div className="w-28 h-1.5 bg-yellow-400 rounded-full mx-auto mt-5 mb-20"></div>
       
         <div className="relative w-full overflow-hidden">
       
