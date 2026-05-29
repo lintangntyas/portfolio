@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <main
-      className="min-h-screen relative pt-2 bg-gradient-to-br from-[#fdf2f8] via-[#f8fafc] to-[#dbeafe] px-5 md:px-10 py-6 md:py-8 overflow-x-hidden"   
+      className="min-h-screen relative pt-2 bg-gradient-to-br from-[#fdf2f8] via-[#f8fafc] to-[#dbeafe] px-5 md:px-10 py-6 md:py-8 overflow-hidden"
         
     >
 
@@ -192,16 +192,9 @@ export default function Home() {
       {/* ABOUT */}
       <section
         id="about"
-        className="
-          relative
-          w-full
-          pt-[120px]
-          pb-10
-          scroll-mt-[120px]
-          overflow-hidden
-        "
+        className="min-h-screen flex items-center justify-center px-6 md:px-16 py-24"
       >
-        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+        <div className="max-w-6xl w-full grid md:grid-cols-2 gap-16 items-center">
       
           {/* TEXT */}
           <div>
@@ -299,247 +292,441 @@ export default function Home() {
       {/* EXPERIENCE */}
       <section
         id="experience"
-        className="
-          relative
-          w-full
-          pt-[120px]
-          pb-10
-          scroll-mt-[120px]
-          overflow-hidden
-        "
+        className="w-full px-4 md:px-8 py-24 relative overflow-hidden"
       >
-        <div className="max-w-7xl mx-auto px-6 md:px-8">
       
-          {/* BLUR */}
-          <div className="absolute left-0 top-0 w-[320px] h-[320px] bg-pink-200 blur-[130px] opacity-30 rounded-full"></div>
+        {/* BLUR */}
+        <div className="absolute left-0 top-0 w-[320px] h-[320px] bg-pink-200 blur-[130px] opacity-30 rounded-full"></div>
       
-          <div className="absolute right-0 bottom-0 w-[320px] h-[320px] bg-blue-200 blur-[130px] opacity-30 rounded-full"></div>
+        <div className="absolute right-0 bottom-0 w-[320px] h-[320px] bg-blue-200 blur-[130px] opacity-30 rounded-full"></div>
       
-          {/* TITLE */}
-          <div className="text-center mb-20 relative z-10">
+        {/* TITLE */}
+        <div className="text-center mb-20 relative z-10">
       
-            <h1 className="text-[72px] font-black text-[#0f172a] leading-none">
-              Experience
-            </h1>
+          <h1 className="text-[72px] font-black text-[#0f172a] leading-none">
+            Experience
+          </h1>
       
-            <p className="text-[#6b7280] mt-6 text-[20px] font-medium">
-              Professional journey and internship experiences
-            </p>
+          <p className="text-[#6b7280] mt-6 text-[20px] font-medium">
+            Professional journey and internship experiences
+          </p>
       
-            <div className="w-[110px] h-[4px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mx-auto mt-7"></div>
+          <div className="w-[110px] h-[4px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mx-auto mt-7"></div>
       
-          </div>
+        </div>
       
-          {/* GRID */}
+        {/* GRID */}
+        <div
+          className="
+            grid
+            -mt-6
+      
+            grid-cols-1
+            md:grid-cols-2
+            xl:grid-cols-4
+      
+            gap-7
+      
+            max-w-[1700px]
+            mx-auto
+      
+            relative
+            z-10
+          "
+        >
+      
+          {/* CARD 1 */}
           <div
             className="
-              grid
-              -mt-6
-              grid-cols-1
-              md:grid-cols-2
-              xl:grid-cols-4
-              gap-7
-              max-w-7xl
-              mx-auto
-              relative
-              z-10
+              bg-[#f8f8f8]
+              border border-[#ececec]
+      
+              rounded-[30px]
+      
+              px-8
+              pt-8
+              pb-7
+      
+              shadow-[0_10px_35px_rgba(0,0,0,0.05)]
+      
+              transition-all
+              duration-300
+      
+              hover:-translate-y-1
+      
+              flex
+              flex-col
             "
           >
       
-            {/* CARD 1 */}
-            <div className="bg-[#f8f8f8] border border-[#ececec] rounded-[30px] px-8 pt-8 pb-7 shadow-[0_10px_35px_rgba(0,0,0,0.05)] transition-all duration-300 hover:-translate-y-1 flex flex-col">
+            {/* TOP */}
+            <div className="relative">
       
-              <div className="relative">
+              <div className="flex-1">
       
-                <div className="flex-1">
+                <h2
+                  className="
+                    text-[28px]
+                    font-black
+                    text-pink-500
+                    leading-[1.25]
+                  "
+                >
+                  Badan Pusat Statistik
+                </h2>
       
-                  <h2 className="text-[28px] font-black text-pink-500 leading-[1.25]">
-                    Badan Pusat Statistik
-                  </h2>
-      
-                  <p className="text-[#374151] text-[16px] font-semibold leading-[1.5]">
-                    Statistician Intern
-                  </p>
-      
-                </div>
-      
-                <span className="text-[#6b7280] text-[12px] text-right whitespace-nowrap leading-[1.5]">
-                  Nov 2025 - May 2026
-                </span>
-      
-              </div>
-      
-              <div className="w-[75px] h-[4px] bg-pink-500 rounded-full mt-4 mb-4"></div>
-      
-              <ul className="text-[#4b5563] text-[16px] leading-[2]">
-      
-                <li>
-                  • Collected, cleaned, and analyzed statistical distribution indicator data.
-                </li>
-      
-                <li>
-                  • Developed web-based automation systems to improve work efficiency.
-                </li>
-      
-                <li>
-                  • Created statistical infographics to support publication activities.
-                </li>
-      
-                <li>
-                  • Managed administrative documents and company directory data.
-                </li>
-      
-              </ul>
-      
-            </div>
-      
-            {/* CARD 2 */}
-            <div className="bg-[#f8f8f8] border border-[#ececec] rounded-[30px] px-8 pt-8 pb-7 shadow-[0_10px_35px_rgba(0,0,0,0.05)] transition-all duration-300 hover:-translate-y-1 flex flex-col">
-      
-              <div className="relative">
-      
-                <div className="flex-1">
-      
-                  <h2 className="text-[28px] font-black text-blue-500 leading-[1.25]">
-                    PLN Indonesia Power
-                  </h2>
-      
-                  <p className="text-[#374151] text-[16px] font-semibold leading-[1.5] whitespace-nowrap">
-                    Reliability & System Owner Intern
-                  </p>
-      
-                </div>
-      
-                <span className="text-[#6b7280] text-[12px] text-right whitespace-nowrap leading-[1.5]">
-                  Feb 2024
-                </span>
+                <p
+                  className="
+                    text-[#374151]
+                    text-[16px]
+                    font-semibold
+                    leading-[1.5]
+                    
+                  "
+                >
+                  Statistician Intern
+                </p>
       
               </div>
       
-              <div className="w-[75px] h-[4px] bg-blue-500 rounded-full mt-4 mb-4"></div>
-      
-              <ul className="text-[#4b5563] text-[16px] leading-[2]">
-      
-                <li>
-                  • Analyzed Unit 7 disturbance and pulverizer maintenance data using Excel and R.
-                </li>
-      
-                <li>
-                  • Prepared evaluation reports for system reliability improvement.
-                </li>
-      
-                <li>
-                  • Participated in occupational health and safety socialization programs.
-                </li>
-      
-              </ul>
+              <span
+                className="
+                  text-[#6b7280]
+                  text-[12px]
+                  text-right
+                  whitespace-nowrap
+                  leading-[1.5]
+                "
+              >
+                Nov 2025 - May 2026
+              </span>
       
             </div>
       
-            {/* CARD 3 */}
-            <div className="bg-[#f8f8f8] border border-[#ececec] rounded-[30px] px-8 pt-8 pb-7 shadow-[0_10px_35px_rgba(0,0,0,0.05)] transition-all duration-300 hover:-translate-y-1 flex flex-col">
+            {/* LINE */}
+            <div className="w-[75px] h-[4px] bg-pink-500 rounded-full mt-4 mb-4"></div>
       
-              <div className="relative">
+            {/* LIST */}
+            <ul
+              className="
+                
+                text-[#4b5563]
+                text-[16px]
+                leading-[2]
+              "
+            >
       
-                <div className="flex-1">
+              <li>
+                • Collected, cleaned, and analyzed statistical distribution indicator data.
+              </li>
       
-                  <h2 className="text-[28px] font-black text-purple-500 leading-[1.25]">
-                    INVISIO
-                  </h2>
+              <li>
+                • Developed web-based automation systems to improve work efficiency.
+              </li>
       
-                  <p className="text-[#374151] text-[16px] font-semibold leading-[1.5] whitespace-nowrap">
-                    Marketing & Content Writer
-                  </p>
+              <li>
+                • Created statistical infographics to support publication activities.
+              </li>
       
-                </div>
+              <li>
+                • Managed administrative documents and company directory data.
+              </li>
       
-                <span className="text-[#6b7280] text-[12px] text-right whitespace-nowrap leading-[1.5]">
-                  Mar 2023 - Apr 2025
-                </span>
-      
-              </div>
-      
-              <div className="w-[75px] h-[4px] bg-purple-500 rounded-full mt-4 mb-4"></div>
-      
-              <ul className="text-[#4b5563] text-[16px] leading-[2]">
-      
-                <li>
-                  • Developed content strategies and educational statistical materials.
-                </li>
-      
-                <li>
-                  • Collaborated with design teams to create engaging publications.
-                </li>
-      
-                <li>
-                  • Analyzed social media engagement performance monthly.
-                </li>
-      
-              </ul>
-      
-            </div>
-      
-            {/* CARD 4 */}
-            <div className="bg-[#f8f8f8] border border-[#ececec] rounded-[30px] px-8 pt-8 pb-7 shadow-[0_10px_35px_rgba(0,0,0,0.05)] transition-all duration-300 hover:-translate-y-1 flex flex-col">
-      
-              <div className="relative">
-      
-                <div className="flex-1">
-      
-                  <h2 className="text-[28px] font-black text-pink-500 leading-[1.25]">
-                    Bankaltimtara
-                  </h2>
-      
-                  <p className="text-[#374151] text-[16px] font-semibold leading-[1.5]">
-                    IT & E-Banking Intern
-                  </p>
-      
-                </div>
-      
-                <span className="text-[#6b7280] text-[12px] text-right whitespace-nowrap leading-[1.5]">
-                  Jul - Dec 2019
-                </span>
-      
-              </div>
-      
-              <div className="w-[75px] h-[4px] bg-pink-500 rounded-full mt-4 mb-4"></div>
-      
-              <ul className="text-[#4b5563] text-[16px] leading-[2]">
-      
-                <li>
-                  • Assisted customer service activities related to ATM services.
-                </li>
-      
-                <li>
-                  • Helped improve customer satisfaction through responsive problem handling.
-                </li>
-      
-                <li>
-                  • Supported ATM card destruction and banking administration processes.
-                </li>
-      
-              </ul>
-      
-            </div>
+            </ul>
       
           </div>
+      
+          {/* CARD 2 */}
+          <div
+            className="
+              bg-[#f8f8f8]
+              border border-[#ececec]
+      
+              rounded-[30px]
+      
+              px-8
+              pt-8
+              pb-7
+      
+              shadow-[0_10px_35px_rgba(0,0,0,0.05)]
+      
+              transition-all
+              duration-300
+      
+              hover:-translate-y-1
+      
+              flex
+              flex-col
+            "
+          >
+      
+            <div className="relative">
+      
+              <div className="flex-1">
+      
+                <h2
+                  className="
+                    text-[28px]
+                    font-black
+                    text-blue-500
+                    leading-[1.25]
+                  "
+                >
+                  PLN Indonesia Power
+                </h2>
+      
+                <p
+                  className="
+                    text-[#374151]
+                    text-[16px]
+                    font-semibold
+                    leading-[1.5]
+                    whitespace-nowrap
+                  "
+                >
+                  Reliability & System Owner Intern
+                </p>
+      
+              </div>
+      
+              <span
+                className="
+                  text-[#6b7280]
+                  text-[12px]
+                  text-right
+                  whitespace-nowrap
+                  leading-[1.5]
+                "
+              >
+                Feb 2024
+              </span>
+      
+            </div>
+      
+            <div className="w-[75px] h-[4px] bg-blue-500 rounded-full mt-4 mb-4"></div>
+      
+            <ul
+              className="
+                
+                text-[#4b5563]
+                text-[16px]
+                leading-[2]
+              "
+            >
+      
+              <li>
+                • Analyzed Unit 7 disturbance and pulverizer maintenance data using Excel and R.
+              </li>
+      
+              <li>
+                • Prepared evaluation reports for system reliability improvement.
+              </li>
+      
+              <li>
+                • Participated in occupational health and safety socialization programs.
+              </li>
+      
+            </ul>
+      
+          </div>
+      
+          {/* CARD 3 */}
+          <div
+            className="
+              bg-[#f8f8f8]
+              border border-[#ececec]
+      
+              rounded-[30px]
+      
+              px-8
+              pt-8
+              pb-7
+      
+              shadow-[0_10px_35px_rgba(0,0,0,0.05)]
+      
+              transition-all
+              duration-300
+      
+              hover:-translate-y-1
+      
+              flex
+              flex-col
+            "
+          >
+      
+            <div className="relative">
+      
+              <div className="flex-1">
+      
+                <h2
+                  className="
+                    text-[28px]
+                    font-black
+                    text-purple-500
+                    leading-[1.25]
+                  "
+                >
+                  INVISIO
+                </h2>
+      
+                <p
+                  className="
+                    text-[#374151]
+                    text-[16px]
+                    font-semibold
+                    leading-[1.5]
+                    whitespace-nowrap
+                  "
+                >
+                  Marketing & Content Writer
+                </p>
+      
+              </div>
+      
+              <span
+                className="
+                  text-[#6b7280]
+                  text-[12px]
+                  text-right
+                  whitespace-nowrap
+                  leading-[1.5]
+                "
+              >
+                Mar 2023 - Apr 2025
+              </span>
+      
+            </div>
+      
+            <div className="w-[75px] h-[4px] bg-purple-500 rounded-full mt-4 mb-4"></div>
+      
+            <ul
+              className="
+                
+                text-[#4b5563]
+                text-[16px]
+                leading-[2]
+              "
+            >
+      
+              <li>
+                • Developed content strategies and educational statistical materials.
+              </li>
+      
+              <li>
+                • Collaborated with design teams to create engaging publications.
+              </li>
+      
+              <li>
+                • Analyzed social media engagement performance monthly.
+              </li>
+      
+            </ul>
+      
+          </div>
+      
+          {/* CARD 4 */}
+          <div
+            className="
+              bg-[#f8f8f8]
+              border border-[#ececec]
+      
+              rounded-[30px]
+      
+              px-8
+              pt-8
+              pb-7
+      
+              shadow-[0_10px_35px_rgba(0,0,0,0.05)]
+      
+              transition-all
+              duration-300
+      
+              hover:-translate-y-1
+      
+              flex
+              flex-col
+            "
+          >
+      
+            <div className="relative">
+      
+              <div className="flex-1">
+      
+                <h2
+                  className="
+                    text-[28px]
+                    font-black
+                    text-pink-500
+                    leading-[1.25]
+                  "
+                >
+                  Bankaltimtara
+                </h2>
+      
+                <p
+                  className="
+                    text-[#374151]
+                    text-[16px]
+                    font-semibold
+                    leading-[1.5]
+                    
+                  "
+                >
+                  IT & E-Banking Intern
+                </p>
+      
+              </div>
+      
+              <span
+                className="
+                  text-[#6b7280]
+                  text-[12px]
+                  text-right
+                  whitespace-nowrap
+                  leading-[1.5]
+                "
+              >
+                Jul - Dec 2019
+              </span>
+      
+            </div>
+      
+            <div className="w-[75px] h-[4px] bg-pink-500 rounded-full mt-4 mb-4"></div>
+      
+            <ul
+              className="
+                
+                text-[#4b5563]
+                text-[16px]
+                leading-[2]
+              "
+            >
+      
+              <li>
+                • Assisted customer service activities related to ATM services.
+              </li>
+      
+              <li>
+                • Helped improve customer satisfaction through responsive problem handling.
+              </li>
+      
+              <li>
+                • Supported ATM card destruction and banking administration processes.
+              </li>
+      
+            </ul>
+      
+          </div>
+      
         </div>
+      
       </section>
 
       {/* PROJECTS */}
       <section
         id="projects"
-        className="
-          relative
-          w-full
-          pt-[120px]
-          pb-10
-          scroll-mt-[120px]
-          overflow-hidden
-        "
+        className="min-h-screen px-6 md:px-16 py-24"
       >
-        <div className="max-w-7xl mx-auto px-6 md:px-8">
-
       <div className="text-center mb-20">
 
         <h1 className="text-[72px] font-black text-[#0f172a] leading-none">
@@ -772,24 +959,16 @@ export default function Home() {
               </a>
             </div>
           </div>
-         </div>
+      
         </div>
       </section>
 
       {/* MEDIUM */}
       <section
         id="medium"
-        className="
-          relative
-          w-full
-          pt-[120px]
-          pb-10
-          scroll-mt-[120px]
-          overflow-hidden
-        "
+        className="w-full px-4 md:px-8 py-24 relative overflow-hidden"
       >
-        <div className="max-w-7xl mx-auto px-6 md:px-8">
-
+      
         {/* BLUR */}
         <div className="absolute left-0 top-0 w-[320px] h-[320px] bg-pink-200 blur-[130px] opacity-30 rounded-full"></div>
       
@@ -822,7 +1001,7 @@ export default function Home() {
         
             gap-6
         
-            max-w-7xl
+            max-w-[1700px]
             mx-auto
         
             relative
@@ -1352,22 +1531,14 @@ export default function Home() {
           </a>
       
         </div>
-      </div>
+      
       </section>
 
       {/* CERTIFICATIONS */}
       <section
         id="certificate"
-        className="
-          relative
-          w-full
-          pt-[120px]
-          pb-10
-          scroll-mt-[120px]
-          overflow-hidden
-        "
+        className="w-full px-4 md:px-8 py-24 relative overflow-hidden"
       >
-        <div className="max-w-7xl mx-auto px-6 md:px-8">
       
         {/* BLUR */}
         <div className="absolute left-0 top-0 w-[320px] h-[320px] bg-pink-200 blur-[130px] opacity-30 rounded-full"></div>
@@ -1473,7 +1644,6 @@ export default function Home() {
             ))}
           
           </div>
-         </div>
         </div>
       </section>
 
@@ -1483,28 +1653,26 @@ export default function Home() {
         className="
           relative
           w-full
-          pt-[120px]
-          pb-10
-          scroll-mt-[120px]
+          px-6
+          md:px-8
+          pt-16
+          pb-8
           overflow-hidden
+          scroll-mt-40
         "
       >
-        <div className="max-w-7xl mx-auto px-6 md:px-8">
-
         {/* BACKGROUND */}
         <div className="absolute top-0 left-0 w-[250px] h-[250px] bg-pink-200/30 blur-[120px] rounded-full" />
       
         <div className="absolute bottom-0 right-0 w-[250px] h-[250px] bg-blue-200/30 blur-[120px] rounded-full" />
       
-        <div className="relative z-10 max-w-7xl mx-auto">
-
-          <div className="max-w-xl mx-auto text-center">
+        <div className="relative z-10 max-w-xl mx-auto text-center">
       
           {/* TITLE */}
           <h2
             className="
-              text-[52px]
-              md:text-[72px]
+              text-[58px]
+              md:text-[82px]
               font-black
               text-[#0b132b]
               leading-none
@@ -1514,7 +1682,7 @@ export default function Home() {
           </h2>
       
           {/* SUBTITLE */}
-          <p className="mt-4 text-[15px] text-gray-500">
+          <p className="mt-4 text-[16px] text-gray-500">
             Interested in working together? Fill out the form below.
           </p>
       
@@ -1525,7 +1693,7 @@ export default function Home() {
           <div
             className="
               mt-8
-              max-w-[500px]
+              max-w-[560px]
               mx-auto
               bg-white/60
               backdrop-blur-xl
@@ -1578,7 +1746,7 @@ export default function Home() {
                   placeholder="Your Name"
                   className="
                     w-full
-                    h-[50px]
+                    h-[52px]
                     rounded-2xl
                     border border-gray-200
                     bg-white/85
@@ -1608,7 +1776,7 @@ export default function Home() {
                   placeholder="Your Email"
                   className="
                     w-full
-                    h-[50px]
+                    h-[52px]
                     rounded-2xl
                     border border-gray-200
                     bg-white/85
@@ -1638,7 +1806,7 @@ export default function Home() {
                   placeholder="Subject"
                   className="
                     w-full
-                    h-[50px]
+                    h-[52px]
                     rounded-2xl
                     border border-gray-200
                     bg-white/85
@@ -1690,7 +1858,7 @@ export default function Home() {
                 type="submit"
                 className="
                   w-full
-                  h-[52px]
+                  h-[54px]
                   rounded-2xl
                   bg-gradient-to-r
                   from-pink-500
@@ -1705,23 +1873,28 @@ export default function Home() {
                   hover:scale-[1.01]
                 "
               >
-                Send Message 
+                Send Message ✈️
               </button>
       
             </form>
-            </div>
+      
           </div>
-         </div>
         </div>
       </section>
       
       {/* FOOTER */}
-      <footer className="w-full mt-3 pb-4">
-        <div className="max-w-5xl mx-auto border-t border-gray-300 pt-4">
+      <footer className="w-full pb-3 pt-2">
+      
+        <div className="max-w-5xl mx-auto px-6">
+      
+          <div className="border-t border-gray-200 mb-4"></div>
+      
           <p className="text-center text-gray-500 text-sm">
             © 2026 Lintang Cahyaningtyas. All Rights Reserved.
           </p>
+      
         </div>
+      
       </footer>
     </main>
   );
