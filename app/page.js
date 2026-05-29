@@ -198,11 +198,11 @@ export default function Home() {
 
           {/* TEXT */}
           <div>
-            <h1 className="text-5xl md:text-7xl font-bold mb-10">
+            <h1 className="text-5xl md:text-7xl font-bold">
               About Me
             </h1>
-
-            <div className="w-[110px] h-[4px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mx-auto mt-7"></div>
+            
+            <div className="w-[110px] h-[4px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mt-7"></div>
 
             <div className="space-y-8 text-justify text-gray-800 text-lg leading-[2.2rem]">
 
@@ -715,11 +715,15 @@ export default function Home() {
         id="projects"
         className="min-h-screen px-6 md:px-16 py-24"
       >
-        <h1 className="text-5xl md:text-7xl font-bold text-center mb-20">
+      <div className="text-center mb-20">
+
+        <h1 className="text-5xl md:text-7xl font-bold text-center">
           Projects
         </h1>
-
+      
         <div className="w-[110px] h-[4px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mx-auto mt-7"></div>
+      
+      </div>
       
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
       
@@ -1519,11 +1523,15 @@ export default function Home() {
         id="certificate"
         className="py-28 overflow-hidden"
       >
-        <h1 className="text-5xl md:text-7xl font-black text-center text-slate-900">
-          Certifications
-        </h1>
+        <div className="text-center mb-20">
 
-        <div className="w-[110px] h-[4px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mx-auto mt-7"></div>
+          <h1 className="text-5xl md:text-7xl font-black text-slate-900">
+            Certifications
+          </h1>
+        
+          <div className="w-[110px] h-[4px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mx-auto mt-7"></div>
+        
+        </div>
       
         {/* LINE */}
         <div className="w-28 h-1.5 bg-yellow-400 rounded-full mx-auto mt-5 mb-20"></div>
