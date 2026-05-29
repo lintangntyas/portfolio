@@ -729,7 +729,7 @@ export default function Home() {
 
           <div className="relative w-full overflow-hidden">
 
-            <div className="flex gap-8 animate-scroll whitespace-nowrap">
+            <div className="flex gap-14 animate-scroll whitespace-nowrap">
 
               {/* CERTIFICATE 1 */}
               <div className="min-w-[350px] bg-white/70 backdrop-blur-lg rounded-[30px] p-4 shadow-xl border border-black/10">
