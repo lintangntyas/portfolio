@@ -467,7 +467,8 @@ export default function Home() {
                     text-[16px]
                     font-semibold
                     leading-[1.5]
-                    
+                    mt-4 
+                    whitespace-nowrap
                   "
                 >
                   Reliability & System Owner Intern
@@ -561,7 +562,8 @@ export default function Home() {
                     text-[16px]
                     font-semibold
                     leading-[1.5]
-                    
+                    mt-4 
+                    whitespace-nowrap
                   "
                 >
                   Marketing & Content Writer
