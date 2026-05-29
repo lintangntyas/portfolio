@@ -769,10 +769,17 @@ export default function Home() {
                   src={`/sertif${index + 1}.${index >= 9 ? "png" : "jpg"}`}
                   alt={`Certificate ${index + 1}`}
                   className="
-                    w-full
-                    h-full
-                    object-cover
-                    rounded-[14px]
+                    flex-shrink-0
+                    w-[500px]
+                    h-[320px]
+                    rounded-[20px]
+                    border
+                    border-black/10
+                    bg-white
+                    p-3
+                    flex
+                    items-center
+                    justify-center
                   "
                 />
               </div>
@@ -798,10 +805,17 @@ export default function Home() {
                   src={`/sertif${index + 1}.${index >= 9 ? "png" : "jpg"}`}
                   alt={`Certificate ${index + 1}`}
                   className="
-                    w-full
-                    h-full
-                    object-cover
-                    rounded-[14px]
+                    flex-shrink-0
+                    w-[500px]
+                    h-[320px]
+                    rounded-[20px]
+                    border
+                    border-black/10
+                    bg-white
+                    p-3
+                    flex
+                    items-center
+                    justify-center
                   "
                 />
               </div>
