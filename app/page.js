@@ -1883,7 +1883,7 @@ export default function Home() {
       </section>
       
       {/* FOOTER */}
-      <footer className="w-full pb-6 pt-2">
+      <footer className="w-full pb-3 pt-2">
       
         <div className="max-w-5xl mx-auto px-6">
       
