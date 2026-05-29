@@ -1655,9 +1655,9 @@ export default function Home() {
           w-full
           px-6
           md:px-8
-          pt-[120px]
+          pt-[40px]
           pb-8
-          scroll-mt-[180px]
+          scroll-mt-[90px]
           overflow-hidden
         "
       >
