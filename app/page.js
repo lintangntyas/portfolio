@@ -389,17 +389,7 @@ export default function Home() {
               <div className="w-[70px] h-[4px] bg-pink-500 rounded-full mt-6 mb-8"></div>
       
               {/* LIST */}
-              <ul
-                className="
-                  space-y-5
-      
-                  text-[#4b5563]
-      
-                  text-[16px]
-      
-                  leading-[2]
-                "
-              >
+              <ul className="space-y-2 text-[#4b5563] text-[16px] leading-[1.8]">
       
                 <li>
                   • Collected, cleaned, and analyzed statistical distribution indicator data.
