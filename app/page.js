@@ -891,9 +891,9 @@ export default function Home() {
       >
       
         {/* BACKGROUND */}
-        <div className="absolute left-0 bottom-0 w-[300px] h-[300px] bg-blue-200 blur-[120px] opacity-40 rounded-full"></div>
+        <div className="absolute left-0 top-0 w-[300px] h-[300px] bg-pink-200 blur-[120px] opacity-30 rounded-full"></div>
       
-        <div className="absolute right-0 top-0 w-[300px] h-[300px] bg-pink-200 blur-[120px] opacity-40 rounded-full"></div>
+        <div className="absolute right-0 bottom-0 w-[300px] h-[300px] bg-blue-200 blur-[120px] opacity-30 rounded-full"></div>
       
         {/* TITLE */}
         <div className="text-center mb-20 relative z-10">
@@ -906,7 +906,7 @@ export default function Home() {
             Thoughts, insights, and data stories
           </p>
       
-          <div className="w-20 h-1 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mx-auto mt-5"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mx-auto mt-5"></div>
       
         </div>
       
@@ -916,8 +916,9 @@ export default function Home() {
             grid
             grid-cols-1
             md:grid-cols-2
+            xl:grid-cols-4
             gap-8
-            max-w-6xl
+            max-w-7xl
             mx-auto
             relative
             z-10
@@ -930,18 +931,20 @@ export default function Home() {
             href="https://medium.com/statistics-uii/basis-data-pada-rdbms-12be0f95c277"
             target="_blank"
             className="
-              bg-white/70
+              bg-white/80
               backdrop-blur-xl
               border
-              border-white/30
-              rounded-[35px]
+              border-white/40
+              rounded-[38px]
               p-8
-              shadow-xl
+              shadow-[0_10px_40px_rgba(0,0,0,0.08)]
+      
               hover:-translate-y-2
+              hover:shadow-2xl
               transition
               duration-300
       
-              min-h-[380px]
+              min-h-[480px]
       
               flex
               flex-col
@@ -949,9 +952,11 @@ export default function Home() {
             "
           >
       
+            {/* TOP */}
             <div>
       
-              <div className="flex items-start gap-5">
+              {/* HEADER */}
+              <div className="flex items-center gap-4 mb-8">
       
                 {/* ICON */}
                 <div
@@ -962,10 +967,12 @@ export default function Home() {
                     bg-gradient-to-br
                     from-pink-500
                     to-pink-400
-                    text-white
+      
                     flex
                     items-center
                     justify-center
+      
+                    text-white
                     text-4xl
                     font-bold
                     flex-shrink-0
@@ -974,69 +981,66 @@ export default function Home() {
                   M
                 </div>
       
-                {/* CONTENT */}
-                <div className="flex-1">
-      
-                  <span
-                    className="
-                      inline-block
-                      px-4
-                      py-1
-                      rounded-full
-                      bg-pink-100
-                      text-pink-500
-                      text-sm
-                      font-semibold
-                      mb-4
-                    "
-                  >
-                    Data Science
-                  </span>
-      
-                  <h2
-                    className="
-                      text-3xl
-                      font-bold
-                      text-black
-                      leading-snug
-      
-                      min-h-[80px]
-                    "
-                  >
-                    Database in RDBMS
-                  </h2>
-      
-                  <p
-                    className="
-                      text-gray-600
-                      mt-4
-                      leading-relaxed
-                      text-lg
-      
-                      min-h-[90px]
-                    "
-                  >
-                    Understand the basic concepts of relational databases,
-                    tables, normalization, and SQL implementation.
-                  </p>
-      
-                </div>
+                {/* TAG */}
+                <span
+                  className="
+                    px-5
+                    py-2
+                    rounded-full
+                    bg-pink-100
+                    text-pink-500
+                    text-sm
+                    font-bold
+                  "
+                >
+                  Data Science
+                </span>
       
               </div>
+      
+              {/* TITLE */}
+              <h2
+                className="
+                  text-[24px]
+                  font-extrabold
+                  text-black
+                  leading-snug
+      
+                  min-h-[120px]
+                "
+              >
+                Database in RDBMS
+              </h2>
+      
+              {/* DESC */}
+              <p
+                className="
+                  text-gray-600
+                  mt-6
+                  text-[18px]
+                  leading-[1.9]
+      
+                  min-h-[170px]
+                "
+              >
+                Understand the basic concepts of relational databases,
+                tables, normalization, and SQL implementation.
+              </p>
       
             </div>
       
             {/* FOOTER */}
-            <div className="flex items-center justify-between mt-10">
+            <div className="flex items-center justify-between pt-8">
       
-              <span className="text-gray-500">
+              <span className="text-gray-500 text-[16px]">
                 26 Dec 2021
               </span>
       
               <span
                 className="
                   text-pink-500
-                  font-semibold
+                  font-bold
+                  text-[17px]
                 "
               >
                 Read Article →
@@ -1051,18 +1055,20 @@ export default function Home() {
             href="https://medium.com/@lintangntyas/clustering-provinsi-terhadap-jenis-bencana-alam-di-indonesia-tahun-2021-b85eeaf1b451"
             target="_blank"
             className="
-              bg-white/70
+              bg-white/80
               backdrop-blur-xl
               border
-              border-white/30
-              rounded-[35px]
+              border-white/40
+              rounded-[38px]
               p-8
-              shadow-xl
+              shadow-[0_10px_40px_rgba(0,0,0,0.08)]
+      
               hover:-translate-y-2
+              hover:shadow-2xl
               transition
               duration-300
       
-              min-h-[380px]
+              min-h-[480px]
       
               flex
               flex-col
@@ -1072,7 +1078,7 @@ export default function Home() {
       
             <div>
       
-              <div className="flex items-start gap-5">
+              <div className="flex items-center gap-4 mb-8">
       
                 <div
                   className="
@@ -1082,10 +1088,12 @@ export default function Home() {
                     bg-gradient-to-br
                     from-purple-500
                     to-fuchsia-400
-                    text-white
+      
                     flex
                     items-center
                     justify-center
+      
+                    text-white
                     text-4xl
                     font-bold
                     flex-shrink-0
@@ -1094,66 +1102,61 @@ export default function Home() {
                   M
                 </div>
       
-                <div className="flex-1">
-      
-                  <span
-                    className="
-                      inline-block
-                      px-4
-                      py-1
-                      rounded-full
-                      bg-purple-100
-                      text-purple-500
-                      text-sm
-                      font-semibold
-                      mb-4
-                    "
-                  >
-                    Machine Learning
-                  </span>
-      
-                  <h2
-                    className="
-                      text-3xl
-                      font-bold
-                      text-black
-                      leading-snug
-      
-                      min-h-[80px]
-                    "
-                  >
-                    Provincial Clustering Based on Types of Natural Disasters
-                  </h2>
-      
-                  <p
-                    className="
-                      text-gray-600
-                      mt-4
-                      leading-relaxed
-                      text-lg
-      
-                      min-h-[90px]
-                    "
-                  >
-                    Clustering analysis using K-Means to group provinces based on the dominant type of disaster.
-                  </p>
-      
-                </div>
+                <span
+                  className="
+                    px-5
+                    py-2
+                    rounded-full
+                    bg-purple-100
+                    text-purple-500
+                    text-sm
+                    font-bold
+                  "
+                >
+                  Machine Learning
+                </span>
       
               </div>
       
+              <h2
+                className="
+                  text-[24px]
+                  font-extrabold
+                  text-black
+                  leading-snug
+      
+                  min-h-[120px]
+                "
+              >
+                Provincial Clustering Based on Types of Natural Disasters
+              </h2>
+      
+              <p
+                className="
+                  text-gray-600
+                  mt-6
+                  text-[18px]
+                  leading-[1.9]
+      
+                  min-h-[170px]
+                "
+              >
+                Clustering analysis using K-Means to group provinces based on the dominant type of disaster.
+              </p>
+      
             </div>
       
-            <div className="flex items-center justify-between mt-10">
+            <div className="flex items-center justify-between pt-8">
       
-              <span className="text-gray-500">
+              <span className="text-gray-500 text-[16px]">
                 04 May 2023
               </span>
       
               <span
                 className="
                   text-pink-500
-                  font-semibold
+                  font-bold
+                  text-[17px]
                 "
               >
                 Read Article →
@@ -1168,18 +1171,20 @@ export default function Home() {
             href="https://medium.com/@lintangntyas/perilaku-konsumen-menggunakan-mba-association-rule-mining-cc0f604b319a"
             target="_blank"
             className="
-              bg-white/70
+              bg-white/80
               backdrop-blur-xl
               border
-              border-white/30
-              rounded-[35px]
+              border-white/40
+              rounded-[38px]
               p-8
-              shadow-xl
+              shadow-[0_10px_40px_rgba(0,0,0,0.08)]
+      
               hover:-translate-y-2
+              hover:shadow-2xl
               transition
               duration-300
       
-              min-h-[380px]
+              min-h-[480px]
       
               flex
               flex-col
@@ -1189,7 +1194,7 @@ export default function Home() {
       
             <div>
       
-              <div className="flex items-start gap-5">
+              <div className="flex items-center gap-4 mb-8">
       
                 <div
                   className="
@@ -1199,10 +1204,12 @@ export default function Home() {
                     bg-gradient-to-br
                     from-pink-500
                     to-rose-400
-                    text-white
+      
                     flex
                     items-center
                     justify-center
+      
+                    text-white
                     text-4xl
                     font-bold
                     flex-shrink-0
@@ -1211,66 +1218,61 @@ export default function Home() {
                   M
                 </div>
       
-                <div className="flex-1">
-      
-                  <span
-                    className="
-                      inline-block
-                      px-4
-                      py-1
-                      rounded-full
-                      bg-pink-100
-                      text-pink-500
-                      text-sm
-                      font-semibold
-                      mb-4
-                    "
-                  >
-                    Data Mining
-                  </span>
-      
-                  <h2
-                    className="
-                      text-3xl
-                      font-bold
-                      text-black
-                      leading-snug
-      
-                      min-h-[80px]
-                    "
-                  >
-                    Consumer Behavior Using MBA Association Rule Mining
-                  </h2>
-      
-                  <p
-                    className="
-                      text-gray-600
-                      mt-4
-                      leading-relaxed
-                      text-lg
-      
-                      min-h-[90px]
-                    "
-                  >
-                    Implement Market Basket Analysis to identify purchasing patterns of products frequently purchased together.
-                  </p>
-      
-                </div>
+                <span
+                  className="
+                    px-5
+                    py-2
+                    rounded-full
+                    bg-pink-100
+                    text-pink-500
+                    text-sm
+                    font-bold
+                  "
+                >
+                  Data Mining
+                </span>
       
               </div>
       
+              <h2
+                className="
+                  text-[24px]
+                  font-extrabold
+                  text-black
+                  leading-snug
+      
+                  min-h-[120px]
+                "
+              >
+                Consumer Behavior Using MBA Association Rule Mining
+              </h2>
+      
+              <p
+                className="
+                  text-gray-600
+                  mt-6
+                  text-[18px]
+                  leading-[1.9]
+      
+                  min-h-[170px]
+                "
+              >
+                Implement Market Basket Analysis to identify purchasing patterns of products frequently purchased together.
+              </p>
+      
             </div>
       
-            <div className="flex items-center justify-between mt-10">
+            <div className="flex items-center justify-between pt-8">
       
-              <span className="text-gray-500">
+              <span className="text-gray-500 text-[16px]">
                 30 Jul 2023
               </span>
       
               <span
                 className="
                   text-pink-500
-                  font-semibold
+                  font-bold
+                  text-[17px]
                 "
               >
                 Read Article →
@@ -1285,18 +1287,20 @@ export default function Home() {
             href="https://medium.com/@lintangntyas/analisis-data-terhadap-tipe-penyewaan-bikeshare-toronto-pada-tahun-2018-f932072c2682"
             target="_blank"
             className="
-              bg-white/70
+              bg-white/80
               backdrop-blur-xl
               border
-              border-white/30
-              rounded-[35px]
+              border-white/40
+              rounded-[38px]
               p-8
-              shadow-xl
+              shadow-[0_10px_40px_rgba(0,0,0,0.08)]
+      
               hover:-translate-y-2
+              hover:shadow-2xl
               transition
               duration-300
       
-              min-h-[380px]
+              min-h-[480px]
       
               flex
               flex-col
@@ -1306,7 +1310,7 @@ export default function Home() {
       
             <div>
       
-              <div className="flex items-start gap-5">
+              <div className="flex items-center gap-4 mb-8">
       
                 <div
                   className="
@@ -1316,10 +1320,12 @@ export default function Home() {
                     bg-gradient-to-br
                     from-blue-400
                     to-indigo-400
-                    text-white
+      
                     flex
                     items-center
                     justify-center
+      
+                    text-white
                     text-4xl
                     font-bold
                     flex-shrink-0
@@ -1328,66 +1334,61 @@ export default function Home() {
                   M
                 </div>
       
-                <div className="flex-1">
-      
-                  <span
-                    className="
-                      inline-block
-                      px-4
-                      py-1
-                      rounded-full
-                      bg-blue-100
-                      text-blue-500
-                      text-sm
-                      font-semibold
-                      mb-4
-                    "
-                  >
-                    Data Visualization
-                  </span>
-      
-                  <h2
-                    className="
-                      text-3xl
-                      font-bold
-                      text-black
-                      leading-snug
-      
-                      min-h-[80px]
-                    "
-                  >
-                    Toronto BikeShare User Data Analysis
-                  </h2>
-      
-                  <p
-                    className="
-                      text-gray-600
-                      mt-4
-                      leading-relaxed
-                      text-lg
-      
-                      min-h-[90px]
-                    "
-                  >
-                    Exploratory data analysis and visualization of BikeShare Toronto users to understand bicycle usage patterns.
-                  </p>
-      
-                </div>
+                <span
+                  className="
+                    px-5
+                    py-2
+                    rounded-full
+                    bg-blue-100
+                    text-blue-500
+                    text-sm
+                    font-bold
+                  "
+                >
+                  Data Visualization
+                </span>
       
               </div>
       
+              <h2
+                className="
+                  text-[24px]
+                  font-extrabold
+                  text-black
+                  leading-snug
+      
+                  min-h-[120px]
+                "
+              >
+                Toronto BikeShare User Data Analysis
+              </h2>
+      
+              <p
+                className="
+                  text-gray-600
+                  mt-6
+                  text-[18px]
+                  leading-[1.9]
+      
+                  min-h-[170px]
+                "
+              >
+                Exploratory data analysis and visualization of BikeShare Toronto users to understand bicycle usage patterns.
+              </p>
+      
             </div>
       
-            <div className="flex items-center justify-between mt-10">
+            <div className="flex items-center justify-between pt-8">
       
-              <span className="text-gray-500">
+              <span className="text-gray-500 text-[16px]">
                 01 Nov 2023
               </span>
       
               <span
                 className="
                   text-pink-500
-                  font-semibold
+                  font-bold
+                  text-[17px]
                 "
               >
                 Read Article →
