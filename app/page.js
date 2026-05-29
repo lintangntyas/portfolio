@@ -1873,7 +1873,7 @@ export default function Home() {
                   hover:scale-[1.01]
                 "
               >
-                Send Message ✈️
+                Send Message 
               </button>
       
             </form>
