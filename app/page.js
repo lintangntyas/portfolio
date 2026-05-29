@@ -367,7 +367,7 @@ export default function Home() {
                     text-[16px]
                     font-semibold
                     leading-[1.5]
-                    mt-4
+                    
                   "
                 >
                   Statistician Intern
@@ -467,7 +467,7 @@ export default function Home() {
                     text-[16px]
                     font-semibold
                     leading-[1.5]
-                    mt-4
+                    
                   "
                 >
                   Reliability & System Owner Intern
@@ -493,7 +493,7 @@ export default function Home() {
       
             <ul
               className="
-                space-y-5
+                
                 text-[#4b5563]
                 text-[16px]
                 leading-[2]
@@ -561,7 +561,7 @@ export default function Home() {
                     text-[16px]
                     font-semibold
                     leading-[1.5]
-                    mt-4
+                    
                   "
                 >
                   Marketing & Content Writer
@@ -587,7 +587,7 @@ export default function Home() {
       
             <ul
               className="
-                space-y-5
+                
                 text-[#4b5563]
                 text-[16px]
                 leading-[2]
@@ -655,7 +655,7 @@ export default function Home() {
                     text-[16px]
                     font-semibold
                     leading-[1.5]
-                    mt-4
+                    
                   "
                 >
                   IT & E-Banking Intern
@@ -681,7 +681,7 @@ export default function Home() {
       
             <ul
               className="
-                space-y-5
+                
                 text-[#4b5563]
                 text-[16px]
                 leading-[2]
