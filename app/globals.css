@@ -6,6 +6,11 @@ html {
   scroll-behavior: smooth;
 }
 
+/* fix navbar overlap */
+section {
+  scroll-margin-top: 140px;
+}
+
 body {
   margin: 0;
   padding: 0;
