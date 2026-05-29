@@ -206,7 +206,7 @@ export default function Home() {
                 About Me
               </h1>
       
-              <div className="w-[110px] h-[4px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mt-7"></div>
+              <div className="w-[110px] h-[4px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mt-4"></div>
       
             </div>
       
@@ -729,9 +729,13 @@ export default function Home() {
       >
       <div className="text-center mb-20">
 
-        <h1 className="text-5xl md:text-7xl font-bold text-center">
+        <h1 className="text-[72px] font-black text-[#0f172a] leading-none">
           Projects
         </h1>
+      
+        <p className="text-[#6b7280] mt-6 text-[20px] font-medium">
+          Selected projects and portfolio works
+        </p>
       
         <div className="w-[110px] h-[4px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mx-auto mt-7"></div>
       
@@ -1533,16 +1537,27 @@ export default function Home() {
       {/* CERTIFICATIONS */}
       <section
         id="certificate"
-        className="py-28 overflow-hidden"
+        className="w-full px-4 md:px-8 py-24 relative overflow-hidden"
       >
-        <div className="text-center mb-20">
-
-          <h1 className="text-5xl md:text-7xl font-black text-slate-900">
+      
+        {/* BLUR */}
+        <div className="absolute left-0 top-0 w-[320px] h-[320px] bg-pink-200 blur-[130px] opacity-30 rounded-full"></div>
+      
+        <div className="absolute right-0 bottom-0 w-[320px] h-[320px] bg-blue-200 blur-[130px] opacity-30 rounded-full"></div>
+      
+        {/* TITLE */}
+        <div className="text-center mb-20 relative z-10">
+      
+          <h1 className="text-[72px] font-black text-[#0f172a] leading-none">
             Certifications
           </h1>
-        
-          <div className="w-[110px] h-[4px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mx-auto mt-7"></div>
-        
+      
+          <p className="text-[#6b7280] mt-6 text-[20px] font-medium">
+            Professional courses and achievement certifications
+          </p>
+      
+          <div className="w-[110px] h-[4px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mx-auto mt-4"></div>
+      
         </div>
       
         <div className="relative w-full overflow-hidden">
