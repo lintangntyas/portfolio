@@ -890,7 +890,7 @@ export default function Home() {
         className="min-h-screen px-6 md:px-16 py-24 relative overflow-hidden"
       >
       
-        {/* BACKGROUND BLUR */}
+        {/* BACKGROUND */}
         <div className="absolute left-0 bottom-0 w-[300px] h-[300px] bg-blue-200 blur-[120px] opacity-40 rounded-full"></div>
       
         <div className="absolute right-0 top-0 w-[300px] h-[300px] bg-pink-200 blur-[120px] opacity-40 rounded-full"></div>
@@ -910,15 +910,14 @@ export default function Home() {
       
         </div>
       
-        {/* CARDS */}
+        {/* GRID */}
         <div
           className="
             grid
             grid-cols-1
             md:grid-cols-2
-            xl:grid-cols-4
             gap-8
-            max-w-7xl
+            max-w-6xl
             mx-auto
             relative
             z-10
@@ -942,7 +941,7 @@ export default function Home() {
               transition
               duration-300
       
-              min-h-[430px]
+              min-h-[380px]
       
               flex
               flex-col
@@ -950,7 +949,6 @@ export default function Home() {
             "
           >
       
-            {/* TOP */}
             <div>
       
               <div className="flex items-start gap-5">
@@ -958,8 +956,8 @@ export default function Home() {
                 {/* ICON */}
                 <div
                   className="
-                    w-14
-                    h-14
+                    w-16
+                    h-16
                     rounded-full
                     bg-gradient-to-br
                     from-pink-500
@@ -968,7 +966,7 @@ export default function Home() {
                     flex
                     items-center
                     justify-center
-                    text-3xl
+                    text-4xl
                     font-bold
                     flex-shrink-0
                   "
@@ -997,12 +995,12 @@ export default function Home() {
       
                   <h2
                     className="
-                      text-[22px]
+                      text-3xl
                       font-bold
                       text-black
                       leading-snug
       
-                      min-h-[120px]
+                      min-h-[80px]
                     "
                   >
                     Database in RDBMS
@@ -1013,9 +1011,9 @@ export default function Home() {
                       text-gray-600
                       mt-4
                       leading-relaxed
-                      text-[17px]
+                      text-lg
       
-                      min-h-[130px]
+                      min-h-[90px]
                     "
                   >
                     Understand the basic concepts of relational databases,
@@ -1031,7 +1029,7 @@ export default function Home() {
             {/* FOOTER */}
             <div className="flex items-center justify-between mt-10">
       
-              <span className="text-gray-500 text-sm">
+              <span className="text-gray-500">
                 26 Dec 2021
               </span>
       
@@ -1039,10 +1037,6 @@ export default function Home() {
                 className="
                   text-pink-500
                   font-semibold
-                  flex
-                  items-center
-                  gap-2
-                  text-sm
                 "
               >
                 Read Article →
@@ -1068,7 +1062,7 @@ export default function Home() {
               transition
               duration-300
       
-              min-h-[430px]
+              min-h-[380px]
       
               flex
               flex-col
@@ -1082,8 +1076,8 @@ export default function Home() {
       
                 <div
                   className="
-                    w-14
-                    h-14
+                    w-16
+                    h-16
                     rounded-full
                     bg-gradient-to-br
                     from-purple-500
@@ -1092,7 +1086,7 @@ export default function Home() {
                     flex
                     items-center
                     justify-center
-                    text-3xl
+                    text-4xl
                     font-bold
                     flex-shrink-0
                   "
@@ -1120,12 +1114,12 @@ export default function Home() {
       
                   <h2
                     className="
-                      text-[22px]
+                      text-3xl
                       font-bold
                       text-black
                       leading-snug
       
-                      min-h-[120px]
+                      min-h-[80px]
                     "
                   >
                     Provincial Clustering Based on Types of Natural Disasters
@@ -1136,9 +1130,9 @@ export default function Home() {
                       text-gray-600
                       mt-4
                       leading-relaxed
-                      text-[17px]
+                      text-lg
       
-                      min-h-[130px]
+                      min-h-[90px]
                     "
                   >
                     Clustering analysis using K-Means to group provinces based on the dominant type of disaster.
@@ -1152,7 +1146,7 @@ export default function Home() {
       
             <div className="flex items-center justify-between mt-10">
       
-              <span className="text-gray-500 text-sm">
+              <span className="text-gray-500">
                 04 May 2023
               </span>
       
@@ -1160,10 +1154,6 @@ export default function Home() {
                 className="
                   text-pink-500
                   font-semibold
-                  flex
-                  items-center
-                  gap-2
-                  text-sm
                 "
               >
                 Read Article →
@@ -1189,7 +1179,7 @@ export default function Home() {
               transition
               duration-300
       
-              min-h-[430px]
+              min-h-[380px]
       
               flex
               flex-col
@@ -1203,8 +1193,8 @@ export default function Home() {
       
                 <div
                   className="
-                    w-14
-                    h-14
+                    w-16
+                    h-16
                     rounded-full
                     bg-gradient-to-br
                     from-pink-500
@@ -1213,7 +1203,7 @@ export default function Home() {
                     flex
                     items-center
                     justify-center
-                    text-3xl
+                    text-4xl
                     font-bold
                     flex-shrink-0
                   "
@@ -1241,12 +1231,12 @@ export default function Home() {
       
                   <h2
                     className="
-                      text-[22px]
+                      text-3xl
                       font-bold
                       text-black
                       leading-snug
       
-                      min-h-[120px]
+                      min-h-[80px]
                     "
                   >
                     Consumer Behavior Using MBA Association Rule Mining
@@ -1257,9 +1247,9 @@ export default function Home() {
                       text-gray-600
                       mt-4
                       leading-relaxed
-                      text-[17px]
+                      text-lg
       
-                      min-h-[130px]
+                      min-h-[90px]
                     "
                   >
                     Implement Market Basket Analysis to identify purchasing patterns of products frequently purchased together.
@@ -1273,7 +1263,7 @@ export default function Home() {
       
             <div className="flex items-center justify-between mt-10">
       
-              <span className="text-gray-500 text-sm">
+              <span className="text-gray-500">
                 30 Jul 2023
               </span>
       
@@ -1281,10 +1271,6 @@ export default function Home() {
                 className="
                   text-pink-500
                   font-semibold
-                  flex
-                  items-center
-                  gap-2
-                  text-sm
                 "
               >
                 Read Article →
@@ -1310,7 +1296,7 @@ export default function Home() {
               transition
               duration-300
       
-              min-h-[430px]
+              min-h-[380px]
       
               flex
               flex-col
@@ -1324,8 +1310,8 @@ export default function Home() {
       
                 <div
                   className="
-                    w-14
-                    h-14
+                    w-16
+                    h-16
                     rounded-full
                     bg-gradient-to-br
                     from-blue-400
@@ -1334,7 +1320,7 @@ export default function Home() {
                     flex
                     items-center
                     justify-center
-                    text-3xl
+                    text-4xl
                     font-bold
                     flex-shrink-0
                   "
@@ -1362,12 +1348,12 @@ export default function Home() {
       
                   <h2
                     className="
-                      text-[22px]
+                      text-3xl
                       font-bold
                       text-black
                       leading-snug
       
-                      min-h-[120px]
+                      min-h-[80px]
                     "
                   >
                     Toronto BikeShare User Data Analysis
@@ -1378,9 +1364,9 @@ export default function Home() {
                       text-gray-600
                       mt-4
                       leading-relaxed
-                      text-[17px]
+                      text-lg
       
-                      min-h-[130px]
+                      min-h-[90px]
                     "
                   >
                     Exploratory data analysis and visualization of BikeShare Toronto users to understand bicycle usage patterns.
@@ -1394,7 +1380,7 @@ export default function Home() {
       
             <div className="flex items-center justify-between mt-10">
       
-              <span className="text-gray-500 text-sm">
+              <span className="text-gray-500">
                 01 Nov 2023
               </span>
       
@@ -1402,10 +1388,6 @@ export default function Home() {
                 className="
                   text-pink-500
                   font-semibold
-                  flex
-                  items-center
-                  gap-2
-                  text-sm
                 "
               >
                 Read Article →
