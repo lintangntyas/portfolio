@@ -27,12 +27,12 @@ body {
   }
 
   100% {
-    transform: translateX(calc(-620px * 4));
+    transform: translateX(calc(-623px * 14));
   }
 }
 
 .animate-scroll {
-  animation: scroll 35s linear infinite;
+  animation: scroll 120s linear infinite;
 }
 
 @keyframes typing {
