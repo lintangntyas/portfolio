@@ -873,12 +873,6 @@ export default function Home() {
           </div>
         </section>
 
-            </div>
-          </div>
-        </div>
-
-      </section>
-
       {/* CONTACT */}
       <section
         id="contact"
