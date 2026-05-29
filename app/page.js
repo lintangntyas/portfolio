@@ -437,7 +437,7 @@ export default function Home() {
                     PLN Indonesia Power
                   </h2>
       
-                  <p className="text-[#374151] text-[18px] font-semibold mt-3">
+                  <p className="text-[#374151] text-[18px] font-semibold ">
                     Reliability & System Owner Intern
                   </p>
       
