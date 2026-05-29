@@ -1105,7 +1105,7 @@ export default function Home() {
                 className="
                   text-[#4b5563]
               
-                  text-[17px]
+                  text-[14px]
               
                   leading-[2]
                 "
@@ -1228,7 +1228,7 @@ export default function Home() {
                 className="
                   text-[#4b5563]
               
-                  text-[17px]
+                  text-[14px]
               
                   leading-[2]
                 "
@@ -1349,7 +1349,7 @@ export default function Home() {
                 className="
                   text-[#4b5563]
               
-                  text-[17px]
+                  text-[14px]
               
                   leading-[2]
                 "
@@ -1470,7 +1470,7 @@ export default function Home() {
                 className="
                   text-[#4b5563]
               
-                  text-[17px]
+                  text-[14px]
               
                   leading-[2]
                 "
