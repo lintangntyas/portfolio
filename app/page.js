@@ -687,35 +687,102 @@ export default function Home() {
         </div>
       
         {/* CARDS */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto relative z-10">
+        <div
+          className="
+            grid
+            grid-cols-1
+            md:grid-cols-2
+            gap-8
+            max-w-6xl
+            mx-auto
+            relative
+            z-10
+            items-stretch
+          "
+        >
       
           {/* CARD 1 */}
           <a
             href="https://medium.com/statistics-uii/basis-data-pada-rdbms-12be0f95c277"
             target="_blank"
-            className="bg-white/70 backdrop-blur-xl border border-white/30 rounded-[35px] p-10 shadow-xl hover:-translate-y-2 transition duration-300"
+            className="
+              bg-white/70
+              backdrop-blur-xl
+              border
+              border-white/30
+              rounded-[35px]
+              p-10
+              shadow-xl
+              hover:-translate-y-2
+              transition
+              duration-300
+      
+              h-full
+              flex
+              flex-col
+              justify-between
+            "
           >
       
-            <div className="flex items-start gap-6">
+            <div>
       
-              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-pink-500 to-pink-400 text-white flex items-center justify-center text-4xl font-bold flex-shrink-0">
-                M
-              </div>
+              <div className="flex items-start gap-6">
       
-              <div className="flex-1">
+                <div className="
+                  w-16
+                  h-16
+                  rounded-full
+                  bg-gradient-to-br
+                  from-pink-500
+                  to-pink-400
+                  text-white
+                  flex
+                  items-center
+                  justify-center
+                  text-4xl
+                  font-bold
+                  flex-shrink-0
+                ">
+                  M
+                </div>
       
-                <span className="inline-block px-4 py-1 rounded-full bg-pink-100 text-pink-500 text-sm font-semibold mb-4">
-                  Data Science
-                </span>
+                <div className="flex-1">
       
-                <h2 className="text-3xl font-bold text-black leading-snug">
-                  Database in RDBMS
-                </h2>
+                  <span className="
+                    inline-block
+                    px-4
+                    py-1
+                    rounded-full
+                    bg-pink-100
+                    text-pink-500
+                    text-sm
+                    font-semibold
+                    mb-4
+                  ">
+                    Data Science
+                  </span>
       
-                <p className="text-gray-600 mt-4 leading-relaxed text-lg">
-                  Understand the basic concepts of relational databases,
-                  tables, normalization, and SQL implementation.
-                </p>
+                  <h2 className="
+                    text-3xl
+                    font-bold
+                    text-black
+                    leading-snug
+                    min-h-[90px]
+                  ">
+                    Database in RDBMS
+                  </h2>
+      
+                  <p className="
+                    text-gray-600
+                    mt-4
+                    leading-relaxed
+                    text-lg
+                  ">
+                    Understand the basic concepts of relational databases,
+                    tables, normalization, and SQL implementation.
+                  </p>
+      
+                </div>
       
               </div>
       
@@ -727,7 +794,13 @@ export default function Home() {
                 26 Dec 2021
               </span>
       
-              <span className="text-pink-500 font-semibold flex items-center gap-2">
+              <span className="
+                text-pink-500
+                font-semibold
+                flex
+                items-center
+                gap-2
+              ">
                 Read Article →
               </span>
       
@@ -739,29 +812,84 @@ export default function Home() {
           <a
             href="https://medium.com/@lintangntyas/clustering-provinsi-terhadap-jenis-bencana-alam-di-indonesia-tahun-2021-b85eeaf1b451"
             target="_blank"
-            className="bg-white/70 backdrop-blur-xl border border-white/30 rounded-[35px] p-10 shadow-xl hover:-translate-y-2 transition duration-300"
+            className="
+              bg-white/70
+              backdrop-blur-xl
+              border
+              border-white/30
+              rounded-[35px]
+              p-10
+              shadow-xl
+              hover:-translate-y-2
+              transition
+              duration-300
+      
+              h-full
+              flex
+              flex-col
+              justify-between
+            "
           >
       
-            <div className="flex items-start gap-6">
+            <div>
       
-              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-purple-500 to-fuchsia-400 text-white flex items-center justify-center text-4xl font-bold flex-shrink-0">
-                M
-              </div>
+              <div className="flex items-start gap-6">
       
-              <div className="flex-1">
+                <div className="
+                  w-16
+                  h-16
+                  rounded-full
+                  bg-gradient-to-br
+                  from-purple-500
+                  to-fuchsia-400
+                  text-white
+                  flex
+                  items-center
+                  justify-center
+                  text-4xl
+                  font-bold
+                  flex-shrink-0
+                ">
+                  M
+                </div>
       
-                <span className="inline-block px-4 py-1 rounded-full bg-purple-100 text-purple-500 text-sm font-semibold mb-4">
-                  Machine Learning
-                </span>
+                <div className="flex-1">
       
-                <h2 className="text-3xl font-bold text-black leading-snug">
-                  Provincial Clustering Based on Types of Natural Disasters
-                </h2>
+                  <span className="
+                    inline-block
+                    px-4
+                    py-1
+                    rounded-full
+                    bg-purple-100
+                    text-purple-500
+                    text-sm
+                    font-semibold
+                    mb-4
+                  ">
+                    Machine Learning
+                  </span>
       
-                <p className="text-gray-600 mt-4 leading-relaxed text-lg">
-                  Clustering analysis using K-Means
-                  to group provinces based on the dominant type of disaster.
-                </p>
+                  <h2 className="
+                    text-3xl
+                    font-bold
+                    text-black
+                    leading-snug
+                    min-h-[90px]
+                  ">
+                    Provincial Clustering Based on Types of Natural Disasters
+                  </h2>
+      
+                  <p className="
+                    text-gray-600
+                    mt-4
+                    leading-relaxed
+                    text-lg
+                  ">
+                    Clustering analysis using K-Means
+                    to group provinces based on the dominant type of disaster.
+                  </p>
+      
+                </div>
       
               </div>
       
@@ -773,7 +901,13 @@ export default function Home() {
                 04 May 2023
               </span>
       
-              <span className="text-pink-500 font-semibold flex items-center gap-2">
+              <span className="
+                text-pink-500
+                font-semibold
+                flex
+                items-center
+                gap-2
+              ">
                 Read Article →
               </span>
       
@@ -785,29 +919,84 @@ export default function Home() {
           <a
             href="https://medium.com/@lintangntyas/perilaku-konsumen-menggunakan-mba-association-rule-mining-cc0f604b319a"
             target="_blank"
-            className="bg-white/70 backdrop-blur-xl border border-white/30 rounded-[35px] p-10 shadow-xl hover:-translate-y-2 transition duration-300"
+            className="
+              bg-white/70
+              backdrop-blur-xl
+              border
+              border-white/30
+              rounded-[35px]
+              p-10
+              shadow-xl
+              hover:-translate-y-2
+              transition
+              duration-300
+      
+              h-full
+              flex
+              flex-col
+              justify-between
+            "
           >
       
-            <div className="flex items-start gap-6">
+            <div>
       
-              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-pink-500 to-rose-400 text-white flex items-center justify-center text-4xl font-bold flex-shrink-0">
-                M
-              </div>
+              <div className="flex items-start gap-6">
       
-              <div className="flex-1">
+                <div className="
+                  w-16
+                  h-16
+                  rounded-full
+                  bg-gradient-to-br
+                  from-pink-500
+                  to-rose-400
+                  text-white
+                  flex
+                  items-center
+                  justify-center
+                  text-4xl
+                  font-bold
+                  flex-shrink-0
+                ">
+                  M
+                </div>
       
-                <span className="inline-block px-4 py-1 rounded-full bg-pink-100 text-pink-500 text-sm font-semibold mb-4">
-                  Data Mining
-                </span>
+                <div className="flex-1">
       
-                <h2 className="text-3xl font-bold text-black leading-snug">
-                  Consumer Behavior Using MBA Association Rule Mining
-                </h2>
+                  <span className="
+                    inline-block
+                    px-4
+                    py-1
+                    rounded-full
+                    bg-pink-100
+                    text-pink-500
+                    text-sm
+                    font-semibold
+                    mb-4
+                  ">
+                    Data Mining
+                  </span>
       
-                <p className="text-gray-600 mt-4 leading-relaxed text-lg">
-                  Implement Market Basket Analysis to identify purchasing patterns 
-                  of products that are frequently purchased together.
-                </p>
+                  <h2 className="
+                    text-3xl
+                    font-bold
+                    text-black
+                    leading-snug
+                    min-h-[90px]
+                  ">
+                    Consumer Behavior Using MBA Association Rule Mining
+                  </h2>
+      
+                  <p className="
+                    text-gray-600
+                    mt-4
+                    leading-relaxed
+                    text-lg
+                  ">
+                    Implement Market Basket Analysis to identify purchasing patterns 
+                    of products that are frequently purchased together.
+                  </p>
+      
+                </div>
       
               </div>
       
@@ -819,7 +1008,13 @@ export default function Home() {
                 30 Jul 2023
               </span>
       
-              <span className="text-pink-500 font-semibold flex items-center gap-2">
+              <span className="
+                text-pink-500
+                font-semibold
+                flex
+                items-center
+                gap-2
+              ">
                 Read Article →
               </span>
       
@@ -831,29 +1026,84 @@ export default function Home() {
           <a
             href="https://medium.com/@lintangntyas/analisis-data-terhadap-tipe-penyewaan-bikeshare-toronto-pada-tahun-2018-f932072c2682"
             target="_blank"
-            className="bg-white/70 backdrop-blur-xl border border-white/30 rounded-[35px] p-10 shadow-xl hover:-translate-y-2 transition duration-300"
+            className="
+              bg-white/70
+              backdrop-blur-xl
+              border
+              border-white/30
+              rounded-[35px]
+              p-10
+              shadow-xl
+              hover:-translate-y-2
+              transition
+              duration-300
+      
+              h-full
+              flex
+              flex-col
+              justify-between
+            "
           >
       
-            <div className="flex items-start gap-6">
+            <div>
       
-              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-400 to-indigo-400 text-white flex items-center justify-center text-4xl font-bold flex-shrink-0">
-                M
-              </div>
+              <div className="flex items-start gap-6">
       
-              <div className="flex-1">
+                <div className="
+                  w-16
+                  h-16
+                  rounded-full
+                  bg-gradient-to-br
+                  from-blue-400
+                  to-indigo-400
+                  text-white
+                  flex
+                  items-center
+                  justify-center
+                  text-4xl
+                  font-bold
+                  flex-shrink-0
+                ">
+                  M
+                </div>
       
-                <span className="inline-block px-4 py-1 rounded-full bg-blue-100 text-blue-500 text-sm font-semibold mb-4">
-                  Data Visualization
-                </span>
+                <div className="flex-1">
       
-                <h2 className="text-3xl font-bold text-black leading-snug">
-                  Toronto BikeShare User Data Analysis
-                </h2>
+                  <span className="
+                    inline-block
+                    px-4
+                    py-1
+                    rounded-full
+                    bg-blue-100
+                    text-blue-500
+                    text-sm
+                    font-semibold
+                    mb-4
+                  ">
+                    Data Visualization
+                  </span>
       
-                <p className="text-gray-600 mt-4 leading-relaxed text-lg">
-                  Exploratory data analysis and visualization of BikeShare Toronto users to 
-                  understand bicycle usage patterns.
-                </p>
+                  <h2 className="
+                    text-3xl
+                    font-bold
+                    text-black
+                    leading-snug
+                    min-h-[90px]
+                  ">
+                    Toronto BikeShare User Data Analysis
+                  </h2>
+      
+                  <p className="
+                    text-gray-600
+                    mt-4
+                    leading-relaxed
+                    text-lg
+                  ">
+                    Exploratory data analysis and visualization of BikeShare Toronto users to 
+                    understand bicycle usage patterns.
+                  </p>
+      
+                </div>
       
               </div>
       
@@ -865,7 +1115,13 @@ export default function Home() {
                 01 Nov 2023
               </span>
       
-              <span className="text-pink-500 font-semibold flex items-center gap-2">
+              <span className="
+                text-pink-500
+                font-semibold
+                flex
+                items-center
+                gap-2
+              ">
                 Read Article →
               </span>
       
