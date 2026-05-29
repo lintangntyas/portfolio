@@ -743,12 +743,12 @@ export default function Home() {
             className="
               animate-scroll
               flex
-              gap-3
+              gap-6
               w-max
               hover:[animation-play-state:paused]
             "
           >
-      
+          
             {/* ORIGINAL */}
             {[...Array(14)].map((_, index) => (
               <div
@@ -756,18 +756,18 @@ export default function Home() {
                 className="flex-shrink-0"
               >
                 <img
-                  src={`/sertif${index + 1}.jpg`}
+                  src={`/sertif${index + 1}.${index >= 10 ? "png" : "jpg"}`}
                   alt={`Certificate ${index + 1}`}
                   className="
-                    w-[620px]
-                    h-[420px]
-                    object-cover
+                    w-[500px]
+                    h-[340px]
+                    object-contain
                     rounded-[18px]
                   "
                 />
               </div>
             ))}
-      
+          
             {/* DUPLICATE */}
             {[...Array(14)].map((_, index) => (
               <div
@@ -775,18 +775,18 @@ export default function Home() {
                 className="flex-shrink-0"
               >
                 <img
-                  src={`/sertif${index + 1}.jpg`}
+                  src={`/sertif${index + 1}.${index >= 10 ? "png" : "jpg"}`}
                   alt={`Certificate ${index + 1}`}
                   className="
-                    w-[620px]
-                    h-[420px]
-                    object-cover
+                    w-[500px]
+                    h-[340px]
+                    object-contain
                     rounded-[18px]
                   "
                 />
               </div>
             ))}
-      
+          
           </div>
         </div>
       </section>
