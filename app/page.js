@@ -395,7 +395,7 @@ export default function Home() {
             {/* LIST */}
             <ul
               className="
-                space-y-5
+                
                 text-[#4b5563]
                 text-[16px]
                 leading-[2]
@@ -672,7 +672,7 @@ export default function Home() {
                   leading-[1.5]
                 "
               >
-                Jul 2019 - Dec 2019
+                Jul - Dec 2019
               </span>
       
             </div>
