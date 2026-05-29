@@ -1650,7 +1650,16 @@ export default function Home() {
       {/* CONTACT */}
       <section
         id="contact"
-        className="relative w-full px-6 md:px-8 pt-10 pb-8 overflow-hidden"
+        className="
+          relative
+          w-full
+          px-6
+          md:px-8
+          pt-16
+          pb-8
+          overflow-hidden
+          scroll-mt-40
+        "
       >
         {/* BACKGROUND */}
         <div className="absolute top-0 left-0 w-[250px] h-[250px] bg-pink-200/30 blur-[120px] rounded-full" />
@@ -1662,8 +1671,8 @@ export default function Home() {
           {/* TITLE */}
           <h2
             className="
-              text-[52px]
-              md:text-[72px]
+              text-[58px]
+              md:text-[82px]
               font-black
               text-[#0b132b]
               leading-none
@@ -1684,6 +1693,8 @@ export default function Home() {
           <div
             className="
               mt-8
+              max-w-[560px]
+              mx-auto
               bg-white/60
               backdrop-blur-xl
               border border-white/40
@@ -1862,7 +1873,7 @@ export default function Home() {
                   hover:scale-[1.01]
                 "
               >
-                Send Message 
+                Send Message ✈️
               </button>
       
             </form>
@@ -1872,7 +1883,7 @@ export default function Home() {
       </section>
       
       {/* FOOTER */}
-      <footer className="w-full pt-2 pb-4">
+      <footer className="w-full pb-6 pt-2">
       
         <div className="max-w-5xl mx-auto px-6">
       
