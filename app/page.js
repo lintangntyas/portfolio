@@ -192,7 +192,16 @@ export default function Home() {
       {/* ABOUT */}
       <section
         id="about"
-        className="min-h-screen flex items-center justify-center px-6 md:px-16 py-24"
+        className="
+          relative
+          w-full
+          px-6
+          md:px-8
+          pt-[40px]
+          pb-8
+          scroll-mt-[90px]
+          overflow-hidden
+        "
       >
         <div className="max-w-6xl w-full grid md:grid-cols-2 gap-16 items-center">
       
@@ -292,7 +301,16 @@ export default function Home() {
       {/* EXPERIENCE */}
       <section
         id="experience"
-        className="w-full px-4 md:px-8 py-24 relative overflow-hidden"
+        className="
+          relative
+          w-full
+          px-6
+          md:px-8
+          pt-[40px]
+          pb-8
+          scroll-mt-[90px]
+          overflow-hidden
+        "
       >
       
         {/* BLUR */}
@@ -725,7 +743,16 @@ export default function Home() {
       {/* PROJECTS */}
       <section
         id="projects"
-        className="min-h-screen px-6 md:px-16 py-24"
+        className="
+          relative
+          w-full
+          px-6
+          md:px-8
+          pt-[40px]
+          pb-8
+          scroll-mt-[90px]
+          overflow-hidden
+        "
       >
       <div className="text-center mb-20">
 
@@ -966,8 +993,18 @@ export default function Home() {
       {/* MEDIUM */}
       <section
         id="medium"
-        className="w-full px-4 md:px-8 py-24 relative overflow-hidden"
+        className="
+          relative
+          w-full
+          px-6
+          md:px-8
+          pt-[40px]
+          pb-8
+          scroll-mt-[90px]
+          overflow-hidden
+        "
       >
+      
       
         {/* BLUR */}
         <div className="absolute left-0 top-0 w-[320px] h-[320px] bg-pink-200 blur-[130px] opacity-30 rounded-full"></div>
@@ -1537,7 +1574,16 @@ export default function Home() {
       {/* CERTIFICATIONS */}
       <section
         id="certificate"
-        className="w-full px-4 md:px-8 py-24 relative overflow-hidden"
+        className="
+          relative
+          w-full
+          px-6
+          md:px-8
+          pt-[40px]
+          pb-8
+          scroll-mt-[90px]
+          overflow-hidden
+        "
       >
       
         {/* BLUR */}
@@ -1883,18 +1929,12 @@ export default function Home() {
       </section>
       
       {/* FOOTER */}
-      <footer className="w-full pt-2 pb-4">
-      
-        <div className="max-w-4xl mx-auto px-6">
-      
-          <div className="border-t border-gray-200 mb-4"></div>
-      
+      <footer className="w-full mt-3 pb-4">
+        <div className="max-w-5xl mx-auto border-t border-gray-300 pt-4">
           <p className="text-center text-gray-500 text-sm">
             © 2026 Lintang Cahyaningtyas. All Rights Reserved.
           </p>
-      
         </div>
-      
       </footer>
     </main>
   );
