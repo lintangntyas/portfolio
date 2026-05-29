@@ -1650,7 +1650,7 @@ export default function Home() {
       {/* CONTACT */}
       <section
         id="contact"
-        className="w-full px-6 md:px-8 py-28 relative overflow-hidden"
+        className="w-full px-6 md:px-8 py-16 relative overflow-hidden"
       >
       
         {/* BLUR */}
@@ -1661,7 +1661,7 @@ export default function Home() {
         <div className="max-w-3xl mx-auto relative z-10">
       
           {/* TITLE */}
-          <div className="text-center mb-16">
+          <div className="text-center mb-10">
       
             <h1 className="text-[72px] font-black text-[#0f172a] leading-none">
               Contact Me
@@ -1683,12 +1683,12 @@ export default function Home() {
               border
               border-white/40
               rounded-[32px]
-              p-8 md:p-12
+              p-6 md:p-8
               shadow-[0_20px_80px_rgba(0,0,0,0.08)]
             "
           >
       
-            <form className="space-y-6">
+            <form className="space-y-4">
       
               {/* NAME */}
               <input
@@ -1696,7 +1696,7 @@ export default function Home() {
                 placeholder="Your Name"
                 className="
                   w-full
-                  h-[64px]
+                  h-[58px]
                   rounded-2xl
                   px-6
                   text-[17px]
@@ -1723,7 +1723,7 @@ export default function Home() {
                 placeholder="Your Email"
                 className="
                   w-full
-                  h-[64px]
+                  h-[58px]
                   rounded-2xl
                   px-6
                   text-[17px]
@@ -1750,7 +1750,7 @@ export default function Home() {
                 placeholder="Subject"
                 className="
                   w-full
-                  h-[64px]
+                  h-[58px]
                   rounded-2xl
                   px-6
                   text-[17px]
@@ -1773,7 +1773,7 @@ export default function Home() {
       
               {/* MESSAGE */}
               <textarea
-                rows={6}
+                rows={4}
                 placeholder="Type your message here..."
                 className="
                   w-full
@@ -1805,7 +1805,7 @@ export default function Home() {
                 type="submit"
                 className="
                   w-full
-                  h-[64px]
+                  h-[58px]
                   rounded-2xl
       
                   bg-gradient-to-r
@@ -1836,11 +1836,15 @@ export default function Home() {
         </div>
       
       </section>
-
-      {/* FOOTER */}
-      <footer className="w-full border-t border-white/20 mt-28">
       
-        <div className="max-w-7xl mx-auto px-6 md:px-16 py-10">
+      
+      
+      
+      
+      {/* FOOTER */}
+      <footer className="w-full mt-16">
+      
+        <div className="max-w-7xl mx-auto px-6 md:px-16 py-6">
       
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
       
@@ -1850,7 +1854,7 @@ export default function Home() {
             </h2>
       
             {/* MENU */}
-            <div className="flex items-center gap-8 text-[16px] font-semibold text-[#374151]">
+            <div className="flex items-center gap-8 text-[16px] font-semibold text-[#374151] flex-wrap justify-center">
       
               <a
                 href="#about"
@@ -1899,7 +1903,7 @@ export default function Home() {
           </div>
       
           {/* COPYRIGHT */}
-          <div className="mt-8 pt-8 border-t border-gray-300 text-center">
+          <div className="mt-6 pt-6 border-t border-gray-200 text-center">
       
             <p className="text-[#6b7280] text-[15px]">
               © 2026 Lintang Cahyaningtyas. All Rights Reserved.
