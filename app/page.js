@@ -1861,7 +1861,7 @@ export default function Home() {
                   hover:shadow-xl
                 "
               >
-                Send Message ✈️
+                Send Message 
               </button>
             </form>
           </div>
