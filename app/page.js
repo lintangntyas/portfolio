@@ -950,7 +950,7 @@ export default function Home() {
               duration-300
               hover:-translate-y-1
       
-              min-h-[480px]
+              min-h-[80px]
       
               flex
               flex-col
@@ -1438,7 +1438,7 @@ export default function Home() {
         </div>
       
         {/* BUTTON */}
-        <div className="flex justify-center mt-20 relative z-10">
+        <div className="flex justify-center mt-12 relative z-10">
       
           <a
             href="https://medium.com/@lintangntyas"
