@@ -717,7 +717,8 @@ export default function Home() {
               transition
               duration-300
       
-              h-full
+              min-h-[430px]
+      
               flex
               flex-col
               justify-between
@@ -767,7 +768,7 @@ export default function Home() {
                     font-bold
                     text-black
                     leading-snug
-                    min-h-[90px]
+                    min-h-[110px]
                   ">
                     Database in RDBMS
                   </h2>
@@ -777,6 +778,7 @@ export default function Home() {
                     mt-4
                     leading-relaxed
                     text-lg
+                    min-h-[95px]
                   ">
                     Understand the basic concepts of relational databases,
                     tables, normalization, and SQL implementation.
@@ -824,7 +826,8 @@ export default function Home() {
               transition
               duration-300
       
-              h-full
+              min-h-[430px]
+      
               flex
               flex-col
               justify-between
@@ -874,7 +877,7 @@ export default function Home() {
                     font-bold
                     text-black
                     leading-snug
-                    min-h-[90px]
+                    min-h-[110px]
                   ">
                     Provincial Clustering Based on Types of Natural Disasters
                   </h2>
@@ -884,6 +887,7 @@ export default function Home() {
                     mt-4
                     leading-relaxed
                     text-lg
+                    min-h-[95px]
                   ">
                     Clustering analysis using K-Means
                     to group provinces based on the dominant type of disaster.
@@ -931,7 +935,8 @@ export default function Home() {
               transition
               duration-300
       
-              h-full
+              min-h-[430px]
+      
               flex
               flex-col
               justify-between
@@ -981,7 +986,7 @@ export default function Home() {
                     font-bold
                     text-black
                     leading-snug
-                    min-h-[90px]
+                    min-h-[110px]
                   ">
                     Consumer Behavior Using MBA Association Rule Mining
                   </h2>
@@ -991,6 +996,7 @@ export default function Home() {
                     mt-4
                     leading-relaxed
                     text-lg
+                    min-h-[95px]
                   ">
                     Implement Market Basket Analysis to identify purchasing patterns 
                     of products that are frequently purchased together.
@@ -1038,7 +1044,8 @@ export default function Home() {
               transition
               duration-300
       
-              h-full
+              min-h-[430px]
+      
               flex
               flex-col
               justify-between
@@ -1088,7 +1095,7 @@ export default function Home() {
                     font-bold
                     text-black
                     leading-snug
-                    min-h-[90px]
+                    min-h-[110px]
                   ">
                     Toronto BikeShare User Data Analysis
                   </h2>
@@ -1098,6 +1105,7 @@ export default function Home() {
                     mt-4
                     leading-relaxed
                     text-lg
+                    min-h-[95px]
                   ">
                     Exploratory data analysis and visualization of BikeShare Toronto users to 
                     understand bicycle usage patterns.
