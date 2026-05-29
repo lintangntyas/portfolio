@@ -887,7 +887,7 @@ export default function Home() {
       {/* MEDIUM */}
       <section
         id="medium"
-        className="min-h-screen px-6 md:px-16 py-24 pb-40 relative overflow-hidden"
+        className="w-full px-6 md:px-16 py-24 pb-32 relative overflow-hidden"
       >
       
         {/* BACKGROUND */}
@@ -1438,7 +1438,7 @@ export default function Home() {
         </div>
       
         {/* BUTTON */}
-        <div className="flex justify-center mt-12 relative z-10">
+        <div className="flex justify-center mt-20 relative z-10">
       
           <a
             href="https://medium.com/@lintangntyas"
