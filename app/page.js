@@ -278,22 +278,26 @@ export default function Home() {
       {/* EXPERIENCE */}
       <section
         id="experience"
-        className="min-h-screen px-6 md:px-16 py-24 relative overflow-hidden"
+        className="w-full px-4 md:px-8 py-24 relative overflow-hidden"
       >
       
-        {/* BACKGROUND */}
-        <div className="absolute left-0 top-0 w-[300px] h-[300px] bg-pink-200 blur-[120px] opacity-30 rounded-full"></div>
+        {/* BLUR */}
+        <div className="absolute left-0 top-0 w-[320px] h-[320px] bg-pink-200 blur-[130px] opacity-30 rounded-full"></div>
       
-        <div className="absolute right-0 bottom-0 w-[300px] h-[300px] bg-blue-200 blur-[120px] opacity-30 rounded-full"></div>
+        <div className="absolute right-0 bottom-0 w-[320px] h-[320px] bg-blue-200 blur-[130px] opacity-30 rounded-full"></div>
       
         {/* TITLE */}
         <div className="text-center mb-20 relative z-10">
       
-          <h1 className="text-5xl md:text-7xl font-bold text-slate-900">
+          <h1 className="text-[72px] font-black text-[#0f172a] leading-none">
             Experience
           </h1>
       
-          <div className="w-20 h-1 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mx-auto mt-5"></div>
+          <p className="text-[#6b7280] mt-6 text-[20px] font-medium">
+            Professional journey and internship experiences
+          </p>
+      
+          <div className="w-[110px] h-[4px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mx-auto mt-7"></div>
       
         </div>
       
@@ -304,28 +308,37 @@ export default function Home() {
             grid-cols-1
             md:grid-cols-2
             xl:grid-cols-4
-            gap-8
-            max-w-7xl
+      
+            gap-6
+      
+            max-w-[1700px]
             mx-auto
+      
             relative
             z-10
-            items-stretch
           "
         >
       
           {/* CARD 1 */}
           <div
             className="
-              bg-white/70
-              backdrop-blur-xl
+              bg-[#f8f8f8]
+      
               border
-              border-white/30
-              rounded-[35px]
-              p-8
-              shadow-xl
-              hover:-translate-y-2
-              transition
+              border-[#ececec]
+      
+              rounded-[30px]
+      
+              px-7
+              pt-7
+              pb-6
+      
+              shadow-[0_10px_35px_rgba(0,0,0,0.05)]
+      
+              transition-all
               duration-300
+      
+              hover:-translate-y-1
       
               min-h-[470px]
       
@@ -337,46 +350,56 @@ export default function Home() {
       
             <div>
       
+              {/* TOP */}
               <div className="flex items-start justify-between gap-4">
       
                 <div>
       
-                  <h2 className="
-                    text-[22px]
-                    font-bold
-                    text-pink-500
-                    leading-snug
-                    min-h-[70px]
-                  ">
+                  <h2
+                    className="
+                      text-[28px]
+                      font-black
+                      text-pink-500
+                      leading-[1.3]
+                    "
+                  >
                     Badan Pusat Statistik
                   </h2>
       
-                  <p className="
-                    text-[18px]
-                    font-semibold
-                    text-gray-800
-                    mt-3
-                    min-h-[60px]
-                  ">
+                  <p
+                    className="
+                      text-[#374151]
+                      text-[18px]
+                      font-semibold
+                      mt-3
+                    "
+                  >
                     Statistician Intern
                   </p>
       
                 </div>
       
-                <span className="text-sm text-gray-500 text-right">
+                <span className="text-[#6b7280] text-[14px] text-right">
                   Nov 2025 - May 2026
                 </span>
       
               </div>
       
-              <div className="w-14 h-[3px] bg-pink-500 rounded-full my-6"></div>
+              {/* LINE */}
+              <div className="w-[70px] h-[4px] bg-pink-500 rounded-full mt-6 mb-8"></div>
       
-              <ul className="
-                space-y-4
-                text-gray-700
-                leading-relaxed
-                text-[16px]
-              ">
+              {/* LIST */}
+              <ul
+                className="
+                  space-y-5
+      
+                  text-[#4b5563]
+      
+                  text-[16px]
+      
+                  leading-[2]
+                "
+              >
       
                 <li>
                   • Collected, cleaned, and analyzed statistical distribution indicator data.
@@ -403,22 +426,15 @@ export default function Home() {
           {/* CARD 2 */}
           <div
             className="
-              bg-white/70
-              backdrop-blur-xl
-              border
-              border-white/30
-              rounded-[35px]
-              p-8
-              shadow-xl
-              hover:-translate-y-2
-              transition
-              duration-300
-      
+              bg-[#f8f8f8]
+              border border-[#ececec]
+              rounded-[30px]
+              px-7 pt-7 pb-6
+              shadow-[0_10px_35px_rgba(0,0,0,0.05)]
+              transition-all duration-300
+              hover:-translate-y-1
               min-h-[470px]
-      
-              flex
-              flex-col
-              justify-between
+              flex flex-col justify-between
             "
           >
       
@@ -428,42 +444,25 @@ export default function Home() {
       
                 <div>
       
-                  <h2 className="
-                    text-[22px]
-                    font-bold
-                    text-blue-500
-                    leading-snug
-                    min-h-[70px]
-                  ">
+                  <h2 className="text-[28px] font-black text-blue-500 leading-[1.3]">
                     PLN Indonesia Power
                   </h2>
       
-                  <p className="
-                    text-[18px]
-                    font-semibold
-                    text-gray-800
-                    mt-3
-                    min-h-[60px]
-                  ">
+                  <p className="text-[#374151] text-[18px] font-semibold mt-3">
                     Reliability & System Owner Intern
                   </p>
       
                 </div>
       
-                <span className="text-sm text-gray-500 text-right">
+                <span className="text-[#6b7280] text-[14px] text-right">
                   Feb 2024
                 </span>
       
               </div>
       
-              <div className="w-14 h-[3px] bg-blue-500 rounded-full my-6"></div>
+              <div className="w-[70px] h-[4px] bg-blue-500 rounded-full mt-6 mb-8"></div>
       
-              <ul className="
-                space-y-4
-                text-gray-700
-                leading-relaxed
-                text-[16px]
-              ">
+              <ul className="space-y-5 text-[#4b5563] text-[16px] leading-[2]">
       
                 <li>
                   • Analyzed Unit 7 disturbance and pulverizer maintenance data using Excel and R.
@@ -486,22 +485,15 @@ export default function Home() {
           {/* CARD 3 */}
           <div
             className="
-              bg-white/70
-              backdrop-blur-xl
-              border
-              border-white/30
-              rounded-[35px]
-              p-8
-              shadow-xl
-              hover:-translate-y-2
-              transition
-              duration-300
-      
+              bg-[#f8f8f8]
+              border border-[#ececec]
+              rounded-[30px]
+              px-7 pt-7 pb-6
+              shadow-[0_10px_35px_rgba(0,0,0,0.05)]
+              transition-all duration-300
+              hover:-translate-y-1
               min-h-[470px]
-      
-              flex
-              flex-col
-              justify-between
+              flex flex-col justify-between
             "
           >
       
@@ -511,42 +503,25 @@ export default function Home() {
       
                 <div>
       
-                  <h2 className="
-                    text-[22px]
-                    font-bold
-                    text-purple-500
-                    leading-snug
-                    min-h-[70px]
-                  ">
+                  <h2 className="text-[28px] font-black text-purple-500 leading-[1.3]">
                     INVISIO
                   </h2>
       
-                  <p className="
-                    text-[18px]
-                    font-semibold
-                    text-gray-800
-                    mt-3
-                    min-h-[60px]
-                  ">
+                  <p className="text-[#374151] text-[18px] font-semibold mt-3">
                     Marketing & Content Writer
                   </p>
       
                 </div>
       
-                <span className="text-sm text-gray-500 text-right">
+                <span className="text-[#6b7280] text-[14px] text-right">
                   Mar 2023 - Apr 2025
                 </span>
       
               </div>
       
-              <div className="w-14 h-[3px] bg-purple-500 rounded-full my-6"></div>
+              <div className="w-[70px] h-[4px] bg-purple-500 rounded-full mt-6 mb-8"></div>
       
-              <ul className="
-                space-y-4
-                text-gray-700
-                leading-relaxed
-                text-[16px]
-              ">
+              <ul className="space-y-5 text-[#4b5563] text-[16px] leading-[2]">
       
                 <li>
                   • Developed content strategies and educational statistical materials.
@@ -569,22 +544,15 @@ export default function Home() {
           {/* CARD 4 */}
           <div
             className="
-              bg-white/70
-              backdrop-blur-xl
-              border
-              border-white/30
-              rounded-[35px]
-              p-8
-              shadow-xl
-              hover:-translate-y-2
-              transition
-              duration-300
-      
+              bg-[#f8f8f8]
+              border border-[#ececec]
+              rounded-[30px]
+              px-7 pt-7 pb-6
+              shadow-[0_10px_35px_rgba(0,0,0,0.05)]
+              transition-all duration-300
+              hover:-translate-y-1
               min-h-[470px]
-      
-              flex
-              flex-col
-              justify-between
+              flex flex-col justify-between
             "
           >
       
@@ -594,42 +562,25 @@ export default function Home() {
       
                 <div>
       
-                  <h2 className="
-                    text-[22px]
-                    font-bold
-                    text-pink-500
-                    leading-snug
-                    min-h-[70px]
-                  ">
+                  <h2 className="text-[28px] font-black text-pink-500 leading-[1.3]">
                     Bankaltimtara
                   </h2>
       
-                  <p className="
-                    text-[18px]
-                    font-semibold
-                    text-gray-800
-                    mt-3
-                    min-h-[60px]
-                  ">
+                  <p className="text-[#374151] text-[18px] font-semibold mt-3">
                     IT & E-Banking Intern
                   </p>
       
                 </div>
       
-                <span className="text-sm text-gray-500 text-right">
+                <span className="text-[#6b7280] text-[14px] text-right">
                   Jul 2019 - Dec 2019
                 </span>
       
               </div>
       
-              <div className="w-14 h-[3px] bg-pink-500 rounded-full my-6"></div>
+              <div className="w-[70px] h-[4px] bg-pink-500 rounded-full mt-6 mb-8"></div>
       
-              <ul className="
-                space-y-4
-                text-gray-700
-                leading-relaxed
-                text-[16px]
-              ">
+              <ul className="space-y-5 text-[#4b5563] text-[16px] leading-[2]">
       
                 <li>
                   • Assisted customer service activities related to ATM services.
