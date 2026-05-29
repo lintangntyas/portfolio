@@ -935,7 +935,7 @@ export default function Home() {
               backdrop-blur-xl
               border
               border-white/40
-              rounded-[38px]
+              rounded-[24px]
               p-8
               shadow-[0_10px_40px_rgba(0,0,0,0.08)]
       
@@ -1059,7 +1059,7 @@ export default function Home() {
               backdrop-blur-xl
               border
               border-white/40
-              rounded-[38px]
+              rounded-[24px]
               p-8
               shadow-[0_10px_40px_rgba(0,0,0,0.08)]
       
@@ -1175,7 +1175,7 @@ export default function Home() {
               backdrop-blur-xl
               border
               border-white/40
-              rounded-[38px]
+              rounded-[24px]
               p-8
               shadow-[0_10px_40px_rgba(0,0,0,0.08)]
       
@@ -1291,7 +1291,7 @@ export default function Home() {
               backdrop-blur-xl
               border
               border-white/40
-              rounded-[38px]
+              rounded-[24px]
               p-8
               shadow-[0_10px_40px_rgba(0,0,0,0.08)]
       
