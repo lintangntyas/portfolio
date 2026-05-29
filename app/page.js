@@ -1650,35 +1650,45 @@ export default function Home() {
       {/* CONTACT */}
       <section
         id="contact"
-        className="w-full px-6 md:px-8 py-16 relative overflow-hidden"
+        className="relative w-full px-6 md:px-8 pt-28 pb-16 overflow-hidden"
       >
-        {/* BACKGROUND BLUR */}
-        <div className="absolute top-20 left-0 w-[300px] h-[300px] bg-pink-200/30 blur-[150px] rounded-full" />
-        <div className="absolute bottom-0 right-0 w-[350px] h-[350px] bg-blue-200/30 blur-[150px] rounded-full" />
+        {/* BACKGROUND */}
+        <div className="absolute top-0 left-0 w-[320px] h-[320px] bg-pink-200/30 blur-[140px] rounded-full" />
+        <div className="absolute bottom-0 right-0 w-[320px] h-[320px] bg-blue-200/30 blur-[140px] rounded-full" />
       
-        <div className="max-w-2xl mx-auto relative z-10 text-center">
+        <div className="relative z-10 max-w-2xl mx-auto text-center">
       
           {/* TITLE */}
-          <h2 className="text-[56px] md:text-[76px] font-black text-[#0b132b] leading-none tracking-[-2px]">
+          <h2
+            className="
+              text-[58px]
+              md:text-[82px]
+              font-black
+              text-[#0b132b]
+              leading-[0.95]
+              tracking-[-3px]
+            "
+          >
             Contact Me
           </h2>
       
-          <p className="text-gray-500 text-lg mt-5">
+          {/* SUBTITLE */}
+          <p className="mt-5 text-[18px] text-gray-500">
             Interested in working together? Fill out the form below.
           </p>
       
           {/* LINE */}
           <div className="w-24 h-1 rounded-full bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 mx-auto mt-6" />
       
-          {/* CONTACT CARD */}
+          {/* CARD */}
           <div
             className="
               mt-12
               bg-white/55
               backdrop-blur-2xl
               border border-white/40
-              rounded-[34px]
-              p-5 md:p-6
+              rounded-[32px]
+              p-7
               shadow-[0_10px_40px_rgba(0,0,0,0.06)]
             "
           >
@@ -1703,9 +1713,9 @@ export default function Home() {
       Message:
       ${message}`;
       
-                const whatsappURL = `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
+                const url = `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
       
-                window.open(whatsappURL, "_blank");
+                window.open(url, "_blank");
               }}
               className="space-y-5"
             >
@@ -1723,20 +1733,19 @@ export default function Home() {
                   placeholder="Your Name"
                   className="
                     w-full
-                    h-[54px]
+                    h-[58px]
                     rounded-2xl
                     border border-gray-200
-                    bg-white/90
+                    bg-white/85
                     pl-14
                     pr-5
                     text-gray-700
                     placeholder:text-gray-400
                     outline-none
+                    transition-all
                     focus:border-pink-400
                     focus:ring-4
                     focus:ring-pink-100
-                    transition-all
-                    shadow-sm
                   "
                 />
               </div>
@@ -1754,20 +1763,19 @@ export default function Home() {
                   placeholder="Your Email"
                   className="
                     w-full
-                    h-[54px]
+                    h-[58px]
                     rounded-2xl
                     border border-gray-200
-                    bg-white/90
+                    bg-white/85
                     pl-14
                     pr-5
                     text-gray-700
                     placeholder:text-gray-400
                     outline-none
+                    transition-all
                     focus:border-pink-400
                     focus:ring-4
                     focus:ring-pink-100
-                    transition-all
-                    shadow-sm
                   "
                 />
               </div>
@@ -1785,20 +1793,19 @@ export default function Home() {
                   placeholder="Subject"
                   className="
                     w-full
-                    h-[54px]
+                    h-[58px]
                     rounded-2xl
                     border border-gray-200
-                    bg-white/90
+                    bg-white/85
                     pl-14
                     pr-5
                     text-gray-700
                     placeholder:text-gray-400
                     outline-none
+                    transition-all
                     focus:border-pink-400
                     focus:ring-4
                     focus:ring-pink-100
-                    transition-all
-                    shadow-sm
                   "
                 />
               </div>
@@ -1811,26 +1818,25 @@ export default function Home() {
       
                 <textarea
                   name="message"
-                  rows={3}
+                  rows={4}
                   required
                   placeholder="Type your message here..."
                   className="
                     w-full
                     rounded-2xl
                     border border-gray-200
-                    bg-white/90
+                    bg-white/85
                     pl-14
                     pr-5
                     py-4
                     text-gray-700
                     placeholder:text-gray-400
                     outline-none
+                    resize-none
+                    transition-all
                     focus:border-pink-400
                     focus:ring-4
                     focus:ring-pink-100
-                    transition-all
-                    resize-none
-                    shadow-sm
                   "
                 />
               </div>
@@ -1840,7 +1846,7 @@ export default function Home() {
                 type="submit"
                 className="
                   w-full
-                  h-[58px]
+                  h-[60px]
                   rounded-2xl
                   bg-gradient-to-r
                   from-pink-500
@@ -1850,9 +1856,9 @@ export default function Home() {
                   font-semibold
                   text-lg
                   shadow-lg
+                  transition-all
                   hover:scale-[1.01]
                   hover:shadow-xl
-                  transition-all
                 "
               >
                 Send Message ✈️
@@ -1863,9 +1869,14 @@ export default function Home() {
       </section>
       
       {/* FOOTER */}
-      <footer className="w-full py-6 text-center">
-        <div className="max-w-6xl mx-auto px-6 border-t border-gray-200 pt-6">
-          <p className="text-gray-500 text-sm">
+      <footer className="w-full pb-10">
+        <div className="max-w-5xl mx-auto px-6">
+      
+          {/* LINE */}
+          <div className="border-t border-gray-200 mb-6" />
+      
+          {/* COPYRIGHT */}
+          <p className="text-center text-gray-500 text-sm">
             © 2026 Lintang Cahyaningtyas. All Rights Reserved.
           </p>
         </div>
