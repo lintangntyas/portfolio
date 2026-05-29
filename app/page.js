@@ -1652,44 +1652,37 @@ export default function Home() {
         id="contact"
         className="w-full px-6 md:px-8 py-16 relative overflow-hidden"
       >
+        {/* BACKGROUND BLUR */}
+        <div className="absolute top-20 left-0 w-[300px] h-[300px] bg-pink-200/30 blur-[150px] rounded-full" />
+        <div className="absolute bottom-0 right-0 w-[350px] h-[350px] bg-blue-200/30 blur-[150px] rounded-full" />
       
-        {/* BLUR */}
-        <div className="absolute left-0 top-0 w-[320px] h-[320px] bg-pink-200 blur-[130px] opacity-30 rounded-full"></div>
-      
-        <div className="absolute right-0 bottom-0 w-[320px] h-[320px] bg-blue-200 blur-[130px] opacity-30 rounded-full"></div>
-      
-        <div className="max-w-3xl mx-auto relative z-10">
+        <div className="max-w-2xl mx-auto relative z-10 text-center">
       
           {/* TITLE */}
-          <div className="text-center mb-10">
+          <h2 className="text-[56px] md:text-[76px] font-black text-[#0b132b] leading-none tracking-[-2px]">
+            Contact Me
+          </h2>
       
-            <h1 className="text-[72px] font-black text-[#0f172a] leading-none">
-              Contact Me
-            </h1>
+          <p className="text-gray-500 text-lg mt-5">
+            Interested in working together? Fill out the form below.
+          </p>
       
-            <p className="text-[#6b7280] mt-6 text-[20px] font-medium">
-              Interested in working together? Fill out the form below.
-            </p>
+          {/* LINE */}
+          <div className="w-24 h-1 rounded-full bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 mx-auto mt-6" />
       
-            <div className="w-[110px] h-[4px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mx-auto mt-7"></div>
-      
-          </div>
-      
-          {/* CARD */}
+          {/* CONTACT CARD */}
           <div
             className="
-              bg-white/70
-              backdrop-blur-xl
-              border
-              border-white/40
-              rounded-[32px]
-              p-6 md:p-8
-              shadow-[0_20px_80px_rgba(0,0,0,0.08)]
+              mt-12
+              bg-white/55
+              backdrop-blur-2xl
+              border border-white/40
+              rounded-[34px]
+              p-5 md:p-6
+              shadow-[0_10px_40px_rgba(0,0,0,0.06)]
             "
           >
-      
             <form
-              className="space-y-4"
               onSubmit={(e) => {
                 e.preventDefault();
       
@@ -1698,140 +1691,149 @@ export default function Home() {
                 const subject = e.target.subject.value;
                 const message = e.target.message.value;
       
-                const text =
-      `Halo Lintang, saya ingin menghubungi Anda.
+                const phone = "6282155358441";
       
-      Nama: ${name}
+                const text =
+      `Hello Lintang,
+      
+      Name: ${name}
       Email: ${email}
       Subject: ${subject}
       
-      Pesan:
+      Message:
       ${message}`;
       
-                const whatsappURL =
-      `https://wa.me/6282155358441?text=${encodeURIComponent(text)}`;
+                const whatsappURL = `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
       
                 window.open(whatsappURL, "_blank");
               }}
+              className="space-y-5"
             >
       
               {/* NAME */}
-              <input
-                name="name"
-                type="text"
-                placeholder="Your Name"
-                required
-                className="
-                  w-full
-                  h-[58px]
-                  rounded-2xl
-                  px-6
-                  text-[17px]
-                  outline-none
+              <div className="relative">
+                <span className="absolute left-5 top-1/2 -translate-y-1/2 text-gray-400">
+                  👤
+                </span>
       
-                  border
-                  border-gray-200
-      
-                  bg-white
-                  text-[#111827]
-      
-                  placeholder:text-gray-400
-      
-                  focus:border-pink-400
-                  focus:ring-4
-                  focus:ring-pink-100
-                  transition
-                "
-              />
+                <input
+                  type="text"
+                  name="name"
+                  required
+                  placeholder="Your Name"
+                  className="
+                    w-full
+                    h-[54px]
+                    rounded-2xl
+                    border border-gray-200
+                    bg-white/90
+                    pl-14
+                    pr-5
+                    text-gray-700
+                    placeholder:text-gray-400
+                    outline-none
+                    focus:border-pink-400
+                    focus:ring-4
+                    focus:ring-pink-100
+                    transition-all
+                    shadow-sm
+                  "
+                />
+              </div>
       
               {/* EMAIL */}
-              <input
-                name="email"
-                type="email"
-                placeholder="Your Email"
-                required
-                className="
-                  w-full
-                  h-[58px]
-                  rounded-2xl
-                  px-6
-                  text-[17px]
-                  outline-none
+              <div className="relative">
+                <span className="absolute left-5 top-1/2 -translate-y-1/2 text-gray-400">
+                  ✉️
+                </span>
       
-                  border
-                  border-gray-200
-      
-                  bg-white
-                  text-[#111827]
-      
-                  placeholder:text-gray-400
-      
-                  focus:border-purple-400
-                  focus:ring-4
-                  focus:ring-purple-100
-                  transition
-                "
-              />
+                <input
+                  type="email"
+                  name="email"
+                  required
+                  placeholder="Your Email"
+                  className="
+                    w-full
+                    h-[54px]
+                    rounded-2xl
+                    border border-gray-200
+                    bg-white/90
+                    pl-14
+                    pr-5
+                    text-gray-700
+                    placeholder:text-gray-400
+                    outline-none
+                    focus:border-pink-400
+                    focus:ring-4
+                    focus:ring-pink-100
+                    transition-all
+                    shadow-sm
+                  "
+                />
+              </div>
       
               {/* SUBJECT */}
-              <input
-                name="subject"
-                type="text"
-                placeholder="Subject"
-                required
-                className="
-                  w-full
-                  h-[58px]
-                  rounded-2xl
-                  px-6
-                  text-[17px]
-                  outline-none
+              <div className="relative">
+                <span className="absolute left-5 top-1/2 -translate-y-1/2 text-gray-400">
+                  🏷️
+                </span>
       
-                  border
-                  border-gray-200
-      
-                  bg-white
-                  text-[#111827]
-      
-                  placeholder:text-gray-400
-      
-                  focus:border-blue-400
-                  focus:ring-4
-                  focus:ring-blue-100
-                  transition
-                "
-              />
+                <input
+                  type="text"
+                  name="subject"
+                  required
+                  placeholder="Subject"
+                  className="
+                    w-full
+                    h-[54px]
+                    rounded-2xl
+                    border border-gray-200
+                    bg-white/90
+                    pl-14
+                    pr-5
+                    text-gray-700
+                    placeholder:text-gray-400
+                    outline-none
+                    focus:border-pink-400
+                    focus:ring-4
+                    focus:ring-pink-100
+                    transition-all
+                    shadow-sm
+                  "
+                />
+              </div>
       
               {/* MESSAGE */}
-              <textarea
-                name="message"
-                rows={4}
-                placeholder="Type your message here..."
-                required
-                className="
-                  w-full
-                  rounded-2xl
-                  px-6
-                  py-5
-                  text-[17px]
-                  outline-none
+              <div className="relative">
+                <span className="absolute left-5 top-5 text-gray-400">
+                  💬
+                </span>
       
-                  border
-                  border-gray-200
-      
-                  bg-white
-                  text-[#111827]
-      
-                  placeholder:text-gray-400
-      
-                  resize-none
-      
-                  focus:border-pink-400
-                  focus:ring-4
-                  focus:ring-pink-100
-                  transition
-                "
-              ></textarea>
+                <textarea
+                  name="message"
+                  rows={3}
+                  required
+                  placeholder="Type your message here..."
+                  className="
+                    w-full
+                    rounded-2xl
+                    border border-gray-200
+                    bg-white/90
+                    pl-14
+                    pr-5
+                    py-4
+                    text-gray-700
+                    placeholder:text-gray-400
+                    outline-none
+                    focus:border-pink-400
+                    focus:ring-4
+                    focus:ring-pink-100
+                    transition-all
+                    resize-none
+                    shadow-sm
+                  "
+                />
+              </div>
       
               {/* BUTTON */}
               <button
@@ -1840,51 +1842,33 @@ export default function Home() {
                   w-full
                   h-[58px]
                   rounded-2xl
-      
                   bg-gradient-to-r
                   from-pink-500
                   via-purple-500
                   to-blue-500
-      
                   text-white
-                  font-bold
-                  text-[18px]
-      
+                  font-semibold
+                  text-lg
                   shadow-lg
-      
-                  transition-all
-                  duration-300
-      
-                  hover:scale-[1.02]
+                  hover:scale-[1.01]
                   hover:shadow-xl
+                  transition-all
                 "
               >
-                Send Message
+                Send Message ✈️
               </button>
-      
             </form>
-      
           </div>
-      
         </div>
-      
       </section>
-
+      
       {/* FOOTER */}
-      <footer className="w-full py-8 mt-10">
-      
-        <div className="max-w-7xl mx-auto px-6 text-center">
-      
-          <div className="border-t border-gray-200 pt-6">
-      
-            <p className="text-[#6b7280] text-[15px]">
-              © 2026 Lintang Cahyaningtyas. All Rights Reserved.
-            </p>
-      
-          </div>
-      
+      <footer className="w-full py-6 text-center">
+        <div className="max-w-6xl mx-auto px-6 border-t border-gray-200 pt-6">
+          <p className="text-gray-500 text-sm">
+            © 2026 Lintang Cahyaningtyas. All Rights Reserved.
+          </p>
         </div>
-      
       </footer>
 
     </main>
