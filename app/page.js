@@ -898,15 +898,15 @@ export default function Home() {
         {/* TITLE */}
         <div className="text-center mb-20 relative z-10">
       
-          <h1 className="text-5xl md:text-7xl font-bold text-slate-900">
+          <h1 className="text-5xl md:text-7xl font-extrabold text-[#0f172a]">
             Medium Articles
           </h1>
       
-          <p className="text-gray-500 mt-4 text-lg">
+          <p className="text-gray-500 mt-5 text-[22px]">
             Thoughts, insights, and data stories
           </p>
       
-          <div className="w-24 h-1 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mx-auto mt-5"></div>
+          <div className="w-28 h-[4px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full mx-auto mt-6"></div>
       
         </div>
       
@@ -917,12 +917,14 @@ export default function Home() {
             grid-cols-1
             md:grid-cols-2
             xl:grid-cols-4
-            gap-8
-            max-w-7xl
+      
+            gap-6
+      
+            max-w-[1350px]
             mx-auto
+      
             relative
             z-10
-            items-stretch
           "
         >
       
@@ -931,20 +933,24 @@ export default function Home() {
             href="https://medium.com/statistics-uii/basis-data-pada-rdbms-12be0f95c277"
             target="_blank"
             className="
-              bg-white/80
-              backdrop-blur-xl
-              border
-              border-white/40
-              rounded-[24px]
-              p-8
-              shadow-[0_10px_40px_rgba(0,0,0,0.08)]
+              bg-[#f7f7f8]
       
-              hover:-translate-y-2
-              hover:shadow-2xl
+              border
+              border-[#ececec]
+      
+              rounded-[28px]
+      
+              px-8
+              pt-8
+              pb-6
+      
+              shadow-[0_8px_30px_rgba(0,0,0,0.06)]
+      
               transition
               duration-300
+              hover:-translate-y-1
       
-              min-h-[480px]
+              min-h-[560px]
       
               flex
               flex-col
@@ -952,11 +958,10 @@ export default function Home() {
             "
           >
       
-            {/* TOP */}
             <div>
       
               {/* HEADER */}
-              <div className="flex items-center gap-4 mb-8">
+              <div className="flex items-center gap-4 mb-10">
       
                 {/* ICON */}
                 <div
@@ -964,6 +969,7 @@ export default function Home() {
                     w-16
                     h-16
                     rounded-full
+      
                     bg-gradient-to-br
                     from-pink-500
                     to-pink-400
@@ -975,7 +981,6 @@ export default function Home() {
                     text-white
                     text-4xl
                     font-bold
-                    flex-shrink-0
                   "
                 >
                   M
@@ -986,9 +991,12 @@ export default function Home() {
                   className="
                     px-5
                     py-2
+      
                     rounded-full
+      
                     bg-pink-100
                     text-pink-500
+      
                     text-sm
                     font-bold
                   "
@@ -1001,12 +1009,13 @@ export default function Home() {
               {/* TITLE */}
               <h2
                 className="
-                  text-[24px]
+                  text-[28px]
                   font-extrabold
                   text-black
-                  leading-snug
       
-                  min-h-[120px]
+                  leading-[1.35]
+      
+                  min-h-[180px]
                 "
               >
                 Database in RDBMS
@@ -1015,9 +1024,10 @@ export default function Home() {
               {/* DESC */}
               <p
                 className="
-                  text-gray-600
-                  mt-6
+                  text-[#4b5563]
+      
                   text-[18px]
+      
                   leading-[1.9]
       
                   min-h-[170px]
@@ -1030,9 +1040,9 @@ export default function Home() {
             </div>
       
             {/* FOOTER */}
-            <div className="flex items-center justify-between pt-8">
+            <div className="flex items-center justify-between pt-10">
       
-              <span className="text-gray-500 text-[16px]">
+              <span className="text-[#6b7280] text-[17px]">
                 26 Dec 2021
               </span>
       
@@ -1040,7 +1050,7 @@ export default function Home() {
                 className="
                   text-pink-500
                   font-bold
-                  text-[17px]
+                  text-[18px]
                 "
               >
                 Read Article →
@@ -1055,20 +1065,24 @@ export default function Home() {
             href="https://medium.com/@lintangntyas/clustering-provinsi-terhadap-jenis-bencana-alam-di-indonesia-tahun-2021-b85eeaf1b451"
             target="_blank"
             className="
-              bg-white/80
-              backdrop-blur-xl
-              border
-              border-white/40
-              rounded-[24px]
-              p-8
-              shadow-[0_10px_40px_rgba(0,0,0,0.08)]
+              bg-[#f7f7f8]
       
-              hover:-translate-y-2
-              hover:shadow-2xl
+              border
+              border-[#ececec]
+      
+              rounded-[28px]
+      
+              px-8
+              pt-8
+              pb-6
+      
+              shadow-[0_8px_30px_rgba(0,0,0,0.06)]
+      
               transition
               duration-300
+              hover:-translate-y-1
       
-              min-h-[480px]
+              min-h-[560px]
       
               flex
               flex-col
@@ -1078,13 +1092,14 @@ export default function Home() {
       
             <div>
       
-              <div className="flex items-center gap-4 mb-8">
+              <div className="flex items-center gap-4 mb-10">
       
                 <div
                   className="
                     w-16
                     h-16
                     rounded-full
+      
                     bg-gradient-to-br
                     from-purple-500
                     to-fuchsia-400
@@ -1096,7 +1111,6 @@ export default function Home() {
                     text-white
                     text-4xl
                     font-bold
-                    flex-shrink-0
                   "
                 >
                   M
@@ -1106,9 +1120,12 @@ export default function Home() {
                   className="
                     px-5
                     py-2
+      
                     rounded-full
+      
                     bg-purple-100
                     text-purple-500
+      
                     text-sm
                     font-bold
                   "
@@ -1120,12 +1137,13 @@ export default function Home() {
       
               <h2
                 className="
-                  text-[24px]
+                  text-[28px]
                   font-extrabold
                   text-black
-                  leading-snug
       
-                  min-h-[120px]
+                  leading-[1.35]
+      
+                  min-h-[180px]
                 "
               >
                 Provincial Clustering Based on Types of Natural Disasters
@@ -1133,9 +1151,10 @@ export default function Home() {
       
               <p
                 className="
-                  text-gray-600
-                  mt-6
+                  text-[#4b5563]
+      
                   text-[18px]
+      
                   leading-[1.9]
       
                   min-h-[170px]
@@ -1146,9 +1165,9 @@ export default function Home() {
       
             </div>
       
-            <div className="flex items-center justify-between pt-8">
+            <div className="flex items-center justify-between pt-10">
       
-              <span className="text-gray-500 text-[16px]">
+              <span className="text-[#6b7280] text-[17px]">
                 04 May 2023
               </span>
       
@@ -1156,7 +1175,7 @@ export default function Home() {
                 className="
                   text-pink-500
                   font-bold
-                  text-[17px]
+                  text-[18px]
                 "
               >
                 Read Article →
@@ -1171,20 +1190,24 @@ export default function Home() {
             href="https://medium.com/@lintangntyas/perilaku-konsumen-menggunakan-mba-association-rule-mining-cc0f604b319a"
             target="_blank"
             className="
-              bg-white/80
-              backdrop-blur-xl
-              border
-              border-white/40
-              rounded-[24px]
-              p-8
-              shadow-[0_10px_40px_rgba(0,0,0,0.08)]
+              bg-[#f7f7f8]
       
-              hover:-translate-y-2
-              hover:shadow-2xl
+              border
+              border-[#ececec]
+      
+              rounded-[28px]
+      
+              px-8
+              pt-8
+              pb-6
+      
+              shadow-[0_8px_30px_rgba(0,0,0,0.06)]
+      
               transition
               duration-300
+              hover:-translate-y-1
       
-              min-h-[480px]
+              min-h-[560px]
       
               flex
               flex-col
@@ -1194,13 +1217,14 @@ export default function Home() {
       
             <div>
       
-              <div className="flex items-center gap-4 mb-8">
+              <div className="flex items-center gap-4 mb-10">
       
                 <div
                   className="
                     w-16
                     h-16
                     rounded-full
+      
                     bg-gradient-to-br
                     from-pink-500
                     to-rose-400
@@ -1212,7 +1236,6 @@ export default function Home() {
                     text-white
                     text-4xl
                     font-bold
-                    flex-shrink-0
                   "
                 >
                   M
@@ -1222,9 +1245,12 @@ export default function Home() {
                   className="
                     px-5
                     py-2
+      
                     rounded-full
+      
                     bg-pink-100
                     text-pink-500
+      
                     text-sm
                     font-bold
                   "
@@ -1236,12 +1262,13 @@ export default function Home() {
       
               <h2
                 className="
-                  text-[24px]
+                  text-[28px]
                   font-extrabold
                   text-black
-                  leading-snug
       
-                  min-h-[120px]
+                  leading-[1.35]
+      
+                  min-h-[180px]
                 "
               >
                 Consumer Behavior Using MBA Association Rule Mining
@@ -1249,9 +1276,10 @@ export default function Home() {
       
               <p
                 className="
-                  text-gray-600
-                  mt-6
+                  text-[#4b5563]
+      
                   text-[18px]
+      
                   leading-[1.9]
       
                   min-h-[170px]
@@ -1262,9 +1290,9 @@ export default function Home() {
       
             </div>
       
-            <div className="flex items-center justify-between pt-8">
+            <div className="flex items-center justify-between pt-10">
       
-              <span className="text-gray-500 text-[16px]">
+              <span className="text-[#6b7280] text-[17px]">
                 30 Jul 2023
               </span>
       
@@ -1272,7 +1300,7 @@ export default function Home() {
                 className="
                   text-pink-500
                   font-bold
-                  text-[17px]
+                  text-[18px]
                 "
               >
                 Read Article →
@@ -1287,20 +1315,24 @@ export default function Home() {
             href="https://medium.com/@lintangntyas/analisis-data-terhadap-tipe-penyewaan-bikeshare-toronto-pada-tahun-2018-f932072c2682"
             target="_blank"
             className="
-              bg-white/80
-              backdrop-blur-xl
-              border
-              border-white/40
-              rounded-[24px]
-              p-8
-              shadow-[0_10px_40px_rgba(0,0,0,0.08)]
+              bg-[#f7f7f8]
       
-              hover:-translate-y-2
-              hover:shadow-2xl
+              border
+              border-[#ececec]
+      
+              rounded-[28px]
+      
+              px-8
+              pt-8
+              pb-6
+      
+              shadow-[0_8px_30px_rgba(0,0,0,0.06)]
+      
               transition
               duration-300
+              hover:-translate-y-1
       
-              min-h-[480px]
+              min-h-[560px]
       
               flex
               flex-col
@@ -1310,13 +1342,14 @@ export default function Home() {
       
             <div>
       
-              <div className="flex items-center gap-4 mb-8">
+              <div className="flex items-center gap-4 mb-10">
       
                 <div
                   className="
                     w-16
                     h-16
                     rounded-full
+      
                     bg-gradient-to-br
                     from-blue-400
                     to-indigo-400
@@ -1328,7 +1361,6 @@ export default function Home() {
                     text-white
                     text-4xl
                     font-bold
-                    flex-shrink-0
                   "
                 >
                   M
@@ -1338,9 +1370,12 @@ export default function Home() {
                   className="
                     px-5
                     py-2
+      
                     rounded-full
+      
                     bg-blue-100
                     text-blue-500
+      
                     text-sm
                     font-bold
                   "
@@ -1352,12 +1387,13 @@ export default function Home() {
       
               <h2
                 className="
-                  text-[24px]
+                  text-[28px]
                   font-extrabold
                   text-black
-                  leading-snug
       
-                  min-h-[120px]
+                  leading-[1.35]
+      
+                  min-h-[180px]
                 "
               >
                 Toronto BikeShare User Data Analysis
@@ -1365,9 +1401,10 @@ export default function Home() {
       
               <p
                 className="
-                  text-gray-600
-                  mt-6
+                  text-[#4b5563]
+      
                   text-[18px]
+      
                   leading-[1.9]
       
                   min-h-[170px]
@@ -1378,9 +1415,9 @@ export default function Home() {
       
             </div>
       
-            <div className="flex items-center justify-between pt-8">
+            <div className="flex items-center justify-between pt-10">
       
-              <span className="text-gray-500 text-[16px]">
+              <span className="text-[#6b7280] text-[17px]">
                 01 Nov 2023
               </span>
       
@@ -1388,7 +1425,7 @@ export default function Home() {
                 className="
                   text-pink-500
                   font-bold
-                  text-[17px]
+                  text-[18px]
                 "
               >
                 Read Article →
@@ -1401,21 +1438,26 @@ export default function Home() {
         </div>
       
         {/* BUTTON */}
-        <div className="flex justify-center mt-16 relative z-10">
+        <div className="flex justify-center mt-20 relative z-10">
       
           <a
             href="https://medium.com/@lintangntyas"
             target="_blank"
             className="
+              px-12
+              py-5
+      
+              rounded-full
+      
               border-2
               border-pink-300
-              px-10
-              py-4
-              rounded-full
-              text-lg
-              font-semibold
+      
+              text-[20px]
+              font-bold
+      
               hover:bg-pink-500
               hover:text-white
+      
               transition
               duration-300
             "
