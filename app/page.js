@@ -327,7 +327,7 @@ export default function Home() {
               transition
               duration-300
       
-              h-auto
+              min-h-[470px]
       
               flex
               flex-col
@@ -953,7 +953,7 @@ export default function Home() {
       
               hover:-translate-y-1
       
-              h-[470px]
+              min-h-[470px]
       
               flex
               flex-col
@@ -1085,7 +1085,7 @@ export default function Home() {
       
               hover:-translate-y-1
       
-              h-[470px]
+              min-h-[470px]
       
               flex
               flex-col
@@ -1210,7 +1210,7 @@ export default function Home() {
       
               hover:-translate-y-1
       
-              h-[470px]
+              min-h-[470px]
       
               flex
               flex-col
@@ -1335,7 +1335,7 @@ export default function Home() {
       
               hover:-translate-y-1
       
-              h-[470px]
+              min-h-[470px]
       
               flex
               flex-col
