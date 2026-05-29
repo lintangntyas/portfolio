@@ -1655,10 +1655,10 @@ export default function Home() {
           w-full
           px-6
           md:px-8
-          pt-[170px]
-          pb-10
+          pt-[120px]
+          pb-8
+          scroll-mt-[180px]
           overflow-hidden
-          scroll-mt-[140px]
         "
       >
         {/* BACKGROUND */}
