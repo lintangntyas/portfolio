@@ -914,15 +914,17 @@ export default function Home() {
         <div
           className="
             grid
+            -mt-8
+        
             grid-cols-1
             md:grid-cols-2
             xl:grid-cols-4
-      
+        
             gap-6
-      
+        
             max-w-[1400px]
             mx-auto
-      
+        
             relative
             z-10
           "
@@ -1014,10 +1016,8 @@ export default function Home() {
                   text-[26px]
                   font-black
                   text-black
-      
+              
                   leading-[1.3]
-      
-                  min-h-[120px]
                 "
               >
                 Database in RDBMS
@@ -1027,14 +1027,12 @@ export default function Home() {
               <p
                 className="
                   text-[#4b5563]
-      
+              
                   text-[17px]
-      
+              
                   leading-[2]
-      
+              
                   mt-5
-      
-                  min-h-[145px]
                 "
               >
                 Understand the basic concepts of relational databases,
@@ -1146,10 +1144,8 @@ export default function Home() {
                   text-[26px]
                   font-black
                   text-black
-      
+              
                   leading-[1.3]
-      
-                  min-h-[120px]
                 "
               >
                 Provincial Clustering Based on Types of Natural Disasters
@@ -1158,14 +1154,12 @@ export default function Home() {
               <p
                 className="
                   text-[#4b5563]
-      
+              
                   text-[17px]
-      
+              
                   leading-[2]
-      
+              
                   mt-5
-      
-                  min-h-[145px]
                 "
               >
                 Clustering analysis using K-Means to group provinces based on the dominant type of disaster.
@@ -1275,10 +1269,8 @@ export default function Home() {
                   text-[26px]
                   font-black
                   text-black
-      
+              
                   leading-[1.3]
-      
-                  min-h-[120px]
                 "
               >
                 Consumer Behavior Using MBA Association Rule Mining
@@ -1287,14 +1279,12 @@ export default function Home() {
               <p
                 className="
                   text-[#4b5563]
-      
+              
                   text-[17px]
-      
+              
                   leading-[2]
-      
+              
                   mt-5
-      
-                  min-h-[145px]
                 "
               >
                 Implement Market Basket Analysis to identify purchasing patterns of products frequently purchased together.
@@ -1404,10 +1394,8 @@ export default function Home() {
                   text-[26px]
                   font-black
                   text-black
-      
+              
                   leading-[1.3]
-      
-                  min-h-[120px]
                 "
               >
                 Toronto BikeShare User Data Analysis
@@ -1416,14 +1404,12 @@ export default function Home() {
               <p
                 className="
                   text-[#4b5563]
-      
+              
                   text-[17px]
-      
+              
                   leading-[2]
-      
+              
                   mt-5
-      
-                  min-h-[145px]
                 "
               >
                 Exploratory data analysis and visualization of BikeShare Toronto users to understand bicycle usage patterns.
@@ -1454,7 +1440,7 @@ export default function Home() {
         </div>
       
         {/* BUTTON */}
-        <div className="flex justify-center mt-14 relative z-10">
+        <div className="flex justify-center mt-12 relative z-10">
       
           <a
             href="https://medium.com/@lintangntyas"
