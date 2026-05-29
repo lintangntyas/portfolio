@@ -1029,8 +1029,6 @@ export default function Home() {
                   text-[17px]
               
                   leading-[2]
-              
-                  mt-5
                 "
               >
                 Understand the basic concepts of relational databases,
@@ -1154,8 +1152,6 @@ export default function Home() {
                   text-[17px]
               
                   leading-[2]
-              
-                  mt-5
                 "
               >
                 Clustering analysis using K-Means to group provinces based on the dominant type of disaster.
@@ -1277,8 +1273,6 @@ export default function Home() {
                   text-[17px]
               
                   leading-[2]
-              
-                  mt-5
                 "
               >
                 Implement Market Basket Analysis to identify purchasing patterns of products frequently purchased together.
@@ -1400,8 +1394,6 @@ export default function Home() {
                   text-[17px]
               
                   leading-[2]
-              
-                  mt-5
                 "
               >
                 Exploratory data analysis and visualization of BikeShare Toronto users to understand bicycle usage patterns.
