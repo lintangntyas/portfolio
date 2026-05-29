@@ -757,29 +757,25 @@ export default function Home() {
                   flex-shrink-0
                   w-[500px]
                   h-[320px]
-                  overflow-hidden
                   rounded-[20px]
                   border
                   border-black/10
                   bg-white
-                  p-2
+                  p-3
+                  flex
+                  items-center
+                  justify-center
+                  overflow-hidden
                 "
               >
                 <img
                   src={`/sertif${index + 1}.${index >= 9 ? "png" : "jpg"}`}
                   alt={`Certificate ${index + 1}`}
                   className="
-                    flex-shrink-0
-                    w-[500px]
-                    h-[320px]
-                    rounded-[20px]
-                    border
-                    border-black/10
-                    bg-white
-                    p-3
-                    flex
-                    items-center
-                    justify-center
+                    w-full
+                    h-full
+                    object-contain
+                    rounded-[14px]
                   "
                 />
               </div>
@@ -793,29 +789,25 @@ export default function Home() {
                   flex-shrink-0
                   w-[500px]
                   h-[320px]
-                  overflow-hidden
                   rounded-[20px]
                   border
                   border-black/10
                   bg-white
-                  p-2
+                  p-3
+                  flex
+                  items-center
+                  justify-center
+                  overflow-hidden
                 "
               >
                 <img
                   src={`/sertif${index + 1}.${index >= 9 ? "png" : "jpg"}`}
                   alt={`Certificate ${index + 1}`}
                   className="
-                    flex-shrink-0
-                    w-[500px]
-                    h-[320px]
-                    rounded-[20px]
-                    border
-                    border-black/10
-                    bg-white
-                    p-3
-                    flex
-                    items-center
-                    justify-center
+                    w-full
+                    h-full
+                    object-contain
+                    rounded-[14px]
                   "
                 />
               </div>
