@@ -327,7 +327,7 @@ export default function Home() {
               transition
               duration-300
       
-              min-h-[470px]
+              h-auto
       
               flex
               flex-col
