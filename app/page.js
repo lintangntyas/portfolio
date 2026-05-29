@@ -378,7 +378,7 @@ export default function Home() {
               <span
                 className="
                   text-[#6b7280]
-                  text-[14px]
+                  text-[12px]
                   text-right
                   whitespace-nowrap
                   leading-[1.5]
@@ -390,7 +390,7 @@ export default function Home() {
             </div>
       
             {/* LINE */}
-            <div className="w-[75px] h-[4px] bg-pink-500 rounded-full mt-7 mb-4"></div>
+            <div className="w-[75px] h-[4px] bg-pink-500 rounded-full mt-4 mb-4"></div>
       
             {/* LIST */}
             <ul
@@ -478,7 +478,7 @@ export default function Home() {
               <span
                 className="
                   text-[#6b7280]
-                  text-[14px]
+                  text-[12px]
                   text-right
                   whitespace-nowrap
                   leading-[1.5]
@@ -489,7 +489,7 @@ export default function Home() {
       
             </div>
       
-            <div className="w-[75px] h-[4px] bg-blue-500 rounded-full mt-7 mb-4"></div>
+            <div className="w-[75px] h-[4px] bg-blue-500 rounded-full mt-4 mb-4"></div>
       
             <ul
               className="
@@ -572,7 +572,7 @@ export default function Home() {
               <span
                 className="
                   text-[#6b7280]
-                  text-[14px]
+                  text-[12px]
                   text-right
                   whitespace-nowrap
                   leading-[1.5]
@@ -583,7 +583,7 @@ export default function Home() {
       
             </div>
       
-            <div className="w-[75px] h-[4px] bg-purple-500 rounded-full mt-7 mb-4"></div>
+            <div className="w-[75px] h-[4px] bg-purple-500 rounded-full mt-4 mb-4"></div>
       
             <ul
               className="
@@ -666,7 +666,7 @@ export default function Home() {
               <span
                 className="
                   text-[#6b7280]
-                  text-[14px]
+                  text-[12px]
                   text-right
                   whitespace-nowrap
                   leading-[1.5]
@@ -677,7 +677,7 @@ export default function Home() {
       
             </div>
       
-            <div className="w-[75px] h-[4px] bg-pink-500 rounded-full mt-7 mb-4"></div>
+            <div className="w-[75px] h-[4px] bg-pink-500 rounded-full mt-4 mb-4"></div>
       
             <ul
               className="
