@@ -646,7 +646,7 @@ export default function Home() {
                     leading-[1.25]
                   "
                 >
-                  Bankaltimtara
+                  INVISIOo
                 </h2>
       
                 <p
