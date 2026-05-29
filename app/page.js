@@ -953,8 +953,6 @@ export default function Home() {
       
               hover:-translate-y-1
       
-              min-h-[470px]
-      
               flex
               flex-col
               justify-between
@@ -1085,8 +1083,6 @@ export default function Home() {
       
               hover:-translate-y-1
       
-              min-h-[470px]
-      
               flex
               flex-col
               justify-between
@@ -1210,8 +1206,6 @@ export default function Home() {
       
               hover:-translate-y-1
       
-              min-h-[470px]
-      
               flex
               flex-col
               justify-between
@@ -1334,8 +1328,6 @@ export default function Home() {
               duration-300
       
               hover:-translate-y-1
-      
-              min-h-[470px]
       
               flex
               flex-col
