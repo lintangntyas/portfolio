@@ -39,7 +39,7 @@ export default function Home() {
           </button>
 
           {/* MENU */}
-          <ul className="flex flex-wrap justify-center gap-3 md:gap-6 text-white font-medium text-sm">
+          <ul className="flex items-center gap-4 md:gap-6 text-xs md:text-sm font-medium text-white">
 
             <li>
               <button
@@ -303,7 +303,7 @@ export default function Home() {
         {/* TITLE */}
         <div className="text-center mb-20 relative z-10">
       
-          <h1 className="text-[72px] font-black text-[#0f172a] leading-none">
+          <h1 className="text-[42px] md:text-[72px] font-black text-[#0f172a] leading-none">
             Experience
           </h1>
       
@@ -729,7 +729,7 @@ export default function Home() {
       >
       <div className="text-center mb-10">
 
-        <h1 className="text-[72px] font-black text-[#0f172a] leading-none">
+        <h1 className="text-[42px] md:text-[72px] font-black text-[#0f172a] leading-none">
           Projects
         </h1>
       
@@ -977,7 +977,7 @@ export default function Home() {
         {/* TITLE */}
         <div className="text-center mb-20 relative z-10">
       
-          <h1 className="text-[72px] font-black text-[#0f172a] leading-none">
+          <h1 className="text-[42px] md:text-[72px] font-black text-[#0f172a] leading-none">
             Medium Articles
           </h1>
       
@@ -1548,7 +1548,7 @@ export default function Home() {
         {/* TITLE */}
         <div className="text-center mb-20 relative z-10">
       
-          <h1 className="text-[72px] font-black text-[#0f172a] leading-none">
+          <h1 className="text-[42px] md:text-[72px] font-black text-[#0f172a] leading-none">
             Certifications
           </h1>
       
@@ -1585,8 +1585,8 @@ export default function Home() {
                 key={`original-${index}`}
                 className="
                   flex-shrink-0
-                  w-[500px]
-                  h-[320px]
+                  w-[300px] md:w-[500px]
+                  h-[200px] md:h-[320px]
                   rounded-[20px]
                   border
                   border-black/10
@@ -1617,8 +1617,8 @@ export default function Home() {
                 key={`duplicate-${index}`}
                 className="
                   flex-shrink-0
-                  w-[500px]
-                  h-[320px]
+                  w-[300px] md:w-[500px]
+                  h-[200px] md:h-[320px]
                   rounded-[20px]
                   border
                   border-black/10
@@ -1661,7 +1661,7 @@ export default function Home() {
           {/* TITLE */}
           <h2
             className="
-              text-[58px]
+              text-[42px] md:text-[58px]
               md:text-[82px]
               font-black
               text-[#0b132b]
