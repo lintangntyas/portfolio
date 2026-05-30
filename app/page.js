@@ -1869,8 +1869,8 @@ export default function Home() {
       </section>
       
       {/* FOOTER */}
-      <footer className="w-full pt-2 pb-2 -mt-2">
-        <div className="max-w-5xl mx-auto px-6">
+      <footer className="w-full py-4">
+        <div className="max-w-5xl mx-auto px-2">
       
           <div className="border-t border-gray-200 pt-2">
       
