@@ -1650,7 +1650,7 @@ export default function Home() {
       {/* CONTACT */}
       <section
         id="contact"
-        className="relative w-full px-6 md:px-8 pt-10 pb-0 overflow-hidden"
+        className="relative w-full px-6 md:px-8 pt-24 pb-4 overflow-hidden"
       >
         {/* BACKGROUND */}
         <div className="absolute top-0 left-0 w-[320px] h-[320px] bg-pink-200/30 blur-[140px] rounded-full" />
