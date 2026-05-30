@@ -1566,7 +1566,7 @@ export default function Home() {
       {/* CERTIFICATIONS */}
       <section
         id="certificate"
-        className="w-full px-4 md:px-8 py-24 pb-46 relative overflow-hidden"
+        className="w-full px-4 md:px-8 py-24 relative overflow-hidden"
       >
       
         {/* BLUR */}
