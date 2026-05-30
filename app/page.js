@@ -1679,7 +1679,7 @@ export default function Home() {
       {/* CONTACT */}
       <section
         id="contact"
-        className="w-full px-4 md:px-4 py-24 relative overflow-hidden"
+        className="w-full px-4 md:px-8 py-24 relative overflow-hidden"
       >
         {/* BACKGROUND */}
         <div className="absolute top-0 left-0 w-[320px] h-[320px] bg-pink-200/30 blur-[140px] rounded-full" />
