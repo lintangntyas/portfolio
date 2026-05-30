@@ -727,7 +727,7 @@ export default function Home() {
         id="projects"
         className="min-h-screen px-6 md:px-16 py-24"
       >
-      <div className="text-center mb-20">
+      <div className="text-center mb-10">
 
         <h1 className="text-[72px] font-black text-[#0f172a] leading-none">
           Projects
