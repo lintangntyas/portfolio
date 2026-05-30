@@ -1872,7 +1872,7 @@ export default function Home() {
       <footer className="w-full pt-2 pb-2 -mt-2">
         <div className="max-w-5xl mx-auto px-6">
       
-          <div className="border-t border-gray-200">
+          <div className="border-t border-gray-200 pt-2">
       
             <p className="text-center text-gray-500 text-sm">
               © 2026 Lintang Cahyaningtyas. All Rights Reserved.
