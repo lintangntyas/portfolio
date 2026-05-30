@@ -28,77 +28,92 @@ export default function Home() {
       {/* NAVBAR */}
       <div className="fixed top-4 left-0 right-0 z-[9999] px-5 md:px-10">
 
-        <nav
-          className="
-            fixed
-            top-4
-            left-1/2
-            -translate-x-1/2
-            z-50
-            w-[92%]
-            max-w-5xl
-            rounded-[30px]
-            bg-[#262626]/95
-            backdrop-blur-xl
-            shadow-2xl
-            px-4 md:px-8
-            py-4
-          "
-        >
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-        
-            {/* LOGO */}
-            <h1
-              className="
-                text-white
-                font-bold
-                text-[22px]
-                md:text-[34px]
-                whitespace-nowrap
-              "
-            >
-              Lintang Cahyaningtyas
-            </h1>
-        
-            {/* MENU */}
-            <ul
-              className="
-                flex
-                flex-wrap
-                justify-center
-                gap-4 md:gap-6
-                text-sm md:text-base
-                text-white
-                font-medium
-              "
-            >
-              <li><a href="#about">About</a></li>
-              <li><a href="#experience">Experience</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#medium">Medium</a></li>
-              <li><a href="#certifications">Certificate</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-        
-            {/* BUTTON */}
-            <a
-              href="https://linkedin.com"
-              target="_blank"
-              className="
-                px-5 py-3
-                rounded-full
-                bg-gradient-to-r
-                from-blue-500
-                to-pink-500
-                text-white
-                font-semibold
-                text-sm
-              "
-            >
-              LinkedIn
-            </a>
-        
-          </div>
+        <nav className="max-w-6xl mx-auto bg-black/80 backdrop-blur-xl border border-white/10 rounded-3xl md:rounded-full px-5 md:px-10 py-4 flex flex-col md:flex-row items-center gap-4 md:gap-0 justify-between shadow-2xl">
+
+          {/* LOGO */}
+          <button
+            onClick={() => scrollToSection("top")}
+            className="text-white text-lg md:text-2xl font-bold text-center hover:text-pink-400 transition duration-300"
+          >
+            Lintang Cahyaningtyas
+          </button>
+
+          {/* MENU */}
+          <ul className="flex flex-wrap justify-center gap-3 md:gap-6 text-white font-medium text-sm">
+
+            <li>
+              <button
+                onClick={() => scrollToSection("about")}
+                className="hover:text-pink-400 transition"
+              >
+                About
+              </button>
+            </li>
+
+            <li>
+              <button
+                onClick={() => scrollToSection("experience")}
+                className="hover:text-blue-400 transition"
+              >
+                Experience
+              </button>
+            </li>
+
+            <li>
+              <button
+                onClick={() => scrollToSection("projects")}
+                className="hover:text-purple-400 transition"
+              >
+                Projects
+              </button>
+            </li>
+
+            <li>
+              <button
+                onClick={() => scrollToSection("medium")}
+                className="hover:text-pink-400 transition"
+              >
+                Medium
+              </button>
+            </li>
+            
+            <li>
+              <button
+                onClick={() => scrollToSection("certificate")}
+                className="hover:text-yellow-400 transition"
+              >
+                Certificate
+              </button>
+            </li>
+
+            <li>
+              <button
+                onClick={() => scrollToSection("contact")}
+                className="hover:text-pink-400 transition"
+              >
+                Contact
+              </button>
+            </li>
+
+          </ul>
+
+          {/* LINKEDIN */}
+          <a
+            href="https://www.linkedin.com/in/lintangntyas/"
+            target="_blank"
+            className="bg-gradient-to-r from-blue-500 to-pink-500 text-white px-4 md:px-5 py-2 rounded-full font-semibold hover:scale-105 transition duration-300 shadow-lg flex items-center gap-2 text-sm"
+          >
+
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png"
+              alt="linkedin"
+              className="w-4 h-4"
+            />
+
+            LinkedIn
+
+          </a>
+
         </nav>
       </div>
 
