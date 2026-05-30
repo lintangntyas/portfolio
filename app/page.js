@@ -39,7 +39,7 @@ export default function Home() {
           </button>
 
           {/* MENU */}
-          <ul className="flex items-center gap-4 md:gap-6 text-xs md:text-sm font-medium text-white">
+          <ul className="flex flex-wrap justify-center gap-3 md:gap-6 text-white font-medium text-xs md:text-sm">
 
             <li>
               <button
