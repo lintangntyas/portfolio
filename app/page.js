@@ -782,7 +782,7 @@ export default function Home() {
             />
       
             <h2 className="text-2xl font-bold text-pink-500 mb-2">
-              Commodity Tabulation Automation
+              CTA Website
             </h2>
       
             <p className="text-sm text-gray-500 mb-5">
@@ -790,7 +790,7 @@ export default function Home() {
             </p>
       
             <p className="text-gray-700 leading-relaxed text-justify">
-              Developed a Python (Flask)-based automation website to display
+              Developed a Python (Flask)-based commodity tabulation automation (CTA) website to display
               commodity and inflation data for East Kalimantan Province in a
               structured and real-time format. Integrated Excel data processing,
               automatic uploads/downloads using OpenPyXL, report formatting,
