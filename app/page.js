@@ -375,9 +375,6 @@ export default function Home() {
               flex
               flex-col
               w-full
-              w-full
-              w-full
-              w-full
               xl:h-[480px]
               xl:col-span-2 xl:col-start-4"
           >
@@ -562,7 +559,6 @@ export default function Home() {
               flex
               flex-col
               w-full
-              w-full
               xl:h-[480px]
               xl:col-span-2 xl:col-start-1"
           >
@@ -659,7 +655,6 @@ export default function Home() {
               flex
               flex-col
               w-full
-              w-full
               xl:h-[480px]
               xl:col-span-2 xl:col-start-3"
           >
@@ -755,7 +750,6 @@ export default function Home() {
       
               flex
               flex-col
-              w-full
               w-full
               xl:h-[480px]
               xl:col-span-2 xl:col-start-5"
