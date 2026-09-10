@@ -1,11 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function Home() {
 
   const [showNavbar, setShowNavbar] = useState(true);
-  const [lastScrollY, setLastScrollY] = useState(0);
+  const lastScrollY = useRef(0);
   
   useEffect(() => {
     const controlNavbar = () => {
@@ -23,7 +23,7 @@ export default function Home() {
     return () => {
       window.removeEventListener("scroll", controlNavbar);
     };
-  }, [lastScrollY]);
+  }, []);
 
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
@@ -1487,15 +1487,17 @@ export default function Home() {
               onSubmit={(e) => {
                 e.preventDefault();
       
-                const name = e.target.name.value;
-                const email = e.target.email.value;
-                const subject = e.target.subject.value;
-                const message = e.target.message.value;
+                const form = e.currentTarget;
+                const formData = new FormData(form);
+
+                const name = String(formData.get("name") || "");
+                const email = String(formData.get("email") || "");
+                const subject = String(formData.get("subject") || "");
+                const message = String(formData.get("message") || "");
       
                 const phone = "6282155358441";
       
-                const text =
-      `Hello Lintang,
+                const whatsappText = `Hello Lintang,
       
       Name: ${name}
       Email: ${email}
