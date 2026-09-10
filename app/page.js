@@ -130,6 +130,7 @@ export default function Home() {
           <a
             href="https://www.linkedin.com/in/lintangntyas/"
             target="_blank"
+                rel="noopener noreferrer"
             className="bg-gradient-to-r from-blue-500 to-pink-500 text-white px-4 md:px-5 py-2 rounded-full font-semibold hover:scale-105 transition duration-300 shadow-lg flex items-center gap-2 text-sm"
           >
 
@@ -197,6 +198,7 @@ export default function Home() {
             <a
               href="https://drive.google.com/file/d/1yDxtNUwH4OJrMQxE0cy7naBDWw-gRXiz/view?usp=sharing"
               target="_blank"
+                rel="noopener noreferrer"
             >
 
               <button className="border-2 border-black px-6 py-2 rounded-full text-sm md:text-lg font-medium hover:bg-black hover:text-white transition duration-300">
@@ -1225,6 +1227,7 @@ export default function Home() {
           <a
             href="https://medium.com/statistics-uii/basis-data-pada-rdbms-12be0f95c277"
             target="_blank"
+                rel="noopener noreferrer"
             className="
               bg-[#f8f8f8]
       
@@ -1353,6 +1356,7 @@ export default function Home() {
           <a
             href="https://medium.com/@lintangntyas/clustering-provinsi-terhadap-jenis-bencana-alam-di-indonesia-tahun-2021-b85eeaf1b451"
             target="_blank"
+                rel="noopener noreferrer"
             className="
               bg-[#f8f8f8]
       
@@ -1474,6 +1478,7 @@ export default function Home() {
           <a
             href="https://medium.com/@lintangntyas/perilaku-konsumen-menggunakan-mba-association-rule-mining-cc0f604b319a"
             target="_blank"
+                rel="noopener noreferrer"
             className="
               bg-[#f8f8f8]
       
@@ -1595,6 +1600,7 @@ export default function Home() {
           <a
             href="https://medium.com/@lintangntyas/analisis-data-terhadap-tipe-penyewaan-bikeshare-toronto-pada-tahun-2018-f932072c2682"
             target="_blank"
+                rel="noopener noreferrer"
             className="
               bg-[#f8f8f8]
       
@@ -1720,6 +1726,7 @@ export default function Home() {
           <a
             href="https://medium.com/@lintangntyas"
             target="_blank"
+                rel="noopener noreferrer"
             className="
               px-10
               py-4
