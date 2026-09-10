@@ -369,6 +369,9 @@ export default function Home() {
               bg-[#f8f8f8]
               border border-[#ececec]
               rounded-[30px]
+              w-full
+              xl:w-[calc((100%-56px)/3)]
+              xl:h-[480px]
               px-8
               pt-8
               pb-7
@@ -447,6 +450,9 @@ export default function Home() {
               border border-[#ececec]
       
               rounded-[30px]
+              w-full
+              xl:w-[calc((100%-56px)/3)]
+              xl:h-[480px]
       
               px-8
               pt-8
@@ -546,6 +552,9 @@ export default function Home() {
               border border-[#ececec]
       
               rounded-[30px]
+              w-full
+              xl:w-[calc((100%-56px)/3)]
+              xl:h-[480px]
       
               px-8
               pt-8
@@ -640,6 +649,9 @@ export default function Home() {
               border border-[#ececec]
       
               rounded-[30px]
+              w-full
+              xl:w-[calc((100%-56px)/3)]
+              xl:h-[480px]
       
               px-8
               pt-8
@@ -734,6 +746,9 @@ export default function Home() {
               border border-[#ececec]
       
               rounded-[30px]
+              w-full
+              xl:w-[calc((100%-56px)/3)]
+              xl:h-[480px]
       
               px-8
               pt-8
