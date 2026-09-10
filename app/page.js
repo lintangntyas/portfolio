@@ -919,6 +919,42 @@ export default function Home() {
       
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
       
+          {/* PROJECT SIMON */}
+          <div className="bg-white/70 backdrop-blur-lg border border-black/10 rounded-[40px] p-8 shadow-xl hover:-translate-y-2 transition duration-300">
+
+            <img
+              src="https://drive.google.com/uc?export=view&id=101S2-pzy4Go9lsTAKogjIqWru_DJJQNJ"
+              alt="Dashboard SIMON Pegadaian"
+              className="w-full h-[240px] object-cover rounded-3xl mb-8"
+            />
+
+            <h2 className="text-2xl font-bold text-green-600 mb-2">
+              Dashboard SIMON Pegadaian
+            </h2>
+
+            <p className="text-sm text-gray-500 mb-5">
+              Jun 2026 - Now
+            </p>
+
+            <p className="text-gray-700 leading-relaxed text-justify">
+              Developed SIMON to centralize performance data and monitoring across
+              Area Samarinda. Automated reporting using Google Apps Script and
+              Looker Studio, improving data accessibility, reporting efficiency,
+              and management visibility.
+            </p>
+
+            <div className="mt-8">
+              <a
+                href="https://drive.google.com/file/d/101S2-pzy4Go9lsTAKogjIqWru_DJJQNJ/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block border-2 border-black px-6 py-3 rounded-full font-medium hover:bg-black hover:text-white transition duration-300"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+
           {/* PROJECT 1 */}
           <div className="bg-white/70 backdrop-blur-lg border border-black/10 rounded-[40px] p-8 shadow-xl hover:-translate-y-2 transition duration-300">
             
