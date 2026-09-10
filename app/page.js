@@ -375,7 +375,9 @@ export default function Home() {
               hover:-translate-y-1
               flex
               flex-col
-            "
+            
+              xl:rotate-180
+              xl:rotate-180"
           >
             <div className="relative">
               <div className="flex-1">
@@ -385,8 +387,7 @@ export default function Home() {
                     font-black
                     text-blue-500
                     leading-[1.25]
-                  
-              xl:rotate-180"
+                  "
                 >
                   PT. Pegadaian (Persero)
                 </h2>
@@ -472,8 +473,7 @@ export default function Home() {
                     font-black
                     text-pink-500
                     leading-[1.25]
-                  
-              xl:rotate-180"
+                  "
                 >
                   Badan Pusat Statistik
                 </h2>
@@ -559,7 +559,8 @@ export default function Home() {
       
               flex
               flex-col
-            "
+            
+              xl:rotate-180"
           >
       
             <div className="relative">
@@ -572,8 +573,7 @@ export default function Home() {
                     font-black
                     text-blue-500
                     leading-[1.25]
-                  
-              xl:rotate-180"
+                  "
                 >
                   PLN Indonesia Power
                 </h2>
@@ -654,7 +654,8 @@ export default function Home() {
       
               flex
               flex-col
-            "
+            
+              xl:rotate-180"
           >
       
             <div className="relative">
@@ -667,8 +668,7 @@ export default function Home() {
                     font-black
                     text-purple-500
                     leading-[1.25]
-                  
-              xl:rotate-180"
+                  "
                 >
                   INVISIO
                 </h2>
@@ -749,7 +749,8 @@ export default function Home() {
       
               flex
               flex-col
-            "
+            
+              xl:rotate-180"
           >
       
             <div className="relative">
@@ -762,8 +763,7 @@ export default function Home() {
                     font-black
                     text-pink-500
                     leading-[1.25]
-                  
-              xl:rotate-180"
+                  "
                 >
                   Bankaltimtara
                 </h2>
