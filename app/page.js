@@ -375,12 +375,11 @@ export default function Home() {
               flex
               flex-col
               w-full
+              xl:h-[480px]
+              xl:col-span-2 xl:col-start-1 xl:row-start-1
               w-full
               xl:h-[480px]
-              xl:col-span-2 xl:col-start-2
-              w-full
-              xl:h-[480px]
-              xl:col-span-2 xl:col-start-4"
+              xl:col-span-2 xl:col-start-3 xl:row-start-1"
           >
             <div className="relative">
               <div className="flex-1">
@@ -563,9 +562,8 @@ export default function Home() {
               flex
               flex-col
               w-full
-              w-full
               xl:h-[480px]
-              xl:col-span-2 xl:col-start-1"
+              xl:col-span-2 xl:col-start-5 xl:row-start-1"
           >
       
             <div className="relative">
@@ -660,9 +658,8 @@ export default function Home() {
               flex
               flex-col
               w-full
-              w-full
               xl:h-[480px]
-              xl:col-span-2 xl:col-start-3"
+              xl:col-span-2 xl:col-start-1 xl:row-start-2"
           >
       
             <div className="relative">
@@ -757,9 +754,8 @@ export default function Home() {
               flex
               flex-col
               w-full
-              w-full
               xl:h-[480px]
-              xl:col-span-2 xl:col-start-5"
+              xl:col-span-2 xl:col-start-3 xl:row-start-2"
           >
       
             <div className="relative">
