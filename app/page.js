@@ -347,10 +347,10 @@ export default function Home() {
         {/* GRID */}
         <div
           className="
-            flex
-            flex-wrap
-            justify-center
-            -mt-6
+            grid
+            grid-cols-1
+            md:grid-cols-2
+            xl:grid-cols-6
             gap-7
             max-w-[1700px]
             mx-auto
@@ -376,8 +376,10 @@ export default function Home() {
               flex-col
               w-full
               w-full
-              xl:w-[calc((100%-56px)/3)]
-              xl:h-[480px]"
+              w-full
+              w-full
+              xl:h-[480px]
+              xl:col-span-2 xl:col-start-4"
           >
             <div className="relative">
               <div className="flex-1">
@@ -560,8 +562,9 @@ export default function Home() {
               flex
               flex-col
               w-full
-              xl:w-[calc((100%-56px)/3)]
-              xl:h-[480px]"
+              w-full
+              xl:h-[480px]
+              xl:col-span-2 xl:col-start-1"
           >
       
             <div className="relative">
@@ -656,8 +659,9 @@ export default function Home() {
               flex
               flex-col
               w-full
-              xl:w-[calc((100%-56px)/3)]
-              xl:h-[480px]"
+              w-full
+              xl:h-[480px]
+              xl:col-span-2 xl:col-start-3"
           >
       
             <div className="relative">
@@ -752,8 +756,9 @@ export default function Home() {
               flex
               flex-col
               w-full
-              xl:w-[calc((100%-56px)/3)]
-              xl:h-[480px]"
+              w-full
+              xl:h-[480px]
+              xl:col-span-2 xl:col-start-5"
           >
       
             <div className="relative">
