@@ -347,16 +347,15 @@ export default function Home() {
         {/* GRID */}
         <div
           className="
-            grid
-            grid-cols-1
-            md:grid-cols-2
-            xl:grid-cols-3
+            flex
+            flex-wrap
+            justify-center
+            -mt-6
             gap-7
             max-w-[1700px]
             mx-auto
             relative
             z-10
-            xl:rotate-180
           " 
         >
 
@@ -375,9 +374,10 @@ export default function Home() {
               hover:-translate-y-1
               flex
               flex-col
-            
-              xl:rotate-180
-              xl:rotate-180"
+              w-full
+              w-full
+              xl:w-[calc((100%-56px)/3)]
+              xl:h-[480px]"
           >
             <div className="relative">
               <div className="flex-1">
@@ -559,8 +559,9 @@ export default function Home() {
       
               flex
               flex-col
-            
-              xl:rotate-180"
+              w-full
+              xl:w-[calc((100%-56px)/3)]
+              xl:h-[480px]"
           >
       
             <div className="relative">
@@ -654,8 +655,9 @@ export default function Home() {
       
               flex
               flex-col
-            
-              xl:rotate-180"
+              w-full
+              xl:w-[calc((100%-56px)/3)]
+              xl:h-[480px]"
           >
       
             <div className="relative">
@@ -749,8 +751,9 @@ export default function Home() {
       
               flex
               flex-col
-            
-              xl:rotate-180"
+              w-full
+              xl:w-[calc((100%-56px)/3)]
+              xl:h-[480px]"
           >
       
             <div className="relative">
