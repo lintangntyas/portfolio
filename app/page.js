@@ -369,6 +369,83 @@ export default function Home() {
             className="
               bg-[#f8f8f8]
               border border-[#ececec]
+              rounded-[30px]
+              px-8
+              pt-8
+              pb-7
+              shadow-[0_10px_35px_rgba(0,0,0,0.05)]
+              transition-all
+              duration-300
+              hover:-translate-y-1
+              flex
+              flex-col
+            "
+          >
+            <div className="relative">
+              <div className="flex-1">
+                <h2
+                  className="
+                    text-[28px]
+                    font-black
+                    text-blue-500
+                    leading-[1.25]
+                  "
+                >
+                  PT. Pegadaian (Persero)
+                </h2>
+
+                <p
+                  className="
+                    text-[#374151]
+                    text-[16px]
+                    font-semibold
+                    leading-[1.5]
+                  "
+                >
+                  Data Entry Specialist Area Samarinda
+                </p>
+              </div>
+
+              <span
+                className="
+                  text-[#6b7280]
+                  text-[12px]
+                  text-right
+                  whitespace-nowrap
+                  leading-[1.5]
+                "
+              >
+                Jun 2026 - Now
+              </span>
+            </div>
+
+            <div className="w-[75px] h-[4px] bg-blue-500 rounded-full mt-4 mb-4"></div>
+
+            <ul
+              className="
+                text-[#4b5563]
+                text-[16px]
+                leading-[2]
+              "
+            >
+              <li>
+                • Developed SIMON (Pegadaian Monitoring Information System) to centralize operational and performance data across Area Samarinda.
+              </li>
+
+              <li>
+                • Utilized Google Apps Script and Looker Studio to automate data processing and reporting.
+              </li>
+
+              <li>
+                • Improved data accessibility, reporting efficiency, and management visibility for data-driven decisions.
+              </li>
+            </ul>
+          </div>
+
+          <div
+            className="
+              bg-[#f8f8f8]
+              border border-[#ececec]
       
               rounded-[30px]
       
@@ -463,82 +540,6 @@ export default function Home() {
             </ul>
       
           </div>
-            {/* TOP */}
-            <div className="relative">
-      
-              <div className="flex-1">
-      
-                <h2
-                  className="
-                    text-[28px]
-                    font-black
-                    text-pink-500
-                    leading-[1.25]
-                  "
-                >
-                  Badan Pusat Statistik
-                </h2>
-      
-                <p
-                  className="
-                    text-[#374151]
-                    text-[16px]
-                    font-semibold
-                    leading-[1.5]
-                    
-                  "
-                >
-                  Statistician Intern
-                </p>
-      
-              </div>
-      
-              <span
-                className="
-                  text-[#6b7280]
-                  text-[12px]
-                  text-right
-                  whitespace-nowrap
-                  leading-[1.5]
-                "
-              >
-                Nov 2025 - May 2026
-              </span>
-      
-            </div>
-      
-            {/* LINE */}
-            <div className="w-[75px] h-[4px] bg-pink-500 rounded-full mt-4 mb-4"></div>
-      
-            {/* LIST */}
-            <ul
-              className="
-                
-                text-[#4b5563]
-                text-[16px]
-                leading-[2]
-              "
-            >
-      
-              <li>
-                • Collected, cleaned, and analyzed statistical distribution indicator data.
-              </li>
-      
-              <li>
-                • Developed web-based automation systems to improve work efficiency.
-              </li>
-      
-              <li>
-                • Created statistical infographics to support publication activities.
-              </li>
-      
-              <li>
-                • Managed administrative documents and company directory data.
-              </li>
-      
-            </ul>
-      
-      
           {/* CARD 2 */}
           <div
             className="
