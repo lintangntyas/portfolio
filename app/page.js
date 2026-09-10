@@ -347,21 +347,20 @@ export default function Home() {
         {/* GRID */}
         <div
           className="
-            grid
+            flex
+            flex-row-reverse
+            flex-wrap-reverse
+            justify-center
             -mt-6
-      
-            grid-cols-1
-            md:grid-cols-2
-            xl:grid-cols-4
-      
+
             gap-7
-      
+
             max-w-[1700px]
             mx-auto
-      
+
             relative
             z-10
-          "
+          " 
         >
 
           {/* CARD 1 */}
