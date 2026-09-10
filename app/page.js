@@ -347,19 +347,16 @@ export default function Home() {
         {/* GRID */}
         <div
           className="
-            flex
-            flex-row-reverse
-            flex-wrap-reverse
-            justify-center
-            -mt-6
-
+            grid
+            grid-cols-1
+            md:grid-cols-2
+            xl:grid-cols-3
             gap-7
-
             max-w-[1700px]
             mx-auto
-
             relative
             z-10
+            xl:rotate-180
           " 
         >
 
@@ -369,9 +366,6 @@ export default function Home() {
               bg-[#f8f8f8]
               border border-[#ececec]
               rounded-[30px]
-              w-full
-              xl:w-[calc((100%-56px)/3)]
-              xl:h-[480px]
               px-8
               pt-8
               pb-7
@@ -391,7 +385,8 @@ export default function Home() {
                     font-black
                     text-blue-500
                     leading-[1.25]
-                  "
+                  
+              xl:rotate-180"
                 >
                   PT. Pegadaian (Persero)
                 </h2>
@@ -450,9 +445,6 @@ export default function Home() {
               border border-[#ececec]
       
               rounded-[30px]
-              w-full
-              xl:w-[calc((100%-56px)/3)]
-              xl:h-[480px]
       
               px-8
               pt-8
@@ -480,7 +472,8 @@ export default function Home() {
                     font-black
                     text-pink-500
                     leading-[1.25]
-                  "
+                  
+              xl:rotate-180"
                 >
                   Badan Pusat Statistik
                 </h2>
@@ -552,9 +545,6 @@ export default function Home() {
               border border-[#ececec]
       
               rounded-[30px]
-              w-full
-              xl:w-[calc((100%-56px)/3)]
-              xl:h-[480px]
       
               px-8
               pt-8
@@ -582,7 +572,8 @@ export default function Home() {
                     font-black
                     text-blue-500
                     leading-[1.25]
-                  "
+                  
+              xl:rotate-180"
                 >
                   PLN Indonesia Power
                 </h2>
@@ -649,9 +640,6 @@ export default function Home() {
               border border-[#ececec]
       
               rounded-[30px]
-              w-full
-              xl:w-[calc((100%-56px)/3)]
-              xl:h-[480px]
       
               px-8
               pt-8
@@ -679,7 +667,8 @@ export default function Home() {
                     font-black
                     text-purple-500
                     leading-[1.25]
-                  "
+                  
+              xl:rotate-180"
                 >
                   INVISIO
                 </h2>
@@ -746,9 +735,6 @@ export default function Home() {
               border border-[#ececec]
       
               rounded-[30px]
-              w-full
-              xl:w-[calc((100%-56px)/3)]
-              xl:h-[480px]
       
               px-8
               pt-8
@@ -776,7 +762,8 @@ export default function Home() {
                     font-black
                     text-pink-500
                     leading-[1.25]
-                  "
+                  
+              xl:rotate-180"
                 >
                   Bankaltimtara
                 </h2>
