@@ -364,6 +364,78 @@ export default function Home() {
           "
         >
       
+          <div className="relative">
+      
+              <div className="flex-1">
+      
+                <h2
+                  className="
+                    text-[28px]
+                    font-black
+                    text-pink-500
+                    leading-[1.25]
+                  "
+                >
+                  PT. Pegadaian (PERSERO)
+                </h2>
+      
+                <p
+                  className="
+                    text-[#374151]
+                    text-[16px]
+                    font-semibold
+                    leading-[1.5]
+                    
+                  "
+                >
+                  Data Entry
+                </p>
+      
+              </div>
+      
+              <span
+                className="
+                  text-[#6b7280]
+                  text-[12px]
+                  text-right
+                  whitespace-nowrap
+                  leading-[1.5]
+                "
+              >
+                Jun 2026 - Now
+              </span>
+      
+            </div>
+      
+            {/* LINE */}
+            <div className="w-[75px] h-[4px] bg-pink-500 rounded-full mt-4 mb-4"></div>
+      
+            {/* LIST */}
+            <ul
+              className="
+                
+                text-[#4b5563]
+                text-[16px]
+                leading-[2]
+              "
+            >
+      
+              <li>
+                • Developed SIMON to centralize operational and performance data across Area Samarinda.
+              </li>
+      
+              <li>
+                • Automated data processing and reporting using Google Apps Script and Looker Studio.
+              </li>
+      
+              <li>
+                • Improved data accessibility, reporting efficiency, and management visibility for decision-making.
+              </li>
+      
+            </ul>
+      
+          </div>
+
           {/* CARD 1 */}
           <div
             className="
@@ -388,6 +460,81 @@ export default function Home() {
             "
           >
       
+            <div className="relative">
+      
+              <div className="flex-1">
+      
+                <h2
+                  className="
+                    text-[28px]
+                    font-black
+                    text-pink-500
+                    leading-[1.25]
+                  "
+                >
+                  Badan Pusat Statistik
+                </h2>
+      
+                <p
+                  className="
+                    text-[#374151]
+                    text-[16px]
+                    font-semibold
+                    leading-[1.5]
+                    
+                  "
+                >
+                  Statistician Intern
+                </p>
+      
+              </div>
+      
+              <span
+                className="
+                  text-[#6b7280]
+                  text-[12px]
+                  text-right
+                  whitespace-nowrap
+                  leading-[1.5]
+                "
+              >
+                Nov 2025 - May 2026
+              </span>
+      
+            </div>
+      
+            {/* LINE */}
+            <div className="w-[75px] h-[4px] bg-pink-500 rounded-full mt-4 mb-4"></div>
+      
+            {/* LIST */}
+            <ul
+              className="
+                
+                text-[#4b5563]
+                text-[16px]
+                leading-[2]
+              "
+            >
+      
+              <li>
+                • Collected, cleaned, and analyzed statistical distribution indicator data.
+              </li>
+      
+              <li>
+                • Developed web-based automation systems to improve work efficiency.
+              </li>
+      
+              <li>
+                • Created statistical infographics to support publication activities.
+              </li>
+      
+              <li>
+                • Managed administrative documents and company directory data.
+              </li>
+      
+            </ul>
+      
+          </div>
             {/* TOP */}
             <div className="relative">
       
