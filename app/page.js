@@ -538,7 +538,6 @@ export default function Home() {
       
             </ul>
       
-          </div>
       
           {/* CARD 2 */}
           <div
