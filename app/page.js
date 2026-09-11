@@ -348,15 +348,20 @@ export default function Home() {
         <div
           className="
             grid
+            -mt-6
+      
             grid-cols-1
             md:grid-cols-2
-            xl:grid-cols-6
+            xl:grid-cols-4
+      
             gap-7
+      
             max-w-[1700px]
             mx-auto
+      
             relative
             z-10
-          " 
+          "
         >
 
           {/* CARD 1 */}
@@ -374,12 +379,7 @@ export default function Home() {
               hover:-translate-y-1
               flex
               flex-col
-              w-full
-              xl:h-[480px]
-              xl:col-span-2 xl:col-start-1 xl:row-start-1
-              w-full
-              xl:h-[480px]
-              xl:col-span-2 xl:col-start-3 xl:row-start-1"
+            "
           >
             <div className="relative">
               <div className="flex-1">
@@ -561,9 +561,7 @@ export default function Home() {
       
               flex
               flex-col
-              w-full
-              xl:h-[480px]
-              xl:col-span-2 xl:col-start-5 xl:row-start-1"
+            "
           >
       
             <div className="relative">
@@ -657,9 +655,7 @@ export default function Home() {
       
               flex
               flex-col
-              w-full
-              xl:h-[480px]
-              xl:col-span-2 xl:col-start-1 xl:row-start-2"
+            "
           >
       
             <div className="relative">
@@ -753,9 +749,7 @@ export default function Home() {
       
               flex
               flex-col
-              w-full
-              xl:h-[480px]
-              xl:col-span-2 xl:col-start-3 xl:row-start-2"
+            "
           >
       
             <div className="relative">
@@ -1076,11 +1070,11 @@ export default function Home() {
 
             <img
               src="/project7.png"
-              alt="Dashboard SIMON"
+              alt="Project 7"
               className="w-full h-[240px] object-cover rounded-3xl mb-8"
             />
 
-            <h2 className="text-2xl font-bold text-green-600 mb-2">
+            <h2 className="text-2xl font-bold text-pink-500 mb-2">
               Dashboard SIMON
             </h2>
 
