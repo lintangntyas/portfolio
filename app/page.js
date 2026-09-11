@@ -348,20 +348,15 @@ export default function Home() {
         <div
           className="
             grid
-            -mt-6
-      
             grid-cols-1
             md:grid-cols-2
-            xl:grid-cols-4
-      
+            xl:grid-cols-6
             gap-7
-      
             max-w-[1700px]
             mx-auto
-      
             relative
             z-10
-          "
+          " 
         >
 
           {/* CARD 1 */}
@@ -379,7 +374,12 @@ export default function Home() {
               hover:-translate-y-1
               flex
               flex-col
-            "
+              w-full
+              xl:h-[480px]
+              xl:col-span-2 xl:col-start-1 xl:row-start-1
+              w-full
+              xl:h-[480px]
+              xl:col-span-2 xl:col-start-3 xl:row-start-1"
           >
             <div className="relative">
               <div className="flex-1">
@@ -561,7 +561,9 @@ export default function Home() {
       
               flex
               flex-col
-            "
+              w-full
+              xl:h-[480px]
+              xl:col-span-2 xl:col-start-5 xl:row-start-1"
           >
       
             <div className="relative">
@@ -655,7 +657,9 @@ export default function Home() {
       
               flex
               flex-col
-            "
+              w-full
+              xl:h-[480px]
+              xl:col-span-2 xl:col-start-1 xl:row-start-2"
           >
       
             <div className="relative">
@@ -749,7 +753,9 @@ export default function Home() {
       
               flex
               flex-col
-            "
+              w-full
+              xl:h-[480px]
+              xl:col-span-2 xl:col-start-3 xl:row-start-2"
           >
       
             <div className="relative">
@@ -1064,6 +1070,40 @@ export default function Home() {
             </div>
           </div>
       
+
+          {/* PROJECT 7 */}
+          <div className="bg-white/70 backdrop-blur-lg border border-black/10 rounded-[40px] p-8 shadow-xl hover:-translate-y-2 transition duration-300">
+
+            <img
+              src="/project7.png"
+              alt="Dashboard SIMON"
+              className="w-full h-[240px] object-cover rounded-3xl mb-8"
+            />
+
+            <h2 className="text-2xl font-bold text-green-600 mb-2">
+              Dashboard SIMON
+            </h2>
+
+            <p className="text-sm text-gray-500 mb-5">
+              Jun 2026 - Sept 2026
+            </p>
+
+            <p className="text-gray-700 leading-relaxed text-justify">
+              <strong>SIMON (Pegadaian Monitoring Information System)</strong> is an integrated monitoring dashboard developed to centralize <strong>operational and performance information for Area Samarinda</strong> in a single system, making data easier to access, monitor, and utilize for data-driven decision-making.
+            </p>
+
+            <div className="mt-8">
+              <a
+                href="https://drive.google.com/file/d/101S2-pzy4Go9lsTAKogjIqWru_DJJQNJ/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block border-2 border-black px-6 py-3 rounded-full font-medium hover:bg-black hover:text-white transition duration-300"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+
         </div>
       </section>
 
