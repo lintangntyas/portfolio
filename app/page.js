@@ -865,7 +865,7 @@ export default function Home() {
             </p>
 
             <p className="text-gray-700 leading-relaxed text-justify">
-              <strong>SIMON (Pegadaian Monitoring Information System)</strong> is an integrated monitoring dashboard developed to centralize <strong>operational and performance information for Area Samarinda</strong> in a single system, making data easier to access, monitor, and utilize for data-driven decision-making.
+              SIMON (Pegadaian Monitoring Information System) is an integrated monitoring dashboard developed to centralize operational and performance information for Area Samarinda in a single system, making data easier to access, monitor, and utilize for data-driven decision-making.
             </p>
 
             <div className="mt-8">
