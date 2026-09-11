@@ -849,6 +849,36 @@ export default function Home() {
       
           {/* PROJECT 1 */}
           <div className="bg-white/70 backdrop-blur-lg border border-black/10 rounded-[40px] p-8 shadow-xl hover:-translate-y-2 transition duration-300">
+
+            <img
+              src="/project7.png"
+              alt="Project 7"
+              className="w-full h-[240px] object-cover rounded-3xl mb-8"
+            />
+
+            <h2 className="text-2xl font-bold text-pink-500 mb-2">
+              Dashboard SIMON
+            </h2>
+
+            <p className="text-sm text-gray-500 mb-5">
+              Jun 2026 - Sept 2026
+            </p>
+
+            <p className="text-gray-700 leading-relaxed text-justify">
+              <strong>SIMON (Pegadaian Monitoring Information System)</strong> is an integrated monitoring dashboard developed to centralize <strong>operational and performance information for Area Samarinda</strong> in a single system, making data easier to access, monitor, and utilize for data-driven decision-making.
+            </p>
+
+            <div className="mt-8">
+              <a
+                href="https://drive.google.com/file/d/101S2-pzy4Go9lsTAKogjIqWru_DJJQNJ/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block border-2 border-black px-6 py-3 rounded-full font-medium hover:bg-black hover:text-white transition duration-300"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div><div className="bg-white/70 backdrop-blur-lg border border-black/10 rounded-[40px] p-8 shadow-xl hover:-translate-y-2 transition duration-300">
             
             <img
               src="/project1.png"
@@ -883,6 +913,11 @@ export default function Home() {
               </a>
             </div>
           </div>
+
+      
+
+          {/* PROJECT 7 */}
+          
       
           {/* PROJECT 2 */}
           <div className="bg-white/70 backdrop-blur-lg border border-black/10 rounded-[40px] p-8 shadow-xl hover:-translate-y-2 transition duration-300">
@@ -1055,40 +1090,6 @@ export default function Home() {
             <div className="mt-8">
               <a
                 href="https://drive.google.com/file/d/1HGpwJUetVISlyq37NRKfKkzR5dGZjpmF/view?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block border-2 border-black px-6 py-3 rounded-full font-medium hover:bg-black hover:text-white transition duration-300"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
-      
-
-          {/* PROJECT 7 */}
-          <div className="bg-white/70 backdrop-blur-lg border border-black/10 rounded-[40px] p-8 shadow-xl hover:-translate-y-2 transition duration-300">
-
-            <img
-              src="/project7.png"
-              alt="Project 7"
-              className="w-full h-[240px] object-cover rounded-3xl mb-8"
-            />
-
-            <h2 className="text-2xl font-bold text-pink-500 mb-2">
-              Dashboard SIMON
-            </h2>
-
-            <p className="text-sm text-gray-500 mb-5">
-              Jun 2026 - Sept 2026
-            </p>
-
-            <p className="text-gray-700 leading-relaxed text-justify">
-              <strong>SIMON (Pegadaian Monitoring Information System)</strong> is an integrated monitoring dashboard developed to centralize <strong>operational and performance information for Area Samarinda</strong> in a single system, making data easier to access, monitor, and utilize for data-driven decision-making.
-            </p>
-
-            <div className="mt-8">
-              <a
-                href="https://drive.google.com/file/d/101S2-pzy4Go9lsTAKogjIqWru_DJJQNJ/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block border-2 border-black px-6 py-3 rounded-full font-medium hover:bg-black hover:text-white transition duration-300"
